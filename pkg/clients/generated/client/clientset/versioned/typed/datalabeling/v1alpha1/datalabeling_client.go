@@ -31,12 +31,22 @@ import (
 
 type DatalabelingV1alpha1Interface interface {
 	RESTClient() rest.Interface
+	DataLabelingAnnotationSpecSetsGetter
+	DataLabelingDatasetsGetter
 	DataLabelingInstructionsGetter
 }
 
 // DatalabelingV1alpha1Client is used to interact with features provided by the datalabeling.cnrm.cloud.google.com group.
 type DatalabelingV1alpha1Client struct {
 	restClient rest.Interface
+}
+
+func (c *DatalabelingV1alpha1Client) DataLabelingAnnotationSpecSets(namespace string) DataLabelingAnnotationSpecSetInterface {
+	return newDataLabelingAnnotationSpecSets(c, namespace)
+}
+
+func (c *DatalabelingV1alpha1Client) DataLabelingDatasets(namespace string) DataLabelingDatasetInterface {
+	return newDataLabelingDatasets(c, namespace)
 }
 
 func (c *DatalabelingV1alpha1Client) DataLabelingInstructions(namespace string) DataLabelingInstructionInterface {

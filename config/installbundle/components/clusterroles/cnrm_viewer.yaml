@@ -63,6 +63,14 @@ rules:
   - list
   - watch
 - apiGroups:
+  - apigeeregistry.cnrm.cloud.google.com
+  resources:
+  - '*'
+  verbs:
+  - get
+  - list
+  - watch
+- apiGroups:
   - apihub.cnrm.cloud.google.com
   resources:
   - '*'
@@ -423,6 +431,14 @@ rules:
   - list
   - watch
 - apiGroups:
+  - contentwarehouse.cnrm.cloud.google.com
+  resources:
+  - '*'
+  verbs:
+  - get
+  - list
+  - watch
+- apiGroups:
   - datacatalog.cnrm.cloud.google.com
   resources:
   - '*'
@@ -752,6 +768,14 @@ rules:
   - watch
 - apiGroups:
   - mlengine.cnrm.cloud.google.com
+  resources:
+  - '*'
+  verbs:
+  - get
+  - list
+  - watch
+- apiGroups:
+  - modelarmor.cnrm.cloud.google.com
   resources:
   - '*'
   verbs:

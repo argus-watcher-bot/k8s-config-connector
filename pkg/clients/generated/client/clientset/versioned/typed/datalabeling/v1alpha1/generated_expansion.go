@@ -21,4 +21,8 @@
 
 package v1alpha1
 
+type DataLabelingAnnotationSpecSetExpansion interface{}
+
+type DataLabelingDatasetExpansion interface{}
+
 type DataLabelingInstructionExpansion interface{}

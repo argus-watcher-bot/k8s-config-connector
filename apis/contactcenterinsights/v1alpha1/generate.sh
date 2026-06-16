@@ -22,10 +22,16 @@ source "${REPO_ROOT}/dev/tools/goimports.sh"
 
 cd ${REPO_ROOT}/dev/tools/controllerbuilder
 
+./generate-proto.sh
+
 go run . generate-types \
   --service google.cloud.contactcenterinsights.v1 \
   --api-version contactcenterinsights.cnrm.cloud.google.com/v1alpha1 \
+  --include-skipped-output \
   --resource CCInsightsView:View \
+  --resource CCInsightsPhraseMatcher:PhraseMatcher \
+  --resource CCInsightsIssueModel:IssueModel \
+  --resource CCInsightsConversation:Conversation \
   --prune-unused-types=false
 
 cd ${REPO_ROOT}

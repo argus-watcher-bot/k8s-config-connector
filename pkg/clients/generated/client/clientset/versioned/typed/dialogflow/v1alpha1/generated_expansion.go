@@ -23,9 +23,13 @@ package v1alpha1
 
 type DialogflowAgentExpansion interface{}
 
+type DialogflowConversationDatasetExpansion interface{}
+
 type DialogflowEntityTypeExpansion interface{}
 
 type DialogflowFulfillmentExpansion interface{}
+
+type DialogflowGeneratorExpansion interface{}
 
 type DialogflowIntentExpansion interface{}
 

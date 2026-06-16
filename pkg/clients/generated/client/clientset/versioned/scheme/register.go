@@ -32,6 +32,7 @@ import (
 	apigatewayv1beta1 "github.com/GoogleCloudPlatform/k8s-config-connector/pkg/clients/generated/apis/apigateway/v1beta1"
 	apigeev1alpha1 "github.com/GoogleCloudPlatform/k8s-config-connector/pkg/clients/generated/apis/apigee/v1alpha1"
 	apigeev1beta1 "github.com/GoogleCloudPlatform/k8s-config-connector/pkg/clients/generated/apis/apigee/v1beta1"
+	apigeeregistryv1alpha1 "github.com/GoogleCloudPlatform/k8s-config-connector/pkg/clients/generated/apis/apigeeregistry/v1alpha1"
 	apihubv1alpha1 "github.com/GoogleCloudPlatform/k8s-config-connector/pkg/clients/generated/apis/apihub/v1alpha1"
 	apikeysv1alpha1 "github.com/GoogleCloudPlatform/k8s-config-connector/pkg/clients/generated/apis/apikeys/v1alpha1"
 	appenginev1alpha1 "github.com/GoogleCloudPlatform/k8s-config-connector/pkg/clients/generated/apis/appengine/v1alpha1"
@@ -64,6 +65,7 @@ import (
 	certificatemanagerv1alpha1 "github.com/GoogleCloudPlatform/k8s-config-connector/pkg/clients/generated/apis/certificatemanager/v1alpha1"
 	certificatemanagerv1beta1 "github.com/GoogleCloudPlatform/k8s-config-connector/pkg/clients/generated/apis/certificatemanager/v1beta1"
 	cloudassetv1alpha1 "github.com/GoogleCloudPlatform/k8s-config-connector/pkg/clients/generated/apis/cloudasset/v1alpha1"
+	cloudbuildv1alpha1 "github.com/GoogleCloudPlatform/k8s-config-connector/pkg/clients/generated/apis/cloudbuild/v1alpha1"
 	cloudbuildv1beta1 "github.com/GoogleCloudPlatform/k8s-config-connector/pkg/clients/generated/apis/cloudbuild/v1beta1"
 	clouddeployv1alpha1 "github.com/GoogleCloudPlatform/k8s-config-connector/pkg/clients/generated/apis/clouddeploy/v1alpha1"
 	clouddeployv1beta1 "github.com/GoogleCloudPlatform/k8s-config-connector/pkg/clients/generated/apis/clouddeploy/v1beta1"
@@ -88,6 +90,7 @@ import (
 	containeranalysisv1alpha1 "github.com/GoogleCloudPlatform/k8s-config-connector/pkg/clients/generated/apis/containeranalysis/v1alpha1"
 	containeranalysisv1beta1 "github.com/GoogleCloudPlatform/k8s-config-connector/pkg/clients/generated/apis/containeranalysis/v1beta1"
 	containerattachedv1beta1 "github.com/GoogleCloudPlatform/k8s-config-connector/pkg/clients/generated/apis/containerattached/v1beta1"
+	contentwarehousev1alpha1 "github.com/GoogleCloudPlatform/k8s-config-connector/pkg/clients/generated/apis/contentwarehouse/v1alpha1"
 	datacatalogv1alpha1 "github.com/GoogleCloudPlatform/k8s-config-connector/pkg/clients/generated/apis/datacatalog/v1alpha1"
 	datacatalogv1beta1 "github.com/GoogleCloudPlatform/k8s-config-connector/pkg/clients/generated/apis/datacatalog/v1beta1"
 	dataflowv1beta1 "github.com/GoogleCloudPlatform/k8s-config-connector/pkg/clients/generated/apis/dataflow/v1beta1"
@@ -106,6 +109,7 @@ import (
 	dialogflowv1alpha1 "github.com/GoogleCloudPlatform/k8s-config-connector/pkg/clients/generated/apis/dialogflow/v1alpha1"
 	dialogflowcxv1alpha1 "github.com/GoogleCloudPlatform/k8s-config-connector/pkg/clients/generated/apis/dialogflowcx/v1alpha1"
 	discoveryenginev1alpha1 "github.com/GoogleCloudPlatform/k8s-config-connector/pkg/clients/generated/apis/discoveryengine/v1alpha1"
+	dlpv1alpha1 "github.com/GoogleCloudPlatform/k8s-config-connector/pkg/clients/generated/apis/dlp/v1alpha1"
 	dlpv1beta1 "github.com/GoogleCloudPlatform/k8s-config-connector/pkg/clients/generated/apis/dlp/v1beta1"
 	dnsv1alpha1 "github.com/GoogleCloudPlatform/k8s-config-connector/pkg/clients/generated/apis/dns/v1alpha1"
 	dnsv1beta1 "github.com/GoogleCloudPlatform/k8s-config-connector/pkg/clients/generated/apis/dns/v1beta1"
@@ -146,6 +150,7 @@ import (
 	metastorev1alpha1 "github.com/GoogleCloudPlatform/k8s-config-connector/pkg/clients/generated/apis/metastore/v1alpha1"
 	metastorev1beta1 "github.com/GoogleCloudPlatform/k8s-config-connector/pkg/clients/generated/apis/metastore/v1beta1"
 	mlenginev1alpha1 "github.com/GoogleCloudPlatform/k8s-config-connector/pkg/clients/generated/apis/mlengine/v1alpha1"
+	modelarmorv1alpha1 "github.com/GoogleCloudPlatform/k8s-config-connector/pkg/clients/generated/apis/modelarmor/v1alpha1"
 	monitoringv1beta1 "github.com/GoogleCloudPlatform/k8s-config-connector/pkg/clients/generated/apis/monitoring/v1beta1"
 	netappv1alpha1 "github.com/GoogleCloudPlatform/k8s-config-connector/pkg/clients/generated/apis/netapp/v1alpha1"
 	networkconnectivityv1alpha1 "github.com/GoogleCloudPlatform/k8s-config-connector/pkg/clients/generated/apis/networkconnectivity/v1alpha1"
@@ -220,6 +225,7 @@ var localSchemeBuilder = runtime.SchemeBuilder{
 	apigatewayv1beta1.AddToScheme,
 	apigeev1alpha1.AddToScheme,
 	apigeev1beta1.AddToScheme,
+	apigeeregistryv1alpha1.AddToScheme,
 	apihubv1alpha1.AddToScheme,
 	apikeysv1alpha1.AddToScheme,
 	appenginev1alpha1.AddToScheme,
@@ -252,6 +258,7 @@ var localSchemeBuilder = runtime.SchemeBuilder{
 	certificatemanagerv1alpha1.AddToScheme,
 	certificatemanagerv1beta1.AddToScheme,
 	cloudassetv1alpha1.AddToScheme,
+	cloudbuildv1alpha1.AddToScheme,
 	cloudbuildv1beta1.AddToScheme,
 	clouddeployv1alpha1.AddToScheme,
 	clouddeployv1beta1.AddToScheme,
@@ -276,6 +283,7 @@ var localSchemeBuilder = runtime.SchemeBuilder{
 	containeranalysisv1alpha1.AddToScheme,
 	containeranalysisv1beta1.AddToScheme,
 	containerattachedv1beta1.AddToScheme,
+	contentwarehousev1alpha1.AddToScheme,
 	datacatalogv1alpha1.AddToScheme,
 	datacatalogv1beta1.AddToScheme,
 	dataflowv1beta1.AddToScheme,
@@ -294,6 +302,7 @@ var localSchemeBuilder = runtime.SchemeBuilder{
 	dialogflowv1alpha1.AddToScheme,
 	dialogflowcxv1alpha1.AddToScheme,
 	discoveryenginev1alpha1.AddToScheme,
+	dlpv1alpha1.AddToScheme,
 	dlpv1beta1.AddToScheme,
 	dnsv1alpha1.AddToScheme,
 	dnsv1beta1.AddToScheme,
@@ -334,6 +343,7 @@ var localSchemeBuilder = runtime.SchemeBuilder{
 	metastorev1alpha1.AddToScheme,
 	metastorev1beta1.AddToScheme,
 	mlenginev1alpha1.AddToScheme,
+	modelarmorv1alpha1.AddToScheme,
 	monitoringv1beta1.AddToScheme,
 	netappv1alpha1.AddToScheme,
 	networkconnectivityv1alpha1.AddToScheme,

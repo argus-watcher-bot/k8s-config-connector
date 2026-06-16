@@ -16,7 +16,7 @@ title: "ComputeTargetHTTPSProxy"
 </tr>
 <tr>
 <td>Google Cloud Service Documentation</td>
-<td><a href="/compute/docs/">/compute/docs/</a></td>
+<td><a href="https://docs.cloud.google.com/compute/docs/">https://docs.cloud.google.com/compute/docs/</a></td>
 </tr>
 <tr>
 <td>Google Cloud REST Resource Name</td>
@@ -24,7 +24,7 @@ title: "ComputeTargetHTTPSProxy"
 </tr>
 <tr>
 <td>Google Cloud REST Resource Documentation</td>
-<td><a href="/compute/docs/reference/rest/v1/targetHttpsProxies">/compute/docs/reference/rest/v1/targetHttpsProxies</a></td>
+<td><a href="https://docs.cloud.google.com/compute/docs/reference/rest/v1/targetHttpsProxies">https://docs.cloud.google.com/compute/docs/reference/rest/v1/targetHttpsProxies</a></td>
 </tr>
 <tr>
 <td>Config Connector Resource Short Names</td>
@@ -126,7 +126,7 @@ urlMapRef:
         </td>
         <td>
             <p><code class="apitype">object</code></p>
-            <p>A reference to a CertificateManagerCertificate resource.</p>
+            <p>CertificateManagerCertificateRef is a reference to a CertificateManagerCertificate.</p>
         </td>
     </tr>
     <tr>
@@ -136,7 +136,7 @@ urlMapRef:
         </td>
         <td>
             <p><code class="apitype">string</code></p>
-            <p>Allowed value: The format `projects/{{project}}/locations/{{location}}/certificates/{{name}}` or `//certificatemanager.googleapis.com/projects/{{project}}/locations/{{location}}/certificates/{{name}}`.</p>
+            <p>A reference to an externally managed CertificateManagerCertificate resource. Should be in the format "projects/{{projectID}}/locations/{{location}}/certificates/{{certificateID}}".</p>
         </td>
     </tr>
     <tr>
@@ -176,7 +176,7 @@ urlMapRef:
         </td>
         <td>
             <p><code class="apitype">string</code></p>
-            <p>Allowed value: string of the format `//certificatemanager.googleapis.com/projects/{{project}}/locations/global/certificateMaps/{{value}}`, where {{value}} is the `name` field of a `CertificateManagerCertificateMap` resource.</p>
+            <p>A reference to an externally managed CertificateManagerCertificateMap resource. Should be in the format "projects/{{projectID}}/locations/global/certificateMaps/{{certificateMapID}}".</p>
         </td>
     </tr>
     <tr>
@@ -810,4 +810,4 @@ stringData:
     -----END RSA PRIVATE KEY-----
 ```
 
-Note: If you have any trouble with instantiating the resource, refer to <a href="/config-connector/docs/troubleshooting">Troubleshoot Config Connector</a>.
+Note: If you have any trouble with instantiating the resource, refer to <a href="https://docs.cloud.google.com/config-connector/docs/troubleshooting">Troubleshoot Config Connector</a>.

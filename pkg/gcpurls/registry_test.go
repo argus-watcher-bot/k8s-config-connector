@@ -69,13 +69,18 @@ func TestRegisteredTemplatesMatchCAI(t *testing.T) {
 	// NOTE ON "WRONG" PATTERNS / MISMATCHES:
 	// If Cloud Asset Inventory added support for an asset, and we had given it a different "url template":
 	ignoredTemplates := map[string]bool{
+		"//apigeeregistry.googleapis.com/projects/{}/locations/{}/artifacts/{}": true,
 		// Add known exceptions here.
 		// Example: "//some.googleapis.com/foo/{}/bar": true,
+		"//notebooks.googleapis.com/projects/{}/locations/{}/executions/{}":                         true,
+		"//notebooks.googleapis.com/projects/{}/locations/{}/environments/{}":                       true,
 		"//automl.googleapis.com/projects/{}/locations/{}/datasets/{}":                              true,
+		"//contentwarehouse.googleapis.com/projects/{}/locations/{}/documentSchemas/{}":             true,
 		"//storage.googleapis.com/projects/{}/buckets/{}":                                           true,
 		"//connectors.googleapis.com/projects/{}/locations/{}/providers/{}":                         true,
 		"//workflowexecutions.googleapis.com/projects/{}/locations/{}/workflows/{}/executions/{}":   true,
 		"//compute.googleapis.com/projects/{}/zones/{}/futureReservations/{}":                       true,
+		"//dataplex.googleapis.com/projects/{}/locations/{}/dataTaxonomies/{}":                      true,
 		"//dataplex.googleapis.com/projects/{}/locations/{}/entryGroups/{}":                         true,
 		"//dataplex.googleapis.com/projects/{}/locations/{}/entryTypes/{}":                          true,
 		"//dataproc.googleapis.com/projects/{}/locations/{}/sessionTemplates/{}":                    true,
@@ -83,11 +88,15 @@ func TestRegisteredTemplatesMatchCAI(t *testing.T) {
 		"//firestore.googleapis.com/projects/{}/databases/{}/collectionGroups/{}":                   true,
 		"//aiplatform.googleapis.com/projects/{}/locations/{}/exampleStores/{}":                     true,
 		"//aistreams.googleapis.com/projects/{}/locations/{}/clusters/{}":                           true,
+		"//contentwarehouse.googleapis.com/projects/{}/locations/{}/ruleSets/{}":                    true,
 		"//batch.googleapis.com/projects/{}/locations/{}/resourceAllowances/{}":                     true,
 		"//discoveryengine.googleapis.com/projects/{}/locations/{}/identityMappingStores/{}":        true,
+		"//discoveryengine.googleapis.com/projects/{}/locations/{}/dataStores/{}/conversations/{}":  true,
+		"//discoveryengine.googleapis.com/projects/{}/locations/{}/dataStores/{}/controls/{}":       true,
 		"//alloydb.googleapis.com/projects/{}/locations/{}/clusters/{}/users/{}":                    true,
 		"//networksecurity.googleapis.com/projects/{}/locations/{}/backendAuthenticationConfigs/{}": true,
 		"//iam.googleapis.com/policies/{}/denypolicies/{}":                                          true,
+		"//networksecurity.googleapis.com/projects/{}/locations/{}/sacRealms/{}":                    true,
 		"//firestore.googleapis.com/projects/{}/databases/{}/backupSchedules/{}":                    true,
 		"//logging.googleapis.com/projects/{}/exclusions/{}":                                        true,
 		"//logging.googleapis.com/folders/{}/exclusions/{}":                                         true,
@@ -99,6 +108,11 @@ func TestRegisteredTemplatesMatchCAI(t *testing.T) {
 		"//privilegedaccessmanager.googleapis.com/folders/{}/locations/{}/entitlements/{}":          true,
 		"//privilegedaccessmanager.googleapis.com/organizations/{}/locations/{}/entitlements/{}":    true,
 		"//biglake.googleapis.com/projects/{}/locations/{}/catalogs/{}":                             true,
+		"//dialogflow.googleapis.com/projects/{}/locations/{}/generators/{}":                        true,
+		"//dns.googleapis.com/projects/{}/managedZones/{}/rrsets/{}":                                true,
+		"//dns.googleapis.com/projects/{}/responsePolicies/{}":                                      true,
+		"//monitoring.googleapis.com/projects/{}/metricDescriptors/{}":                              true,
+		"//monitoring.googleapis.com/projects/{}/services/{}":                                       true,
 	}
 	for _, tmpl := range templates {
 		fullURL := "//" + tmpl.Host() + "/" + tmpl.CanonicalForm()

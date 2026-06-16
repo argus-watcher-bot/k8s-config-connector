@@ -31,6 +31,14 @@ type FakeDatalabelingV1alpha1 struct {
 	*testing.Fake
 }
 
+func (c *FakeDatalabelingV1alpha1) DataLabelingAnnotationSpecSets(namespace string) v1alpha1.DataLabelingAnnotationSpecSetInterface {
+	return newFakeDataLabelingAnnotationSpecSets(c, namespace)
+}
+
+func (c *FakeDatalabelingV1alpha1) DataLabelingDatasets(namespace string) v1alpha1.DataLabelingDatasetInterface {
+	return newFakeDataLabelingDatasets(c, namespace)
+}
+
 func (c *FakeDatalabelingV1alpha1) DataLabelingInstructions(namespace string) v1alpha1.DataLabelingInstructionInterface {
 	return newFakeDataLabelingInstructions(c, namespace)
 }

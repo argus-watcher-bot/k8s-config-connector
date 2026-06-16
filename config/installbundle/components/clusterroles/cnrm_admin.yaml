@@ -92,6 +92,18 @@ rules:
   - patch
   - delete
 - apiGroups:
+  - apigeeregistry.cnrm.cloud.google.com
+  resources:
+  - '*'
+  verbs:
+  - get
+  - list
+  - watch
+  - create
+  - update
+  - patch
+  - delete
+- apiGroups:
   - apihub.cnrm.cloud.google.com
   resources:
   - '*'
@@ -632,6 +644,18 @@ rules:
   - patch
   - delete
 - apiGroups:
+  - contentwarehouse.cnrm.cloud.google.com
+  resources:
+  - '*'
+  verbs:
+  - get
+  - list
+  - watch
+  - create
+  - update
+  - patch
+  - delete
+- apiGroups:
   - datacatalog.cnrm.cloud.google.com
   resources:
   - '*'
@@ -1125,6 +1149,18 @@ rules:
   - delete
 - apiGroups:
   - mlengine.cnrm.cloud.google.com
+  resources:
+  - '*'
+  verbs:
+  - get
+  - list
+  - watch
+  - create
+  - update
+  - patch
+  - delete
+- apiGroups:
+  - modelarmor.cnrm.cloud.google.com
   resources:
   - '*'
   verbs:

@@ -20,6 +20,8 @@
 // resource: APIHubDeployment:Deployment
 // resource: APIHubAPI:Api
 // resource: APIHubRuntimeProjectAttachment:RuntimeProjectAttachment
+// resource: APIHubPlugin:Plugin
+// resource: APIHubExternalAPI:ExternalApi
 
 package v1alpha1
 

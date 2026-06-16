@@ -16,7 +16,7 @@ title: "BillingBudgetsBudget"
 </tr>
 <tr>
 <td>Google Cloud Service Documentation</td>
-<td><a href="/billing/docs/">/billing/docs/</a></td>
+<td><a href="https://docs.cloud.google.com/billing/docs/">https://docs.cloud.google.com/billing/docs/</a></td>
 </tr>
 <tr>
 <td>Google Cloud REST Resource Name</td>
@@ -24,7 +24,7 @@ title: "BillingBudgetsBudget"
 </tr>
 <tr>
 <td>Google Cloud REST Resource Documentation</td>
-<td><a href="/billing/docs/reference/budget/rest/v1beta1/billingAccounts.budgets">/billing/docs/reference/budget/rest/v1beta1/billingAccounts.budgets</a></td>
+<td><a href="https://docs.cloud.google.com/billing/docs/reference/budget/rest/v1beta1/billingAccounts.budgets">https://docs.cloud.google.com/billing/docs/reference/budget/rest/v1beta1/billingAccounts.budgets</a></td>
 </tr>
 <tr>
 <td>Config Connector Resource Short Names</td>
@@ -154,7 +154,7 @@ thresholdRules:
         </td>
         <td>
             <p><code class="apitype">object</code></p>
-            <p>MonitoringNotificationChannelRef defines the resource reference to MonitoringNotificationChannel, which "External" field holds the GCP identifier for the KRM object.</p>
+            <p>MonitoringNotificationChannelRef is a reference to a MonitoringNotificationChannel.</p>
         </td>
     </tr>
     <tr>
@@ -194,7 +194,7 @@ thresholdRules:
         </td>
         <td>
             <p><code class="apitype">object</code></p>
-            <p>PubSubTopicRef defines the resource reference to PubSubTopic, which "External" field holds the GCP identifier for the KRM object.</p>
+            <p>PubSubTopicRef is a reference to a PubSubTopic.</p>
         </td>
     </tr>
     <tr>
@@ -504,7 +504,7 @@ thresholdRules:
         </td>
         <td>
             <p><code class="apitype">object</code></p>
-            <p>ProjectRef is a clean resource reference to a GCP Project that does not include the kind field.</p>
+            <p>ProjectRef is a reference to a GCP Project.</p>
         </td>
     </tr>
     <tr>
@@ -574,7 +574,7 @@ thresholdRules:
         </td>
         <td>
             <p><code class="apitype">object</code></p>
-            <p>BillingAccountRef is a clean resource reference to a GCP BillingAccount that does not include the kind field.</p>
+            <p>BillingAccountRef is a reference to a GCP BillingAccount.</p>
         </td>
     </tr>
     <tr>
@@ -859,4 +859,4 @@ spec:
       nanos: 0
 ```
 
-Note: If you have any trouble with instantiating the resource, refer to <a href="/config-connector/docs/troubleshooting">Troubleshoot Config Connector</a>.
+Note: If you have any trouble with instantiating the resource, refer to <a href="https://docs.cloud.google.com/config-connector/docs/troubleshooting">Troubleshoot Config Connector</a>.

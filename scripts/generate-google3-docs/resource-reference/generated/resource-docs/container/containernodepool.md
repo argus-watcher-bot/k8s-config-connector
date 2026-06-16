@@ -16,7 +16,7 @@ title: "ContainerNodePool"
 </tr>
 <tr>
 <td>Google Cloud Service Documentation</td>
-<td><a href="/kubernetes-engine/docs/">/kubernetes-engine/docs/</a></td>
+<td><a href="https://docs.cloud.google.com/kubernetes-engine/docs/">https://docs.cloud.google.com/kubernetes-engine/docs/</a></td>
 </tr>
 <tr>
 <td>Google Cloud REST Resource Name</td>
@@ -24,7 +24,7 @@ title: "ContainerNodePool"
 </tr>
 <tr>
 <td>Google Cloud REST Resource Documentation</td>
-<td><a href="/kubernetes-engine/docs/reference/rest/v1/projects.locations.clusters.nodePools">/kubernetes-engine/docs/reference/rest/v1/projects.locations.clusters.nodePools</a></td>
+<td><a href="https://docs.cloud.google.com/kubernetes-engine/docs/reference/rest/v1/projects.locations.clusters.nodePools">https://docs.cloud.google.com/kubernetes-engine/docs/reference/rest/v1/projects.locations.clusters.nodePools</a></td>
 </tr>
 <tr>
 <td>Config Connector Resource Short Names</td>
@@ -123,6 +123,7 @@ nodeConfig:
     name: string
     namespace: string
   confidentialNodes:
+    confidentialInstanceType: string
     enabled: boolean
   diskSizeGb: integer
   diskType: string
@@ -788,6 +789,16 @@ version: string
         <td>
             <p><code class="apitype">object</code></p>
             <p>Immutable. Configuration for the confidential nodes feature, which makes nodes run on confidential VMs. Warning: This configuration can't be changed (or added/removed) after pool creation without deleting and recreating the entire pool.</p>
+        </td>
+    </tr>
+    <tr>
+        <td>
+            <p><code>nodeConfig.confidentialNodes.confidentialInstanceType</code></p>
+            <p><i>Optional</i></p>
+        </td>
+        <td>
+            <p><code class="apitype">string</code></p>
+            <p>Immutable. Defines the type of technology used by the confidential node.</p>
         </td>
     </tr>
     <tr>
@@ -2099,4 +2110,4 @@ spec:
   initialNodeCount: 1
 ```
 
-Note: If you have any trouble with instantiating the resource, refer to <a href="/config-connector/docs/troubleshooting">Troubleshoot Config Connector</a>.
+Note: If you have any trouble with instantiating the resource, refer to <a href="https://docs.cloud.google.com/config-connector/docs/troubleshooting">Troubleshoot Config Connector</a>.
