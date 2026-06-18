@@ -142,3 +142,15 @@ func (m *gcpClient) newReservationsClient(ctx context.Context) (*compute.Reserva
 	}
 	return client, err
 }
+
+func (m *gcpClient) newInstancesClient(ctx context.Context) (*compute.InstancesClient, error) {
+	opts, err := m.config.RESTClientOptions()
+	if err != nil {
+		return nil, err
+	}
+	client, err := compute.NewInstancesRESTClient(ctx, opts...)
+	if err != nil {
+		return nil, fmt.Errorf("building compute Instances client: %w", err)
+	}
+	return client, err
+}

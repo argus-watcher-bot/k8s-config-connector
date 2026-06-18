@@ -15,6 +15,8 @@
 package compute
 
 import (
+	"fmt"
+
 	pb "cloud.google.com/go/compute/apiv1/computepb"
 	krm "github.com/GoogleCloudPlatform/k8s-config-connector/apis/compute/v1beta1"
 	"github.com/GoogleCloudPlatform/k8s-config-connector/pkg/controller/direct"
@@ -73,11 +75,35 @@ func ComputeInstanceSpec_v1beta1_ToProto(mapCtx *direct.MapContext, in *krm.Comp
 }
 
 func ComputeInstanceStatus_v1beta1_FromProto(mapCtx *direct.MapContext, in *pb.Instance) *krm.ComputeInstanceStatus {
-	return nil
+	if in == nil {
+		return nil
+	}
+	out := &krm.ComputeInstanceStatus{}
+	out.CpuPlatform = in.CpuPlatform
+	out.CurrentStatus = in.Status
+	if in.Id != nil {
+		idStr := fmt.Sprintf("%d", *in.Id)
+		out.InstanceId = &idStr
+	}
+	out.LabelFingerprint = in.LabelFingerprint
+	if in.Metadata != nil {
+		out.MetadataFingerprint = in.Metadata.Fingerprint
+	}
+	out.SelfLink = in.SelfLink
+	if in.Tags != nil {
+		out.TagsFingerprint = in.Tags.Fingerprint
+	}
+	return out
 }
 
 func ComputeInstanceStatus_v1beta1_ToProto(mapCtx *direct.MapContext, in *krm.ComputeInstanceStatus) *pb.Instance {
-	return nil
+	if in == nil {
+		return nil
+	}
+	out := &pb.Instance{}
+	out.CpuPlatform = in.CpuPlatform
+	out.Status = in.CurrentStatus
+	return out
 }
 
 func ComputeInstanceSpec_ResourcePolicies_FromProto(mapCtx *direct.MapContext, in []string) []krm.InstanceResourceRef {

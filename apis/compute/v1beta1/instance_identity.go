@@ -15,8 +15,14 @@
 package v1beta1
 
 import (
+	"context"
 	"fmt"
 	"strings"
+
+	"github.com/GoogleCloudPlatform/k8s-config-connector/apis/common"
+	refsv1beta1 "github.com/GoogleCloudPlatform/k8s-config-connector/apis/refs/v1beta1"
+	"k8s.io/apimachinery/pkg/apis/meta/v1/unstructured"
+	"sigs.k8s.io/controller-runtime/pkg/client"
 )
 
 // InstanceIdentity is the identity of a ComputeInstance.
@@ -46,20 +52,19 @@ func (p *InstanceParent) String() string {
 	return "projects/" + p.ProjectID + "/zones/" + p.Location
 }
 
-/* NOTYET
-// New builds a InstanceIdentity from the Config Connector Instance object.
-func NewInstanceIdentity(ctx context.Context, reader client.Reader, obj *ComputeInstance) (*InstanceIdentity, error) {
-
-	// Get Parent
-	projectRef, err := refsv1beta1.ResolveProject(ctx, reader, obj.GetNamespace(), obj.Spec.ProjectRef)
+// NewInstanceIdentity builds a InstanceIdentity from the Config Connector Instance object.
+func NewInstanceIdentity(ctx context.Context, reader client.Reader, obj *ComputeInstance, u *unstructured.Unstructured) (*InstanceIdentity, error) {
+	// Get projectID
+	projectID, err := refsv1beta1.ResolveProjectID(ctx, reader, u)
 	if err != nil {
 		return nil, err
 	}
-	projectID := projectRef.ProjectID
-	if projectID == "" {
-		return nil, fmt.Errorf("cannot resolve project")
+
+	// Get Location
+	if obj.Spec.Zone == nil {
+		return nil, fmt.Errorf("spec.zone is required")
 	}
-	location := obj.Spec.Location
+	location := *obj.Spec.Zone
 
 	// Get desired ID
 	resourceID := common.ValueOf(obj.Spec.ResourceID)
@@ -71,22 +76,22 @@ func NewInstanceIdentity(ctx context.Context, reader client.Reader, obj *Compute
 	}
 
 	// Use approved External
-	externalRef := common.ValueOf(obj.Status.ExternalRef)
-	if externalRef != "" {
+	selfLink := common.ValueOf(obj.Status.SelfLink)
+	if selfLink != "" {
 		// Validate desired with actual
-		actualParent, actualResourceID, err := ParseInstanceExternal(externalRef)
+		actualIdentity, err := ParseSelfLink(selfLink)
 		if err != nil {
 			return nil, err
 		}
-		if actualParent.ProjectID != projectID {
-			return nil, fmt.Errorf("spec.projectRef changed, expect %s, got %s", actualParent.ProjectID, projectID)
+		if actualIdentity.parent.ProjectID != projectID {
+			return nil, fmt.Errorf("spec.projectRef changed, expect %s, got %s", actualIdentity.parent.ProjectID, projectID)
 		}
-		if actualParent.Location != location {
-			return nil, fmt.Errorf("spec.location changed, expect %s, got %s", actualParent.Location, location)
+		if actualIdentity.parent.Location != location {
+			return nil, fmt.Errorf("spec.location changed, expect %s, got %s", actualIdentity.parent.Location, location)
 		}
-		if actualResourceID != resourceID {
+		if actualIdentity.id != resourceID {
 			return nil, fmt.Errorf("cannot reset `metadata.name` or `spec.resourceID` to %s, since it has already assigned to %s",
-				resourceID, actualResourceID)
+				resourceID, actualIdentity.id)
 		}
 	}
 	return &InstanceIdentity{
@@ -97,7 +102,6 @@ func NewInstanceIdentity(ctx context.Context, reader client.Reader, obj *Compute
 		id: resourceID,
 	}, nil
 }
-*/
 
 func ParseInstanceExternal(external string) (parent *InstanceParent, resourceID string, err error) {
 	// e.g. projects/my-project/zones/us-central1-a/instances/my-instance
