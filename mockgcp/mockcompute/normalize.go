@@ -116,6 +116,11 @@ func (s *MockService) Previsit(event mockgcpregistry.Event, replacements mockgcp
 				case "addresses":
 					placeholder = "${addressID}"
 				}
+				if strings.Contains(strings.ToLower(targetLink), "httpshealthcheck") {
+					placeholder = "${httpsHealthCheckID}"
+				} else if strings.Contains(strings.ToLower(targetLink), "httphealthcheck") {
+					placeholder = "${httpHealthCheckID}"
+				}
 
 				// We _should_ differentiate between ID and number.
 				// But this causes too many diffs right now.
