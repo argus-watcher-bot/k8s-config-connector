@@ -24,7 +24,7 @@ spec:
   ports:
   - 81
   location: "global"
-  scope: "${uniqueId}"
+  scope: "s-${uniqueId}"
   serverTlsPolicyRef:
     name: "networksecurityservertlspolicy-2-${uniqueId}"
   projectRef:

@@ -25,7 +25,7 @@ spec:
   - 80
   - 443
   location: "global"
-  scope: "${uniqueId}"
+  scope: "s-${uniqueId}"
   serverTlsPolicyRef:
     name: "networksecurityservertlspolicy-1-${uniqueId}"
   projectRef:
