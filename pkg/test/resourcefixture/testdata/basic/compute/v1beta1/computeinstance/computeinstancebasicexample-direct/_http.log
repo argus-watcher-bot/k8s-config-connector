@@ -168,6 +168,7 @@ X-Xss-Protection: 0
   "creationTimestamp": "2024-04-01T12:34:56.123456Z",
   "id": "000000000000000000000",
   "kind": "compute#disk",
+  "labelFingerprint": "abcdef0123A=",
   "labels": {
     "cnrm-test": "true",
     "managed-by-cnrm": "true"
@@ -304,6 +305,7 @@ X-Xss-Protection: 0
   "description": "an attached disk for Compute Instance",
   "id": "000000000000000000000",
   "kind": "compute#disk",
+  "labelFingerprint": "abcdef0123A=",
   "labels": {
     "cnrm-test": "true",
     "managed-by-cnrm": "true"
@@ -2053,6 +2055,7 @@ X-Xss-Protection: 0
   "description": "an attached disk for Compute Instance",
   "id": "000000000000000000000",
   "kind": "compute#disk",
+  "labelFingerprint": "abcdef0123A=",
   "labels": {
     "cnrm-test": "true",
     "managed-by-cnrm": "true"
@@ -2146,6 +2149,7 @@ X-Xss-Protection: 0
   "creationTimestamp": "2024-04-01T12:34:56.123456Z",
   "id": "000000000000000000000",
   "kind": "compute#disk",
+  "labelFingerprint": "abcdef0123A=",
   "labels": {
     "cnrm-test": "true",
     "managed-by-cnrm": "true"
