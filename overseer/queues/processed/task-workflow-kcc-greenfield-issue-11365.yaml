@@ -4,13 +4,14 @@ number: 11365
 priority: medium
 phase: 4
 createdAt: 2026-07-06T21:12:47Z
-enqueuedAt: 2026-09-01T19:22:40.593242985Z
+enqueuedAt: 2026-09-01T21:35:37.642629284Z
 triggerEventTime: 2026-08-08T01:17:01Z
 triggerReason: IssueLabeled
 triggerNotes: 'Issue #11365 created at 2026-07-06T21:12:47Z; trigger label ''overseer'' added by acpana at 2026-08-08T01:17:01Z'
-startedAt: 2026-09-01T19:31:38.337486972Z
-completedAt: 2026-09-01T19:34:08.727268298Z
+startedAt: 2026-09-01T21:47:35.998119494Z
+completedAt: 2026-09-01T21:50:07.836899075Z
 assignee: walle-agent-bot
-status: Completed
+status: Failed
+error: exit status 1
 agentFile: https://raw.githubusercontent.com/gke-labs/gemini-for-kubernetes-development/main/.agents/workflows/kcc-greenfield.txt
 sessionId: issue-11365
