@@ -1,0 +1,14 @@
+type: pr-investigate
+url: https://github.com/GoogleCloudPlatform/k8s-config-connector/pull/11729
+number: 11729
+priority: medium
+phase: 3
+createdAt: 2026-07-19T00:24:32Z
+enqueuedAt: 2026-09-01T19:42:05.768951118Z
+triggerEventTime: 2026-09-01T19:37:03Z
+triggerReason: PRCheckFailed
+triggerNotes: Earliest CI failure in 'validate-resource-docs' (failure) at 2026-09-01T19:37:03Z; total 1 failed check(s) on commit fe48e30
+startedAt: 2026-09-01T19:45:11.333582409Z
+assignee: hopper-coder-bot
+status: Running
+commitSHA: fe48e306876a3ae80c5af42183b6c81999491076
