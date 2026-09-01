@@ -1,0 +1,17 @@
+type: agent-chore
+url: https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/10114
+number: 10114
+priority: medium
+phase: 4
+createdAt: 2026-06-13T04:17:16Z
+enqueuedAt: 2026-09-01T16:57:25.650339086Z
+triggerEventTime: 2026-06-13T04:17:17Z
+triggerReason: IssueLabeled
+triggerNotes: 'Issue #10114 created at 2026-06-13T04:17:16Z; trigger label ''overseer'' added by factorybot-robot at 2026-06-13T04:17:17Z'
+startedAt: 2026-09-01T17:37:45.371149307Z
+completedAt: 2026-09-01T17:42:28.740123881Z
+assignee: daedalus-agent-bot
+status: Failed
+error: exit status 1
+agentFile: https://raw.githubusercontent.com/gke-labs/gemini-for-kubernetes-development/refs/heads/main/.agents/workflows/kcc-example.txt
+sessionId: issue-10114

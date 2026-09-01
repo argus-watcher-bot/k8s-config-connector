@@ -1,0 +1,14 @@
+type: agent-chore
+url: https://github.com/GoogleCloudPlatform/k8s-config-connector
+number: 0
+priority: medium
+phase: 4
+createdAt: 2026-09-01T17:00:23.871578997Z
+enqueuedAt: 2026-09-01T17:00:23.871579057Z
+triggerEventTime: 2026-09-01T17:00:23.871571087Z
+triggerReason: ChoreScheduled
+triggerNotes: 'Chore agent ''Dependency Update Scheduler'' (schedule: ''0 9 * * 1'') due at 2026-09-01T17:00:23Z; last run: never'
+startedAt: 2026-09-01T17:44:12.129965774Z
+completedAt: 2026-09-01T17:46:14.661222513Z
+status: Completed
+agentFile: .agents/dependency-agent.md

@@ -1,0 +1,17 @@
+type: agent-chore
+url: https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/12007
+number: 12007
+priority: medium
+phase: 4
+createdAt: 2026-07-28T23:46:12Z
+enqueuedAt: 2026-09-01T16:57:02.223959895Z
+triggerEventTime: 2026-08-25T20:45:42Z
+triggerReason: IssueLabeled
+triggerNotes: 'Issue #12007 created at 2026-07-28T23:46:12Z; trigger label ''overseer'' added by gemmahou at 2026-08-25T20:45:42Z'
+startedAt: 2026-09-01T17:06:40.676550548Z
+completedAt: 2026-09-01T17:08:43.541352098Z
+assignee: daedalus-agent-bot
+status: Failed
+error: exit status 1
+agentFile: https://raw.githubusercontent.com/gke-labs/gemini-for-kubernetes-development/main/.agents/workflows/kcc-greenfield.txt
+sessionId: issue-12007

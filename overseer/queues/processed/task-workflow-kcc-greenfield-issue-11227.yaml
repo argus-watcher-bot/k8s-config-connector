@@ -1,0 +1,17 @@
+type: agent-chore
+url: https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/11227
+number: 11227
+priority: medium
+phase: 4
+createdAt: 2026-07-02T22:00:53Z
+enqueuedAt: 2026-09-01T16:57:14.904603761Z
+triggerEventTime: 2026-07-23T06:31:42Z
+triggerReason: IssueLabeled
+triggerNotes: 'Issue #11227 created at 2026-07-02T22:00:53Z; trigger label ''overseer'' added by acpana at 2026-07-23T06:31:42Z'
+startedAt: 2026-09-01T17:19:35.302493287Z
+completedAt: 2026-09-01T17:22:48.254901973Z
+assignee: walle-agent-bot
+status: Failed
+error: exit status 1
+agentFile: https://raw.githubusercontent.com/gke-labs/gemini-for-kubernetes-development/main/.agents/workflows/kcc-greenfield.txt
+sessionId: issue-11227
