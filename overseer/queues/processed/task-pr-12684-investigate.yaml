@@ -4,12 +4,12 @@ number: 12684
 priority: medium
 phase: 3
 createdAt: 2026-09-02T01:16:18Z
-enqueuedAt: 2026-09-02T01:23:41.685716091Z
-triggerEventTime: 2026-09-02T01:21:00Z
+enqueuedAt: 2026-09-02T16:26:50.296763993Z
+triggerEventTime: 2026-09-02T16:26:32Z
 triggerReason: PRCheckFailed
-triggerNotes: Earliest CI failure in 'tests-e2e-fixtures-contactcenterinsights' (failure) at 2026-09-02T01:21:00Z; total 1 failed check(s) on commit 4868ab6
-startedAt: 2026-09-02T01:28:53.699733646Z
-completedAt: 2026-09-02T02:24:47.434644203Z
+triggerNotes: Earliest CI failure in 'tests-e2e-fixtures-bigqueryanalyticshub' (failure) at 2026-09-02T16:26:32Z; total 2 failed check(s) on commit ef8f357
+startedAt: 2026-09-02T16:28:31.174638754Z
+completedAt: 2026-09-02T16:37:18.28721222Z
 assignee: ada-coder-bot
 status: Completed
-commitSHA: 4868ab6fef3925f00546fecfe9fb3c8d86be7fb1
+commitSHA: ef8f357980598002066ba18d2eb5d4a838217494
