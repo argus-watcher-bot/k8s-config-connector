@@ -8,7 +8,10 @@ enqueuedAt: 2026-09-02T10:13:34.872225613Z
 triggerEventTime: 2026-09-02T10:13:08Z
 triggerReason: PRCommentsAdded
 triggerNotes: Oldest unaddressed review by reviewbot-robot added at 2026-09-02T10:13:08Z (ID 5088335031) since last commit 14a8991 (committer date 2026-09-02T09:34:27Z)
-startedAt: 2026-09-02T10:16:11.371464923Z
+startedAt: 2026-09-02T11:05:40.714941015Z
+completedAt: 2026-09-02T11:05:40.947030291Z
 assignee: neumann-coder-bot
-status: Running
+status: Failed
+error: exit status 1
 commitSHA: 14a89915bd76b4c6854de0d98baf4fb2688857b3
+recovered: true
