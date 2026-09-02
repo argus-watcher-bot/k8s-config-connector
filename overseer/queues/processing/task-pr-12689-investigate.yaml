@@ -4,11 +4,11 @@ number: 12689
 priority: medium
 phase: 3
 createdAt: 2026-09-02T04:21:14Z
-enqueuedAt: 2026-09-02T18:11:24.24690997Z
-triggerEventTime: 2026-09-02T17:57:00Z
+enqueuedAt: 2026-09-02T19:38:49.617850912Z
+triggerEventTime: 2026-09-02T19:17:31Z
 triggerReason: PRCheckFailed
-triggerNotes: Earliest CI failure in 'tests-e2e-fixtures-apihub' (failure) at 2026-09-02T17:57:00Z; total 3 failed check(s) on commit df62c4f
-startedAt: 2026-09-02T18:15:08.308839793Z
+triggerNotes: Earliest CI failure in 'tests-e2e-fixtures-apihub' (failure) at 2026-09-02T19:17:31Z; total 2 failed check(s) on commit 79db685
+startedAt: 2026-09-02T19:41:03.262295886Z
 assignee: lovelace-coder-bot
 status: Running
-commitSHA: df62c4f27c90b9924b510b01ed7993fcea6f72cb
+commitSHA: 79db68598d5afdf3308f59ea467bd98311566aff
