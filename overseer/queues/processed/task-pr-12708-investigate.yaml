@@ -4,13 +4,13 @@ number: 12708
 priority: medium
 phase: 3
 createdAt: 2026-09-02T19:48:01Z
-enqueuedAt: 2026-09-02T20:13:34.872463732Z
+enqueuedAt: 2026-09-02T20:27:59.156781872Z
 triggerEventTime: 2026-09-02T19:53:26Z
 triggerReason: PRCheckFailed
 triggerNotes: Earliest CI failure in 'tests-e2e-fixtures-apihub' (failure) at 2026-09-02T19:53:26Z; total 2 failed check(s) on commit 47c95e0
-startedAt: 2026-09-02T20:15:50.733177558Z
-completedAt: 2026-09-02T20:22:26.575920405Z
+startedAt: 2026-09-02T22:07:27.532484977Z
+completedAt: 2026-09-02T22:07:31.121958542Z
 assignee: lovelace-coder-bot
-status: Failed
-error: exit status 1
+status: Completed
 commitSHA: 47c95e03d366694802e55b6fcad18a16daa073b8
+recovered: true
