@@ -1,0 +1,15 @@
+type: pr-investigate
+url: https://github.com/GoogleCloudPlatform/k8s-config-connector/pull/12688
+number: 12688
+priority: medium
+phase: 3
+createdAt: 2026-09-02T04:11:17Z
+enqueuedAt: 2026-09-02T05:12:53.549134472Z
+triggerEventTime: 2026-09-02T04:53:33Z
+triggerReason: PRCheckFailed
+triggerNotes: Earliest CI failure in 'fuzz-roundtrippers-1-of-8' (cancelled) at 2026-09-02T04:53:33Z; total 42 failed check(s) on commit 686a031
+startedAt: 2026-09-02T05:31:18.113800263Z
+completedAt: 2026-09-02T05:42:17.354654989Z
+assignee: neumann-coder-bot
+status: Completed
+commitSHA: 686a0310f5fc3c357c2402a7414f8e23edec8b12
