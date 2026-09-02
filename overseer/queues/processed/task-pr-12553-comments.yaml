@@ -8,7 +8,10 @@ enqueuedAt: 2026-09-02T03:21:51.437193312Z
 triggerEventTime: 2026-09-02T03:12:49Z
 triggerReason: PRCommentsAdded
 triggerNotes: Oldest unaddressed review by reviewbot-robot added at 2026-09-02T03:12:49Z (ID 5085196467) since last commit 7e3e66a (committer date 2026-09-02T02:26:21Z)
-startedAt: 2026-09-02T03:26:06.236487277Z
+startedAt: 2026-09-02T04:29:18.655565696Z
+completedAt: 2026-09-02T04:53:19.9974697Z
 assignee: hopper-coder-bot
-status: Running
+status: Failed
+error: exit status 1
 commitSHA: 7e3e66acc4d783d938177a363fcfd80abcb3b45a
+recovered: true
