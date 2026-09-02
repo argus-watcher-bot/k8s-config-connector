@@ -1,0 +1,16 @@
+type: pr-investigate
+url: https://github.com/GoogleCloudPlatform/k8s-config-connector/pull/12686
+number: 12686
+priority: medium
+phase: 3
+createdAt: 2026-09-02T01:42:10Z
+enqueuedAt: 2026-09-02T01:58:26.723882167Z
+triggerEventTime: 2026-09-02T01:52:09Z
+triggerReason: PRCheckFailed
+triggerNotes: Earliest CI failure in 'tests-e2e-fixtures-discoveryengine' (failure) at 2026-09-02T01:52:09Z; total 2 failed check(s) on commit cb5bb34
+startedAt: 2026-09-02T02:01:31.837992374Z
+completedAt: 2026-09-02T02:01:32.061512962Z
+assignee: neumann-coder-bot
+status: Failed
+error: exit status 1
+commitSHA: cb5bb347b53e22d7b89119c01ed583cbef535482

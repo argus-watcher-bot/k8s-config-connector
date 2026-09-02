@@ -1,0 +1,16 @@
+type: pr-review
+url: https://github.com/GoogleCloudPlatform/k8s-config-connector/pull/12635
+number: 12635
+priority: medium
+phase: 2
+createdAt: 2026-08-29T00:38:25Z
+enqueuedAt: 2026-09-02T01:59:00.324449142Z
+triggerEventTime: 2026-09-02T01:58:04Z
+triggerReason: PRReadyForReview
+triggerNotes: Automated review triggered; all CI checks passed at 2026-09-02T01:58:04Z for commit 57a35a2 (committer date 2026-09-02T01:38:25Z)
+startedAt: 2026-09-02T02:01:05.035766019Z
+status: Failed
+error: 'fetching PR details: GET https://api.github.com/repos/GoogleCloudPlatform/k8s-config-connector/pulls/12635: 403 API rate limit of 5000 still exceeded until 2026-09-02 02:04:44 +0000 UTC, not making remote request. [rate reset in 3m39s]'
+commitSHA: 57a35a2807f812500a732fe6d563744c16d13179
+instructions:
+    - Use .gemini/skills/reviewgen-greenfield-new-types/SKILL.md to conduct the review.
