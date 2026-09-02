@@ -4,12 +4,12 @@ number: 12674
 priority: medium
 phase: 3
 createdAt: 2026-09-01T22:29:30Z
-enqueuedAt: 2026-09-02T01:19:27.250743057Z
-triggerEventTime: 2026-09-01T23:18:04Z
+enqueuedAt: 2026-09-02T06:12:32.098033916Z
+triggerEventTime: 2026-09-02T06:05:33Z
 triggerReason: PRCheckFailed
-triggerNotes: Earliest CI failure in 'Validate PR Release Note' (failure) at 2026-09-01T23:18:04Z; total 1 failed check(s) on commit 4bf8cc9
-startedAt: 2026-09-02T01:22:44.323545277Z
-completedAt: 2026-09-02T01:25:36.027536106Z
+triggerNotes: Earliest CI failure in 'validate-fmt' (failure) at 2026-09-02T06:05:33Z; total 1 failed check(s) on commit 419d5c2
+startedAt: 2026-09-02T06:15:18.693412176Z
+completedAt: 2026-09-02T07:05:53.50993147Z
 assignee: hopper-coder-bot
 status: Completed
-commitSHA: 4bf8cc94d67f65d39cde14e08fba9fdeaf084644
+commitSHA: 419d5c2c70eaa5b0a1f5eda5a4276b49da226063

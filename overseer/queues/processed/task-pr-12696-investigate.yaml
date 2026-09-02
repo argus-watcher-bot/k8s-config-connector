@@ -1,0 +1,15 @@
+type: pr-investigate
+url: https://github.com/GoogleCloudPlatform/k8s-config-connector/pull/12696
+number: 12696
+priority: medium
+phase: 3
+createdAt: 2026-09-02T06:02:32Z
+enqueuedAt: 2026-09-02T07:06:58.355171163Z
+triggerEventTime: 2026-09-02T06:55:59Z
+triggerReason: PRCheckFailed
+triggerNotes: Earliest CI failure in 'license-lint' (cancelled) at 2026-09-02T06:55:59Z; total 42 failed check(s) on commit 08d2db8
+startedAt: 2026-09-02T07:28:34.45521408Z
+completedAt: 2026-09-02T07:32:08.070886305Z
+assignee: neumann-coder-bot
+status: Completed
+commitSHA: 08d2db8b4974b63b244ab93f89d8f97bd0b9b3be
