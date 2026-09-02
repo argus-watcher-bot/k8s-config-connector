@@ -4,12 +4,13 @@ number: 12688
 priority: medium
 phase: 3
 createdAt: 2026-09-02T04:11:17Z
-enqueuedAt: 2026-09-02T07:52:17.86967607Z
-triggerEventTime: 2026-09-02T05:44:05Z
+enqueuedAt: 2026-09-02T08:48:39.829030725Z
+triggerEventTime: 2026-09-02T08:46:09Z
 triggerReason: PRCheckFailed
-triggerNotes: Earliest CI failure in 'tests-e2e-fixtures-firebase' (failure) at 2026-09-02T05:44:05Z; total 2 failed check(s) on commit 686a031
-startedAt: 2026-09-02T07:54:33.16265241Z
-completedAt: 2026-09-02T07:56:38.871598448Z
+triggerNotes: Earliest CI failure in 'validate-generated-files' (failure) at 2026-09-02T08:46:09Z; total 1 failed check(s) on commit f3739ab
+startedAt: 2026-09-02T09:54:57.151292864Z
+completedAt: 2026-09-02T09:56:53.034625214Z
 assignee: neumann-coder-bot
 status: Completed
-commitSHA: 686a0310f5fc3c357c2402a7414f8e23edec8b12
+commitSHA: f3739abd4a5f3d792eb04a8b807328639af9625f
+recovered: true
