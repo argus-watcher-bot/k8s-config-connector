@@ -4,12 +4,12 @@ number: 12662
 priority: medium
 phase: 3
 createdAt: 2026-09-01T19:16:17Z
-enqueuedAt: 2026-09-01T21:37:11.055150269Z
-triggerEventTime: 2026-09-01T19:25:01Z
+enqueuedAt: 2026-09-02T00:05:33.625720848Z
+triggerEventTime: 2026-09-01T21:50:01Z
 triggerReason: PRCheckFailed
-triggerNotes: Earliest CI failure in 'Validate PR Release Note' (failure) at 2026-09-01T19:25:01Z; total 1 failed check(s) on commit b2c977c
-startedAt: 2026-09-01T21:41:39.849707808Z
-completedAt: 2026-09-01T21:46:15.627845979Z
+triggerNotes: Earliest CI failure in 'Validate PR Release Note' (failure) at 2026-09-01T21:50:01Z; total 1 failed check(s) on commit b2c977c
+startedAt: 2026-09-02T00:10:45.499554258Z
+completedAt: 2026-09-02T00:20:24.182766175Z
 assignee: hopper-coder-bot
 status: Completed
 commitSHA: b2c977c413d2e460685ec37ac0cf5f178a9a4f28
