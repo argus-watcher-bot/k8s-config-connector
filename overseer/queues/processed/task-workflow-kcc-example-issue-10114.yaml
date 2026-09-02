@@ -4,13 +4,14 @@ number: 10114
 priority: medium
 phase: 4
 createdAt: 2026-06-13T04:17:16Z
-enqueuedAt: 2026-09-02T11:48:37.257229226Z
-triggerEventTime: 2026-06-13T04:17:17Z
-triggerReason: IssueLabeled
-triggerNotes: 'Issue #10114 created at 2026-06-13T04:17:16Z; trigger label ''overseer'' added by factorybot-robot at 2026-06-13T04:17:17Z'
-startedAt: 2026-09-02T11:59:18.802515524Z
-completedAt: 2026-09-02T12:02:09.239712912Z
+enqueuedAt: 2026-09-02T14:03:19.895730019Z
+triggerEventTime: 2026-06-13T04:17:16Z
+triggerReason: IssueCreated
+triggerNotes: 'Issue #10114 created at 2026-06-13T04:17:16Z with trigger label ''overseer'''
+startedAt: 2026-09-02T14:05:10.858202402Z
+completedAt: 2026-09-02T14:05:21.437211533Z
 assignee: daedalus-agent-bot
-status: Completed
+status: Failed
+error: exit status 1
 agentFile: https://raw.githubusercontent.com/gke-labs/gemini-for-kubernetes-development/refs/heads/main/.agents/workflows/kcc-example.txt
 sessionId: issue-10114
