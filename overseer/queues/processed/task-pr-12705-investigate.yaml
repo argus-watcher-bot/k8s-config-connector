@@ -4,12 +4,12 @@ number: 12705
 priority: medium
 phase: 3
 createdAt: 2026-09-02T17:40:40Z
-enqueuedAt: 2026-09-02T17:42:11.690257559Z
-triggerEventTime: 2026-09-02T17:40:54Z
+enqueuedAt: 2026-09-02T20:41:41.835395472Z
+triggerEventTime: 2026-09-02T20:32:17Z
 triggerReason: PRCheckFailed
-triggerNotes: Earliest CI failure in 'Validate PR Release Note' (failure) at 2026-09-02T17:40:54Z; total 1 failed check(s) on commit cc1139a
-startedAt: 2026-09-02T17:46:07.5727374Z
-completedAt: 2026-09-02T17:50:22.749008473Z
+triggerNotes: Earliest CI failure in 'tests-e2e-fixtures-apihub' (failure) at 2026-09-02T20:32:17Z; total 2 failed check(s) on commit 4148814
+startedAt: 2026-09-02T20:48:23.463404949Z
+completedAt: 2026-09-02T21:14:41.912761171Z
 assignee: lovelace-coder-bot
 status: Completed
-commitSHA: cc1139a3bfc42c73ad62f419caf992d3b3c996ae
+commitSHA: 4148814a0c7193d97431acd34e5c42358c280ec4
