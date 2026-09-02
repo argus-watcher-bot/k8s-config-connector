@@ -4,12 +4,12 @@ number: 12688
 priority: medium
 phase: 3
 createdAt: 2026-09-02T04:11:17Z
-enqueuedAt: 2026-09-02T05:12:53.549134472Z
-triggerEventTime: 2026-09-02T04:53:33Z
+enqueuedAt: 2026-09-02T07:52:17.86967607Z
+triggerEventTime: 2026-09-02T05:44:05Z
 triggerReason: PRCheckFailed
-triggerNotes: Earliest CI failure in 'fuzz-roundtrippers-1-of-8' (cancelled) at 2026-09-02T04:53:33Z; total 42 failed check(s) on commit 686a031
-startedAt: 2026-09-02T05:31:18.113800263Z
-completedAt: 2026-09-02T05:42:17.354654989Z
+triggerNotes: Earliest CI failure in 'tests-e2e-fixtures-firebase' (failure) at 2026-09-02T05:44:05Z; total 2 failed check(s) on commit 686a031
+startedAt: 2026-09-02T07:54:33.16265241Z
+completedAt: 2026-09-02T07:56:38.871598448Z
 assignee: neumann-coder-bot
 status: Completed
 commitSHA: 686a0310f5fc3c357c2402a7414f8e23edec8b12
