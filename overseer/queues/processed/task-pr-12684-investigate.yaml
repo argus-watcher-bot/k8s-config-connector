@@ -4,12 +4,13 @@ number: 12684
 priority: medium
 phase: 3
 createdAt: 2026-09-02T01:16:18Z
-enqueuedAt: 2026-09-02T16:26:50.296763993Z
-triggerEventTime: 2026-09-02T16:26:32Z
+enqueuedAt: 2026-09-02T17:57:55.964062999Z
+triggerEventTime: 2026-09-02T17:55:06Z
 triggerReason: PRCheckFailed
-triggerNotes: Earliest CI failure in 'tests-e2e-fixtures-bigqueryanalyticshub' (failure) at 2026-09-02T16:26:32Z; total 2 failed check(s) on commit ef8f357
-startedAt: 2026-09-02T16:28:31.174638754Z
-completedAt: 2026-09-02T16:37:18.28721222Z
+triggerNotes: Earliest CI failure in 'tests-e2e-fixtures-apihub' (failure) at 2026-09-02T17:55:06Z; total 2 failed check(s) on commit 4a76fbc
+startedAt: 2026-09-02T18:00:54.974756259Z
+completedAt: 2026-09-02T18:00:55.218053809Z
 assignee: ada-coder-bot
-status: Completed
-commitSHA: ef8f357980598002066ba18d2eb5d4a838217494
+status: Failed
+error: exit status 1
+commitSHA: 4a76fbc48ef32b04750a67bf772c521d3604f6fc

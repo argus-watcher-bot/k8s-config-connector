@@ -1,0 +1,15 @@
+type: pr-investigate
+url: https://github.com/GoogleCloudPlatform/k8s-config-connector/pull/12705
+number: 12705
+priority: medium
+phase: 3
+createdAt: 2026-09-02T17:40:40Z
+enqueuedAt: 2026-09-02T17:42:11.690257559Z
+triggerEventTime: 2026-09-02T17:40:54Z
+triggerReason: PRCheckFailed
+triggerNotes: Earliest CI failure in 'Validate PR Release Note' (failure) at 2026-09-02T17:40:54Z; total 1 failed check(s) on commit cc1139a
+startedAt: 2026-09-02T17:46:07.5727374Z
+completedAt: 2026-09-02T17:50:22.749008473Z
+assignee: lovelace-coder-bot
+status: Completed
+commitSHA: cc1139a3bfc42c73ad62f419caf992d3b3c996ae
