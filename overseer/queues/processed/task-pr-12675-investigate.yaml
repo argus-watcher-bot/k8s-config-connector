@@ -4,12 +4,13 @@ number: 12675
 priority: medium
 phase: 3
 createdAt: 2026-09-01T22:38:21Z
-enqueuedAt: 2026-09-02T00:53:09.907916702Z
-triggerEventTime: 2026-09-01T22:50:47Z
+enqueuedAt: 2026-09-02T03:05:51.012988392Z
+triggerEventTime: 2026-09-02T00:59:53Z
 triggerReason: PRCheckFailed
-triggerNotes: Earliest CI failure in 'Validate PR Release Note' (failure) at 2026-09-01T22:50:47Z; total 1 failed check(s) on commit 9bf5b9d
-startedAt: 2026-09-02T00:57:13.961796394Z
-completedAt: 2026-09-02T01:01:01.117796379Z
+triggerNotes: Earliest CI failure in 'Validate PR Release Note' (failure) at 2026-09-02T00:59:53Z; total 1 failed check(s) on commit 9bf5b9d
+startedAt: 2026-09-02T03:12:11.283837866Z
+completedAt: 2026-09-02T03:15:44.588853002Z
 assignee: lovelace-coder-bot
-status: Completed
+status: Failed
+error: exit status 1
 commitSHA: 9bf5b9d5f75cd22ef38fcde2d4daddd039ac23f7
