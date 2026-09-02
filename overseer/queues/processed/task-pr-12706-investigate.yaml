@@ -4,12 +4,13 @@ number: 12706
 priority: critical
 phase: 3
 createdAt: 2026-09-02T18:18:23Z
-enqueuedAt: 2026-09-02T20:43:59.3991026Z
+enqueuedAt: 2026-09-02T22:57:04.244337771Z
 triggerEventTime: 2026-09-02T18:38:18Z
 triggerReason: PRCheckFailed
 triggerNotes: Earliest CI failure in 'Validate PR Release Note' (failure) at 2026-09-02T18:38:18Z; total 3 failed check(s) on commit ea7ba95
-startedAt: 2026-09-02T20:46:58.621405358Z
-completedAt: 2026-09-02T20:50:36.066798545Z
+startedAt: 2026-09-02T23:01:52.770171658Z
+completedAt: 2026-09-02T23:07:48.94956324Z
 assignee: hopper-coder-bot
-status: Completed
+status: Failed
+error: exit status 1
 commitSHA: ea7ba95b1d90f3463e88a34506587b7e76dd07f1

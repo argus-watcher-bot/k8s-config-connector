@@ -4,12 +4,12 @@ number: 12684
 priority: medium
 phase: 3
 createdAt: 2026-09-02T01:16:18Z
-enqueuedAt: 2026-09-02T18:25:02.505978314Z
-triggerEventTime: 2026-09-02T17:55:06Z
+enqueuedAt: 2026-09-02T22:44:46.698141516Z
+triggerEventTime: 2026-09-02T22:19:32Z
 triggerReason: PRCheckFailed
-triggerNotes: Earliest CI failure in 'tests-e2e-fixtures-apihub' (failure) at 2026-09-02T17:55:06Z; total 3 failed check(s) on commit 4a76fbc
-startedAt: 2026-09-02T18:28:12.938245732Z
-completedAt: 2026-09-02T18:36:50.303161151Z
+triggerNotes: Earliest CI failure in 'tests-e2e-fixtures-apihub' (failure) at 2026-09-02T22:19:32Z; total 2 failed check(s) on commit d4914ad
+startedAt: 2026-09-02T22:50:41.896125854Z
+completedAt: 2026-09-02T23:21:40.098139749Z
 assignee: ada-coder-bot
 status: Completed
-commitSHA: 4a76fbc48ef32b04750a67bf772c521d3604f6fc
+commitSHA: d4914ad80d4ed2046df5e31e9a146e6a605e770a
