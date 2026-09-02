@@ -1,0 +1,16 @@
+type: agent-chore
+url: https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/12700
+number: 12700
+priority: medium
+phase: 4
+createdAt: 2026-09-02T08:19:09Z
+enqueuedAt: 2026-09-02T08:24:34.418696118Z
+triggerEventTime: 2026-09-02T08:19:11Z
+triggerReason: IssueLabeled
+triggerNotes: 'Issue #12700 created at 2026-09-02T08:19:09Z; trigger label ''overseer'' added by maqiuyujoyce at 2026-09-02T08:19:11Z'
+startedAt: 2026-09-02T08:30:22.506750272Z
+completedAt: 2026-09-02T08:32:24.717947227Z
+assignee: walle-agent-bot
+status: Completed
+agentFile: https://github.com/gke-labs/gemini-for-kubernetes-development/blob/main/.agents/workflows/kcc-example.txt
+sessionId: issue-12700
