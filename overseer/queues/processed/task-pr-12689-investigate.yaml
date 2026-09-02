@@ -8,7 +8,9 @@ enqueuedAt: 2026-09-02T04:24:16.685087854Z
 triggerEventTime: 2026-09-02T04:21:24Z
 triggerReason: PRCheckFailed
 triggerNotes: Earliest CI failure in 'Validate PR Release Note' (failure) at 2026-09-02T04:21:24Z; total 1 failed check(s) on commit f31c342
-startedAt: 2026-09-02T04:29:45.777030645Z
+startedAt: 2026-09-02T06:33:35.653801181Z
+completedAt: 2026-09-02T07:02:59.406145022Z
 assignee: lovelace-coder-bot
-status: Running
+status: Completed
 commitSHA: f31c342e19c09b9fe8cf534ebe451a53765518de
+recovered: true
