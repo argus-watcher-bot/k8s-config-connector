@@ -4,10 +4,12 @@ number: 11871
 priority: medium
 phase: 3
 createdAt: 2026-07-23T21:56:13Z
-enqueuedAt: 2026-09-02T17:47:02.061323172Z
+enqueuedAt: 2026-09-02T19:09:16.510343941Z
 triggerEventTime: 2026-07-23T21:56:14Z
 triggerReason: IssueLabeled
 triggerNotes: 'Issue #11871 created at 2026-07-23T21:56:13Z; trigger label ''overseer'' added by walle-agent-bot at 2026-07-23T21:56:14Z'
-startedAt: 2026-09-02T17:52:26.284040378Z
+startedAt: 2026-09-02T19:09:50.928291107Z
+completedAt: 2026-09-02T19:16:04.42024701Z
 assignee: neumann-coder-bot
-status: Running
+status: Failed
+error: exit status 1
