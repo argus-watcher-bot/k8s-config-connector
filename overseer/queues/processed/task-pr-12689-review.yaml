@@ -4,13 +4,13 @@ number: 12689
 priority: medium
 phase: 2
 createdAt: 2026-09-02T04:21:14Z
-enqueuedAt: 2026-09-03T07:04:38.45434485Z
-triggerEventTime: 2026-09-03T06:37:26Z
+enqueuedAt: 2026-09-03T09:08:03.4863453Z
+triggerEventTime: 2026-09-03T08:24:56Z
 triggerReason: PRReadyForReview
-triggerNotes: Automated review triggered; all CI checks passed at 2026-09-03T06:37:26Z for commit 8f0f6cd (committer date 2026-09-03T06:11:56Z)
-startedAt: 2026-09-03T07:09:41.630845896Z
-completedAt: 2026-09-03T07:30:05.707877393Z
-status: Completed
-commitSHA: 8f0f6cd84935f689006655cd321cb6577022535a
+triggerNotes: Automated review triggered; all CI checks passed at 2026-09-03T08:24:56Z for commit 82d32c7 (committer date 2026-09-03T07:42:48Z)
+startedAt: 2026-09-03T09:09:21.043172767Z
+status: Failed
+error: 'fetching PR details: GET https://api.github.com/repos/GoogleCloudPlatform/k8s-config-connector/pulls/12689: 403 API rate limit of 5000 still exceeded until 2026-09-03 09:11:42 +0000 UTC, not making remote request. [rate reset in 2m21s]'
+commitSHA: 82d32c707c075ccce51cde7690466ffb4aab3039
 instructions:
     - Use .gemini/skills/reviewgen-greenfield-new-types/SKILL.md to conduct the review.
