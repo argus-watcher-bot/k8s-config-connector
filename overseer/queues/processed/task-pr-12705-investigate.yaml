@@ -4,12 +4,13 @@ number: 12705
 priority: medium
 phase: 3
 createdAt: 2026-09-02T17:40:40Z
-enqueuedAt: 2026-09-03T00:14:44.014932332Z
-triggerEventTime: 2026-09-03T00:12:01Z
+enqueuedAt: 2026-09-03T02:31:30.112207205Z
+triggerEventTime: 2026-09-03T01:43:44Z
 triggerReason: PRCheckFailed
-triggerNotes: Earliest CI failure in 'tests-e2e-fixtures-networksecurity' (failure) at 2026-09-03T00:12:01Z; total 1 failed check(s) on commit 562ea80
-startedAt: 2026-09-03T00:18:52.274253046Z
-completedAt: 2026-09-03T00:22:58.733860718Z
+triggerNotes: Earliest CI failure in 'tests-e2e-fixtures-networksecurity' (failure) at 2026-09-03T01:43:44Z; total 2 failed check(s) on commit ceb62ed
+startedAt: 2026-09-03T04:43:49.792308471Z
+completedAt: 2026-09-03T04:43:53.310823407Z
 assignee: lovelace-coder-bot
 status: Completed
-commitSHA: 562ea801ba2d9009b6409c70592d734da8f0b0ff
+commitSHA: ceb62ede1f5902c6b84028d69071d94e6ff8fd2a
+recovered: true

@@ -4,13 +4,12 @@ number: 12689
 priority: medium
 phase: 3
 createdAt: 2026-09-02T04:21:14Z
-enqueuedAt: 2026-09-02T19:38:49.617850912Z
-triggerEventTime: 2026-09-02T19:17:31Z
+enqueuedAt: 2026-09-03T04:33:14.641008812Z
+triggerEventTime: 2026-09-03T04:03:00Z
 triggerReason: PRCheckFailed
-triggerNotes: Earliest CI failure in 'tests-e2e-fixtures-apihub' (failure) at 2026-09-02T19:17:31Z; total 2 failed check(s) on commit 79db685
-startedAt: 2026-09-02T21:03:27.048887147Z
-completedAt: 2026-09-02T21:03:30.694549067Z
+triggerNotes: Earliest CI failure in 'tests-e2e-fixtures-alloydb' (failure) at 2026-09-03T04:03:00Z; total 2 failed check(s) on commit 7c5e05e
+startedAt: 2026-09-03T04:36:05.178997442Z
+completedAt: 2026-09-03T04:41:40.895296382Z
 assignee: lovelace-coder-bot
 status: Completed
-commitSHA: 79db68598d5afdf3308f59ea467bd98311566aff
-recovered: true
+commitSHA: 7c5e05e90d2d7a7ae62f9dfbbc6a9a0df260555e
