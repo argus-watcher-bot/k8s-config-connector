@@ -4,13 +4,12 @@ number: 12732
 priority: medium
 phase: 3
 createdAt: 2026-09-03T05:24:15Z
-enqueuedAt: 2026-09-03T05:43:19.330733624Z
+enqueuedAt: 2026-09-03T06:08:02.949049745Z
 triggerEventTime: 2026-09-03T05:35:00Z
 triggerReason: PRCheckFailed
 triggerNotes: Earliest CI failure in 'unit-tests-1-of-4' (failure) at 2026-09-03T05:35:00Z; total 2 failed check(s) on commit 3e579da
-startedAt: 2026-09-03T05:49:41.248963048Z
-completedAt: 2026-09-03T06:04:36.724012607Z
+startedAt: 2026-09-03T06:10:50.693211601Z
+completedAt: 2026-09-03T07:35:32.623423231Z
 assignee: ada-coder-bot
-status: Failed
-error: exit status 1
+status: Completed
 commitSHA: 3e579da20e7f457aa3495a5ff1118a928b35a110
