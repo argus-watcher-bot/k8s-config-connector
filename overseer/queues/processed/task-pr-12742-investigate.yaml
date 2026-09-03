@@ -4,13 +4,12 @@ number: 12742
 priority: medium
 phase: 3
 createdAt: 2026-09-03T10:03:10Z
-enqueuedAt: 2026-09-03T10:09:39.007696Z
-triggerEventTime: 2026-09-03T10:03:19Z
+enqueuedAt: 2026-09-03T11:27:52.219567655Z
+triggerEventTime: 2026-09-03T10:53:51Z
 triggerReason: PRCheckFailed
-triggerNotes: Earliest CI failure in 'Validate PR Release Note' (failure) at 2026-09-03T10:03:19Z; total 1 failed check(s) on commit 5c41c3f
-startedAt: 2026-09-03T10:11:18.219724128Z
-completedAt: 2026-09-03T10:11:18.446262357Z
+triggerNotes: Earliest CI failure in 'Validate PR Release Note' (failure) at 2026-09-03T10:53:51Z; total 3 failed check(s) on commit 05262e0
+startedAt: 2026-09-03T11:29:30.924094632Z
+completedAt: 2026-09-03T11:33:24.38106817Z
 assignee: ada-coder-bot
-status: Failed
-error: exit status 1
-commitSHA: 5c41c3ff1cfc77b18bc05627f384ceb0dd22abb9
+status: Completed
+commitSHA: 05262e08022482a990147348b5aacf9724184c7f
