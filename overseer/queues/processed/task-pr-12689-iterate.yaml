@@ -4,12 +4,13 @@ number: 12689
 priority: medium
 phase: 1
 createdAt: 2026-09-02T04:21:14Z
-enqueuedAt: 2026-09-02T05:27:51.174536324Z
-triggerEventTime: 2026-09-02T04:41:11Z
+enqueuedAt: 2026-09-02T22:59:30.979210977Z
+triggerEventTime: 2026-09-02T19:50:10Z
 triggerReason: PRMergeConflict
-triggerNotes: 'PR #12689 has merge conflicts with base branch ''master''; head commit 159d051 committer date 2026-09-02T04:41:11Z, PR updated at 2026-09-02T05:17:04Z'
-startedAt: 2026-09-02T05:30:50.741193684Z
-completedAt: 2026-09-02T06:27:28.825610944Z
+triggerNotes: 'PR #12689 has merge conflicts with base branch ''master''; head commit c612907 committer date 2026-09-02T19:50:10Z, PR updated at 2026-09-02T21:09:02Z'
+startedAt: 2026-09-03T02:52:06.048683086Z
+completedAt: 2026-09-03T03:18:44.228112115Z
 assignee: lovelace-coder-bot
 status: Completed
-commitSHA: 159d0517baba405ff4a5ca108f1a09deee127944
+commitSHA: c612907d6e8a3fd5b119b20181da060213d722f0
+recovered: true

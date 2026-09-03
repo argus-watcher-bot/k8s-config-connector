@@ -4,12 +4,13 @@ number: 12716
 priority: medium
 phase: 3
 createdAt: 2026-09-02T21:58:22Z
-enqueuedAt: 2026-09-02T22:23:48.094471202Z
-triggerEventTime: 2026-09-02T22:09:53Z
+enqueuedAt: 2026-09-03T00:47:35.164158417Z
+triggerEventTime: 2026-09-02T22:47:12Z
 triggerReason: PRCheckFailed
-triggerNotes: Earliest CI failure in 'tests-e2e-fixtures-apihub' (failure) at 2026-09-02T22:09:53Z; total 1 failed check(s) on commit e36fb56
-startedAt: 2026-09-02T22:27:48.449162405Z
-completedAt: 2026-09-02T22:42:25.112812608Z
+triggerNotes: Earliest CI failure in 'tests-e2e-fixtures-apihub' (failure) at 2026-09-02T22:47:12Z; total 2 failed check(s) on commit e36fb56
+startedAt: 2026-09-03T02:52:36.06769251Z
+completedAt: 2026-09-03T02:56:31.233123888Z
 assignee: neumann-coder-bot
 status: Completed
 commitSHA: e36fb5688adcaa21b8a4b1bff2903a396165894c
+recovered: true
