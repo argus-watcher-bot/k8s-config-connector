@@ -4,13 +4,11 @@ number: 12421
 priority: medium
 phase: 3
 createdAt: 2026-08-15T21:50:49Z
-enqueuedAt: 2026-09-03T05:43:36.381780287Z
+enqueuedAt: 2026-09-03T05:55:20.154211829Z
 triggerEventTime: 2026-09-03T05:04:14Z
 triggerReason: PRCheckFailed
 triggerNotes: Earliest CI failure in 'tests-e2e-fixtures-alloydb' (failure) at 2026-09-03T05:04:14Z; total 2 failed check(s) on commit 99fdb25
-startedAt: 2026-09-03T05:50:10.671999859Z
-completedAt: 2026-09-03T05:53:55.964803524Z
+startedAt: 2026-09-03T05:59:28.175034287Z
 assignee: neumann-coder-bot
-status: Failed
-error: exit status 1
+status: Running
 commitSHA: 99fdb25f56c627459b6e7ace42b3f0d598470ac6

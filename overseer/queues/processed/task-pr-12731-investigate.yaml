@@ -4,12 +4,12 @@ number: 12731
 priority: high
 phase: 3
 createdAt: 2026-09-03T03:26:59Z
-enqueuedAt: 2026-09-03T03:33:16.409012542Z
-triggerEventTime: 2026-09-03T03:27:12Z
+enqueuedAt: 2026-09-03T05:42:54.551687165Z
+triggerEventTime: 2026-09-03T03:39:45Z
 triggerReason: PRCheckFailed
-triggerNotes: Earliest CI failure in 'Validate PR Release Note' (failure) at 2026-09-03T03:27:12Z; total 1 failed check(s) on commit f488fca
-startedAt: 2026-09-03T03:38:27.378956538Z
-completedAt: 2026-09-03T03:40:32.20656412Z
+triggerNotes: Earliest CI failure in 'Validate PR Release Note' (failure) at 2026-09-03T03:39:45Z; total 1 failed check(s) on commit f488fca
+startedAt: 2026-09-03T05:46:46.06831824Z
+completedAt: 2026-09-03T05:48:35.847924793Z
 assignee: lovelace-coder-bot
 status: Completed
 commitSHA: f488fca4ecfd14dc16d3bf96398b9e0722b2f559
