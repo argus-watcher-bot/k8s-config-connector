@@ -4,12 +4,12 @@ number: 12730
 priority: critical
 phase: 3
 createdAt: 2026-09-03T03:25:37Z
-enqueuedAt: 2026-09-03T03:34:10.121755763Z
-triggerEventTime: 2026-09-03T03:25:47Z
+enqueuedAt: 2026-09-03T22:54:35.163921831Z
+triggerEventTime: 2026-09-03T22:52:16Z
 triggerReason: PRCheckFailed
-triggerNotes: Earliest CI failure in 'Validate PR Release Note' (failure) at 2026-09-03T03:25:47Z; total 2 failed check(s) on commit 0c3b04f
-startedAt: 2026-09-03T03:37:57.557344895Z
-completedAt: 2026-09-03T03:43:56.866983541Z
+triggerNotes: Earliest CI failure in 'validate-generated-files' (failure) at 2026-09-03T22:52:16Z; total 1 failed check(s) on commit 7aeb357
+startedAt: 2026-09-03T22:57:07.669808885Z
+completedAt: 2026-09-03T23:17:57.955075247Z
 assignee: hopper-coder-bot
 status: Completed
-commitSHA: 0c3b04f2483651d6eb8ce78e35adfaf69aae93f5
+commitSHA: 7aeb357932bae9386aa5d1d322bec88ece025ddf
