@@ -1,0 +1,14 @@
+type: pr-investigate
+url: https://github.com/GoogleCloudPlatform/k8s-config-connector/pull/12752
+number: 12752
+priority: medium
+phase: 3
+createdAt: 2026-09-03T19:46:56Z
+enqueuedAt: 2026-09-03T20:07:48.856731403Z
+triggerEventTime: 2026-09-03T19:57:00Z
+triggerReason: PRCheckFailed
+triggerNotes: Earliest CI failure in 'unit-tests-3-of-4' (failure) at 2026-09-03T19:57:00Z; total 4 failed check(s) on commit 47cbd44
+startedAt: 2026-09-03T20:10:43.423271662Z
+assignee: hopper-coder-bot
+status: Running
+commitSHA: 47cbd44098615f8c41d0868c43dc57003f311e3e
