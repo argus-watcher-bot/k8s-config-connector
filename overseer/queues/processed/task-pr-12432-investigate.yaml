@@ -4,12 +4,12 @@ number: 12432
 priority: medium
 phase: 3
 createdAt: 2026-08-16T04:31:09Z
-enqueuedAt: 2026-09-02T22:14:30.897302877Z
-triggerEventTime: 2026-09-02T22:13:31Z
+enqueuedAt: 2026-09-03T01:24:07.153515846Z
+triggerEventTime: 2026-09-03T01:03:38Z
 triggerReason: PRCheckFailed
-triggerNotes: Earliest CI failure in 'Validate PR Release Note' (failure) at 2026-09-02T22:13:31Z; total 1 failed check(s) on commit b63a67b
-startedAt: 2026-09-02T22:17:17.465691664Z
-completedAt: 2026-09-02T22:18:57.836096343Z
+triggerNotes: Earliest CI failure in 'tests-e2e-samples-iam' (failure) at 2026-09-03T01:03:38Z; total 2 failed check(s) on commit 9d875f2
+startedAt: 2026-09-03T01:32:40.509329265Z
+completedAt: 2026-09-03T01:37:07.012218478Z
 assignee: ada-coder-bot
 status: Completed
-commitSHA: b63a67b527f4c40442d25b2e398ae6dba2047d72
+commitSHA: 9d875f2e9a42b3ba2a2a53416a268c430f5588bb

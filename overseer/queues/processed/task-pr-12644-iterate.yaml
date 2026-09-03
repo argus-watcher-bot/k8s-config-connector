@@ -8,7 +8,10 @@ enqueuedAt: 2026-09-02T22:31:08.465714518Z
 triggerEventTime: 2026-09-01T03:21:53Z
 triggerReason: PRMergeConflict
 triggerNotes: 'PR #12644 has merge conflicts with base branch ''master''; head commit bbd4bd7 committer date 2026-09-01T03:21:53Z, PR updated at 2026-09-01T04:05:23Z'
-startedAt: 2026-09-02T22:35:12.87702197Z
+startedAt: 2026-09-03T01:31:11.170351632Z
+completedAt: 2026-09-03T01:32:22.058687041Z
 assignee: ada-coder-bot
-status: Running
+status: Failed
+error: exit status 1
 commitSHA: bbd4bd7bbf75d71254a54520ada90760807f4f32
+recovered: true
