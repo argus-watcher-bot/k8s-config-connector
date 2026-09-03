@@ -4,13 +4,12 @@ number: 12718
 priority: medium
 phase: 3
 createdAt: 2026-09-02T22:46:03Z
-enqueuedAt: 2026-09-02T22:58:00.483589329Z
+enqueuedAt: 2026-09-02T23:11:49.485449157Z
 triggerEventTime: 2026-09-02T22:53:05Z
 triggerReason: PRCheckFailed
-triggerNotes: Earliest CI failure in 'tests-e2e-fixtures-alloydb' (failure) at 2026-09-02T22:53:05Z; total 2 failed check(s) on commit 2f3a335
-startedAt: 2026-09-02T23:02:51.591464677Z
-completedAt: 2026-09-02T23:05:06.950615537Z
+triggerNotes: Earliest CI failure in 'tests-e2e-fixtures-alloydb' (failure) at 2026-09-02T22:53:05Z; total 3 failed check(s) on commit 2f3a335
+startedAt: 2026-09-02T23:17:49.870742953Z
+completedAt: 2026-09-03T00:43:58.713201706Z
 assignee: hopper-coder-bot
-status: Failed
-error: exit status 1
+status: Completed
 commitSHA: 2f3a335236172a90da87d822b81392ab85124b94
