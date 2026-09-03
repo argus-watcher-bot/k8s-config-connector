@@ -4,11 +4,11 @@ number: 11661
 priority: medium
 phase: 3
 createdAt: 2026-07-16T04:48:02Z
-enqueuedAt: 2026-09-03T00:35:41.169448459Z
-triggerEventTime: 2026-09-03T00:34:04Z
+enqueuedAt: 2026-09-03T02:35:00.465426063Z
+triggerEventTime: 2026-09-03T01:50:00Z
 triggerReason: PRCheckFailed
-triggerNotes: Earliest CI failure in 'Validate PR Release Note' (failure) at 2026-09-03T00:34:04Z; total 1 failed check(s) on commit a906c2c
-startedAt: 2026-09-03T00:38:01.671221122Z
+triggerNotes: Earliest CI failure in 'tests-e2e-fixtures-alloydb' (failure) at 2026-09-03T01:50:00Z; total 2 failed check(s) on commit fc0ee28
+startedAt: 2026-09-03T02:37:32.616047723Z
 assignee: lovelace-coder-bot
 status: Running
-commitSHA: a906c2c73e1146086d795ad541d543af508f6c43
+commitSHA: fc0ee28475478b4b7b968f73b218ee21587ae6ea
