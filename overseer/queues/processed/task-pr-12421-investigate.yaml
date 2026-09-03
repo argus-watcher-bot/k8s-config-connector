@@ -1,0 +1,16 @@
+type: pr-investigate
+url: https://github.com/GoogleCloudPlatform/k8s-config-connector/pull/12421
+number: 12421
+priority: medium
+phase: 3
+createdAt: 2026-08-15T21:50:49Z
+enqueuedAt: 2026-09-03T05:06:09.643639069Z
+triggerEventTime: 2026-09-03T05:04:14Z
+triggerReason: PRCheckFailed
+triggerNotes: Earliest CI failure in 'tests-e2e-fixtures-alloydb' (failure) at 2026-09-03T05:04:14Z; total 1 failed check(s) on commit 99fdb25
+startedAt: 2026-09-03T05:10:42.154643478Z
+completedAt: 2026-09-03T05:33:06.70062621Z
+assignee: neumann-coder-bot
+status: Failed
+error: exit status 1
+commitSHA: 99fdb25f56c627459b6e7ace42b3f0d598470ac6
