@@ -4,12 +4,14 @@ number: 12730
 priority: critical
 phase: 2
 createdAt: 2026-09-03T03:25:37Z
-enqueuedAt: 2026-09-04T01:23:48.549103944Z
-triggerEventTime: 2026-09-04T01:12:47Z
+enqueuedAt: 2026-09-04T19:16:19.808353101Z
+triggerEventTime: 2026-09-04T19:14:43Z
 triggerReason: PRCommentsAdded
-triggerNotes: Oldest unaddressed inline review comment by maqiuyujoyce added at 2026-09-04T01:12:47Z (ID 3930044186) since last commit 7aeb357 (committer date 2026-09-03T22:00:59Z)
-startedAt: 2026-09-04T01:26:11.038544308Z
-completedAt: 2026-09-04T01:28:14.183015195Z
+triggerNotes: Oldest unaddressed review by maqiuyujoyce added at 2026-09-04T19:14:43Z (ID 5116975284) since last commit 7ddf564 (committer date 2026-09-04T01:57:41Z)
+startedAt: 2026-09-04T21:00:13.628352481Z
+completedAt: 2026-09-04T21:04:48.93396169Z
 assignee: hopper-coder-bot
-status: Completed
-commitSHA: 7aeb357932bae9386aa5d1d322bec88ece025ddf
+status: Failed
+error: exit status 1
+commitSHA: 7ddf564b99216d7b50fd9a12cae5b2a895e3a5ff
+recovered: true
