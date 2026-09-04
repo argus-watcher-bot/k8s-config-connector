@@ -4,13 +4,12 @@ number: 12730
 priority: critical
 phase: 3
 createdAt: 2026-09-03T03:25:37Z
-enqueuedAt: 2026-09-04T01:37:16.565126692Z
+enqueuedAt: 2026-09-04T01:46:49.375686237Z
 triggerEventTime: 2026-09-04T01:37:05Z
 triggerReason: PRCheckFailed
-triggerNotes: Earliest CI failure in 'tests-e2e-fixtures-compute-4-of-4' (failure) at 2026-09-04T01:37:05Z; total 1 failed check(s) on commit b0b210d
-startedAt: 2026-09-04T01:39:52.439136196Z
-completedAt: 2026-09-04T01:43:46.603405132Z
+triggerNotes: Earliest CI failure in 'tests-e2e-fixtures-compute-4-of-4' (failure) at 2026-09-04T01:37:05Z; total 3 failed check(s) on commit b0b210d
+startedAt: 2026-09-04T01:48:43.698488116Z
+completedAt: 2026-09-04T02:43:35.686091516Z
 assignee: hopper-coder-bot
-status: Failed
-error: exit status 1
+status: Completed
 commitSHA: b0b210d11b1856de48f602df4430553eeb1a13d6
