@@ -4,14 +4,13 @@ number: 12702
 priority: medium
 phase: 3
 createdAt: 2026-09-02T09:04:20Z
-enqueuedAt: 2026-09-04T01:45:11.888924517Z
+enqueuedAt: 2026-09-04T03:47:43.554831741Z
 triggerEventTime: 2026-09-04T01:35:10Z
 triggerReason: PRCheckFailed
-triggerNotes: Earliest CI failure in 'tests-e2e-fixtures-aiplatform' (failure) at 2026-09-04T01:35:10Z; total 2 failed check(s) on commit 4e722e5
-startedAt: 2026-09-04T03:39:05.721395054Z
-completedAt: 2026-09-04T03:43:38.824363402Z
+triggerNotes: Earliest CI failure in 'tests-e2e-fixtures-aiplatform' (failure) at 2026-09-04T01:35:10Z; total 3 failed check(s) on commit 4e722e5
+startedAt: 2026-09-04T06:18:08.678326318Z
+completedAt: 2026-09-04T06:18:13.411562733Z
 assignee: neumann-coder-bot
-status: Failed
-error: exit status 1
+status: Completed
 commitSHA: 4e722e5b6bc5935b4135c3dc7e92249deaa9d17e
 recovered: true

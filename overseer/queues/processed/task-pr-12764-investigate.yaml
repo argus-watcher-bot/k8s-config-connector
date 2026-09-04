@@ -8,7 +8,9 @@ enqueuedAt: 2026-09-04T04:25:56.42131378Z
 triggerEventTime: 2026-09-04T04:21:04Z
 triggerReason: PRCheckFailed
 triggerNotes: Earliest CI failure in 'tests-e2e-fixtures-sql-2-of-2' (failure) at 2026-09-04T04:21:04Z; total 1 failed check(s) on commit c70b598
-startedAt: 2026-09-04T04:28:44.436676975Z
+startedAt: 2026-09-04T05:54:49.239893986Z
+completedAt: 2026-09-04T06:07:29.995599702Z
 assignee: hopper-coder-bot
-status: Running
+status: Completed
 commitSHA: c70b5983e17579641ccae791a3445dc5e489c4e3
+recovered: true
