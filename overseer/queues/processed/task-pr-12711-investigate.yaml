@@ -4,12 +4,12 @@ number: 12711
 priority: medium
 phase: 3
 createdAt: 2026-09-02T20:44:53Z
-enqueuedAt: 2026-09-04T14:15:01.527281867Z
+enqueuedAt: 2026-09-04T15:01:04.905884001Z
 triggerEventTime: 2026-09-04T14:11:12Z
 triggerReason: PRCheckFailed
-triggerNotes: Earliest CI failure in 'unit-tests-3-of-4' (failure) at 2026-09-04T14:11:12Z; total 1 failed check(s) on commit 4144165
-startedAt: 2026-09-04T14:43:59.762558261Z
-completedAt: 2026-09-04T14:44:05.823198738Z
+triggerNotes: Earliest CI failure in 'unit-tests-3-of-4' (failure) at 2026-09-04T14:11:12Z; total 2 failed check(s) on commit 4144165
+startedAt: 2026-09-04T15:06:16.595018435Z
+completedAt: 2026-09-04T15:06:21.769539834Z
 assignee: neumann-coder-bot
 status: Failed
 error: exit status 1
