@@ -10,5 +10,6 @@ triggerReason: PRCheckFailed
 triggerNotes: Earliest CI failure in 'unit-tests-1-of-4' (failure) at 2026-09-04T11:12:13Z; total 2 failed check(s) on commit 28e481e
 startedAt: 2026-09-04T11:47:20.847542171Z
 assignee: neumann-coder-bot
-status: Running
+status: Pending
 commitSHA: 28e481e34b488ed924b584458e94d93341de00af
+recovered: true
