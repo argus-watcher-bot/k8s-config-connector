@@ -4,13 +4,14 @@ number: 11349
 priority: medium
 phase: 4
 createdAt: 2026-07-06T05:18:01Z
-enqueuedAt: 2026-09-04T10:26:15.1980447Z
+enqueuedAt: 2026-09-04T12:33:47.827426369Z
 triggerEventTime: 2026-07-23T06:31:24Z
 triggerReason: IssueLabeled
 triggerNotes: 'Issue #11349 created at 2026-07-06T05:18:01Z; trigger label ''overseer'' added by acpana at 2026-07-23T06:31:24Z'
-startedAt: 2026-09-04T10:30:42.266984444Z
-completedAt: 2026-09-04T10:33:05.48316464Z
+startedAt: 2026-09-04T12:36:34.503432539Z
+completedAt: 2026-09-04T12:37:43.706884211Z
 assignee: feynman-agent-bot
-status: Completed
+status: Failed
+error: exit status 1
 agentFile: https://raw.githubusercontent.com/gke-labs/gemini-for-kubernetes-development/main/.agents/workflows/kcc-greenfield.txt
 sessionId: issue-11349
