@@ -4,12 +4,13 @@ number: 12553
 priority: medium
 phase: 3
 createdAt: 2026-08-26T04:29:14Z
-enqueuedAt: 2026-09-02T02:07:32.523883441Z
-triggerEventTime: 2026-09-02T01:53:46Z
+enqueuedAt: 2026-09-04T11:12:18.703050754Z
+triggerEventTime: 2026-09-04T09:15:51Z
 triggerReason: PRCheckFailed
-triggerNotes: Earliest CI failure in 'unit-tests-1-of-4' (failure) at 2026-09-02T01:53:46Z; total 2 failed check(s) on commit 2a7442b
-startedAt: 2026-09-02T02:11:14.52747855Z
-completedAt: 2026-09-02T03:03:18.759013611Z
+triggerNotes: Earliest CI failure in 'tests-e2e-fixtures-compute-3-of-4' (failure) at 2026-09-04T09:15:51Z; total 3 failed check(s) on commit 9611a6d
+startedAt: 2026-09-04T11:16:25.330803097Z
+completedAt: 2026-09-04T11:16:30.591594075Z
 assignee: hopper-coder-bot
-status: Completed
-commitSHA: 2a7442bcf8ded5b5708e257281235df699da2547
+status: Failed
+error: exit status 1
+commitSHA: 9611a6de02e08aca9a624affaf59bc104d1cb88f
