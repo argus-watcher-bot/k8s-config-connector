@@ -4,13 +4,13 @@ number: 12702
 priority: medium
 phase: 3
 createdAt: 2026-09-02T09:04:20Z
-enqueuedAt: 2026-09-04T21:51:29.195612605Z
+enqueuedAt: 2026-09-04T22:02:27.275273561Z
 triggerEventTime: 2026-09-04T21:48:01Z
 triggerReason: PRCheckFailed
-triggerNotes: Earliest CI failure in 'tests-e2e-fixtures-alloydb' (failure) at 2026-09-04T21:48:01Z; total 1 failed check(s) on commit aa9293e
-startedAt: 2026-09-04T21:56:40.236220219Z
-completedAt: 2026-09-04T22:00:24.498508701Z
+triggerNotes: Earliest CI failure in 'tests-e2e-fixtures-alloydb' (failure) at 2026-09-04T21:48:01Z; total 2 failed check(s) on commit aa9293e
+startedAt: 2026-09-04T23:02:56.264522987Z
+completedAt: 2026-09-04T23:03:01.208229997Z
 assignee: neumann-coder-bot
-status: Failed
-error: exit status 1
+status: Completed
 commitSHA: aa9293ed150b145c8e56d004ff9ae545dbbb3b91
+recovered: true
