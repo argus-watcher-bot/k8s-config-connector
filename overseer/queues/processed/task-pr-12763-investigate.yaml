@@ -4,12 +4,12 @@ number: 12763
 priority: medium
 phase: 3
 createdAt: 2026-09-04T03:49:14Z
-enqueuedAt: 2026-09-04T05:26:59.118313175Z
+enqueuedAt: 2026-09-04T07:37:04.445606723Z
 triggerEventTime: 2026-09-04T05:02:24Z
 triggerReason: PRCheckFailed
-triggerNotes: Earliest CI failure in 'Validate PR Release Note' (failure) at 2026-09-04T05:02:24Z; total 3 failed check(s) on commit 927205e
-startedAt: 2026-09-04T05:29:15.09773377Z
-completedAt: 2026-09-04T05:37:00.593228619Z
+triggerNotes: Earliest CI failure in 'Validate PR Release Note' (failure) at 2026-09-04T05:02:24Z; total 1 failed check(s) on commit 927205e
+startedAt: 2026-09-04T07:40:12.471877955Z
+completedAt: 2026-09-04T07:45:01.665632902Z
 assignee: neumann-coder-bot
 status: Completed
 commitSHA: 927205e187ca6033eb40660be7d37152966b13c1
