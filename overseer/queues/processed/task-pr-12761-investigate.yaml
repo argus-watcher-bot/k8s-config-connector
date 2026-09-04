@@ -4,13 +4,12 @@ number: 12761
 priority: medium
 phase: 3
 createdAt: 2026-09-04T02:19:25Z
-enqueuedAt: 2026-09-04T06:15:34.720229663Z
-triggerEventTime: 2026-09-04T04:04:32Z
+enqueuedAt: 2026-09-04T06:27:07.373937238Z
+triggerEventTime: 2026-09-04T06:21:53Z
 triggerReason: PRCheckFailed
-triggerNotes: Earliest CI failure in 'Validate PR Release Note' (failure) at 2026-09-04T04:04:32Z; total 1 failed check(s) on commit be6d662
-startedAt: 2026-09-04T06:19:00.622083684Z
-completedAt: 2026-09-04T06:22:52.099934248Z
+triggerNotes: Earliest CI failure in 'Validate PR Release Note' (failure) at 2026-09-04T06:21:53Z; total 1 failed check(s) on commit be6d662
+startedAt: 2026-09-04T06:31:25.071317485Z
+completedAt: 2026-09-04T07:46:05.889476636Z
 assignee: ada-coder-bot
-status: Failed
-error: exit status 1
+status: Completed
 commitSHA: be6d662f577be0a679d89d18fbf727d5f2cb2d32
