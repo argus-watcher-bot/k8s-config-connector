@@ -4,13 +4,14 @@ number: 12702
 priority: medium
 phase: 2
 createdAt: 2026-09-02T09:04:20Z
-enqueuedAt: 2026-09-04T06:04:46.370524209Z
-triggerEventTime: 2026-09-04T05:57:56Z
+enqueuedAt: 2026-09-04T18:35:41.139039832Z
+triggerEventTime: 2026-09-04T18:29:53Z
 triggerReason: PRCommentsAdded
-triggerNotes: Oldest unaddressed review by reviewbot-robot added at 2026-09-04T05:57:56Z (ID 5109675453) since last commit 4f381e1 (committer date 2026-09-04T04:11:14Z)
-startedAt: 2026-09-04T06:08:32.1455674Z
-completedAt: 2026-09-04T06:13:35.214081604Z
+triggerNotes: Oldest unaddressed comment added at 0001-01-01T00:00:00Z (ID 0) since last commit 4f381e1 (committer date 2026-09-04T04:11:14Z)
+startedAt: 2026-09-04T19:46:22.154718529Z
+completedAt: 2026-09-04T19:52:10.972223Z
 assignee: neumann-coder-bot
 status: Failed
 error: exit status 1
 commitSHA: 4f381e13a665347c5ad68875bc86bf64a4addad9
+recovered: true
