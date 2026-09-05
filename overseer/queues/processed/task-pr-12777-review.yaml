@@ -4,13 +4,14 @@ number: 12777
 priority: critical
 phase: 2
 createdAt: 2026-09-04T22:47:59Z
-enqueuedAt: 2026-09-05T04:23:09.601931922Z
+enqueuedAt: 2026-09-05T05:02:02.412626354Z
 triggerEventTime: 2026-09-05T00:17:03Z
 triggerReason: PRReadyForReview
 triggerNotes: Automated review triggered; all CI checks passed at 2026-09-05T00:17:03Z for commit 6f1640d (committer date 2026-09-04T23:25:28Z)
-startedAt: 2026-09-05T04:24:53.310511691Z
+startedAt: 2026-09-05T05:05:47.84226718Z
+completedAt: 2026-09-05T05:10:10.544335807Z
 status: Failed
-error: 'fetching PR details: GET https://api.github.com/repos/GoogleCloudPlatform/k8s-config-connector/pulls/12777: 403 API rate limit of 5000 still exceeded until 2026-09-05 04:35:34 +0000 UTC, not making remote request. [rate reset in 10m41s]'
+error: exit status 1
 commitSHA: 6f1640dc5d0e2cfdbe6d4cd89c08ccd1fdf64017
 instructions:
     - Use .gemini/skills/reviewgen-greenfield-controller/SKILL.md to conduct the review.
