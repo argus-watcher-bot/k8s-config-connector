@@ -4,12 +4,12 @@ number: 12571
 priority: critical
 phase: 3
 createdAt: 2026-08-27T05:53:11Z
-enqueuedAt: 2026-09-05T00:44:46.749308567Z
-triggerEventTime: 2026-09-05T00:44:10Z
+enqueuedAt: 2026-09-05T01:35:33.026488384Z
+triggerEventTime: 2026-09-05T01:25:24Z
 triggerReason: PRCheckFailed
-triggerNotes: Earliest CI failure in 'tests-e2e-fixtures-colab' (failure) at 2026-09-05T00:44:10Z; total 4 failed check(s) on commit cf8efbf
-startedAt: 2026-09-05T00:49:50.436164917Z
-completedAt: 2026-09-05T01:21:37.540692521Z
+triggerNotes: Earliest CI failure in 'tests-e2e-fixtures-bigquery-1-of-2' (failure) at 2026-09-05T01:25:24Z; total 1 failed check(s) on commit 0e30fe4
+startedAt: 2026-09-05T01:40:14.324346445Z
+completedAt: 2026-09-05T01:46:49.029862605Z
 assignee: ada-coder-bot
 status: Completed
-commitSHA: cf8efbf568c7de907c9f1eaeca6e6feb6f43a28c
+commitSHA: 0e30fe408919c320cbf7add41648e5bcb48486bd
