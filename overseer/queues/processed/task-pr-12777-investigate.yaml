@@ -4,12 +4,13 @@ number: 12777
 priority: critical
 phase: 3
 createdAt: 2026-09-04T22:47:59Z
-enqueuedAt: 2026-09-04T23:10:52.559793802Z
-triggerEventTime: 2026-09-04T22:52:54Z
+enqueuedAt: 2026-09-05T07:31:30.461626423Z
+triggerEventTime: 2026-09-05T07:21:52Z
 triggerReason: PRCheckFailed
-triggerNotes: Earliest CI failure in 'tests-e2e-fixtures-devicestreaming' (failure) at 2026-09-04T22:52:54Z; total 3 failed check(s) on commit ee507c2
-startedAt: 2026-09-04T23:15:09.79846376Z
-completedAt: 2026-09-05T00:06:04.506795988Z
+triggerNotes: Earliest CI failure in 'tests-e2e-fixtures-compute-3-of-4' (failure) at 2026-09-05T07:21:52Z; total 1 failed check(s) on commit 007f9d9
+startedAt: 2026-09-05T07:44:51.298688862Z
+completedAt: 2026-09-05T08:04:22.472779051Z
 assignee: lovelace-coder-bot
-status: Completed
-commitSHA: ee507c264eeec27b28766085912ce247dad6df39
+status: Failed
+error: exit status 1
+commitSHA: 007f9d93972b05c6e0b930b2f2bc938e9549e401
