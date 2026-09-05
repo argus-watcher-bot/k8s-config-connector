@@ -1,0 +1,17 @@
+type: pr-review
+url: https://github.com/GoogleCloudPlatform/k8s-config-connector/pull/12777
+number: 12777
+priority: critical
+phase: 2
+createdAt: 2026-09-04T22:47:59Z
+enqueuedAt: 2026-09-05T00:19:51.941846707Z
+triggerEventTime: 2026-09-05T00:17:03Z
+triggerReason: PRReadyForReview
+triggerNotes: Automated review triggered; all CI checks passed at 2026-09-05T00:17:03Z for commit 6f1640d (committer date 2026-09-04T23:25:28Z)
+startedAt: 2026-09-05T00:21:45.970972028Z
+completedAt: 2026-09-05T00:27:35.467674726Z
+status: Failed
+error: exit status 1
+commitSHA: 6f1640dc5d0e2cfdbe6d4cd89c08ccd1fdf64017
+instructions:
+    - Use .gemini/skills/reviewgen-greenfield-controller/SKILL.md to conduct the review.
