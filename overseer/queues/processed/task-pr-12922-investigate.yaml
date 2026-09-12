@@ -1,0 +1,16 @@
+type: pr-investigate
+url: https://github.com/GoogleCloudPlatform/k8s-config-connector/pull/12922
+number: 12922
+priority: medium
+phase: 3
+createdAt: 2026-09-12T07:47:33Z
+enqueuedAt: 2026-09-12T07:53:41.115908985Z
+triggerEventTime: 2026-09-12T07:47:45Z
+triggerReason: PRCheckFailed
+triggerNotes: Earliest CI failure in 'Validate PR Release Note' (failure) at 2026-09-12T07:47:45Z; total 1 failed check(s) on commit 97089fc
+startedAt: 2026-09-12T07:54:16.951380715Z
+completedAt: 2026-09-12T08:09:40.366245794Z
+assignee: neumann-coder-bot
+status: Failed
+error: 'signal: killed'
+commitSHA: 97089fcbd587013607eb630ed3b9038a6b08821e
