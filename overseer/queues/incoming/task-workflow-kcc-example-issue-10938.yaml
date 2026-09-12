@@ -1,0 +1,14 @@
+type: agent-chore
+url: https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/10938
+number: 10938
+priority: medium
+phase: 4
+createdAt: 2026-06-28T16:47:52Z
+enqueuedAt: 2026-09-12T19:30:26.203269183Z
+triggerEventTime: 2026-06-28T16:47:53Z
+triggerReason: IssueLabeled
+triggerNotes: 'Issue #10938 created at 2026-06-28T16:47:52Z; trigger label ''overseer'' added by barney-s at 2026-06-28T16:47:53Z'
+assignee: daedalus-agent-bot
+status: Pending
+agentFile: https://github.com/gke-labs/gemini-for-kubernetes-development/blob/main/.agents/workflows/kcc-example.txt
+sessionId: issue-10938
