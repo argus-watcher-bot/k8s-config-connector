@@ -4,12 +4,12 @@ number: 10938
 priority: medium
 phase: 4
 createdAt: 2026-06-28T16:47:52Z
-enqueuedAt: 2026-09-12T17:17:37.383189618Z
-triggerEventTime: 2026-06-28T16:47:52Z
-triggerReason: IssueCreated
-triggerNotes: 'Issue #10938 created at 2026-06-28T16:47:52Z with trigger label ''overseer'''
-startedAt: 2026-09-12T17:26:24.143349662Z
-completedAt: 2026-09-12T17:27:05.240105574Z
+enqueuedAt: 2026-09-12T19:30:26.203269183Z
+triggerEventTime: 2026-06-28T16:47:53Z
+triggerReason: IssueLabeled
+triggerNotes: 'Issue #10938 created at 2026-06-28T16:47:52Z; trigger label ''overseer'' added by barney-s at 2026-06-28T16:47:53Z'
+startedAt: 2026-09-12T19:38:49.389636466Z
+completedAt: 2026-09-12T19:39:20.801460404Z
 assignee: daedalus-agent-bot
 status: Completed
 agentFile: https://github.com/gke-labs/gemini-for-kubernetes-development/blob/main/.agents/workflows/kcc-example.txt

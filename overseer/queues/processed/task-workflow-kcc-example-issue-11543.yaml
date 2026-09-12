@@ -4,12 +4,12 @@ number: 11543
 priority: medium
 phase: 4
 createdAt: 2026-07-09T08:34:01Z
-enqueuedAt: 2026-09-12T17:17:37.784486747Z
-triggerEventTime: 2026-07-09T08:34:01Z
-triggerReason: IssueCreated
-triggerNotes: 'Issue #11543 created at 2026-07-09T08:34:01Z with trigger label ''overseer'''
-startedAt: 2026-09-12T17:27:15.446311986Z
-completedAt: 2026-09-12T17:27:56.621971385Z
+enqueuedAt: 2026-09-12T19:30:23.764916078Z
+triggerEventTime: 2026-07-09T08:34:02Z
+triggerReason: IssueLabeled
+triggerNotes: 'Issue #11543 created at 2026-07-09T08:34:01Z; trigger label ''overseer'' added by maqiuyujoyce at 2026-07-09T08:34:02Z'
+startedAt: 2026-09-12T19:37:58.194864932Z
+completedAt: 2026-09-12T19:38:29.964494836Z
 assignee: walle-agent-bot
 status: Completed
 agentFile: https://github.com/gke-labs/gemini-for-kubernetes-development/blob/main/.agents/workflows/kcc-example.txt
