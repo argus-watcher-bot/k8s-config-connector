@@ -4,14 +4,14 @@ number: 12914
 priority: medium
 phase: 2
 createdAt: 2026-09-11T21:24:35Z
-enqueuedAt: 2026-09-12T13:35:21.938876916Z
+enqueuedAt: 2026-09-12T14:07:42.617504629Z
 triggerEventTime: 2026-09-12T07:07:31Z
 triggerReason: PRReadyForReview
 triggerNotes: Automated review triggered; all CI checks passed at 2026-09-12T07:07:31Z for commit aac4cf1 (committer date 2026-09-12T06:24:48Z)
-startedAt: 2026-09-12T13:39:36.270636588Z
-completedAt: 2026-09-12T13:39:49.258711046Z
+startedAt: 2026-09-12T14:09:48.228114274Z
+completedAt: 2026-09-12T14:09:48.229745014Z
 status: Failed
-error: exit status 1
+error: 'fetching PR details: GET https://api.github.com/repos/GoogleCloudPlatform/k8s-config-connector/pulls/12914: 403 API rate limit of 5000 still exceeded until 2026-09-12 14:20:17 +0000 UTC, not making remote request. [rate reset in 10m29s]'
 commitSHA: aac4cf1f3508c5fe8f9f9a74f9c1b0e357ac7729
 instructions:
     - Use .gemini/skills/reviewgen-greenfield-new-types/SKILL.md to conduct the review.
