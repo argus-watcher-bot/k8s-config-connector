@@ -4,12 +4,13 @@ number: 12922
 priority: medium
 phase: 3
 createdAt: 2026-09-12T07:47:33Z
-enqueuedAt: 2026-09-12T08:31:06.139852689Z
+enqueuedAt: 2026-09-12T10:46:18.316533554Z
 triggerEventTime: 2026-09-12T08:30:45Z
 triggerReason: PRCheckFailed
-triggerNotes: Earliest CI failure in 'Validate PR Release Note' (failure) at 2026-09-12T08:30:45Z; total 1 failed check(s) on commit d140537
-startedAt: 2026-09-12T08:31:21.919427815Z
-completedAt: 2026-09-12T08:32:11.497672752Z
+triggerNotes: Earliest CI failure in 'Validate PR Release Note' (failure) at 2026-09-12T08:30:45Z; total 6 failed check(s) on commit d140537
+startedAt: 2026-09-12T10:46:19.982333006Z
+completedAt: 2026-09-12T10:48:24.541039248Z
 assignee: neumann-coder-bot
-status: Completed
+status: Failed
+error: 'signal: killed'
 commitSHA: d14053712edc1465029683fac82c03c52efae4e7
