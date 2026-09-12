@@ -1,0 +1,16 @@
+type: pr-investigate
+url: https://github.com/GoogleCloudPlatform/k8s-config-connector/pull/12914
+number: 12914
+priority: medium
+phase: 3
+createdAt: 2026-09-11T21:24:35Z
+enqueuedAt: 2026-09-12T06:10:08.925782958Z
+triggerEventTime: 2026-09-12T06:05:23Z
+triggerReason: PRCheckFailed
+triggerNotes: Earliest CI failure in 'unit-tests-1-of-4' (failure) at 2026-09-12T06:05:23Z; total 2 failed check(s) on commit beda64b
+startedAt: 2026-09-12T06:10:10.221146362Z
+completedAt: 2026-09-12T06:26:22.010427752Z
+assignee: hopper-coder-bot
+status: Failed
+error: 'signal: killed'
+commitSHA: beda64b78ba52af3ffebf821759008347f8e22e5

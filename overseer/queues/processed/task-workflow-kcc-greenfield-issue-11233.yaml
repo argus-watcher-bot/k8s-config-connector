@@ -1,0 +1,16 @@
+type: agent-chore
+url: https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/11233
+number: 11233
+priority: medium
+phase: 4
+createdAt: 2026-07-02T22:11:05Z
+enqueuedAt: 2026-09-12T05:17:39.254069729Z
+triggerEventTime: 2026-08-08T01:17:10Z
+triggerReason: IssueLabeled
+triggerNotes: 'Issue #11233 created at 2026-07-02T22:11:05Z; trigger label ''overseer'' added by acpana at 2026-08-08T01:17:10Z'
+startedAt: 2026-09-12T06:00:19.842153553Z
+completedAt: 2026-09-12T06:00:55.942810171Z
+assignee: feynman-agent-bot
+status: Completed
+agentFile: https://raw.githubusercontent.com/gke-labs/gemini-for-kubernetes-development/main/.agents/workflows/kcc-greenfield.txt
+sessionId: issue-11233
