@@ -1,0 +1,14 @@
+type: pr-investigate
+url: https://github.com/GoogleCloudPlatform/k8s-config-connector/pull/12928
+number: 12928
+priority: medium
+phase: 3
+createdAt: 2026-09-14T03:12:23Z
+enqueuedAt: 2026-09-15T20:18:17.994867402Z
+triggerEventTime: 2026-09-15T19:33:54Z
+triggerReason: PRCheckFailed
+triggerNotes: Earliest CI failure in 'test-fuzz-random-mappers' (failure) at 2026-09-15T19:33:54Z; total 6 failed check(s) on commit 083bd15
+startedAt: 2026-09-15T20:28:06.04038958Z
+assignee: ada-coder-bot
+status: Running
+commitSHA: 083bd15a9d3d48ecbbbb07c69cf7e9f23725bd62
