@@ -1,0 +1,13 @@
+type: pr-investigate
+url: https://github.com/GoogleCloudPlatform/k8s-config-connector/pull/13077
+number: 13077
+priority: medium
+phase: 3
+createdAt: 2026-09-15T22:32:59Z
+enqueuedAt: 2026-09-15T22:39:03.397700077Z
+triggerEventTime: 2026-09-15T22:36:04Z
+triggerReason: PRCheckFailed
+triggerNotes: Earliest CI failure in 'Validate PR Release Note' (failure) at 2026-09-15T22:36:04Z; total 1 failed check(s) on commit 2e07b11
+assignee: hopper-coder-bot
+status: Pending
+commitSHA: 2e07b110e97a285a6f63431d0eba38e123ac8652
