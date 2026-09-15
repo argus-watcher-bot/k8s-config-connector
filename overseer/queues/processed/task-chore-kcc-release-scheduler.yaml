@@ -8,5 +8,8 @@ enqueuedAt: 2026-09-15T20:03:29.902413966Z
 triggerEventTime: 2026-09-15T20:03:29.902407096Z
 triggerReason: ChoreScheduled
 triggerNotes: 'Chore agent ''KCC Release Scheduler'' (schedule: ''@daily'') due at 2026-09-15T20:03:29Z; last run: never'
-status: Pending
+startedAt: 2026-09-15T21:38:00.695740865Z
+completedAt: 2026-09-15T21:44:28.065444202Z
+status: Failed
+error: exit status 1
 agentFile: .agents/kcc-release.md

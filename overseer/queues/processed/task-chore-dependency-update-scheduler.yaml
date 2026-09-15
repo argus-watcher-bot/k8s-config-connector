@@ -8,5 +8,7 @@ enqueuedAt: 2026-09-15T20:03:28.75669164Z
 triggerEventTime: 2026-09-15T20:03:28.756682911Z
 triggerReason: ChoreScheduled
 triggerNotes: 'Chore agent ''Dependency Update Scheduler'' (schedule: ''0 9 * * 1'') due at 2026-09-15T20:03:28Z; last run: never'
-status: Pending
+startedAt: 2026-09-15T21:32:46.769063547Z
+completedAt: 2026-09-15T21:35:07.276427762Z
+status: Completed
 agentFile: .agents/dependency-agent.md
