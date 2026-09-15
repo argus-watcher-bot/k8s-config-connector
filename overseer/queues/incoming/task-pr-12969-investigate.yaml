@@ -1,0 +1,13 @@
+type: pr-investigate
+url: https://github.com/GoogleCloudPlatform/k8s-config-connector/pull/12969
+number: 12969
+priority: medium
+phase: 3
+createdAt: 2026-09-15T20:51:11Z
+enqueuedAt: 2026-09-15T21:49:07.574142663Z
+triggerEventTime: 2026-09-15T21:19:11Z
+triggerReason: PRCheckFailed
+triggerNotes: Earliest CI failure in 'golangci-lint' (cancelled) at 2026-09-15T21:19:11Z; total 42 failed check(s) on commit e632d95
+assignee: ada-coder-bot
+status: Pending
+commitSHA: e632d9571a1d6348e6ebb2a472ad187708d9494d
