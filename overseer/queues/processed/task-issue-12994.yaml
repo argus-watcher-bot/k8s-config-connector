@@ -4,9 +4,12 @@ number: 12994
 priority: medium
 phase: 3
 createdAt: 2026-09-15T21:34:03Z
-enqueuedAt: 2026-09-15T23:35:00.28246024Z
+enqueuedAt: 2026-09-15T21:48:17.725824957Z
 triggerEventTime: 2026-09-15T21:42:21Z
 triggerReason: IssueLabeled
 triggerNotes: 'Issue #12994 created at 2026-09-15T21:34:03Z; trigger label ''overseer'' added by anhdle-sso at 2026-09-15T21:42:21Z'
+startedAt: 2026-09-15T23:20:09.085912152Z
+completedAt: 2026-09-15T23:21:30.926592006Z
 assignee: ada-coder-bot
-status: Pending
+status: Failed
+error: exit status 1
