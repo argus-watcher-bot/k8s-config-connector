@@ -1,0 +1,16 @@
+type: pr-investigate
+url: https://github.com/GoogleCloudPlatform/k8s-config-connector/pull/13188
+number: 13188
+priority: medium
+phase: 3
+createdAt: 2026-09-16T19:58:35Z
+enqueuedAt: 2026-09-16T20:17:53.630567096Z
+triggerEventTime: 2026-09-16T20:01:28Z
+triggerReason: PRCheckFailed
+triggerNotes: Earliest CI failure in 'test-fuzz-random-mappers' (failure) at 2026-09-16T20:01:28Z; total 6 failed check(s) on commit 1a20ffc
+startedAt: 2026-09-16T20:25:59.561874181Z
+completedAt: 2026-09-16T20:43:01.802422627Z
+assignee: hopper-coder-bot
+status: Failed
+error: exit status 1
+commitSHA: 1a20ffcb4d10090fe4f3ef87c93cd9c75378c071
