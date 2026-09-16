@@ -4,13 +4,12 @@ number: 12969
 priority: medium
 phase: 3
 createdAt: 2026-09-15T20:51:11Z
-enqueuedAt: 2026-09-15T21:35:01.29167491Z
+enqueuedAt: 2026-09-15T21:49:07.574142663Z
 triggerEventTime: 2026-09-15T21:19:11Z
 triggerReason: PRCheckFailed
-triggerNotes: Earliest CI failure in 'test-fuzz-random-mappers' (cancelled) at 2026-09-15T21:19:11Z; total 42 failed check(s) on commit e632d95
-startedAt: 2026-09-15T21:37:29.706979184Z
-completedAt: 2026-09-15T21:44:35.083492812Z
+triggerNotes: Earliest CI failure in 'golangci-lint' (cancelled) at 2026-09-15T21:19:11Z; total 42 failed check(s) on commit e632d95
+startedAt: 2026-09-16T00:07:04.204933489Z
+completedAt: 2026-09-16T00:45:54.555707226Z
 assignee: ada-coder-bot
-status: Failed
-error: exit status 1
+status: Completed
 commitSHA: e632d9571a1d6348e6ebb2a472ad187708d9494d
