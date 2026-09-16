@@ -4,12 +4,13 @@ number: 12928
 priority: medium
 phase: 3
 createdAt: 2026-09-14T03:12:23Z
-enqueuedAt: 2026-09-15T20:18:17.994867402Z
-triggerEventTime: 2026-09-15T19:33:54Z
+enqueuedAt: 2026-09-15T21:49:03.410775514Z
+triggerEventTime: 2026-09-15T21:48:42Z
 triggerReason: PRCheckFailed
-triggerNotes: Earliest CI failure in 'test-fuzz-random-mappers' (failure) at 2026-09-15T19:33:54Z; total 6 failed check(s) on commit 083bd15
-startedAt: 2026-09-15T20:28:06.04038958Z
-completedAt: 2026-09-15T21:39:18.844901027Z
+triggerNotes: Earliest CI failure in 'unit-tests-3-of-4' (failure) at 2026-09-15T21:48:42Z; total 1 failed check(s) on commit 6793c72
+startedAt: 2026-09-16T00:06:19.73297768Z
+completedAt: 2026-09-16T00:09:07.87745399Z
 assignee: ada-coder-bot
-status: Completed
-commitSHA: 083bd15a9d3d48ecbbbb07c69cf7e9f23725bd62
+status: Failed
+error: exit status 1
+commitSHA: 6793c727bafc41a3f206df20158c452d7dcf7a3c

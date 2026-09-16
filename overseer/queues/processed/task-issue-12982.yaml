@@ -4,9 +4,12 @@ number: 12982
 priority: medium
 phase: 3
 createdAt: 2026-09-15T21:31:36Z
-enqueuedAt: 2026-09-16T00:12:22.74862848Z
+enqueuedAt: 2026-09-15T21:48:25.214887526Z
 triggerEventTime: 2026-09-15T21:40:53Z
 triggerReason: IssueLabeled
 triggerNotes: 'Issue #12982 created at 2026-09-15T21:31:36Z; trigger label ''overseer'' added by anhdle-sso at 2026-09-15T21:40:53Z'
+startedAt: 2026-09-15T23:59:30.258004203Z
+completedAt: 2026-09-16T00:01:34.016863556Z
 assignee: lovelace-coder-bot
-status: Pending
+status: Failed
+error: exit status 1

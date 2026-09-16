@@ -1,0 +1,12 @@
+type: agent-chore
+url: https://github.com/GoogleCloudPlatform/k8s-config-connector
+number: 0
+priority: medium
+phase: 4
+createdAt: 2026-09-16T00:09:23.286059293Z
+enqueuedAt: 2026-09-16T00:09:23.2860594Z
+triggerEventTime: 2026-09-16T00:00:00Z
+triggerReason: ChoreScheduled
+triggerNotes: 'Chore agent ''KCC Release Scheduler'' (schedule: ''@daily'') due at 2026-09-16T00:00:00Z; last run: 2026-09-15T20:03:29Z'
+status: Pending
+agentFile: .agents/kcc-release.md
