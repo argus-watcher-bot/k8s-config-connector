@@ -4,13 +4,13 @@ number: 13199
 priority: medium
 phase: 3
 createdAt: 2026-09-16T22:02:01Z
-enqueuedAt: 2026-09-16T22:25:17.040627412Z
+enqueuedAt: 2026-09-16T22:31:40.985301896Z
 triggerEventTime: 2026-09-16T22:12:43Z
 triggerReason: PRCheckFailed
 triggerNotes: Earliest CI failure in 'fuzz-roundtrippers-6-of-8' (failure) at 2026-09-16T22:12:43Z; total 2 failed check(s) on commit f216a1b
-startedAt: 2026-09-16T22:26:13.144446553Z
-completedAt: 2026-09-16T22:26:18.230501554Z
+startedAt: 2026-09-16T22:31:44.524136165Z
+completedAt: 2026-09-16T22:46:23.65838313Z
 assignee: lovelace-coder-bot
 status: Failed
-error: exit status 1
+error: adopted task failed or terminated in sandbox
 commitSHA: f216a1b25cfb7262cf4b8d8d95456f7213772ee6
