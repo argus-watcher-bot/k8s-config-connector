@@ -4,13 +4,11 @@ number: 13188
 priority: medium
 phase: 3
 createdAt: 2026-09-16T19:58:35Z
-enqueuedAt: 2026-09-16T20:53:59.069927037Z
+enqueuedAt: 2026-09-16T21:00:29.948248023Z
 triggerEventTime: 2026-09-16T20:52:45Z
 triggerReason: PRCheckFailed
-triggerNotes: Earliest CI failure in 'unit-tests-4-of-4' (failure) at 2026-09-16T20:52:45Z; total 1 failed check(s) on commit 9e97c9e
-startedAt: 2026-09-16T20:56:25.641377642Z
-completedAt: 2026-09-16T20:59:52.156091974Z
+triggerNotes: Earliest CI failure in 'unit-tests-4-of-4' (failure) at 2026-09-16T20:52:45Z; total 2 failed check(s) on commit 9e97c9e
+startedAt: 2026-09-16T21:25:13.449661047Z
 assignee: hopper-coder-bot
-status: Failed
-error: exit status 1
+status: Running
 commitSHA: 9e97c9e1b8e780401fa4042c6490bb441794b7c1
