@@ -4,12 +4,13 @@ number: 13209
 priority: medium
 phase: 3
 createdAt: 2026-09-17T03:13:25Z
-enqueuedAt: 2026-09-17T04:18:19.759236044Z
-triggerEventTime: 2026-09-17T04:07:35Z
+enqueuedAt: 2026-09-17T06:34:18.118435469Z
+triggerEventTime: 2026-09-17T06:32:21Z
 triggerReason: PRCheckFailed
-triggerNotes: Earliest CI failure in 'fuzz-roundtrippers-3-of-8' (failure) at 2026-09-17T04:07:35Z; total 3 failed check(s) on commit f8b094c
-startedAt: 2026-09-17T04:18:58.580642225Z
-completedAt: 2026-09-17T04:58:04.49626564Z
+triggerNotes: Earliest CI failure in 'tests-e2e-fixtures-kms' (failure) at 2026-09-17T06:32:21Z; total 1 failed check(s) on commit 49a0ad6
+startedAt: 2026-09-17T06:34:27.263721895Z
+completedAt: 2026-09-17T07:17:10.666376066Z
 assignee: lovelace-coder-bot
-status: Completed
-commitSHA: f8b094cf57d47eef6cbfc819d164f1fb8dc16fdb
+status: Failed
+error: adopted task failed or terminated in sandbox
+commitSHA: 49a0ad6b707f98c632adadabf329bb6de9a63c52
