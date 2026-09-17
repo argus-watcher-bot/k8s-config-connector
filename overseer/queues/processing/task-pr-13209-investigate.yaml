@@ -4,11 +4,11 @@ number: 13209
 priority: medium
 phase: 3
 createdAt: 2026-09-17T03:13:25Z
-enqueuedAt: 2026-09-17T03:31:19.154378543Z
-triggerEventTime: 2026-09-17T03:30:42Z
+enqueuedAt: 2026-09-17T04:18:19.759236044Z
+triggerEventTime: 2026-09-17T04:07:35Z
 triggerReason: PRCheckFailed
-triggerNotes: Earliest CI failure in 'unit-tests-1-of-4' (failure) at 2026-09-17T03:30:42Z; total 1 failed check(s) on commit ac0518f
-startedAt: 2026-09-17T03:32:12.476951718Z
+triggerNotes: Earliest CI failure in 'fuzz-roundtrippers-3-of-8' (failure) at 2026-09-17T04:07:35Z; total 3 failed check(s) on commit f8b094c
+startedAt: 2026-09-17T04:18:58.580642225Z
 assignee: lovelace-coder-bot
 status: Running
-commitSHA: ac0518fdba27b44c422893fc457a75893254c5ad
+commitSHA: f8b094cf57d47eef6cbfc819d164f1fb8dc16fdb
