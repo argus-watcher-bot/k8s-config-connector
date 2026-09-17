@@ -8,6 +8,9 @@ enqueuedAt: 2026-09-17T19:07:39.611342573Z
 triggerEventTime: 2026-09-17T19:03:16Z
 triggerReason: PRCheckFailed
 triggerNotes: Earliest CI failure in 'Validate PR Release Note' (failure) at 2026-09-17T19:03:16Z; total 1 failed check(s) on commit 635e7fb
+startedAt: 2026-09-17T19:15:43.118673671Z
+completedAt: 2026-09-17T19:15:43.41579463Z
 assignee: hopper-coder-bot
-status: Pending
+status: Failed
+error: exit status 1
 commitSHA: 635e7fb7ab9d8f035f41d3996dad6b59b9103cb7
