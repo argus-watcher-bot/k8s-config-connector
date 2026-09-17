@@ -1,0 +1,15 @@
+type: pr-investigate
+url: https://github.com/GoogleCloudPlatform/k8s-config-connector/pull/12863
+number: 12863
+priority: medium
+phase: 3
+createdAt: 2026-09-09T22:40:34Z
+enqueuedAt: 2026-09-17T23:00:42.535958296Z
+triggerEventTime: 2026-09-17T22:54:00Z
+triggerReason: PRCheckFailed
+triggerNotes: Earliest CI failure in 'tests-e2e-fixtures-modelarmor' (failure) at 2026-09-17T22:54:00Z; total 1 failed check(s) on commit da3e7c5
+startedAt: 2026-09-17T23:03:59.2362033Z
+completedAt: 2026-09-17T23:14:40.377028305Z
+assignee: hopper-coder-bot
+status: Completed
+commitSHA: da3e7c519c6c3967043d36181e0ccd6dc581b54b

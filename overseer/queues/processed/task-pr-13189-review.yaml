@@ -4,13 +4,14 @@ number: 13189
 priority: medium
 phase: 1
 createdAt: 2026-09-16T20:11:35Z
-enqueuedAt: 2026-09-16T20:54:29.98026144Z
-triggerEventTime: 2026-09-16T20:30:34Z
+enqueuedAt: 2026-09-17T23:30:09.830964593Z
+triggerEventTime: 2026-09-17T23:08:00Z
 triggerReason: PRReadyForReview
-triggerNotes: Automated review triggered; all CI checks passed at 2026-09-16T20:30:34Z for commit 16182a9 (committer date 2026-09-16T20:09:31Z)
-startedAt: 2026-09-16T20:55:33.234725177Z
-completedAt: 2026-09-16T20:58:50.20157835Z
-status: Completed
-commitSHA: 16182a985b1d37f95b8647be79408e30356b50dd
+triggerNotes: Automated review triggered; all CI checks passed at 2026-09-17T23:08:00Z for commit f8d8165 (committer date 2026-09-17T22:38:42Z)
+startedAt: 2026-09-17T23:30:52.284291752Z
+completedAt: 2026-09-17T23:33:18.273300855Z
+status: Failed
+error: exit status 1
+commitSHA: f8d8165d2766784d55471654c5927b7c6b303147
 instructions:
     - Use .gemini/skills/reviewgen-greenfield-controller/SKILL.md to conduct the review.
