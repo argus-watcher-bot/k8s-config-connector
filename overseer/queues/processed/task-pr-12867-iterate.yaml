@@ -4,13 +4,13 @@ number: 12867
 priority: medium
 phase: 2
 createdAt: 2026-09-09T23:21:13Z
-enqueuedAt: 2026-09-17T17:23:00.461173649Z
+enqueuedAt: 2026-09-17T17:59:09.438660978Z
 triggerEventTime: 2026-09-15T18:25:59Z
 triggerReason: PRMergeConflict
-triggerNotes: 'PR #12867 has merge conflicts with base branch ''master''; head commit 84da295 committer date 2026-09-15T18:25:59Z, PR updated at 2026-09-15T20:37:27Z'
-startedAt: 2026-09-17T17:23:52.839650591Z
-completedAt: 2026-09-17T17:38:08.901840892Z
+triggerNotes: 'PR #12867 has merge conflicts with base branch ''master''; head commit 84da295 committer date 2026-09-15T18:25:59Z, PR updated at 2026-09-17T17:52:08Z'
+startedAt: 2026-09-17T17:59:30.73591119Z
+completedAt: 2026-09-17T18:56:21.299712039Z
 assignee: ada-coder-bot
 status: Failed
-error: exit status 1
+error: adopted task failed or terminated in sandbox
 commitSHA: 84da29517a68d13104d79939805f8e4307d8e19a
