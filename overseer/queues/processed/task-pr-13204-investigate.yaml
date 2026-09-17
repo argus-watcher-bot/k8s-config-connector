@@ -4,13 +4,13 @@ number: 13204
 priority: medium
 phase: 3
 createdAt: 2026-09-17T01:19:07Z
-enqueuedAt: 2026-09-17T01:21:04.072013585Z
-triggerEventTime: 2026-09-17T01:19:17Z
+enqueuedAt: 2026-09-17T01:42:17.350173918Z
+triggerEventTime: 2026-09-17T01:27:53Z
 triggerReason: PRCheckFailed
-triggerNotes: Earliest CI failure in 'Validate PR Release Note' (failure) at 2026-09-17T01:19:17Z; total 1 failed check(s) on commit d5297d2
-startedAt: 2026-09-17T01:21:46.356910612Z
-completedAt: 2026-09-17T01:41:23.718600336Z
+triggerNotes: Earliest CI failure in 'smoketest-with-kind' (failure) at 2026-09-17T01:27:53Z; total 5 failed check(s) on commit f2bb876
+startedAt: 2026-09-17T01:53:24.648565578Z
+completedAt: 2026-09-17T02:51:28.173243706Z
 assignee: lovelace-coder-bot
 status: Failed
-error: exit status 1
-commitSHA: d5297d21346aa29b9e0e4fdd9b3f999e46e613da
+error: adopted task failed or terminated in sandbox
+commitSHA: f2bb87696f076fa41f1bfe44d4f7bce85c324573

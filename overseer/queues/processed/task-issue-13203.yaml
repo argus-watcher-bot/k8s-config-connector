@@ -4,10 +4,12 @@ number: 13203
 priority: medium
 phase: 3
 createdAt: 2026-09-17T00:14:55Z
-enqueuedAt: 2026-09-17T02:44:19.678955068Z
+enqueuedAt: 2026-09-17T00:17:49.199490877Z
 triggerEventTime: 2026-09-17T00:14:56Z
 triggerReason: IssueLabeled
 triggerNotes: 'Issue #13203 created at 2026-09-17T00:14:55Z; trigger label ''overseer'' added by feynman-agent-bot at 2026-09-17T00:14:56Z'
-startedAt: 2026-09-17T02:44:59.981267579Z
+startedAt: 2026-09-17T00:18:08.482883044Z
+completedAt: 2026-09-17T02:33:48.403348906Z
 assignee: ada-coder-bot
-status: Running
+status: Failed
+error: adopted task failed or terminated in sandbox
