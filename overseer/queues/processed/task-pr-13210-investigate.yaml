@@ -4,13 +4,12 @@ number: 13210
 priority: medium
 phase: 3
 createdAt: 2026-09-17T03:42:44Z
-enqueuedAt: 2026-09-17T03:54:53.637795615Z
+enqueuedAt: 2026-09-17T04:17:28.019491932Z
 triggerEventTime: 2026-09-17T03:44:36Z
 triggerReason: PRCheckFailed
-triggerNotes: Earliest CI failure in 'validate-ensure' (failure) at 2026-09-17T03:44:36Z; total 8 failed check(s) on commit a8475b6
-startedAt: 2026-09-17T04:04:47.334715486Z
-completedAt: 2026-09-17T04:04:47.590921163Z
+triggerNotes: Earliest CI failure in 'validate-ensure' (failure) at 2026-09-17T03:44:36Z; total 11 failed check(s) on commit a8475b6
+startedAt: 2026-09-17T04:17:58.729883009Z
+completedAt: 2026-09-17T05:06:32.800713126Z
 assignee: ada-coder-bot
-status: Failed
-error: exit status 1
+status: Completed
 commitSHA: a8475b68f2ce7b4c6b99bcf450f9c1653e73b4ab
