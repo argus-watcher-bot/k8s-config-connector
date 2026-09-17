@@ -1,0 +1,14 @@
+type: pr-investigate
+url: https://github.com/GoogleCloudPlatform/k8s-config-connector/pull/13201
+number: 13201
+priority: medium
+phase: 3
+createdAt: 2026-09-17T00:08:42Z
+enqueuedAt: 2026-09-17T00:25:33.687098804Z
+triggerEventTime: 2026-09-17T00:21:02Z
+triggerReason: PRCheckFailed
+triggerNotes: Earliest CI failure in 'fuzz-roundtrippers-8-of-8' (failure) at 2026-09-17T00:21:02Z; total 3 failed check(s) on commit 1f9d4af
+startedAt: 2026-09-17T00:26:16.289687709Z
+assignee: lovelace-coder-bot
+status: Running
+commitSHA: 1f9d4afeb17df7bc0e79611a8ceaef50f9da6f12
