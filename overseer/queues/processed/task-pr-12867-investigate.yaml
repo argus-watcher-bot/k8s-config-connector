@@ -1,0 +1,15 @@
+type: pr-investigate
+url: https://github.com/GoogleCloudPlatform/k8s-config-connector/pull/12867
+number: 12867
+priority: medium
+phase: 3
+createdAt: 2026-09-09T23:21:13Z
+enqueuedAt: 2026-09-17T21:30:19.360640106Z
+triggerEventTime: 2026-09-17T21:20:38Z
+triggerReason: PRCheckFailed
+triggerNotes: Earliest CI failure in 'fuzz-roundtrippers-7-of-8' (failure) at 2026-09-17T21:20:38Z; total 1 failed check(s) on commit 96ebb5a
+startedAt: 2026-09-17T21:30:53.851764027Z
+completedAt: 2026-09-17T21:41:36.100824631Z
+assignee: ada-coder-bot
+status: Completed
+commitSHA: 96ebb5a41e203bee27fa062168d8e007d860c133
