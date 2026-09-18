@@ -4,12 +4,13 @@ number: 13226
 priority: medium
 phase: 3
 createdAt: 2026-09-18T04:28:04Z
-enqueuedAt: 2026-09-18T04:51:10.442722101Z
-triggerEventTime: 2026-09-18T04:28:33Z
+enqueuedAt: 2026-09-18T06:14:46.841756955Z
+triggerEventTime: 2026-09-18T06:12:30Z
 triggerReason: PRCheckFailed
-triggerNotes: Earliest CI failure in 'Validate PR Release Note' (failure) at 2026-09-18T04:28:33Z; total 224 failed check(s) on commit 095076a
-startedAt: 2026-09-18T05:05:00.881352055Z
-completedAt: 2026-09-18T06:13:09.087042081Z
+triggerNotes: Earliest CI failure in 'Validate PR Release Note' (failure) at 2026-09-18T06:12:30Z; total 1 failed check(s) on commit 0c3c909
+startedAt: 2026-09-18T06:22:14.357617487Z
+completedAt: 2026-09-18T06:22:14.588991105Z
 assignee: lovelace-coder-bot
-status: Completed
-commitSHA: 095076adb6b9293880ca52c145753cce81039f58
+status: Failed
+error: exit status 1
+commitSHA: 0c3c909702927aeff8671d26815d971b1b724244
