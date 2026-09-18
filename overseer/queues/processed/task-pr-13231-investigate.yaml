@@ -4,12 +4,12 @@ number: 13231
 priority: medium
 phase: 3
 createdAt: 2026-09-18T07:02:31Z
-enqueuedAt: 2026-09-18T08:09:39.40525312Z
-triggerEventTime: 2026-09-18T08:08:10Z
+enqueuedAt: 2026-09-18T10:18:40.877462491Z
+triggerEventTime: 2026-09-18T08:11:22Z
 triggerReason: PRCheckFailed
-triggerNotes: Earliest CI failure in 'Validate PR Release Note' (failure) at 2026-09-18T08:08:10Z; total 1 failed check(s) on commit c3e2304
-startedAt: 2026-09-18T08:10:15.42230977Z
-completedAt: 2026-09-18T08:11:31.886060775Z
+triggerNotes: Earliest CI failure in 'Validate PR Release Note' (failure) at 2026-09-18T08:11:22Z; total 1 failed check(s) on commit c3e2304
+startedAt: 2026-09-18T10:18:44.534119217Z
+completedAt: 2026-09-18T10:21:38.787415818Z
 assignee: lovelace-coder-bot
 status: Completed
 commitSHA: c3e2304bc6ee016829ca524fc05302419a46eb5a
