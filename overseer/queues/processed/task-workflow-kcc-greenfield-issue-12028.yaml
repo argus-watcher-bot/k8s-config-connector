@@ -4,14 +4,14 @@ number: 12028
 priority: medium
 phase: 4
 createdAt: 2026-07-29T00:13:41Z
-enqueuedAt: 2026-09-17T21:05:02.346980041Z
+enqueuedAt: 2026-09-17T23:28:44.780332571Z
 triggerEventTime: 2026-07-29T00:13:42Z
 triggerReason: IssueLabeled
 triggerNotes: 'Issue #12028 created at 2026-07-29T00:13:41Z; trigger label ''overseer'' added by feynman-agent-bot at 2026-07-29T00:13:42Z'
-startedAt: 2026-09-17T21:14:07.216514071Z
-completedAt: 2026-09-17T21:14:22.252629363Z
+startedAt: 2026-09-17T23:53:47.434900671Z
+completedAt: 2026-09-18T00:31:11.353428732Z
 assignee: feynman-agent-bot
 status: Failed
-error: exit status 1
+error: adopted task failed or terminated in sandbox
 agentFile: https://raw.githubusercontent.com/gke-labs/gemini-for-kubernetes-development/main/.agents/workflows/kcc-greenfield.txt
 sessionId: issue-12028
