@@ -9,6 +9,8 @@ triggerEventTime: 2026-09-17T07:03:56Z
 triggerReason: PRMergeConflict
 triggerNotes: 'PR #13209 has merge conflicts with base branch ''master''; head commit b215973 committer date 2026-09-17T07:03:56Z, PR updated at 2026-09-17T09:03:22Z'
 startedAt: 2026-09-18T19:55:06.310172206Z
+completedAt: 2026-09-18T21:00:48.108522794Z
 assignee: lovelace-coder-bot
-status: Running
+status: Failed
+error: adopted task failed or terminated in sandbox
 commitSHA: b2159737bfeb4d12f40558407bf2cc05b0404e8e
