@@ -1,0 +1,15 @@
+type: pr-investigate
+url: https://github.com/GoogleCloudPlatform/k8s-config-connector/pull/13167
+number: 13167
+priority: medium
+phase: 3
+createdAt: 2026-09-16T06:08:39Z
+enqueuedAt: 2026-09-18T01:10:30.71244134Z
+triggerEventTime: 2026-09-18T01:08:49Z
+triggerReason: PRCheckFailed
+triggerNotes: Earliest CI failure in 'tests-e2e-fixtures-rapidmigrationassessment' (failure) at 2026-09-18T01:08:49Z; total 1 failed check(s) on commit 4d4a180
+startedAt: 2026-09-18T01:10:41.863467795Z
+completedAt: 2026-09-18T01:21:46.558929896Z
+assignee: lovelace-coder-bot
+status: Completed
+commitSHA: 4d4a180397424034e625498547f621e88fce9f2a

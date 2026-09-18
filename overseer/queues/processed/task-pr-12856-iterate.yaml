@@ -9,6 +9,8 @@ triggerEventTime: 2026-09-16T22:53:40Z
 triggerReason: PRMergeConflict
 triggerNotes: 'PR #12856 has merge conflicts with base branch ''master''; head commit a9bfbf3 committer date 2026-09-16T22:53:40Z, PR updated at 2026-09-16T23:11:09Z'
 startedAt: 2026-09-18T00:35:59.262316798Z
+completedAt: 2026-09-18T01:08:08.361668288Z
 assignee: hopper-coder-bot
-status: Running
+status: Failed
+error: adopted task failed or terminated in sandbox
 commitSHA: a9bfbf382db16793449465d269195c0153fbf834

@@ -4,13 +4,13 @@ number: 12969
 priority: medium
 phase: 3
 createdAt: 2026-09-15T20:51:11Z
-enqueuedAt: 2026-09-17T21:47:44.435329319Z
-triggerEventTime: 2026-09-16T05:23:41Z
+enqueuedAt: 2026-09-18T00:29:33.490078432Z
+triggerEventTime: 2026-09-17T22:42:56Z
 triggerReason: PRCheckFailed
-triggerNotes: Earliest CI failure in 'tests-e2e-fixtures-backupdr' (failure) at 2026-09-16T05:23:41Z; total 2 failed check(s) on commit 190331e
-startedAt: 2026-09-18T00:19:45.871563381Z
-completedAt: 2026-09-18T00:19:46.236896258Z
+triggerNotes: Earliest CI failure in 'test-pause' (failure) at 2026-09-17T22:42:56Z; total 5 failed check(s) on commit 0af8744
+startedAt: 2026-09-18T01:01:14.490220893Z
+completedAt: 2026-09-18T01:04:19.112023419Z
 assignee: ada-coder-bot
 status: Failed
 error: exit status 1
-commitSHA: 190331e18cf974120b8a856f57350c4ea59639a5
+commitSHA: 0af8744c60299b86bb9105fc9edb93377c152b2d
