@@ -4,12 +4,13 @@ number: 13229
 priority: medium
 phase: 3
 createdAt: 2026-09-18T05:05:01Z
-enqueuedAt: 2026-09-18T05:10:54.603418181Z
-triggerEventTime: 2026-09-18T05:05:13Z
+enqueuedAt: 2026-09-18T07:38:20.307837428Z
+triggerEventTime: 2026-09-18T05:12:23Z
 triggerReason: PRCheckFailed
-triggerNotes: Earliest CI failure in 'Validate PR Release Note' (failure) at 2026-09-18T05:05:13Z; total 1 failed check(s) on commit dc4d3a7
-startedAt: 2026-09-18T05:11:01.721138342Z
-completedAt: 2026-09-18T05:12:36.082926885Z
+triggerNotes: Earliest CI failure in 'Validate PR Release Note' (failure) at 2026-09-18T05:12:23Z; total 3 failed check(s) on commit dc4d3a7
+startedAt: 2026-09-18T07:39:52.522712355Z
+completedAt: 2026-09-18T08:34:53.262172256Z
 assignee: lovelace-coder-bot
-status: Completed
+status: Failed
+error: adopted task failed or terminated in sandbox
 commitSHA: dc4d3a78dcbb9f648696c09365473209a030113f
