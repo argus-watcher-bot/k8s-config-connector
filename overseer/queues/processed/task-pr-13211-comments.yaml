@@ -4,12 +4,13 @@ number: 13211
 priority: medium
 phase: 1
 createdAt: 2026-09-17T09:48:37Z
-enqueuedAt: 2026-09-17T21:05:51.108759033Z
-triggerEventTime: 2026-09-17T20:59:12Z
+enqueuedAt: 2026-09-17T21:44:31.602874388Z
+triggerEventTime: 2026-09-17T21:42:53Z
 triggerReason: PRCommentsAdded
-triggerNotes: Oldest unaddressed comment by sdowell added at 2026-09-17T20:59:12Z (ID 5721144040) since last commit c497aa0 (committer date 2026-09-17T12:22:14Z)
-startedAt: 2026-09-17T21:06:39.840790297Z
-completedAt: 2026-09-17T21:36:39.659516024Z
+triggerNotes: Oldest unaddressed comment by sdowell added at 2026-09-17T21:42:53Z (ID 5721634664) since last commit c497aa0 (committer date 2026-09-17T12:22:14Z)
+startedAt: 2026-09-17T21:45:14.28109283Z
+completedAt: 2026-09-18T02:26:06.664454227Z
 assignee: ada-coder-bot
-status: Completed
+status: Failed
+error: adopted task failed or terminated in sandbox
 commitSHA: c497aa00738014960553c8f6961c139343e3e7a1
