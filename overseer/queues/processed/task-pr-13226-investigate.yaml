@@ -4,13 +4,13 @@ number: 13226
 priority: medium
 phase: 3
 createdAt: 2026-09-18T04:28:04Z
-enqueuedAt: 2026-09-18T06:37:53.803900275Z
-triggerEventTime: 2026-09-18T06:12:30Z
+enqueuedAt: 2026-09-18T08:42:01.147423317Z
+triggerEventTime: 2026-09-18T07:36:30Z
 triggerReason: PRCheckFailed
-triggerNotes: Earliest CI failure in 'Validate PR Release Note' (failure) at 2026-09-18T06:12:30Z; total 4 failed check(s) on commit 0c3c909
-startedAt: 2026-09-18T06:53:46.286763973Z
-completedAt: 2026-09-18T08:19:57.840668791Z
+triggerNotes: Earliest CI failure in 'Validate PR Release Note' (failure) at 2026-09-18T07:36:30Z; total 3 failed check(s) on commit 49fe905
+startedAt: 2026-09-18T08:42:50.654175602Z
+completedAt: 2026-09-18T09:52:58.275662662Z
 assignee: lovelace-coder-bot
 status: Failed
 error: adopted task failed or terminated in sandbox
-commitSHA: 0c3c909702927aeff8671d26815d971b1b724244
+commitSHA: 49fe90502b46ebff233d96b9c322b391db07d673
