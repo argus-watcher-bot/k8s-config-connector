@@ -1,0 +1,14 @@
+type: agent-chore
+url: https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/13276
+number: 13276
+priority: medium
+phase: 4
+createdAt: 2026-09-19T00:04:49Z
+enqueuedAt: 2026-09-19T00:06:19.266026249Z
+triggerEventTime: 2026-09-19T00:04:49Z
+triggerReason: IssueCreated
+triggerNotes: 'Issue #13276 created at 2026-09-19T00:04:49Z with trigger label ''overseer'''
+assignee: feynman-agent-bot
+status: Pending
+agentFile: https://raw.githubusercontent.com/gke-labs/gemini-for-kubernetes-development/main/.agents/workflows/kcc-greenfield.txt
+sessionId: issue-13276
