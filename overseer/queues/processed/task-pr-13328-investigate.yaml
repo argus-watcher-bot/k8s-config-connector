@@ -4,12 +4,12 @@ number: 13328
 priority: medium
 phase: 3
 createdAt: 2026-09-19T07:32:56Z
-enqueuedAt: 2026-09-19T09:55:58.244730307Z
-triggerEventTime: 2026-09-19T09:55:43Z
+enqueuedAt: 2026-09-19T10:25:42.320626414Z
+triggerEventTime: 2026-09-19T10:22:16Z
 triggerReason: PRCheckFailed
-triggerNotes: Earliest CI failure in 'unit-tests-3-of-4' (failure) at 2026-09-19T09:55:43Z; total 1 failed check(s) on commit 7bdd5b0
-startedAt: 2026-09-19T09:57:00.004592635Z
-completedAt: 2026-09-19T10:10:07.931747798Z
+triggerNotes: Earliest CI failure in 'validate-generated-files' (failure) at 2026-09-19T10:22:16Z; total 2 failed check(s) on commit 60c8084
+startedAt: 2026-09-19T10:26:52.77222087Z
+completedAt: 2026-09-19T11:23:14.005183531Z
 assignee: lovelace-coder-bot
 status: Completed
-commitSHA: 7bdd5b017ba1211c041f4f08b2eabe20c5701f5f
+commitSHA: 60c8084ff0082fbe40ff690dd3bec38d45411310

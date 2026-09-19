@@ -1,0 +1,16 @@
+type: pr-review
+url: https://github.com/GoogleCloudPlatform/k8s-config-connector/pull/13330
+number: 13330
+priority: medium
+phase: 1
+createdAt: 2026-09-19T09:02:56Z
+enqueuedAt: 2026-09-19T10:59:55.057613822Z
+triggerEventTime: 2026-09-19T10:29:17Z
+triggerReason: PRReadyForReview
+triggerNotes: Automated review triggered; all CI checks passed at 2026-09-19T10:29:17Z for commit bd27689 (committer date 2026-09-19T09:30:22Z)
+startedAt: 2026-09-19T11:00:31.061984546Z
+completedAt: 2026-09-19T11:04:07.852275496Z
+status: Completed
+commitSHA: bd276894af1efb323dcbc02122ecdb1029e80717
+instructions:
+    - Use .gemini/skills/reviewgen-greenfield-new-types/SKILL.md to conduct the review.
