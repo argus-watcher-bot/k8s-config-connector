@@ -1,0 +1,13 @@
+type: pr-investigate
+url: https://github.com/GoogleCloudPlatform/k8s-config-connector/pull/12731
+number: 12731
+priority: high
+phase: 3
+createdAt: 2026-09-03T03:26:59Z
+enqueuedAt: 2026-09-19T02:13:38.235563229Z
+triggerEventTime: 2026-09-19T02:04:12Z
+triggerReason: PRCheckFailed
+triggerNotes: Earliest CI failure in 'tests-e2e-fixtures-dataplex' (failure) at 2026-09-19T02:04:12Z; total 1 failed check(s) on commit ca3ed3e
+assignee: lovelace-coder-bot
+status: Pending
+commitSHA: ca3ed3ed1bfbc2f8a3a20306c6d002555eadc1f4
