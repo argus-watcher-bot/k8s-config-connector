@@ -4,11 +4,11 @@ number: 13326
 priority: medium
 phase: 3
 createdAt: 2026-09-19T07:01:29Z
-enqueuedAt: 2026-09-19T13:57:59.851322225Z
-triggerEventTime: 2026-09-19T13:37:07Z
+enqueuedAt: 2026-09-19T15:03:13.593337833Z
+triggerEventTime: 2026-09-19T15:02:26Z
 triggerReason: PRCheckFailed
-triggerNotes: Earliest CI failure in 'unit-tests-operator' (failure) at 2026-09-19T13:37:07Z; total 2 failed check(s) on commit 1021117
-startedAt: 2026-09-19T13:59:43.920631703Z
+triggerNotes: Earliest CI failure in 'capture-pprof' (failure) at 2026-09-19T15:02:26Z; total 1 failed check(s) on commit bbd8e56
+startedAt: 2026-09-19T15:03:55.120887609Z
 assignee: lovelace-coder-bot
 status: Running
-commitSHA: 102111788c27d5fbcc801cf6293df0099ec9d0b6
+commitSHA: bbd8e56eea9c3fb766d84e9daf0c14c33f84d219
