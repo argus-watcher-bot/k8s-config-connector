@@ -4,10 +4,13 @@ number: 13278
 priority: medium
 phase: 1
 createdAt: 2026-09-19T00:05:40Z
-enqueuedAt: 2026-09-19T02:54:15.852415892Z
+enqueuedAt: 2026-09-19T02:04:10.602826236Z
 triggerEventTime: 2026-09-19T02:01:30Z
 triggerReason: PRCommentsAdded
 triggerNotes: Oldest unaddressed review by reviewbot-robot added at 2026-09-19T02:01:30Z (ID 5254091535) since last commit b9eb733 (committer date 2026-09-19T00:40:05Z)
+startedAt: 2026-09-19T02:37:33.096700848Z
+completedAt: 2026-09-19T02:37:33.357407366Z
 assignee: neumann-coder-bot
-status: Pending
+status: Failed
+error: exit status 1
 commitSHA: b9eb7336863e7a01741e41e913ecb7010c0322b9

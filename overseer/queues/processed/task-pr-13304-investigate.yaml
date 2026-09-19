@@ -9,6 +9,8 @@ triggerEventTime: 2026-09-19T01:13:16Z
 triggerReason: PRCheckFailed
 triggerNotes: Earliest CI failure in 'unit-tests-2-of-4' (failure) at 2026-09-19T01:13:16Z; total 2 failed check(s) on commit 6fc8ea9
 startedAt: 2026-09-19T01:30:18.639394741Z
+completedAt: 2026-09-19T02:57:41.328411605Z
 assignee: hopper-coder-bot
-status: Running
+status: Failed
+error: adopted task failed or terminated in sandbox
 commitSHA: 6fc8ea9c079330a240f7cc20d8462cdd94215ee5

@@ -1,0 +1,14 @@
+type: pr-investigate
+url: https://github.com/GoogleCloudPlatform/k8s-config-connector/pull/13313
+number: 13313
+priority: medium
+phase: 3
+createdAt: 2026-09-19T02:22:13Z
+enqueuedAt: 2026-09-19T02:52:40.416242601Z
+triggerEventTime: 2026-09-19T02:39:25Z
+triggerReason: PRCheckFailed
+triggerNotes: Earliest CI failure in 'unit-tests-3-of-4' (failure) at 2026-09-19T02:39:25Z; total 2 failed check(s) on commit db44369
+startedAt: 2026-09-19T02:56:14.085381429Z
+assignee: ada-coder-bot
+status: Running
+commitSHA: db44369090db5fb6ce9195606e0b659e4aca0576
