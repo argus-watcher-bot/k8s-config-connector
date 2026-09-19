@@ -4,13 +4,10 @@ number: 13328
 priority: medium
 phase: 3
 createdAt: 2026-09-19T07:32:56Z
-enqueuedAt: 2026-09-19T11:28:14.556280813Z
+enqueuedAt: 2026-09-19T11:57:53.633292676Z
 triggerEventTime: 2026-09-19T11:28:12Z
 triggerReason: PRCheckFailed
-triggerNotes: Earliest CI failure in 'tests-e2e-fixtures-dataplex' (failure) at 2026-09-19T11:28:12Z; total 1 failed check(s) on commit 95b0673
-startedAt: 2026-09-19T11:36:29.034902411Z
-completedAt: 2026-09-19T11:36:29.277966429Z
+triggerNotes: Earliest CI failure in 'tests-e2e-fixtures-dataplex' (failure) at 2026-09-19T11:28:12Z; total 2 failed check(s) on commit 95b0673
 assignee: lovelace-coder-bot
-status: Failed
-error: exit status 1
+status: Pending
 commitSHA: 95b0673095bf40b0712f8f675f068526196f5c5b
