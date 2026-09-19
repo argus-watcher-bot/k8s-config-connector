@@ -4,13 +4,14 @@ number: 10121
 priority: medium
 phase: 4
 createdAt: 2026-06-13T04:19:24Z
-enqueuedAt: 2026-09-19T13:15:40.403980756Z
+enqueuedAt: 2026-09-19T16:25:43.62375888Z
 triggerEventTime: 2026-06-13T04:19:25Z
 triggerReason: IssueLabeled
 triggerNotes: 'Issue #10121 created at 2026-06-13T04:19:24Z; trigger label ''overseer'' added by factorybot-robot at 2026-06-13T04:19:25Z'
-startedAt: 2026-09-19T14:24:16.297384585Z
-completedAt: 2026-09-19T14:24:48.670657933Z
+startedAt: 2026-09-19T16:48:00.948097295Z
+completedAt: 2026-09-19T16:48:22.373227918Z
 assignee: feynman-agent-bot
-status: Completed
+status: Failed
+error: exit status 1
 agentFile: https://raw.githubusercontent.com/gke-labs/gemini-for-kubernetes-development/refs/heads/main/.agents/workflows/kcc-example.txt
 sessionId: issue-10121
