@@ -4,13 +4,14 @@ number: 10119
 priority: medium
 phase: 4
 createdAt: 2026-06-13T04:18:43Z
-enqueuedAt: 2026-09-19T00:50:37.803646191Z
+enqueuedAt: 2026-09-19T04:31:44.220812206Z
 triggerEventTime: 2026-06-13T04:18:44Z
 triggerReason: IssueLabeled
 triggerNotes: 'Issue #10119 created at 2026-06-13T04:18:43Z; trigger label ''overseer'' added by factorybot-robot at 2026-06-13T04:18:44Z'
-startedAt: 2026-09-19T02:25:12.227117436Z
-completedAt: 2026-09-19T02:25:47.06092808Z
+startedAt: 2026-09-19T06:35:26.051119429Z
+completedAt: 2026-09-19T06:36:27.833741031Z
 assignee: daedalus-agent-bot
-status: Completed
+status: Failed
+error: exit status 1
 agentFile: https://raw.githubusercontent.com/gke-labs/gemini-for-kubernetes-development/refs/heads/main/.agents/workflows/kcc-example.txt
 sessionId: issue-10119

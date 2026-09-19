@@ -4,11 +4,11 @@ number: 13319
 priority: medium
 phase: 3
 createdAt: 2026-09-19T03:43:40Z
-enqueuedAt: 2026-09-19T06:07:04.517313298Z
-triggerEventTime: 2026-09-19T06:01:22Z
+enqueuedAt: 2026-09-19T06:56:53.046488338Z
+triggerEventTime: 2026-09-19T06:29:17Z
 triggerReason: PRCheckFailed
-triggerNotes: Earliest CI failure in 'test-fuzz-random-mappers' (failure) at 2026-09-19T06:01:22Z; total 1 failed check(s) on commit cae0806
-startedAt: 2026-09-19T06:08:41.257378495Z
+triggerNotes: Earliest CI failure in 'unit-tests-4-of-4' (failure) at 2026-09-19T06:29:17Z; total 6 failed check(s) on commit f6f04c2
+startedAt: 2026-09-19T06:57:10.668500552Z
 assignee: neumann-coder-bot
 status: Running
-commitSHA: cae0806346817533f3213e6b50110a95939f9f08
+commitSHA: f6f04c2b97467216a76eaf78faa47cdceac5be8a
