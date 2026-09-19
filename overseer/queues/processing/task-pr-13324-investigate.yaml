@@ -4,11 +4,11 @@ number: 13324
 priority: medium
 phase: 3
 createdAt: 2026-09-19T05:51:58Z
-enqueuedAt: 2026-09-19T06:09:30.403332968Z
-triggerEventTime: 2026-09-19T06:07:18Z
+enqueuedAt: 2026-09-19T09:58:27.286974761Z
+triggerEventTime: 2026-09-19T08:30:12Z
 triggerReason: PRCheckFailed
-triggerNotes: Earliest CI failure in 'unit-tests-operator' (failure) at 2026-09-19T06:07:18Z; total 3 failed check(s) on commit 2932615
-startedAt: 2026-09-19T06:11:27.056414758Z
+triggerNotes: Earliest CI failure in 'unit-tests-1-of-4' (failure) at 2026-09-19T08:30:12Z; total 2 failed check(s) on commit 5c40b32
+startedAt: 2026-09-19T10:04:40.234038309Z
 assignee: neumann-coder-bot
 status: Running
-commitSHA: 2932615f2f4bf72bae4d71f97f0ce56dddaf93d4
+commitSHA: 5c40b32d4dde551498618776afa923771308625f
