@@ -4,13 +4,13 @@ number: 13315
 priority: medium
 phase: 3
 createdAt: 2026-09-19T02:53:54Z
-enqueuedAt: 2026-09-19T05:52:11.759315905Z
-triggerEventTime: 2026-09-19T05:36:31Z
+enqueuedAt: 2026-09-19T07:55:59.795757069Z
+triggerEventTime: 2026-09-19T07:54:38Z
 triggerReason: PRCheckFailed
-triggerNotes: Earliest CI failure in 'unit-tests-4-of-4' (failure) at 2026-09-19T05:36:31Z; total 2 failed check(s) on commit 514cff6
-startedAt: 2026-09-19T06:03:46.263116673Z
-completedAt: 2026-09-19T07:50:48.572397998Z
+triggerNotes: Earliest CI failure in 'tests-e2e-fixtures-apigeeregistry' (failure) at 2026-09-19T07:54:38Z; total 2 failed check(s) on commit 72c4e16
+startedAt: 2026-09-19T08:01:52.769338135Z
+completedAt: 2026-09-19T08:52:10.567707729Z
 assignee: neumann-coder-bot
 status: Failed
 error: adopted task failed or terminated in sandbox
-commitSHA: 514cff63a9442f00dd6e3486f37dbeb5fdf64e3b
+commitSHA: 72c4e169b1a0a8ac04d9bd5971d4f70cf71e8e09

@@ -4,13 +4,14 @@ number: 13314
 priority: medium
 phase: 1
 createdAt: 2026-09-19T02:49:48Z
-enqueuedAt: 2026-09-19T05:55:21.771327001Z
-triggerEventTime: 2026-09-19T05:10:12Z
+enqueuedAt: 2026-09-19T08:19:49.14488464Z
+triggerEventTime: 2026-09-19T08:19:24Z
 triggerReason: PRReadyForReview
-triggerNotes: Automated review triggered; all CI checks passed at 2026-09-19T05:10:12Z for commit 9a6e4be (committer date 2026-09-19T04:22:08Z)
-startedAt: 2026-09-19T05:55:50.815795832Z
-completedAt: 2026-09-19T05:58:26.318783588Z
-status: Completed
-commitSHA: 9a6e4be7259d984c445ce7248f12c348ba11abec
+triggerNotes: Automated review triggered; all CI checks passed at 2026-09-19T08:19:24Z for commit 204e84f (committer date 2026-09-19T07:13:25Z)
+startedAt: 2026-09-19T08:22:01.18913327Z
+completedAt: 2026-09-19T08:25:35.019660976Z
+status: Failed
+error: exit status 1
+commitSHA: 204e84fd530cfd2b6960fa6571fa8dac2430c09d
 instructions:
     - Use .gemini/skills/reviewgen-greenfield-new-types/SKILL.md to conduct the review.
