@@ -4,12 +4,12 @@ number: 13326
 priority: medium
 phase: 3
 createdAt: 2026-09-19T07:01:29Z
-enqueuedAt: 2026-09-19T07:57:22.724694711Z
-triggerEventTime: 2026-09-19T07:42:24Z
+enqueuedAt: 2026-09-19T08:22:12.389761374Z
+triggerEventTime: 2026-09-19T08:15:52Z
 triggerReason: PRCheckFailed
-triggerNotes: Earliest CI failure in 'tests-e2e-fixtures-deploymentmanager' (failure) at 2026-09-19T07:42:24Z; total 4 failed check(s) on commit cfc327f
-startedAt: 2026-09-19T08:03:21.179065619Z
-completedAt: 2026-09-19T08:15:41.233046768Z
+triggerNotes: Earliest CI failure in 'validate-untested-fields' (failure) at 2026-09-19T08:15:52Z; total 1 failed check(s) on commit e1a8317
+startedAt: 2026-09-19T08:28:19.18588914Z
+completedAt: 2026-09-19T09:04:50.799005276Z
 assignee: lovelace-coder-bot
 status: Completed
-commitSHA: cfc327ff26a98ef68b7769914273ada8f3492e53
+commitSHA: e1a8317905b7157768f8235eac7c2c2f8621b2d3
