@@ -4,12 +4,13 @@ number: 13308
 priority: medium
 phase: 3
 createdAt: 2026-09-19T01:49:25Z
-enqueuedAt: 2026-09-19T03:58:07.5193041Z
-triggerEventTime: 2026-09-19T03:52:09Z
+enqueuedAt: 2026-09-19T05:29:35.955974384Z
+triggerEventTime: 2026-09-19T05:29:09Z
 triggerReason: PRCheckFailed
-triggerNotes: Earliest CI failure in 'unit-tests-1-of-4' (failure) at 2026-09-19T03:52:09Z; total 2 failed check(s) on commit cb86fa9
-startedAt: 2026-09-19T04:01:19.254081935Z
-completedAt: 2026-09-19T04:39:09.90474137Z
+triggerNotes: Earliest CI failure in 'validate-manifests' (failure) at 2026-09-19T05:29:09Z; total 1 failed check(s) on commit 6e57c4a
+startedAt: 2026-09-19T05:46:51.823109268Z
+completedAt: 2026-09-19T05:46:52.090322466Z
 assignee: ada-coder-bot
-status: Completed
-commitSHA: cb86fa981629467fa62a9bb13d982c49be7b6a04
+status: Failed
+error: exit status 1
+commitSHA: 6e57c4a41f77b1ca16495f95622fcb888cfc4814
