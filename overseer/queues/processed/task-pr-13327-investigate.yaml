@@ -4,12 +4,12 @@ number: 13327
 priority: medium
 phase: 3
 createdAt: 2026-09-19T07:19:02Z
-enqueuedAt: 2026-09-19T07:55:34.386457023Z
-triggerEventTime: 2026-09-19T07:36:30Z
+enqueuedAt: 2026-09-19T09:16:28.505609914Z
+triggerEventTime: 2026-09-19T09:15:42Z
 triggerReason: PRCheckFailed
-triggerNotes: Earliest CI failure in 'unit-tests-3-of-4' (failure) at 2026-09-19T07:36:30Z; total 2 failed check(s) on commit adba08d
-startedAt: 2026-09-19T08:00:47.559195914Z
-completedAt: 2026-09-19T09:05:11.391563316Z
+triggerNotes: Earliest CI failure in 'unit-tests-3-of-4' (failure) at 2026-09-19T09:15:42Z; total 1 failed check(s) on commit 3dbf509
+startedAt: 2026-09-19T09:17:09.353760359Z
+completedAt: 2026-09-19T10:23:26.060270296Z
 assignee: ada-coder-bot
 status: Completed
-commitSHA: adba08d61643a65ce9d2d9c72f4b424f22681ab8
+commitSHA: 3dbf5096d80a0ba5aae62dfea123248e1c0b2855

@@ -4,12 +4,12 @@ number: 13330
 priority: medium
 phase: 3
 createdAt: 2026-09-19T09:02:56Z
-enqueuedAt: 2026-09-19T09:19:26.029157274Z
-triggerEventTime: 2026-09-19T09:14:58Z
+enqueuedAt: 2026-09-19T10:18:00.314927312Z
+triggerEventTime: 2026-09-19T10:11:38Z
 triggerReason: PRCheckFailed
-triggerNotes: Earliest CI failure in 'unit-tests-3-of-4' (failure) at 2026-09-19T09:14:58Z; total 1 failed check(s) on commit 81d5526
-startedAt: 2026-09-19T09:20:05.567732837Z
-completedAt: 2026-09-19T10:05:13.868020803Z
+triggerNotes: Earliest CI failure in 'tests-e2e-fixtures-cloudidentity' (failure) at 2026-09-19T10:11:38Z; total 1 failed check(s) on commit bd27689
+startedAt: 2026-09-19T10:20:42.995266833Z
+completedAt: 2026-09-19T10:27:31.752972392Z
 assignee: neumann-coder-bot
 status: Completed
-commitSHA: 81d5526e2720b0b74cfa7af2428db43683df8a45
+commitSHA: bd276894af1efb323dcbc02122ecdb1029e80717
