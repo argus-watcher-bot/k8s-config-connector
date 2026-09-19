@@ -4,13 +4,12 @@ number: 12731
 priority: high
 phase: 3
 createdAt: 2026-09-03T03:26:59Z
-enqueuedAt: 2026-09-19T02:13:38.235563229Z
+enqueuedAt: 2026-09-19T02:51:08.989052754Z
 triggerEventTime: 2026-09-19T02:04:12Z
 triggerReason: PRCheckFailed
-triggerNotes: Earliest CI failure in 'tests-e2e-fixtures-dataplex' (failure) at 2026-09-19T02:04:12Z; total 1 failed check(s) on commit ca3ed3e
-startedAt: 2026-09-19T02:36:33.91230477Z
-completedAt: 2026-09-19T02:36:34.165780208Z
+triggerNotes: Earliest CI failure in 'tests-e2e-fixtures-dataplex' (failure) at 2026-09-19T02:04:12Z; total 2 failed check(s) on commit ca3ed3e
+startedAt: 2026-09-19T03:15:35.782926786Z
+completedAt: 2026-09-19T03:25:27.330653248Z
 assignee: lovelace-coder-bot
-status: Failed
-error: exit status 1
+status: Completed
 commitSHA: ca3ed3ed1bfbc2f8a3a20306c6d002555eadc1f4
