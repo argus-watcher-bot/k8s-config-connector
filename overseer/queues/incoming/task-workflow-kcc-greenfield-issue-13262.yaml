@@ -1,0 +1,14 @@
+type: agent-chore
+url: https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/13262
+number: 13262
+priority: medium
+phase: 4
+createdAt: 2026-09-18T23:52:50Z
+enqueuedAt: 2026-09-18T23:55:18.868996788Z
+triggerEventTime: 2026-09-18T23:52:52Z
+triggerReason: IssueLabeled
+triggerNotes: 'Issue #13262 created at 2026-09-18T23:52:50Z; trigger label ''overseer'' added by gemmahou at 2026-09-18T23:52:52Z'
+assignee: daedalus-agent-bot
+status: Pending
+agentFile: https://raw.githubusercontent.com/gke-labs/gemini-for-kubernetes-development/main/.agents/workflows/kcc-greenfield.txt
+sessionId: issue-13262
