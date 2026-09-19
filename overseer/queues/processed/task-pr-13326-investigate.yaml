@@ -4,12 +4,12 @@ number: 13326
 priority: medium
 phase: 3
 createdAt: 2026-09-19T07:01:29Z
-enqueuedAt: 2026-09-19T08:22:12.389761374Z
-triggerEventTime: 2026-09-19T08:15:52Z
+enqueuedAt: 2026-09-19T12:33:54.951906478Z
+triggerEventTime: 2026-09-19T12:31:26Z
 triggerReason: PRCheckFailed
-triggerNotes: Earliest CI failure in 'validate-untested-fields' (failure) at 2026-09-19T08:15:52Z; total 1 failed check(s) on commit e1a8317
-startedAt: 2026-09-19T08:28:19.18588914Z
-completedAt: 2026-09-19T09:04:50.799005276Z
+triggerNotes: Earliest CI failure in 'unit-tests-operator' (failure) at 2026-09-19T12:31:26Z; total 1 failed check(s) on commit 74c6f46
+startedAt: 2026-09-19T12:34:34.647009351Z
+completedAt: 2026-09-19T13:30:17.970225034Z
 assignee: lovelace-coder-bot
 status: Completed
-commitSHA: e1a8317905b7157768f8235eac7c2c2f8621b2d3
+commitSHA: 74c6f46416c9c161da54875228b3d31bea0ea733
