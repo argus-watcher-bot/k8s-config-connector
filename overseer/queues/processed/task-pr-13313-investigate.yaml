@@ -4,13 +4,12 @@ number: 13313
 priority: medium
 phase: 3
 createdAt: 2026-09-19T02:22:13Z
-enqueuedAt: 2026-09-19T03:57:35.63451619Z
+enqueuedAt: 2026-09-19T04:06:03.927486983Z
 triggerEventTime: 2026-09-19T03:39:04Z
 triggerReason: PRCheckFailed
 triggerNotes: Earliest CI failure in 'unit-tests-3-of-4' (failure) at 2026-09-19T03:39:04Z; total 2 failed check(s) on commit 968d058
-startedAt: 2026-09-19T04:00:12.037392966Z
-completedAt: 2026-09-19T04:04:48.445717217Z
+startedAt: 2026-09-19T04:34:19.974773146Z
+completedAt: 2026-09-19T05:14:33.216882743Z
 assignee: ada-coder-bot
-status: Failed
-error: exit status 1
+status: Completed
 commitSHA: 968d058b159e789f667d59de743953576eb7a487
