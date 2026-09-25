@@ -9,6 +9,8 @@ triggerEventTime: 2026-09-25T20:49:20Z
 triggerReason: PRCheckFailed
 triggerNotes: Earliest CI failure in 'unit-tests-4-of-4' (failure) at 2026-09-25T20:49:20Z; total 1 failed check(s) on commit 1b5de35
 startedAt: 2026-09-25T20:57:18.463773977Z
+completedAt: 2026-09-25T23:39:02.207553083Z
 assignee: ada-coder-bot
-status: Running
+status: Failed
+error: adopted task failed or terminated in sandbox
 commitSHA: 1b5de35f70248d22b71904023f52608fc030ac5d
