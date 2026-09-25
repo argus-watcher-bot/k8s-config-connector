@@ -4,12 +4,12 @@ number: 13446
 priority: medium
 phase: 3
 createdAt: 2026-09-25T07:12:21Z
-enqueuedAt: 2026-09-25T07:16:03.879235576Z
-triggerEventTime: 2026-09-25T07:12:29Z
+enqueuedAt: 2026-09-25T09:53:23.59510659Z
+triggerEventTime: 2026-09-25T09:50:19Z
 triggerReason: PRCheckFailed
-triggerNotes: Earliest CI failure in 'Validate PR Release Note' (failure) at 2026-09-25T07:12:29Z; total 2 failed check(s) on commit b2f4810
-startedAt: 2026-09-25T07:16:18.750960021Z
-completedAt: 2026-09-25T08:08:28.323989906Z
+triggerNotes: Earliest CI failure in 'tests-e2e-fixtures-networksecurity' (failure) at 2026-09-25T09:50:19Z; total 1 failed check(s) on commit 0f791a7
+startedAt: 2026-09-25T09:53:32.981497561Z
+completedAt: 2026-09-25T10:04:05.002070829Z
 assignee: neumann-coder-bot
 status: Completed
-commitSHA: b2f481099e4d3d671c147793ddc16c538b311313
+commitSHA: 0f791a77626879b89e774dd5fd6f9f6190543f41
