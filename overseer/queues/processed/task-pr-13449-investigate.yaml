@@ -4,12 +4,12 @@ number: 13449
 priority: medium
 phase: 3
 createdAt: 2026-09-25T09:26:34Z
-enqueuedAt: 2026-09-25T09:31:17.236422103Z
-triggerEventTime: 2026-09-25T09:26:42Z
+enqueuedAt: 2026-09-25T11:44:06.680477115Z
+triggerEventTime: 2026-09-25T09:33:09Z
 triggerReason: PRCheckFailed
-triggerNotes: Earliest CI failure in 'Validate PR Release Note' (failure) at 2026-09-25T09:26:42Z; total 1 failed check(s) on commit d6652c7
-startedAt: 2026-09-25T09:31:21.21008348Z
-completedAt: 2026-09-25T09:33:57.10246306Z
+triggerNotes: Earliest CI failure in 'Validate PR Release Note' (failure) at 2026-09-25T09:33:09Z; total 3 failed check(s) on commit d6652c7
+startedAt: 2026-09-25T11:44:17.482187227Z
+completedAt: 2026-09-25T12:41:14.313281371Z
 assignee: hopper-coder-bot
 status: Completed
 commitSHA: d6652c73b48e701c9ea9ea526ceba3e6086ff502

@@ -4,13 +4,14 @@ number: 13193
 priority: medium
 phase: 4
 createdAt: 2026-09-16T20:54:10Z
-enqueuedAt: 2026-09-25T10:45:30.338811779Z
+enqueuedAt: 2026-09-25T12:50:50.809067178Z
 triggerEventTime: 2026-09-18T20:47:14Z
 triggerReason: IssueLabeled
 triggerNotes: 'Issue #13193 created at 2026-09-16T20:54:10Z; trigger label ''overseer'' added by sdowell at 2026-09-18T20:47:14Z'
-startedAt: 2026-09-25T10:45:56.673158327Z
-completedAt: 2026-09-25T10:49:01.298657217Z
+startedAt: 2026-09-25T12:51:54.23611352Z
+completedAt: 2026-09-25T12:53:48.46597111Z
 assignee: daedalus-agent-bot
-status: Completed
+status: Failed
+error: exit status 1
 agentFile: https://raw.githubusercontent.com/GoogleCloudPlatform/k8s-config-connector/refs/heads/master/.agents/workflows/kcc-greenfield.txt
 sessionId: issue-13193

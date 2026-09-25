@@ -9,6 +9,8 @@ triggerEventTime: 2026-09-25T12:05:18Z
 triggerReason: PRCheckFailed
 triggerNotes: Earliest CI failure in 'tests-e2e-fixtures-networksecurity' (failure) at 2026-09-25T12:05:18Z; total 1 failed check(s) on commit bfd4ae7
 startedAt: 2026-09-25T12:08:28.582430234Z
+completedAt: 2026-09-25T12:59:13.69509937Z
 assignee: lovelace-coder-bot
-status: Running
+status: Failed
+error: adopted task failed or terminated in sandbox
 commitSHA: bfd4ae7ceed1a9da26bd88f64fbb8799cd725e59

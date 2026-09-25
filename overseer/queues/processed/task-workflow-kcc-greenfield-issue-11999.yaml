@@ -4,13 +4,14 @@ number: 11999
 priority: medium
 phase: 4
 createdAt: 2026-07-28T23:46:02Z
-enqueuedAt: 2026-09-25T10:45:41.818755556Z
+enqueuedAt: 2026-09-25T12:50:50.410071804Z
 triggerEventTime: 2026-07-28T23:46:03Z
 triggerReason: IssueLabeled
 triggerNotes: 'Issue #11999 created at 2026-07-28T23:46:02Z; trigger label ''overseer'' added by acpana at 2026-07-28T23:46:03Z'
-startedAt: 2026-09-25T10:49:08.489219324Z
-completedAt: 2026-09-25T10:49:59.01101236Z
+startedAt: 2026-09-25T12:51:23.674071432Z
+completedAt: 2026-09-25T12:54:22.606010467Z
 assignee: daedalus-agent-bot
-status: Completed
+status: Failed
+error: exit status 1
 agentFile: https://raw.githubusercontent.com/GoogleCloudPlatform/k8s-config-connector/refs/heads/master/.agents/workflows/kcc-greenfield.txt
 sessionId: issue-11999
