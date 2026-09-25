@@ -1,0 +1,16 @@
+type: agent-chore
+url: https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/11336
+number: 11336
+priority: medium
+phase: 4
+createdAt: 2026-07-06T05:11:14Z
+enqueuedAt: 2026-09-25T06:32:48.223201005Z
+triggerEventTime: 2026-07-23T06:31:37Z
+triggerReason: IssueLabeled
+triggerNotes: 'Issue #11336 created at 2026-07-06T05:11:14Z; trigger label ''overseer'' added by acpana at 2026-07-23T06:31:37Z'
+startedAt: 2026-09-25T06:36:36.304228569Z
+completedAt: 2026-09-25T06:37:10.622345839Z
+assignee: walle-agent-bot
+status: Completed
+agentFile: https://raw.githubusercontent.com/GoogleCloudPlatform/k8s-config-connector/refs/heads/master/.agents/workflows/kcc-greenfield.txt
+sessionId: issue-11336

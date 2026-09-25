@@ -1,0 +1,16 @@
+type: agent-chore
+url: https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/13256
+number: 13256
+priority: medium
+phase: 4
+createdAt: 2026-09-18T23:42:27Z
+enqueuedAt: 2026-09-25T06:32:20.287097307Z
+triggerEventTime: 2026-09-18T23:42:28Z
+triggerReason: IssueLabeled
+triggerNotes: 'Issue #13256 created at 2026-09-18T23:42:27Z; trigger label ''overseer'' added by gemmahou at 2026-09-18T23:42:28Z'
+startedAt: 2026-09-25T06:32:43.173065124Z
+completedAt: 2026-09-25T06:33:58.50061127Z
+assignee: feynman-agent-bot
+status: Completed
+agentFile: https://raw.githubusercontent.com/GoogleCloudPlatform/k8s-config-connector/refs/heads/master/.agents/workflows/kcc-greenfield.txt
+sessionId: issue-13256
