@@ -4,13 +4,14 @@ number: 13196
 priority: medium
 phase: 4
 createdAt: 2026-09-16T20:58:07Z
-enqueuedAt: 2026-09-25T12:48:33.49254064Z
+enqueuedAt: 2026-09-25T14:52:16.057282949Z
 triggerEventTime: 2026-09-18T20:47:37Z
 triggerReason: IssueLabeled
 triggerNotes: 'Issue #13196 created at 2026-09-16T20:58:07Z; trigger label ''overseer'' added by sdowell at 2026-09-18T20:47:37Z'
-startedAt: 2026-09-25T12:48:38.267266911Z
-completedAt: 2026-09-25T12:49:19.094822043Z
+startedAt: 2026-09-25T14:52:42.646287103Z
+completedAt: 2026-09-25T14:56:00.702623084Z
 assignee: feynman-agent-bot
-status: Completed
+status: Failed
+error: exit status 1
 agentFile: https://raw.githubusercontent.com/GoogleCloudPlatform/k8s-config-connector/refs/heads/master/.agents/workflows/kcc-greenfield.txt
 sessionId: issue-13196

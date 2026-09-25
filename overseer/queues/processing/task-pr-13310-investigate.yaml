@@ -4,11 +4,11 @@ number: 13310
 priority: medium
 phase: 3
 createdAt: 2026-09-19T02:03:52Z
-enqueuedAt: 2026-09-25T13:41:50.826458025Z
-triggerEventTime: 2026-09-25T13:38:35Z
+enqueuedAt: 2026-09-25T15:03:29.371827082Z
+triggerEventTime: 2026-09-25T14:58:42Z
 triggerReason: PRCheckFailed
-triggerNotes: Earliest CI failure in 'tests-e2e-fixtures-managedkafka' (failure) at 2026-09-25T13:38:35Z; total 2 failed check(s) on commit 5be72c3
-startedAt: 2026-09-25T13:42:05.989552903Z
+triggerNotes: Earliest CI failure in 'tests-e2e-fixtures-managedkafka' (failure) at 2026-09-25T14:58:42Z; total 3 failed check(s) on commit c4ac7a7
+startedAt: 2026-09-25T15:03:38.507982955Z
 assignee: lovelace-coder-bot
 status: Running
-commitSHA: 5be72c31d59c94061b77d9054ce94f7fc637afe7
+commitSHA: c4ac7a7086997693c45a3d9819001634c00fabd3
