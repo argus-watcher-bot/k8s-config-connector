@@ -9,6 +9,8 @@ triggerEventTime: 2026-09-26T04:40:51Z
 triggerReason: PRCheckFailed
 triggerNotes: Earliest CI failure in 'tests-e2e-fixtures-compute-4-of-4' (failure) at 2026-09-26T04:40:51Z; total 3 failed check(s) on commit ad34409
 startedAt: 2026-09-26T04:48:13.87134478Z
+completedAt: 2026-09-26T05:36:56.377168913Z
 assignee: neumann-coder-bot
-status: Running
+status: Failed
+error: adopted task failed or terminated in sandbox
 commitSHA: ad34409fb53d56ea5ecfe953f646ca0c3c846394
