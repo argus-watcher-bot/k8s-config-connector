@@ -4,12 +4,13 @@ number: 12771
 priority: medium
 phase: 3
 createdAt: 2026-09-04T07:52:48Z
-enqueuedAt: 2026-09-26T10:39:17.994306974Z
-triggerEventTime: 2026-09-26T10:33:55Z
+enqueuedAt: 2026-09-26T16:08:02.053564861Z
+triggerEventTime: 2026-09-26T14:29:59Z
 triggerReason: PRCheckFailed
-triggerNotes: Earliest CI failure in 'tests-e2e-fixtures-container-2-of-2' (failure) at 2026-09-26T10:33:55Z; total 1 failed check(s) on commit bf6e899
-startedAt: 2026-09-26T10:39:40.15012313Z
-completedAt: 2026-09-26T10:51:42.85188207Z
+triggerNotes: Earliest CI failure in 'tests-e2e-fixtures-container-1-of-2' (failure) at 2026-09-26T14:29:59Z; total 3 failed check(s) on commit 5cc0e0f
+startedAt: 2026-09-26T16:08:21.14281111Z
+completedAt: 2026-09-26T16:08:25.909777145Z
 assignee: neumann-coder-bot
-status: Completed
-commitSHA: bf6e899b3eb38336364df55e6e27a0d0b8368289
+status: Failed
+error: exit status 1
+commitSHA: 5cc0e0fc724b3f7fbadc337a34e0387fa0f63635
