@@ -4,13 +4,13 @@ number: 12771
 priority: medium
 phase: 3
 createdAt: 2026-09-04T07:52:48Z
-enqueuedAt: 2026-09-26T08:05:51.391217675Z
-triggerEventTime: 2026-09-26T07:35:49Z
+enqueuedAt: 2026-09-26T09:42:44.496397409Z
+triggerEventTime: 2026-09-26T09:24:17Z
 triggerReason: PRCheckFailed
-triggerNotes: Earliest CI failure in 'unit-tests-4-of-4' (failure) at 2026-09-26T07:35:49Z; total 2 failed check(s) on commit a17f29d
-startedAt: 2026-09-26T08:06:03.403983206Z
-completedAt: 2026-09-26T09:37:59.960517664Z
+triggerNotes: Earliest CI failure in 'tests-e2e-fixtures-container-1-of-2' (failure) at 2026-09-26T09:24:17Z; total 3 failed check(s) on commit 386ee18
+startedAt: 2026-09-26T09:42:47.030580175Z
+completedAt: 2026-09-26T10:31:49.746945028Z
 assignee: neumann-coder-bot
 status: Failed
 error: adopted task failed or terminated in sandbox
-commitSHA: a17f29d37ff81f8c0a98ffacb1878d4ff3f76ffd
+commitSHA: 386ee1829def582fd61d26b70b01ad9790fcc0b2
