@@ -4,12 +4,12 @@ number: 13460
 priority: medium
 phase: 3
 createdAt: 2026-09-25T21:53:53Z
-enqueuedAt: 2026-09-25T21:57:45.000861196Z
-triggerEventTime: 2026-09-25T21:55:30Z
+enqueuedAt: 2026-09-25T23:10:31.553955689Z
+triggerEventTime: 2026-09-25T22:56:18Z
 triggerReason: PRCheckFailed
-triggerNotes: Earliest CI failure in 'validate-ensure' (failure) at 2026-09-25T21:55:30Z; total 2 failed check(s) on commit 4b45420
-startedAt: 2026-09-25T21:57:51.423545226Z
-completedAt: 2026-09-25T22:35:55.368930447Z
+triggerNotes: Earliest CI failure in 'unit-tests-1-of-4' (failure) at 2026-09-25T22:56:18Z; total 1 failed check(s) on commit 6ed3144
+startedAt: 2026-09-25T23:10:36.798441247Z
+completedAt: 2026-09-26T00:16:31.360417356Z
 assignee: hopper-coder-bot
 status: Completed
-commitSHA: 4b454205339121dbb9d2fe4e5cd14f6a20a9f70b
+commitSHA: 6ed314429674abe46233e9aa1aec25fb8e140137
