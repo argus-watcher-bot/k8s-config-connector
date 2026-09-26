@@ -1,0 +1,14 @@
+type: pr-investigate
+url: https://github.com/GoogleCloudPlatform/k8s-config-connector/pull/13469
+number: 13469
+priority: medium
+phase: 3
+createdAt: 2026-09-26T04:03:30Z
+enqueuedAt: 2026-09-26T09:38:16.880306332Z
+triggerEventTime: 2026-09-26T09:29:48Z
+triggerReason: PRCheckFailed
+triggerNotes: Earliest CI failure in 'tests-scenarios-v2-sqlinstance' (failure) at 2026-09-26T09:29:48Z; total 2 failed check(s) on commit 32e07e3
+startedAt: 2026-09-26T09:38:45.03835643Z
+assignee: lovelace-coder-bot
+status: Running
+commitSHA: 32e07e33a42a509fd0449768bbf3b3e4ac44e57c
