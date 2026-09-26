@@ -4,12 +4,12 @@ number: 13469
 priority: medium
 phase: 3
 createdAt: 2026-09-26T04:03:30Z
-enqueuedAt: 2026-09-26T09:38:16.880306332Z
-triggerEventTime: 2026-09-26T09:29:48Z
+enqueuedAt: 2026-09-26T10:34:47.916963559Z
+triggerEventTime: 2026-09-26T10:33:04Z
 triggerReason: PRCheckFailed
-triggerNotes: Earliest CI failure in 'tests-scenarios-v2-sqlinstance' (failure) at 2026-09-26T09:29:48Z; total 2 failed check(s) on commit 32e07e3
-startedAt: 2026-09-26T09:38:45.03835643Z
-completedAt: 2026-09-26T10:30:07.35144145Z
+triggerNotes: Earliest CI failure in 'tests-e2e-fixtures-clouddeploy' (failure) at 2026-09-26T10:33:04Z; total 1 failed check(s) on commit 03d24c2
+startedAt: 2026-09-26T10:35:08.680930153Z
+completedAt: 2026-09-26T10:50:32.219989973Z
 assignee: lovelace-coder-bot
 status: Completed
-commitSHA: 32e07e33a42a509fd0449768bbf3b3e4ac44e57c
+commitSHA: 03d24c2aa05ce87dc94ab55bb09fbc5057a1e4b2
