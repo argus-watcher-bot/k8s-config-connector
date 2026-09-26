@@ -4,13 +4,12 @@ number: 13472
 priority: medium
 phase: 3
 createdAt: 2026-09-26T04:33:45Z
-enqueuedAt: 2026-09-26T04:48:00.676204506Z
+enqueuedAt: 2026-09-26T05:50:34.456960456Z
 triggerEventTime: 2026-09-26T04:40:51Z
 triggerReason: PRCheckFailed
-triggerNotes: Earliest CI failure in 'tests-e2e-fixtures-compute-4-of-4' (failure) at 2026-09-26T04:40:51Z; total 3 failed check(s) on commit ad34409
-startedAt: 2026-09-26T04:48:13.87134478Z
-completedAt: 2026-09-26T05:36:56.377168913Z
+triggerNotes: Earliest CI failure in 'tests-e2e-fixtures-compute-4-of-4' (failure) at 2026-09-26T04:40:51Z; total 4 failed check(s) on commit ad34409
+startedAt: 2026-09-26T05:50:37.604125516Z
+completedAt: 2026-09-26T07:06:06.580867426Z
 assignee: neumann-coder-bot
-status: Failed
-error: adopted task failed or terminated in sandbox
+status: Completed
 commitSHA: ad34409fb53d56ea5ecfe953f646ca0c3c846394
