@@ -4,13 +4,14 @@ number: 13253
 priority: medium
 phase: 4
 createdAt: 2026-09-18T23:38:29Z
-enqueuedAt: 2026-10-02T14:35:16.308630425Z
-triggerEventTime: 2026-10-02T14:26:51Z
-triggerReason: LinkedIssueClosed
-triggerNotes: 'Linked issue #13641 was closed'
-startedAt: 2026-10-02T14:35:23.955759821Z
-completedAt: 2026-10-02T14:45:43.604936711Z
+enqueuedAt: 2026-10-02T16:47:33.264157168Z
+triggerEventTime: 2026-09-30T21:38:58Z
+triggerReason: IssueLabeled
+triggerNotes: 'Issue #13253 created at 2026-09-18T23:38:29Z; trigger label ''overseer'' added by barney-s at 2026-09-30T21:38:58Z'
+startedAt: 2026-10-02T16:47:36.290786107Z
+completedAt: 2026-10-02T16:50:00.056415861Z
 assignee: walle-agent-bot
-status: Completed
+status: Failed
+error: exit status 1
 agentFile: https://raw.githubusercontent.com/GoogleCloudPlatform/k8s-config-connector/refs/heads/master/.agents/workflows/kcc-greenfield.txt
 sessionId: issue-13253
