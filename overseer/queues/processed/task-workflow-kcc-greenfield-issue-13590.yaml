@@ -1,0 +1,16 @@
+type: agent-chore
+url: https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/13590
+number: 13590
+priority: medium
+phase: 4
+createdAt: 2026-10-01T22:17:40Z
+enqueuedAt: 2026-10-02T07:02:01.655161721Z
+triggerEventTime: 2026-10-01T22:17:41Z
+triggerReason: IssueLabeled
+triggerNotes: 'Issue #13590 created at 2026-10-01T22:17:40Z; trigger label ''overseer'' added by acpana at 2026-10-01T22:17:41Z'
+startedAt: 2026-10-02T07:02:30.884831114Z
+completedAt: 2026-10-02T07:04:31.740557012Z
+assignee: feynman-agent-bot
+status: Completed
+agentFile: https://raw.githubusercontent.com/GoogleCloudPlatform/k8s-config-connector/refs/heads/master/.agents/workflows/kcc-greenfield.txt
+sessionId: issue-13590

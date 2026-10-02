@@ -1,0 +1,16 @@
+type: agent-chore
+url: https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/13244
+number: 13244
+priority: medium
+phase: 4
+createdAt: 2026-09-18T23:17:48Z
+enqueuedAt: 2026-10-02T07:02:09.634207545Z
+triggerEventTime: 2026-10-01T04:11:16Z
+triggerReason: IssueLabeled
+triggerNotes: 'Issue #13244 created at 2026-09-18T23:17:48Z; trigger label ''overseer'' added by barney-s at 2026-10-01T04:11:16Z'
+startedAt: 2026-10-02T07:03:39.66692396Z
+completedAt: 2026-10-02T07:05:56.306567754Z
+assignee: daedalus-agent-bot
+status: Completed
+agentFile: https://raw.githubusercontent.com/GoogleCloudPlatform/k8s-config-connector/refs/heads/master/.agents/workflows/kcc-greenfield.txt
+sessionId: issue-13244

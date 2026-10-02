@@ -1,0 +1,16 @@
+type: agent-chore
+url: https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/13253
+number: 13253
+priority: medium
+phase: 4
+createdAt: 2026-09-18T23:38:29Z
+enqueuedAt: 2026-10-02T07:02:08.798593314Z
+triggerEventTime: 2026-09-30T21:38:58Z
+triggerReason: IssueLabeled
+triggerNotes: 'Issue #13253 created at 2026-09-18T23:38:29Z; trigger label ''overseer'' added by barney-s at 2026-09-30T21:38:58Z'
+startedAt: 2026-10-02T07:02:38.15061456Z
+completedAt: 2026-10-02T07:04:40.326606134Z
+assignee: walle-agent-bot
+status: Completed
+agentFile: https://raw.githubusercontent.com/GoogleCloudPlatform/k8s-config-connector/refs/heads/master/.agents/workflows/kcc-greenfield.txt
+sessionId: issue-13253
