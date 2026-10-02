@@ -4,12 +4,12 @@ number: 13108
 priority: medium
 phase: 4
 createdAt: 2026-09-15T23:38:18Z
-enqueuedAt: 2026-10-02T19:33:09.850308056Z
-triggerEventTime: 2026-09-15T23:38:20Z
-triggerReason: IssueLabeled
-triggerNotes: 'Issue #13108 created at 2026-09-15T23:38:18Z; trigger label ''overseer'' added by gemmahou at 2026-09-15T23:38:20Z'
-startedAt: 2026-10-02T19:35:44.58682787Z
-completedAt: 2026-10-02T19:36:27.566190458Z
+enqueuedAt: 2026-10-02T20:45:32.990541502Z
+triggerEventTime: 2026-10-02T20:35:41Z
+triggerReason: LinkedIssueClosed
+triggerNotes: 'Linked issue #13485 was closed'
+startedAt: 2026-10-02T20:45:59.961719917Z
+completedAt: 2026-10-02T20:50:06.691473104Z
 assignee: feynman-agent-bot
 status: Completed
 agentFile: https://raw.githubusercontent.com/GoogleCloudPlatform/k8s-config-connector/refs/heads/master/.agents/workflows/kcc-greenfield.txt
