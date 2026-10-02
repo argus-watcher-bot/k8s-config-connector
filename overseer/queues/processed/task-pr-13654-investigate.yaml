@@ -4,12 +4,12 @@ number: 13654
 priority: medium
 phase: 3
 createdAt: 2026-10-02T08:19:45Z
-enqueuedAt: 2026-10-02T08:34:12.34832984Z
-triggerEventTime: 2026-10-02T08:26:35Z
+enqueuedAt: 2026-10-02T22:03:56.913958839Z
+triggerEventTime: 2026-10-02T21:57:38Z
 triggerReason: PRCheckFailed
-triggerNotes: Earliest CI failure in 'tests-e2e-fixtures-container-1-of-2' (failure) at 2026-10-02T08:26:35Z; total 1 failed check(s) on commit 22f1360
-startedAt: 2026-10-02T08:34:22.409040562Z
-completedAt: 2026-10-02T08:41:59.693777853Z
+triggerNotes: Earliest CI failure in 'tests-e2e-fixtures-iam' (failure) at 2026-10-02T21:57:38Z; total 2 failed check(s) on commit 7225844
+startedAt: 2026-10-02T22:04:07.874411528Z
+completedAt: 2026-10-02T22:06:23.469620754Z
 assignee: hopper-coder-bot
 status: Completed
-commitSHA: 22f136039f9523365cffeeb08c876af91899b409
+commitSHA: 722584418083461983d84563ee77fb59666d8c16

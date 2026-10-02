@@ -1,0 +1,15 @@
+type: pr-investigate
+url: https://github.com/GoogleCloudPlatform/k8s-config-connector/pull/13674
+number: 13674
+priority: medium
+phase: 3
+createdAt: 2026-10-02T21:46:29Z
+enqueuedAt: 2026-10-02T22:03:37.547018707Z
+triggerEventTime: 2026-10-02T22:01:21Z
+triggerReason: PRCheckFailed
+triggerNotes: Earliest CI failure in 'tests-e2e-fixtures-gkehub' (failure) at 2026-10-02T22:01:21Z; total 1 failed check(s) on commit f0b62e7
+startedAt: 2026-10-02T22:04:07.622707664Z
+completedAt: 2026-10-02T22:13:18.153651719Z
+assignee: hopper-coder-bot
+status: Completed
+commitSHA: f0b62e7068e8f7b7a546962df44762bce8b6e3d1
