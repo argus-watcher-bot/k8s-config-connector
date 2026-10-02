@@ -4,13 +4,12 @@ number: 13633
 priority: medium
 phase: 3
 createdAt: 2026-10-02T01:19:43Z
-enqueuedAt: 2026-10-02T11:34:07.459312094Z
+enqueuedAt: 2026-10-02T11:58:32.73464903Z
 triggerEventTime: 2026-10-02T11:26:27Z
 triggerReason: PRCheckFailed
-triggerNotes: Earliest CI failure in 'unit-tests-2-of-4' (failure) at 2026-10-02T11:26:27Z; total 1 failed check(s) on commit 93e45b1
-startedAt: 2026-10-02T11:34:29.352254153Z
-completedAt: 2026-10-02T11:46:59.197613257Z
+triggerNotes: Earliest CI failure in 'unit-tests-2-of-4' (failure) at 2026-10-02T11:26:27Z; total 2 failed check(s) on commit 93e45b1
+startedAt: 2026-10-02T11:58:48.289631815Z
+completedAt: 2026-10-02T13:48:35.326908259Z
 assignee: neumann-coder-bot
-status: Failed
-error: exit status 1
+status: Completed
 commitSHA: 93e45b19333a3eb5bb4c050d90d2f9396ad65c08
