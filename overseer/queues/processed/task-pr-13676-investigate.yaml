@@ -9,6 +9,8 @@ triggerEventTime: 2026-10-02T22:10:30Z
 triggerReason: PRCheckFailed
 triggerNotes: Earliest CI failure in 'validate-ensure' (failure) at 2026-10-02T22:10:30Z; total 1 failed check(s) on commit c06e823
 startedAt: 2026-10-02T22:13:41.660316849Z
+completedAt: 2026-10-02T23:39:15.264782759Z
 assignee: ada-coder-bot
-status: Running
+status: Failed
+error: adopted task failed or terminated in sandbox
 commitSHA: c06e823c2ef2cbcbb8714ecea075e11c6e7de88c
