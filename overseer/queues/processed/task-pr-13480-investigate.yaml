@@ -4,12 +4,12 @@ number: 13480
 priority: medium
 phase: 3
 createdAt: 2026-09-26T09:19:30Z
-enqueuedAt: 2026-10-03T00:30:31.919239614Z
-triggerEventTime: 2026-10-03T00:28:33Z
+enqueuedAt: 2026-10-03T02:45:36.410094257Z
+triggerEventTime: 2026-10-03T00:46:15Z
 triggerReason: PRCheckFailed
-triggerNotes: Earliest CI failure in 'tests-e2e-fixtures-container-2-of-2' (failure) at 2026-10-03T00:28:33Z; total 1 failed check(s) on commit 4cc92cc
-startedAt: 2026-10-03T00:30:41.239484718Z
-completedAt: 2026-10-03T00:43:19.860131477Z
+triggerNotes: Earliest CI failure in 'tests-e2e-fixtures-container-2-of-2' (failure) at 2026-10-03T00:46:15Z; total 2 failed check(s) on commit 4cc92cc
+startedAt: 2026-10-03T02:45:48.421561203Z
+completedAt: 2026-10-03T02:54:21.062683879Z
 assignee: neumann-coder-bot
 status: Completed
 commitSHA: 4cc92cc3b42a2b1384786d9e250eaf21254942f5
