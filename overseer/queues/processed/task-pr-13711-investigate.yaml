@@ -1,0 +1,15 @@
+type: pr-investigate
+url: https://github.com/GoogleCloudPlatform/k8s-config-connector/pull/13711
+number: 13711
+priority: medium
+phase: 3
+createdAt: 2026-10-03T18:07:18Z
+enqueuedAt: 2026-10-03T21:29:07.669320377Z
+triggerEventTime: 2026-10-03T21:28:29Z
+triggerReason: PRCheckFailed
+triggerNotes: Earliest CI failure in 'tests-e2e-fixtures-datalineage' (failure) at 2026-10-03T21:28:29Z; total 1 failed check(s) on commit 781ba6d
+startedAt: 2026-10-03T21:29:08.843006871Z
+completedAt: 2026-10-03T21:45:52.552188016Z
+assignee: lovelace-coder-bot
+status: Completed
+commitSHA: 781ba6dd7621cd8ae5763e49bc509d6d5c2be926
