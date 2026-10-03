@@ -1,0 +1,15 @@
+type: pr-investigate
+url: https://github.com/GoogleCloudPlatform/k8s-config-connector/pull/12928
+number: 12928
+priority: medium
+phase: 3
+createdAt: 2026-09-14T03:12:23Z
+enqueuedAt: 2026-10-03T05:12:44.966008129Z
+triggerEventTime: 2026-10-03T05:00:23Z
+triggerReason: PRCheckFailed
+triggerNotes: Earliest CI failure in 'tests-e2e-fixtures-recaptchaenterprise' (failure) at 2026-10-03T05:00:23Z; total 2 failed check(s) on commit 405dac4
+startedAt: 2026-10-03T05:12:47.745797972Z
+completedAt: 2026-10-03T05:26:14.749629124Z
+assignee: ada-coder-bot
+status: Completed
+commitSHA: 405dac4ed6d3006f17144657ad45dc874aabf7b9
