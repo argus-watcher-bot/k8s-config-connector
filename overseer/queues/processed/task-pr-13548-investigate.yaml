@@ -4,12 +4,12 @@ number: 13548
 priority: medium
 phase: 3
 createdAt: 2026-09-30T08:02:40Z
-enqueuedAt: 2026-10-03T01:32:46.7162005Z
-triggerEventTime: 2026-10-03T01:31:52Z
+enqueuedAt: 2026-10-03T03:57:34.347912682Z
+triggerEventTime: 2026-10-03T01:49:37Z
 triggerReason: PRCheckFailed
-triggerNotes: Earliest CI failure in 'tests-e2e-fixtures-container-2-of-2' (failure) at 2026-10-03T01:31:52Z; total 1 failed check(s) on commit 9925d8d
-startedAt: 2026-10-03T01:33:12.844100946Z
-completedAt: 2026-10-03T01:46:55.590638999Z
+triggerNotes: Earliest CI failure in 'tests-e2e-fixtures-container-2-of-2' (failure) at 2026-10-03T01:49:37Z; total 2 failed check(s) on commit 9925d8d
+startedAt: 2026-10-03T03:57:44.842139083Z
+completedAt: 2026-10-03T04:00:55.312152239Z
 assignee: ada-coder-bot
 status: Completed
 commitSHA: 9925d8d28dd3c9e46d59847c547bc59cbf340997

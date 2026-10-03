@@ -4,12 +4,12 @@ number: 12696
 priority: medium
 phase: 3
 createdAt: 2026-09-02T06:02:32Z
-enqueuedAt: 2026-10-03T01:36:24.272525684Z
-triggerEventTime: 2026-10-03T01:31:56Z
+enqueuedAt: 2026-10-03T04:00:58.896264863Z
+triggerEventTime: 2026-10-03T01:52:04Z
 triggerReason: PRCheckFailed
-triggerNotes: Earliest CI failure in 'tests-preview' (failure) at 2026-10-03T01:31:56Z; total 3 failed check(s) on commit bc5ca7c
-startedAt: 2026-10-03T01:36:45.036731907Z
-completedAt: 2026-10-03T01:49:32.005500423Z
+triggerNotes: Earliest CI failure in 'tests-e2e-fixtures-container-2-of-2' (failure) at 2026-10-03T01:52:04Z; total 2 failed check(s) on commit bc5ca7c
+startedAt: 2026-10-03T04:01:02.040433934Z
+completedAt: 2026-10-03T04:17:25.816187352Z
 assignee: neumann-coder-bot
 status: Completed
 commitSHA: bc5ca7ceff8e41ef8dfb52b7c927ca94d5974720
