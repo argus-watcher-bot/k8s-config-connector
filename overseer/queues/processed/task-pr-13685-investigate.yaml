@@ -4,12 +4,12 @@ number: 13685
 priority: medium
 phase: 3
 createdAt: 2026-10-03T00:49:18Z
-enqueuedAt: 2026-10-03T06:40:52.033233916Z
-triggerEventTime: 2026-10-03T04:39:53Z
+enqueuedAt: 2026-10-03T08:18:34.009828505Z
+triggerEventTime: 2026-10-03T08:11:55Z
 triggerReason: PRCheckFailed
-triggerNotes: Earliest CI failure in 'tests-e2e-fixtures-container-2-of-2' (failure) at 2026-10-03T04:39:53Z; total 2 failed check(s) on commit 72c9524
-startedAt: 2026-10-03T06:41:22.349423696Z
-completedAt: 2026-10-03T06:44:17.454016791Z
+triggerNotes: Earliest CI failure in 'tests-e2e-fixtures-alloydb' (failure) at 2026-10-03T08:11:55Z; total 2 failed check(s) on commit 27aec7e
+startedAt: 2026-10-03T08:18:57.64375346Z
+completedAt: 2026-10-03T08:28:08.158851423Z
 assignee: neumann-coder-bot
 status: Completed
-commitSHA: 72c9524f1a16e50d1c8690b3497c89fe59562e39
+commitSHA: 27aec7ec72cc7ed64f3c27a31a298493e51a2e13
