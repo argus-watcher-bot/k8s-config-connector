@@ -4,12 +4,12 @@ number: 13688
 priority: medium
 phase: 3
 createdAt: 2026-10-03T02:50:08Z
-enqueuedAt: 2026-10-03T03:19:26.339520918Z
-triggerEventTime: 2026-10-03T02:57:16Z
+enqueuedAt: 2026-10-03T05:44:28.426050728Z
+triggerEventTime: 2026-10-03T03:32:56Z
 triggerReason: PRCheckFailed
-triggerNotes: Earliest CI failure in 'tests-e2e-fixtures-container-2-of-2' (failure) at 2026-10-03T02:57:16Z; total 3 failed check(s) on commit bb653b1
-startedAt: 2026-10-03T03:19:56.128560931Z
-completedAt: 2026-10-03T03:30:59.02285465Z
+triggerNotes: Earliest CI failure in 'tests-e2e-fixtures-container-2-of-2' (failure) at 2026-10-03T03:32:56Z; total 2 failed check(s) on commit bb653b1
+startedAt: 2026-10-03T05:44:58.803939864Z
+completedAt: 2026-10-03T05:52:01.562489422Z
 assignee: lovelace-coder-bot
 status: Completed
 commitSHA: bb653b180dc271e926a8904cf18989a46f84f1ee
