@@ -4,12 +4,12 @@ number: 13315
 priority: medium
 phase: 3
 createdAt: 2026-09-19T02:53:54Z
-enqueuedAt: 2026-10-02T17:15:17.543212004Z
-triggerEventTime: 2026-10-02T17:03:26Z
+enqueuedAt: 2026-10-03T19:34:06.796231562Z
+triggerEventTime: 2026-10-03T19:25:50Z
 triggerReason: PRCheckFailed
-triggerNotes: Earliest CI failure in 'tests-e2e-fixtures-sql-1-of-2' (failure) at 2026-10-02T17:03:26Z; total 1 failed check(s) on commit 5c15d4c
-startedAt: 2026-10-02T17:15:47.738964398Z
-completedAt: 2026-10-02T17:19:45.093567029Z
+triggerNotes: Earliest CI failure in 'tests-e2e-fixtures-apigee' (failure) at 2026-10-03T19:25:50Z; total 2 failed check(s) on commit d118265
+startedAt: 2026-10-03T19:34:33.690142068Z
+completedAt: 2026-10-03T19:38:30.89882785Z
 assignee: neumann-coder-bot
 status: Completed
-commitSHA: 5c15d4cab4bd6f6c19432b58fbd948a6372ad985
+commitSHA: d1182650a72d5250e4b7cd613f1112418244d749

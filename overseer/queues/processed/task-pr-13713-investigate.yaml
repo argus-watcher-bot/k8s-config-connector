@@ -1,0 +1,15 @@
+type: pr-investigate
+url: https://github.com/GoogleCloudPlatform/k8s-config-connector/pull/13713
+number: 13713
+priority: medium
+phase: 3
+createdAt: 2026-10-03T18:23:58Z
+enqueuedAt: 2026-10-03T19:42:29.442244668Z
+triggerEventTime: 2026-10-03T19:33:23Z
+triggerReason: PRCheckFailed
+triggerNotes: Earliest CI failure in 'run-linters' (cancelled) at 2026-10-03T19:33:23Z; total 39 failed check(s) on commit 829627e
+startedAt: 2026-10-03T19:42:39.468646687Z
+completedAt: 2026-10-03T19:47:37.339220631Z
+assignee: ada-coder-bot
+status: Completed
+commitSHA: 829627ec41ae731e34736a4d8b4f4bd1e410ab9d
