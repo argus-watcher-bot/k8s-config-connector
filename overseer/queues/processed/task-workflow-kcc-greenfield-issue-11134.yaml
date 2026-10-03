@@ -4,12 +4,12 @@ number: 11134
 priority: medium
 phase: 4
 createdAt: 2026-07-01T20:46:18Z
-enqueuedAt: 2026-10-03T14:25:31.607613774Z
-triggerEventTime: 2026-08-08T01:17:41Z
-triggerReason: IssueLabeled
-triggerNotes: 'Issue #11134 created at 2026-07-01T20:46:18Z; trigger label ''overseer'' added by acpana at 2026-08-08T01:17:41Z'
-startedAt: 2026-10-03T14:27:27.411204426Z
-completedAt: 2026-10-03T14:28:29.033011807Z
+enqueuedAt: 2026-10-03T16:40:06.294750393Z
+triggerEventTime: 2026-10-03T16:25:25Z
+triggerReason: LinkedIssueClosed
+triggerNotes: 'Linked issue #13543 was closed'
+startedAt: 2026-10-03T16:40:26.326615628Z
+completedAt: 2026-10-03T16:41:08.374472654Z
 assignee: feynman-agent-bot
 status: Completed
 agentFile: https://raw.githubusercontent.com/GoogleCloudPlatform/k8s-config-connector/refs/heads/master/.agents/workflows/kcc-greenfield.txt
