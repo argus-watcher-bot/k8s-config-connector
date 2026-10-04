@@ -1,0 +1,15 @@
+type: pr-investigate
+url: https://github.com/GoogleCloudPlatform/k8s-config-connector/pull/13445
+number: 13445
+priority: medium
+phase: 3
+createdAt: 2026-09-25T03:55:04Z
+enqueuedAt: 2026-10-04T00:42:32.165294812Z
+triggerEventTime: 2026-10-04T00:24:46Z
+triggerReason: PRCheckFailed
+triggerNotes: Earliest CI failure in 'validate-generated-files' (cancelled) at 2026-10-04T00:24:46Z; total 40 failed check(s) on commit 5cd42f6
+startedAt: 2026-10-04T00:42:53.853252192Z
+completedAt: 2026-10-04T00:44:28.228777728Z
+assignee: ada-coder-bot
+status: Completed
+commitSHA: 5cd42f6378a21ccc9aad1d371167290bc79a25c6
