@@ -1,0 +1,16 @@
+type: agent-chore
+url: https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/13811
+number: 13811
+priority: medium
+phase: 4
+createdAt: 2026-10-08T17:21:39Z
+enqueuedAt: 2026-10-10T07:45:48.310155412Z
+triggerEventTime: 2026-10-08T17:21:41Z
+triggerReason: IssueLabeled
+triggerNotes: 'Issue #13811 created at 2026-10-08T17:21:39Z; trigger label ''overseer'' added by anhdle-sso at 2026-10-08T17:21:41Z'
+startedAt: 2026-10-10T07:46:14.793255179Z
+completedAt: 2026-10-10T07:47:00.941239109Z
+assignee: daedalus-agent-bot
+status: Completed
+agentFile: https://github.com/gke-labs/gemini-for-kubernetes-development/blob/main/.agents/workflows/kcc-example.txt
+sessionId: issue-13811

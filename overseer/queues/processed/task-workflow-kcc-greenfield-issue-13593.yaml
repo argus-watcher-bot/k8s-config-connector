@@ -1,0 +1,16 @@
+type: agent-chore
+url: https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/13593
+number: 13593
+priority: medium
+phase: 4
+createdAt: 2026-10-01T22:17:52Z
+enqueuedAt: 2026-10-10T07:45:49.180380608Z
+triggerEventTime: 2026-10-01T22:17:53Z
+triggerReason: IssueLabeled
+triggerNotes: 'Issue #13593 created at 2026-10-01T22:17:52Z; trigger label ''overseer'' added by acpana at 2026-10-01T22:17:53Z'
+startedAt: 2026-10-10T07:46:15.445288401Z
+completedAt: 2026-10-10T07:48:54.000313548Z
+assignee: feynman-agent-bot
+status: Completed
+agentFile: https://raw.githubusercontent.com/GoogleCloudPlatform/k8s-config-connector/refs/heads/master/.agents/workflows/kcc-greenfield.txt
+sessionId: issue-13593

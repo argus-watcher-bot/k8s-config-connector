@@ -1,0 +1,16 @@
+type: agent-chore
+url: https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/13589
+number: 13589
+priority: medium
+phase: 4
+createdAt: 2026-10-01T22:17:37Z
+enqueuedAt: 2026-10-10T07:45:50.550655371Z
+triggerEventTime: 2026-10-01T22:17:38Z
+triggerReason: IssueLabeled
+triggerNotes: 'Issue #13589 created at 2026-10-01T22:17:37Z; trigger label ''overseer'' added by acpana at 2026-10-01T22:17:38Z'
+startedAt: 2026-10-10T07:46:16.355245467Z
+completedAt: 2026-10-10T07:50:02.583491044Z
+assignee: daedalus-agent-bot
+status: Completed
+agentFile: https://raw.githubusercontent.com/GoogleCloudPlatform/k8s-config-connector/refs/heads/master/.agents/workflows/kcc-greenfield.txt
+sessionId: issue-13589

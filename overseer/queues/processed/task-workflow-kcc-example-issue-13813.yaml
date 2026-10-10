@@ -1,0 +1,16 @@
+type: agent-chore
+url: https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/13813
+number: 13813
+priority: medium
+phase: 4
+createdAt: 2026-10-08T17:21:49Z
+enqueuedAt: 2026-10-10T07:45:47.499969894Z
+triggerEventTime: 2026-10-08T17:21:50Z
+triggerReason: IssueLabeled
+triggerNotes: 'Issue #13813 created at 2026-10-08T17:21:49Z; trigger label ''overseer'' added by anhdle-sso at 2026-10-08T17:21:50Z'
+startedAt: 2026-10-10T07:46:14.332786991Z
+completedAt: 2026-10-10T07:49:09.059634922Z
+assignee: walle-agent-bot
+status: Completed
+agentFile: https://github.com/gke-labs/gemini-for-kubernetes-development/blob/main/.agents/workflows/kcc-example.txt
+sessionId: issue-13813
