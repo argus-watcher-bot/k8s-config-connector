@@ -4,13 +4,14 @@ number: 13812
 priority: medium
 phase: 4
 createdAt: 2026-10-08T17:21:45Z
-enqueuedAt: 2026-10-10T07:45:47.909878183Z
+enqueuedAt: 2026-10-10T09:50:45.916848451Z
 triggerEventTime: 2026-10-08T17:21:46Z
 triggerReason: IssueLabeled
 triggerNotes: 'Issue #13812 created at 2026-10-08T17:21:45Z; trigger label ''overseer'' added by anhdle-sso at 2026-10-08T17:21:46Z'
-startedAt: 2026-10-10T07:46:14.565079695Z
-completedAt: 2026-10-10T07:50:10.841707249Z
+startedAt: 2026-10-10T09:51:13.417222172Z
+completedAt: 2026-10-10T09:54:37.771086108Z
 assignee: walle-agent-bot
-status: Completed
+status: Failed
+error: exit status 1
 agentFile: https://github.com/gke-labs/gemini-for-kubernetes-development/blob/main/.agents/workflows/kcc-example.txt
 sessionId: issue-13812
