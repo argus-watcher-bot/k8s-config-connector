@@ -1,0 +1,16 @@
+type: agent-chore
+url: https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/13996
+number: 13996
+priority: critical
+phase: 4
+createdAt: 2026-10-14T21:33:18Z
+enqueuedAt: 2026-10-16T18:13:58.43410608Z
+triggerEventTime: 2026-10-15T19:46:58Z
+triggerReason: IssueLabeled
+triggerNotes: 'Issue #13996 created at 2026-10-14T21:33:18Z; trigger label ''overseer'' added by acpana at 2026-10-15T19:46:58Z'
+startedAt: 2026-10-16T18:13:58.950473055Z
+completedAt: 2026-10-16T18:18:21.363720332Z
+assignee: feynman-agent-bot
+status: Completed
+agentFile: https://raw.githubusercontent.com/acpana/k8s-config-connector/refs/heads/acpana-oneParent-wf/.agents/workflows/kcc-greenfield-oneParent
+sessionId: issue-13996
