@@ -4,12 +4,14 @@ number: 14033
 priority: medium
 phase: 3
 createdAt: 2026-10-16T18:29:25Z
-enqueuedAt: 2026-10-16T21:09:20.577588136Z
-triggerEventTime: 2026-10-16T19:01:48Z
+enqueuedAt: 2026-10-17T17:01:11.616334582Z
+triggerEventTime: 2026-10-16T21:16:16Z
 triggerReason: PRCheckFailed
-triggerNotes: Earliest CI failure in 'Validate PR Release Note' (failure) at 2026-10-16T19:01:48Z; total 1 failed check(s) on commit eb95745
-startedAt: 2026-10-16T21:09:32.467904712Z
-completedAt: 2026-10-16T21:16:09.090390359Z
+triggerNotes: Earliest CI failure in 'Validate PR Release Note' (failure) at 2026-10-16T21:16:16Z; total 1 failed check(s) on commit eb95745
+startedAt: 2026-10-17T17:01:32.002713696Z
+completedAt: 2026-10-17T17:10:23.681393429Z
 assignee: ada-coder-bot
 status: Completed
 commitSHA: eb95745c745d81b0f096d7e8a8446e064e49a833
+expect:
+    - head
