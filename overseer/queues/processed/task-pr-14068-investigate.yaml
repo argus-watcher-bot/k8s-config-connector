@@ -9,8 +9,9 @@ triggerEventTime: 2026-10-17T05:25:51Z
 triggerReason: PRCheckFailed
 triggerNotes: Earliest CI failure in 'tests-e2e-fixtures-storageinsights' (failure) at 2026-10-17T05:25:51Z; total 1 failed check(s) on commit bff798e
 startedAt: 2026-10-17T05:30:31.33165459Z
+completedAt: 2026-10-17T06:17:52.628137456Z
 assignee: lovelace-coder-bot
-status: Running
+status: Completed
 commitSHA: bff798e274905b48549f47b2ac9abca53cc69c11
 expect:
     - head
