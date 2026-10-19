@@ -4,12 +4,12 @@ number: 13814
 priority: medium
 phase: 4
 createdAt: 2026-10-08T17:21:53Z
-enqueuedAt: 2026-10-19T16:29:15.944685734Z
-triggerEventTime: 2026-10-08T17:21:54Z
-triggerReason: IssueLabeled
-triggerNotes: 'Issue #13814 created at 2026-10-08T17:21:53Z; trigger label ''overseer'' added by anhdle-sso at 2026-10-08T17:21:54Z'
-startedAt: 2026-10-19T16:29:24.3788889Z
-completedAt: 2026-10-19T16:30:11.013135627Z
+enqueuedAt: 2026-10-19T17:25:31.448943697Z
+triggerEventTime: 2026-10-19T17:19:53Z
+triggerReason: LinkedIssueClosed
+triggerNotes: 'Linked issue #14037 was closed'
+startedAt: 2026-10-19T17:25:52.233711905Z
+completedAt: 2026-10-19T17:29:59.896674264Z
 assignee: feynman-agent-bot
 status: Completed
 agentFile: https://github.com/gke-labs/gemini-for-kubernetes-development/blob/main/.agents/workflows/kcc-example.txt
