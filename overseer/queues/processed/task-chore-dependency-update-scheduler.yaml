@@ -3,14 +3,14 @@ url: https://github.com/GoogleCloudPlatform/k8s-config-connector
 number: 0
 priority: medium
 phase: 4
-createdAt: 2026-10-16T16:09:26.897514484Z
-enqueuedAt: 2026-10-16T16:09:26.897514484Z
-triggerEventTime: 2026-10-16T16:09:26.897514484Z
+createdAt: 2026-10-19T09:00:03.698130492Z
+enqueuedAt: 2026-10-19T09:00:03.698130492Z
+triggerEventTime: 2026-10-19T09:00:00Z
 triggerReason: ChoreScheduled
-triggerNotes: 'Chore agent ''Dependency Update Scheduler'' (schedule: ''0 9 * * 1'') due at 2026-10-16T16:09:26Z; last run: never'
-startedAt: 2026-10-16T16:09:53.428302416Z
-completedAt: 2026-10-16T16:12:02.622702711Z
+triggerNotes: 'Chore agent ''Dependency Update Scheduler'' (schedule: ''0 9 * * 1'') due at 2026-10-19T09:00:00Z; last run: 2026-10-16T16:09:26Z'
+startedAt: 2026-10-19T09:00:14.135108331Z
+completedAt: 2026-10-19T09:04:11.632882641Z
 status: Failed
-error: exit status 1
+error: 'exit status 1: running recipe: task failed with exit code 1'
 agentFile: .agents/dependency-agent.md
 agentName: Dependency Update Scheduler
