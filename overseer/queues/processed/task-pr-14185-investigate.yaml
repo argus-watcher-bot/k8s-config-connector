@@ -1,0 +1,17 @@
+type: pr-investigate
+url: https://github.com/GoogleCloudPlatform/k8s-config-connector/pull/14185
+number: 14185
+priority: medium
+phase: 3
+createdAt: 2026-10-20T21:23:30Z
+enqueuedAt: 2026-10-20T23:21:05.477663805Z
+triggerEventTime: 2026-10-20T23:16:03Z
+triggerReason: PRCheckFailed
+triggerNotes: Earliest CI failure in 'fuzz-roundtrippers-6-of-8' (failure) at 2026-10-20T23:16:03Z; total 1 failed check(s) on commit bde4817
+startedAt: 2026-10-20T23:21:22.804368443Z
+completedAt: 2026-10-20T23:30:37.553950466Z
+assignee: hopper-coder-bot
+status: Completed
+commitSHA: bde4817a7702cfd239b5b22b86a10801f644d356
+expect:
+    - head
