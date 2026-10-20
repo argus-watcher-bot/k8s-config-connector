@@ -9,8 +9,9 @@ triggerEventTime: 2026-10-14T21:09:25Z
 triggerReason: PRMergeConflict
 triggerNotes: 'PR #12861 has merge conflicts with base branch ''master''; head commit bbd5907 committer date 2026-10-14T21:09:25Z, PR updated at 2026-10-14T21:40:36Z'
 startedAt: 2026-10-20T06:10:00.640010117Z
+completedAt: 2026-10-20T07:17:09.764742811Z
 assignee: hopper-coder-bot
-status: Running
+status: Completed
 commitSHA: bbd590730e39574ae997bacbbb7fdf8f8fd72993
 expect:
     - head
