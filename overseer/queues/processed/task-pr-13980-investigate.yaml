@@ -4,12 +4,12 @@ number: 13980
 priority: medium
 phase: 3
 createdAt: 2026-10-14T05:31:13Z
-enqueuedAt: 2026-10-20T06:08:34.910580655Z
-triggerEventTime: 2026-10-17T02:42:25Z
+enqueuedAt: 2026-10-20T08:18:37.382587754Z
+triggerEventTime: 2026-10-20T06:28:33Z
 triggerReason: PRCheckFailed
-triggerNotes: Earliest CI failure in 'unit-tests-2-of-4' (failure) at 2026-10-17T02:42:25Z; total 2 failed check(s) on commit 307c342
-startedAt: 2026-10-20T06:08:59.729492661Z
-completedAt: 2026-10-20T06:10:22.251264009Z
+triggerNotes: Earliest CI failure in 'unit-tests-2-of-4' (failure) at 2026-10-20T06:28:33Z; total 2 failed check(s) on commit 307c342
+startedAt: 2026-10-20T08:18:59.363117696Z
+completedAt: 2026-10-20T08:24:18.098102284Z
 assignee: hopper-coder-bot
 status: Completed
 commitSHA: 307c342271f0d81a3ddb3a3427adcd0101022d99
