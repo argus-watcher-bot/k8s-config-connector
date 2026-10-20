@@ -1,0 +1,17 @@
+type: pr-investigate
+url: https://github.com/GoogleCloudPlatform/k8s-config-connector/pull/14198
+number: 14198
+priority: medium
+phase: 3
+createdAt: 2026-10-20T22:22:06Z
+enqueuedAt: 2026-10-20T22:34:55.82780854Z
+triggerEventTime: 2026-10-20T22:29:02Z
+triggerReason: PRCheckFailed
+triggerNotes: Earliest CI failure in 'build-images' (failure) at 2026-10-20T22:29:02Z; total 1 failed check(s) on commit 5aadbac
+startedAt: 2026-10-20T22:35:07.18486338Z
+completedAt: 2026-10-20T22:36:56.535373128Z
+assignee: ada-coder-bot
+status: Completed
+commitSHA: 5aadbac3734c2a8b1b90ba115061815312a3a7e9
+expect:
+    - head

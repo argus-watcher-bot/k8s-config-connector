@@ -10,6 +10,7 @@ triggerReason: IssueLabeled
 triggerNotes: 'Issue #14195 created at 2026-10-20T22:11:12Z; trigger label ''overseer'' added by daedalus-agent-bot at 2026-10-20T22:11:13Z'
 startedAt: 2026-10-20T22:13:14.95095041Z
 assignee: ada-coder-bot
-status: Running
+status: Pending
+recovered: true
 expect:
     - no-linked-pr
