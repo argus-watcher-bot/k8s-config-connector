@@ -4,12 +4,12 @@ number: 14101
 priority: medium
 phase: 3
 createdAt: 2026-10-19T23:54:26Z
-enqueuedAt: 2026-10-20T00:00:25.610986651Z
-triggerEventTime: 2026-10-19T23:54:34Z
+enqueuedAt: 2026-10-20T02:04:40.744937171Z
+triggerEventTime: 2026-10-20T00:03:11Z
 triggerReason: PRCheckFailed
-triggerNotes: Earliest CI failure in 'Validate PR Release Note' (failure) at 2026-10-19T23:54:34Z; total 1 failed check(s) on commit 84420dd
-startedAt: 2026-10-20T00:00:28.795557586Z
-completedAt: 2026-10-20T00:03:03.428108848Z
+triggerNotes: Earliest CI failure in 'Validate PR Release Note' (failure) at 2026-10-20T00:03:11Z; total 3 failed check(s) on commit 84420dd
+startedAt: 2026-10-20T02:05:00.429161399Z
+completedAt: 2026-10-20T02:30:42.882100629Z
 assignee: hopper-coder-bot
 status: Completed
 commitSHA: 84420dd86173375b765ad003e74f5be232086215
