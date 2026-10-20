@@ -4,12 +4,12 @@ number: 14113
 priority: medium
 phase: 3
 createdAt: 2026-10-20T00:33:31Z
-enqueuedAt: 2026-10-20T00:34:23.523357558Z
-triggerEventTime: 2026-10-20T00:33:41Z
+enqueuedAt: 2026-10-20T02:44:10.634087849Z
+triggerEventTime: 2026-10-20T00:38:16Z
 triggerReason: PRCheckFailed
-triggerNotes: Earliest CI failure in 'Validate PR Release Note' (failure) at 2026-10-20T00:33:41Z; total 1 failed check(s) on commit f16353d
-startedAt: 2026-10-20T00:34:25.425000491Z
-completedAt: 2026-10-20T00:38:08.68060929Z
+triggerNotes: Earliest CI failure in 'Validate PR Release Note' (failure) at 2026-10-20T00:38:16Z; total 4 failed check(s) on commit f16353d
+startedAt: 2026-10-20T02:44:18.262188983Z
+completedAt: 2026-10-20T03:10:51.456561341Z
 assignee: ada-coder-bot
 status: Completed
 commitSHA: f16353de28a86c4601462c10cfd7307fb586f30f
