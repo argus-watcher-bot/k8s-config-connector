@@ -1,0 +1,17 @@
+type: pr-investigate
+url: https://github.com/GoogleCloudPlatform/k8s-config-connector/pull/14196
+number: 14196
+priority: medium
+phase: 3
+createdAt: 2026-10-20T22:12:47Z
+enqueuedAt: 2026-10-20T22:44:57.379230335Z
+triggerEventTime: 2026-10-20T22:38:32Z
+triggerReason: PRCheckFailed
+triggerNotes: Earliest CI failure in 'Validate PR Release Note' (cancelled) at 2026-10-20T22:38:32Z; total 44 failed check(s) on commit 29d2815
+startedAt: 2026-10-20T22:46:16.747054277Z
+completedAt: 2026-10-20T23:12:06.105977074Z
+assignee: hopper-coder-bot
+status: Completed
+commitSHA: 29d2815e6f878f3a19ca1cf911836cf862f58237
+expect:
+    - head

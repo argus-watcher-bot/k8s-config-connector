@@ -4,14 +4,14 @@ number: 14147
 priority: medium
 phase: 3
 createdAt: 2026-10-20T19:55:48Z
-enqueuedAt: 2026-10-20T22:06:14.215712525Z
-triggerEventTime: 2026-10-20T20:07:56Z
+enqueuedAt: 2026-10-20T22:44:54.724724479Z
+triggerEventTime: 2026-10-20T22:38:32Z
 triggerReason: PRCheckFailed
-triggerNotes: Earliest CI failure in 'unit-tests-3-of-4' (failure) at 2026-10-20T20:07:56Z; total 4 failed check(s) on commit 005612d
-startedAt: 2026-10-20T22:06:36.722161203Z
-completedAt: 2026-10-20T22:14:47.784014729Z
+triggerNotes: Earliest CI failure in 'validations' (cancelled) at 2026-10-20T22:38:32Z; total 44 failed check(s) on commit 47bb557
+startedAt: 2026-10-20T22:46:15.803762403Z
+completedAt: 2026-10-20T22:50:07.582128209Z
 assignee: lovelace-coder-bot
 status: Completed
-commitSHA: 005612d3e1c1560bae74f1fb67c182934349dcd1
+commitSHA: 47bb557a2e793eb13abd176d9e684bb02aebf15b
 expect:
     - head

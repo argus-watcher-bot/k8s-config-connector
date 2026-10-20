@@ -10,6 +10,7 @@ triggerReason: IssueLabeled
 triggerNotes: 'Issue #14165 created at 2026-10-20T20:11:41Z; trigger label ''overseer'' added by fkc1e100 at 2026-10-20T20:11:43Z'
 startedAt: 2026-10-20T20:19:24.941958416Z
 assignee: neumann-coder-bot
-status: Running
+status: Pending
+recovered: true
 expect:
     - no-linked-pr
