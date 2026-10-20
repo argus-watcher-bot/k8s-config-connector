@@ -4,12 +4,12 @@ number: 14169
 priority: medium
 phase: 3
 createdAt: 2026-10-20T20:13:10Z
-enqueuedAt: 2026-10-20T20:33:30.284667121Z
-triggerEventTime: 2026-10-20T20:31:39Z
+enqueuedAt: 2026-10-20T22:45:26.488098646Z
+triggerEventTime: 2026-10-20T21:32:32Z
 triggerReason: PRCheckFailed
-triggerNotes: Earliest CI failure in 'Validate PR Release Note' (failure) at 2026-10-20T20:31:39Z; total 1 failed check(s) on commit 4ed5d2f
-startedAt: 2026-10-20T20:34:00.777343308Z
-completedAt: 2026-10-20T20:38:39.000688086Z
+triggerNotes: Earliest CI failure in 'Validate PR Release Note' (failure) at 2026-10-20T21:32:32Z; total 6 failed check(s) on commit 4ed5d2f
+startedAt: 2026-10-20T22:46:20.91263907Z
+completedAt: 2026-10-20T22:51:45.423020679Z
 assignee: lovelace-coder-bot
 status: Completed
 commitSHA: 4ed5d2f8b35e5c360ae88a31e6499f7793624883
