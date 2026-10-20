@@ -4,12 +4,12 @@ number: 14174
 priority: medium
 phase: 3
 createdAt: 2026-10-20T20:34:59Z
-enqueuedAt: 2026-10-20T21:31:44.186295024Z
-triggerEventTime: 2026-10-20T21:23:31Z
+enqueuedAt: 2026-10-20T23:43:44.158322701Z
+triggerEventTime: 2026-10-20T22:12:28Z
 triggerReason: PRCheckFailed
-triggerNotes: Earliest CI failure in 'Validate PR Release Note' (failure) at 2026-10-20T21:23:31Z; total 1 failed check(s) on commit 28056ed
-startedAt: 2026-10-20T21:31:59.297635191Z
-completedAt: 2026-10-20T21:37:50.668834897Z
+triggerNotes: Earliest CI failure in 'Validate PR Release Note' (cancelled) at 2026-10-20T22:12:28Z; total 219 failed check(s) on commit 28056ed
+startedAt: 2026-10-20T23:43:49.885557409Z
+completedAt: 2026-10-20T23:45:38.039984669Z
 assignee: neumann-coder-bot
 status: Completed
 commitSHA: 28056ed14539da3edbacc1014ebd271006b3722d

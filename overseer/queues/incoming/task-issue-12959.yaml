@@ -10,6 +10,7 @@ triggerReason: IssueLabeled
 triggerNotes: 'Issue #12959 created at 2026-09-15T20:03:41Z; trigger label ''overseer'' added by fkc1e100 at 2026-10-20T19:34:36Z'
 startedAt: 2026-10-20T19:43:20.139711373Z
 assignee: hopper-coder-bot
-status: Running
+status: Pending
+recovered: true
 expect:
     - no-linked-pr
