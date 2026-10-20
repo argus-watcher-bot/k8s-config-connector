@@ -1,0 +1,17 @@
+type: pr-iterate
+url: https://github.com/GoogleCloudPlatform/k8s-config-connector/pull/13982
+number: 13982
+priority: medium
+phase: 2
+createdAt: 2026-10-14T05:58:18Z
+enqueuedAt: 2026-10-20T06:13:18.593744931Z
+triggerEventTime: 2026-10-18T03:25:45Z
+triggerReason: PRMergeConflict
+triggerNotes: 'PR #13982 has merge conflicts with base branch ''master''; head commit 4dd5a1f committer date 2026-10-18T03:25:45Z, PR updated at 2026-10-18T04:19:39Z'
+startedAt: 2026-10-20T06:13:29.567023323Z
+completedAt: 2026-10-20T06:26:09.673006034Z
+assignee: neumann-coder-bot
+status: Completed
+commitSHA: 4dd5a1f010ee65939e9e0ff6b2587074a0ae69ce
+expect:
+    - head
