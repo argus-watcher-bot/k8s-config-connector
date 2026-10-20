@@ -4,14 +4,14 @@ number: 13982
 priority: medium
 phase: 3
 createdAt: 2026-10-14T05:58:18Z
-enqueuedAt: 2026-10-18T01:17:51.06795854Z
-triggerEventTime: 2026-10-17T22:57:51Z
+enqueuedAt: 2026-10-20T06:44:50.234429869Z
+triggerEventTime: 2026-10-20T06:38:07Z
 triggerReason: PRCheckFailed
-triggerNotes: Earliest CI failure in 'build-images' (failure) at 2026-10-17T22:57:51Z; total 1 failed check(s) on commit 4c609bc
-startedAt: 2026-10-18T01:18:12.942784827Z
-completedAt: 2026-10-18T01:40:34.120374854Z
+triggerNotes: Earliest CI failure in 'build-images' (failure) at 2026-10-20T06:38:07Z; total 3 failed check(s) on commit f59cbe3
+startedAt: 2026-10-20T06:44:59.889806287Z
+completedAt: 2026-10-20T07:23:29.464689337Z
 assignee: neumann-coder-bot
 status: Completed
-commitSHA: 4c609bce608fce8b70817d14018c4a4175c61b92
+commitSHA: f59cbe301d005efee7908cfc6b74e2ea9fbc1289
 expect:
     - head
