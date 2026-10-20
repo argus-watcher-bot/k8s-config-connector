@@ -1,0 +1,17 @@
+type: pr-investigate
+url: https://github.com/GoogleCloudPlatform/k8s-config-connector/pull/14155
+number: 14155
+priority: medium
+phase: 3
+createdAt: 2026-10-20T20:11:00Z
+enqueuedAt: 2026-10-20T20:43:48.49717375Z
+triggerEventTime: 2026-10-20T20:34:11Z
+triggerReason: PRCheckFailed
+triggerNotes: Earliest CI failure in 'golangci-lint' (failure) at 2026-10-20T20:34:11Z; total 1 failed check(s) on commit b7216e1
+startedAt: 2026-10-20T20:44:20.045504135Z
+completedAt: 2026-10-20T20:46:46.941171772Z
+assignee: hopper-coder-bot
+status: Completed
+commitSHA: b7216e125a4d495924e336e5b2d40de2b16ca5e2
+expect:
+    - head

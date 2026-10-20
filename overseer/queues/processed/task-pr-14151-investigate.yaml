@@ -1,0 +1,17 @@
+type: pr-investigate
+url: https://github.com/GoogleCloudPlatform/k8s-config-connector/pull/14151
+number: 14151
+priority: medium
+phase: 3
+createdAt: 2026-10-20T19:58:25Z
+enqueuedAt: 2026-10-20T21:07:42.003379255Z
+triggerEventTime: 2026-10-20T21:05:01Z
+triggerReason: PRCheckFailed
+triggerNotes: Earliest CI failure in 'test-mockgcp' (failure) at 2026-10-20T21:05:01Z; total 1 failed check(s) on commit 53014a7
+startedAt: 2026-10-20T21:08:01.521001288Z
+completedAt: 2026-10-20T21:19:26.78640931Z
+assignee: neumann-coder-bot
+status: Completed
+commitSHA: 53014a71f1cf6cf8e5c256d1fad2003988daa427
+expect:
+    - head
