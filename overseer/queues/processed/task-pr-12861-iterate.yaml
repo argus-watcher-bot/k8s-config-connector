@@ -4,14 +4,14 @@ number: 12861
 priority: medium
 phase: 2
 createdAt: 2026-09-09T22:09:12Z
-enqueuedAt: 2026-10-20T06:09:55.471279357Z
-triggerEventTime: 2026-10-14T21:09:25Z
+enqueuedAt: 2026-10-20T20:13:17.654636956Z
+triggerEventTime: 2026-10-20T06:50:19Z
 triggerReason: PRMergeConflict
-triggerNotes: 'PR #12861 has merge conflicts with base branch ''master''; head commit bbd5907 committer date 2026-10-14T21:09:25Z, PR updated at 2026-10-14T21:40:36Z'
-startedAt: 2026-10-20T06:10:00.640010117Z
-completedAt: 2026-10-20T07:17:09.764742811Z
+triggerNotes: 'PR #12861 has merge conflicts with base branch ''master''; head commit 7cf9048 committer date 2026-10-20T06:50:19Z, PR updated at 2026-10-20T08:25:44Z'
+startedAt: 2026-10-20T20:13:24.839762474Z
+completedAt: 2026-10-20T20:42:17.275574127Z
 assignee: hopper-coder-bot
 status: Completed
-commitSHA: bbd590730e39574ae997bacbbb7fdf8f8fd72993
+commitSHA: 7cf90488e04297b05eac89ad6047c1353c8d024b
 expect:
     - head

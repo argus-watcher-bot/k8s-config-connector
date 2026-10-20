@@ -1,0 +1,17 @@
+type: pr-investigate
+url: https://github.com/GoogleCloudPlatform/k8s-config-connector/pull/14153
+number: 14153
+priority: medium
+phase: 3
+createdAt: 2026-10-20T20:05:54Z
+enqueuedAt: 2026-10-20T20:23:29.912929777Z
+triggerEventTime: 2026-10-20T20:22:48Z
+triggerReason: PRCheckFailed
+triggerNotes: Earliest CI failure in 'Validate PR Release Note' (failure) at 2026-10-20T20:22:48Z; total 1 failed check(s) on commit 3166f13
+startedAt: 2026-10-20T20:23:45.228541902Z
+completedAt: 2026-10-20T20:26:39.744821562Z
+assignee: neumann-coder-bot
+status: Completed
+commitSHA: 3166f13e9ef8065c240c2d41817b2ecd61f11155
+expect:
+    - head
