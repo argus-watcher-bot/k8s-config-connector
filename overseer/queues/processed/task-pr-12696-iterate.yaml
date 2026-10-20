@@ -1,0 +1,18 @@
+type: pr-iterate
+url: https://github.com/GoogleCloudPlatform/k8s-config-connector/pull/12696
+number: 12696
+priority: medium
+phase: 2
+createdAt: 2026-09-02T06:02:32Z
+enqueuedAt: 2026-10-20T06:13:50.445421447Z
+triggerEventTime: 2026-10-14T05:58:00Z
+triggerReason: PRMergeConflict
+triggerNotes: 'PR #12696 has merge conflicts with base branch ''master''; head commit 2376650 committer date 2026-10-14T05:58:00Z, PR updated at 2026-10-16T21:55:31Z'
+startedAt: 2026-10-20T06:14:02.654248354Z
+completedAt: 2026-10-20T06:19:15.115540655Z
+assignee: neumann-coder-bot
+status: Failed
+error: 'exit status 1: running recipe: following task recipe-care-rebase-20261020-061648-52f0: Get "http://127.0.0.1:36679/v1/tasks/recipe-care-rebase-20261020-061648-52f0/log?follow=true&offset=1771": dial tcp 127.0.0.1:36679: connect: connection refused'
+commitSHA: 23766500b08f10c0c403d3d6ec546c95f7c7568c
+expect:
+    - head

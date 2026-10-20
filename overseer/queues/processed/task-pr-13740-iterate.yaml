@@ -1,0 +1,18 @@
+type: pr-iterate
+url: https://github.com/GoogleCloudPlatform/k8s-config-connector/pull/13740
+number: 13740
+priority: medium
+phase: 2
+createdAt: 2026-10-06T01:36:39Z
+enqueuedAt: 2026-10-20T06:13:29.907836544Z
+triggerEventTime: 2026-10-16T23:39:14Z
+triggerReason: PRMergeConflict
+triggerNotes: 'PR #13740 has merge conflicts with base branch ''master''; head commit e3431e8 committer date 2026-10-16T23:39:14Z, PR updated at 2026-10-17T03:32:12Z'
+startedAt: 2026-10-20T06:13:31.678741986Z
+completedAt: 2026-10-20T06:19:35.972725609Z
+assignee: ada-coder-bot
+status: Failed
+error: 'exit status 1: connecting to sandbox: sandbox fix-k8s-config-connector-13740 has no task server to use (timed out waiting for sandbox pod fix-k8s-config-connector-13740 to become ready); recreate it on a current image'
+commitSHA: e3431e8ec26e0c726b37e87c52d20c85f91ed820
+expect:
+    - head
