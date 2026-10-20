@@ -4,14 +4,14 @@ number: 12696
 priority: medium
 phase: 2
 createdAt: 2026-09-02T06:02:32Z
-enqueuedAt: 2026-10-20T07:10:16.314826989Z
-triggerEventTime: 2026-10-14T05:58:00Z
+enqueuedAt: 2026-10-20T20:13:24.273825268Z
+triggerEventTime: 2026-10-20T07:34:39Z
 triggerReason: PRMergeConflict
-triggerNotes: 'PR #12696 has merge conflicts with base branch ''master''; head commit 2376650 committer date 2026-10-14T05:58:00Z, PR updated at 2026-10-20T06:14:03Z'
-startedAt: 2026-10-20T07:10:40.945261131Z
-completedAt: 2026-10-20T07:36:12.946736698Z
+triggerNotes: 'PR #12696 has merge conflicts with base branch ''master''; head commit c81c170 committer date 2026-10-20T07:34:39Z, PR updated at 2026-10-20T08:25:23Z'
+startedAt: 2026-10-20T20:13:26.16719824Z
+completedAt: 2026-10-20T20:22:05.834973437Z
 assignee: neumann-coder-bot
 status: Completed
-commitSHA: 23766500b08f10c0c403d3d6ec546c95f7c7568c
+commitSHA: c81c17096af238bed796db25418be3046468f286
 expect:
     - head
