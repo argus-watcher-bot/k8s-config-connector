@@ -4,14 +4,14 @@ number: 14148
 priority: medium
 phase: 3
 createdAt: 2026-10-20T19:57:39Z
-enqueuedAt: 2026-10-20T22:06:12.403221288Z
-triggerEventTime: 2026-10-20T20:08:46Z
+enqueuedAt: 2026-10-20T22:44:52.491364282Z
+triggerEventTime: 2026-10-20T22:38:31Z
 triggerReason: PRCheckFailed
-triggerNotes: Earliest CI failure in 'unit-tests-3-of-4' (failure) at 2026-10-20T20:08:46Z; total 2 failed check(s) on commit 56a99e0
-startedAt: 2026-10-20T22:06:35.610902385Z
-completedAt: 2026-10-20T22:16:17.385685543Z
+triggerNotes: Earliest CI failure in 'tests-gcptracker' (cancelled) at 2026-10-20T22:38:31Z; total 44 failed check(s) on commit 7c4e026
+startedAt: 2026-10-20T22:46:14.775767452Z
+completedAt: 2026-10-20T22:49:18.041741766Z
 assignee: hopper-coder-bot
 status: Completed
-commitSHA: 56a99e02f40b84a6bfa83751dad2f66ccaf081a7
+commitSHA: 7c4e0268b7c764bf74f4208fc53f8d81283acd81
 expect:
     - head
