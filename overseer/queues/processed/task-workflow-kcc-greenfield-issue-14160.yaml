@@ -1,0 +1,16 @@
+type: agent-chore
+url: https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/14160
+number: 14160
+priority: medium
+phase: 4
+createdAt: 2026-10-20T20:11:14Z
+enqueuedAt: 2026-10-20T22:21:01.419148104Z
+triggerEventTime: 2026-10-20T20:11:16Z
+triggerReason: IssueLabeled
+triggerNotes: 'Issue #14160 created at 2026-10-20T20:11:14Z; trigger label ''overseer'' added by fkc1e100 at 2026-10-20T20:11:16Z'
+startedAt: 2026-10-20T22:21:31.909974541Z
+completedAt: 2026-10-20T22:26:40.016979167Z
+assignee: daedalus-agent-bot
+status: Completed
+agentFile: https://raw.githubusercontent.com/GoogleCloudPlatform/k8s-config-connector/refs/heads/master/.agents/workflows/kcc-greenfield.txt
+sessionId: issue-14160
