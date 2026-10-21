@@ -4,14 +4,15 @@ number: 14193
 priority: medium
 phase: 3
 createdAt: 2026-10-20T21:58:55Z
-enqueuedAt: 2026-10-21T00:49:13.132324181Z
-triggerEventTime: 2026-10-20T23:04:45Z
+enqueuedAt: 2026-10-21T03:08:40.425644323Z
+triggerEventTime: 2026-10-21T01:02:53Z
 triggerReason: PRCheckFailed
-triggerNotes: Earliest CI failure in 'Validate PR Release Note' (failure) at 2026-10-20T23:04:45Z; total 3 failed check(s) on commit 09f3a95
-startedAt: 2026-10-21T00:49:26.430794986Z
-completedAt: 2026-10-21T01:02:45.551844808Z
+triggerNotes: Earliest CI failure in 'Validate PR Release Note' (failure) at 2026-10-21T01:02:53Z; total 1 failed check(s) on commit 09f3a95
+startedAt: 2026-10-21T03:09:06.357959227Z
+completedAt: 2026-10-21T03:15:11.801705311Z
 assignee: neumann-coder-bot
-status: Completed
+status: Failed
+error: 'exit status 1: connecting to sandbox: sandbox fix-k8s-config-connector-12144 has no task server to use (timed out waiting for sandbox pod fix-k8s-config-connector-12144 to become ready); recreate it on a current image'
 commitSHA: 09f3a950a6459ecb109074f69714d46b92e0985f
 expect:
     - head
