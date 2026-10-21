@@ -4,13 +4,15 @@ number: 10938
 priority: medium
 phase: 4
 createdAt: 2026-06-28T16:47:52Z
-enqueuedAt: 2026-10-21T06:04:48.803499993Z
+enqueuedAt: 2026-10-21T10:08:18.400393253Z
 triggerEventTime: 2026-06-28T16:47:53Z
 triggerReason: IssueLabeled
 triggerNotes: 'Issue #10938 created at 2026-06-28T16:47:52Z; trigger label ''overseer'' added by barney-s at 2026-06-28T16:47:53Z'
-startedAt: 2026-10-21T06:04:57.957542621Z
-completedAt: 2026-10-21T06:06:00.966105887Z
+startedAt: 2026-10-21T10:08:27.647044615Z
+completedAt: 2026-10-21T10:11:43.477247532Z
 assignee: walle-agent-bot
 status: Completed
 agentFile: https://github.com/gke-labs/gemini-for-kubernetes-development/blob/main/.agents/workflows/kcc-example.txt
 sessionId: issue-10938
+rule: workflow
+recipe: workflow

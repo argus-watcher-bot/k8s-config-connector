@@ -4,13 +4,15 @@ number: 11074
 priority: medium
 phase: 4
 createdAt: 2026-06-30T20:02:43Z
-enqueuedAt: 2026-10-21T05:52:36.615903083Z
+enqueuedAt: 2026-10-21T09:56:21.529161471Z
 triggerEventTime: 2026-09-29T23:32:01Z
 triggerReason: IssueLabeled
 triggerNotes: 'Issue #11074 created at 2026-06-30T20:02:43Z; trigger label ''overseer'' added by argus-watcher-bot at 2026-09-29T23:32:01Z'
-startedAt: 2026-10-21T05:52:55.889876687Z
-completedAt: 2026-10-21T05:53:57.300356449Z
+startedAt: 2026-10-21T09:56:37.282137049Z
+completedAt: 2026-10-21T09:57:39.991640455Z
 assignee: feynman-agent-bot
 status: Completed
 agentFile: https://raw.githubusercontent.com/GoogleCloudPlatform/k8s-config-connector/refs/heads/master/.agents/workflows/kcc-greenfield.txt
 sessionId: issue-11074
+rule: workflow
+recipe: workflow
