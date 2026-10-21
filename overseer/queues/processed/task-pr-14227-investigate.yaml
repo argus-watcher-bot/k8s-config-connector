@@ -4,12 +4,12 @@ number: 14227
 priority: medium
 phase: 3
 createdAt: 2026-10-21T03:12:00Z
-enqueuedAt: 2026-10-21T03:17:38.713942505Z
-triggerEventTime: 2026-10-21T03:12:10Z
+enqueuedAt: 2026-10-21T05:26:09.273048585Z
+triggerEventTime: 2026-10-21T03:21:18Z
 triggerReason: PRCheckFailed
-triggerNotes: Earliest CI failure in 'Validate PR Release Note' (failure) at 2026-10-21T03:12:10Z; total 1 failed check(s) on commit c06b6cd
-startedAt: 2026-10-21T03:18:02.743248413Z
-completedAt: 2026-10-21T03:21:10.755755351Z
+triggerNotes: Earliest CI failure in 'Validate PR Release Note' (failure) at 2026-10-21T03:21:18Z; total 3 failed check(s) on commit c06b6cd
+startedAt: 2026-10-21T05:26:33.883505129Z
+completedAt: 2026-10-21T05:36:25.901921418Z
 assignee: ada-coder-bot
 status: Completed
 commitSHA: c06b6cd16fcc212faeaaf00ebaae0560d653fff1
