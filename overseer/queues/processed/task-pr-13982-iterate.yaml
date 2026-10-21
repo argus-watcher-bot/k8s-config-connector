@@ -4,14 +4,17 @@ number: 13982
 priority: medium
 phase: 2
 createdAt: 2026-10-14T05:58:18Z
-enqueuedAt: 2026-10-21T06:45:59.837792349Z
-triggerEventTime: 2026-10-21T00:43:37Z
+enqueuedAt: 2026-10-21T16:27:11.957882911Z
+triggerEventTime: 2026-10-21T06:50:59Z
 triggerReason: PRMergeConflict
-triggerNotes: 'PR #13982 has merge conflicts with base branch ''master''; head commit 58a3b89 committer date 2026-10-21T00:43:37Z, PR updated at 2026-10-21T00:52:56Z'
-startedAt: 2026-10-21T06:46:13.20856474Z
-completedAt: 2026-10-21T07:00:04.72157526Z
+triggerNotes: 'PR #13982 has merge conflicts with base branch ''master''; head commit e99d1a0 committer date 2026-10-21T06:50:59Z, PR updated at 2026-10-21T07:00:04Z'
+startedAt: 2026-10-21T16:27:27.677330516Z
+completedAt: 2026-10-21T16:46:10.005847736Z
 assignee: neumann-coder-bot
 status: Completed
-commitSHA: 58a3b89e2f2ce98c93e35454f8c52b47eeeac080
+commitSHA: e99d1a0101b1f0fd4a7e4d12e44fbdc2ff662253
+rule: conflict
+recipe: care-rebase
+apply: post-replies
 expect:
     - head
