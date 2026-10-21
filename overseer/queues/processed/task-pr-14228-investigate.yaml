@@ -4,14 +4,17 @@ number: 14228
 priority: medium
 phase: 3
 createdAt: 2026-10-21T05:31:02Z
-enqueuedAt: 2026-10-21T05:35:44.172056005Z
-triggerEventTime: 2026-10-21T05:31:12Z
+enqueuedAt: 2026-10-21T10:12:44.386152997Z
+triggerEventTime: 2026-10-21T05:56:32Z
 triggerReason: PRCheckFailed
-triggerNotes: Earliest CI failure in 'Validate PR Release Note' (failure) at 2026-10-21T05:31:12Z; total 1 failed check(s) on commit d381e3c
-startedAt: 2026-10-21T05:35:50.580913092Z
-completedAt: 2026-10-21T05:56:24.178383236Z
+triggerNotes: Earliest CI failure in 'Validate PR Release Note' (failure) at 2026-10-21T05:56:32Z; total 1 failed check(s) on commit d381e3c
+startedAt: 2026-10-21T10:13:20.214615972Z
+completedAt: 2026-10-21T10:15:24.905073578Z
 assignee: hopper-coder-bot
 status: Completed
 commitSHA: d381e3c831b8c49069e09745e83de641c6c691b6
+rule: ci
+recipe: care-ci
+apply: post-replies
 expect:
     - head

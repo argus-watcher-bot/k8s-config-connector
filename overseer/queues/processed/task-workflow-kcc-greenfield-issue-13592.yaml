@@ -4,13 +4,15 @@ number: 13592
 priority: medium
 phase: 4
 createdAt: 2026-10-01T22:17:48Z
-enqueuedAt: 2026-10-21T06:04:46.334146087Z
+enqueuedAt: 2026-10-21T10:08:18.940161331Z
 triggerEventTime: 2026-10-01T22:17:49Z
 triggerReason: IssueLabeled
 triggerNotes: 'Issue #13592 created at 2026-10-01T22:17:48Z; trigger label ''overseer'' added by acpana at 2026-10-01T22:17:49Z'
-startedAt: 2026-10-21T06:04:56.238120465Z
-completedAt: 2026-10-21T06:05:26.994632861Z
+startedAt: 2026-10-21T10:08:28.211064572Z
+completedAt: 2026-10-21T10:09:09.743876661Z
 assignee: feynman-agent-bot
 status: Completed
 agentFile: https://raw.githubusercontent.com/GoogleCloudPlatform/k8s-config-connector/refs/heads/master/.agents/workflows/kcc-greenfield.txt
 sessionId: issue-13592
+rule: workflow
+recipe: workflow
