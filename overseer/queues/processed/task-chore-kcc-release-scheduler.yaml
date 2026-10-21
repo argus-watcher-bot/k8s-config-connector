@@ -3,14 +3,13 @@ url: https://github.com/GoogleCloudPlatform/k8s-config-connector
 number: 0
 priority: medium
 phase: 4
-createdAt: 2026-10-21T18:39:43Z
-enqueuedAt: 2026-10-21T18:39:43Z
-triggerEventTime: 2026-10-21T18:39:43Z
+createdAt: 2026-10-21T19:16:19Z
+enqueuedAt: 2026-10-21T19:16:19Z
+triggerEventTime: 2026-10-21T19:16:19Z
 triggerReason: ChoreScheduled
-triggerNotes: 'Chore agent ''KCC Release Scheduler'' (schedule: ''@daily'') rerun by hand at 2026-10-21T18:39:43Z after #2050 (input check after setup-git)'
-startedAt: 2026-10-21T18:40:09.920801373Z
-completedAt: 2026-10-21T18:42:53.587481622Z
-status: Failed
-error: 'exit status 1: running recipe: task failed with exit code 1'
+triggerNotes: 'Chore agent ''KCC Release Scheduler'' (schedule: ''@daily'') rerun by hand at 2026-10-21T19:16:19Z after #2052 (input check after setup-fork)'
+startedAt: 2026-10-21T19:16:47.972902447Z
+completedAt: 2026-10-21T19:23:50.903966464Z
+status: Completed
 agentFile: .agents/kcc-release.md
 agentName: KCC Release Scheduler
