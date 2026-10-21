@@ -4,13 +4,15 @@ number: 13589
 priority: medium
 phase: 4
 createdAt: 2026-10-01T22:17:37Z
-enqueuedAt: 2026-10-21T06:06:42.093618061Z
+enqueuedAt: 2026-10-21T10:10:17.465435166Z
 triggerEventTime: 2026-10-01T22:17:38Z
 triggerReason: IssueLabeled
 triggerNotes: 'Issue #13589 created at 2026-10-01T22:17:37Z; trigger label ''overseer'' added by acpana at 2026-10-01T22:17:38Z'
-startedAt: 2026-10-21T06:07:15.451020154Z
-completedAt: 2026-10-21T06:08:06.755605751Z
+startedAt: 2026-10-21T10:10:33.582339236Z
+completedAt: 2026-10-21T10:12:40.334961682Z
 assignee: daedalus-agent-bot
 status: Completed
 agentFile: https://raw.githubusercontent.com/GoogleCloudPlatform/k8s-config-connector/refs/heads/master/.agents/workflows/kcc-greenfield.txt
 sessionId: issue-13589
+rule: workflow
+recipe: workflow

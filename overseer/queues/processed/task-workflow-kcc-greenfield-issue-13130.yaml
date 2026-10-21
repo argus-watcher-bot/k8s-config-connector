@@ -4,13 +4,15 @@ number: 13130
 priority: medium
 phase: 4
 createdAt: 2026-09-16T01:01:37Z
-enqueuedAt: 2026-10-21T06:12:40.449651011Z
+enqueuedAt: 2026-10-21T08:16:21.689844164Z
 triggerEventTime: 2026-09-16T01:01:39Z
 triggerReason: IssueLabeled
 triggerNotes: 'Issue #13130 created at 2026-09-16T01:01:37Z; trigger label ''overseer'' added by gemmahou at 2026-09-16T01:01:39Z'
-startedAt: 2026-10-21T06:12:48.388725262Z
-completedAt: 2026-10-21T06:16:08.627607028Z
+startedAt: 2026-10-21T08:16:27.170627335Z
+completedAt: 2026-10-21T08:19:10.668669551Z
 assignee: walle-agent-bot
 status: Completed
 agentFile: https://raw.githubusercontent.com/GoogleCloudPlatform/k8s-config-connector/refs/heads/master/.agents/workflows/kcc-greenfield.txt
 sessionId: issue-13130
+rule: workflow
+recipe: workflow
