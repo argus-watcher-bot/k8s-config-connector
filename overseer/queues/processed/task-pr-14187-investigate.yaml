@@ -9,9 +9,9 @@ triggerEventTime: 2026-10-20T22:12:21Z
 triggerReason: PRCheckFailed
 triggerNotes: Earliest CI failure in 'test-pause' (cancelled) at 2026-10-20T22:12:21Z; total 42 failed check(s) on commit 552e7b4
 startedAt: 2026-10-20T22:17:54.007857963Z
+completedAt: 2026-10-21T01:08:24.233257244Z
 assignee: hopper-coder-bot
-status: Pending
+status: Completed
 commitSHA: 552e7b46679d55fc5733fb81e608d4a3bea5397d
-recovered: true
 expect:
     - head
