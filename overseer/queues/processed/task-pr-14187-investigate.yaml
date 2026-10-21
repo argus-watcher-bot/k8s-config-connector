@@ -4,12 +4,12 @@ number: 14187
 priority: medium
 phase: 3
 createdAt: 2026-10-20T21:44:32Z
-enqueuedAt: 2026-10-20T22:17:48.149742495Z
+enqueuedAt: 2026-10-21T03:08:38.570323786Z
 triggerEventTime: 2026-10-20T22:12:21Z
 triggerReason: PRCheckFailed
-triggerNotes: Earliest CI failure in 'test-pause' (cancelled) at 2026-10-20T22:12:21Z; total 42 failed check(s) on commit 552e7b4
-startedAt: 2026-10-20T22:17:54.007857963Z
-completedAt: 2026-10-21T01:08:24.233257244Z
+triggerNotes: Earliest CI failure in 'tests-e2e-fixtures-compute' (cancelled) at 2026-10-20T22:12:21Z; total 42 failed check(s) on commit 552e7b4
+startedAt: 2026-10-21T03:09:05.246337659Z
+completedAt: 2026-10-21T03:12:11.527659467Z
 assignee: hopper-coder-bot
 status: Completed
 commitSHA: 552e7b46679d55fc5733fb81e608d4a3bea5397d
