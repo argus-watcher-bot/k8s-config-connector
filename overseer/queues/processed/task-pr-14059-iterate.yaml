@@ -1,0 +1,18 @@
+type: pr-iterate
+url: https://github.com/GoogleCloudPlatform/k8s-config-connector/pull/14059
+number: 14059
+priority: medium
+phase: 2
+createdAt: 2026-10-17T01:17:44Z
+enqueuedAt: 2026-10-21T22:01:10.706283376Z
+triggerEventTime: 2026-10-17T01:16:46Z
+triggerReason: PRMergeConflict
+triggerNotes: 'PR #14059 has merge conflicts with base branch ''master''; head commit 027b507 committer date 2026-10-17T01:16:46Z, PR updated at 2026-10-20T17:36:43Z'
+startedAt: 2026-10-21T22:01:40.368900234Z
+completedAt: 2026-10-21T22:12:28.433053399Z
+assignee: ada-coder-bot
+status: Completed
+commitSHA: 027b507195fbec2b82116c811dd7c779731ec748
+rule: conflict
+recipe: care-rebase
+apply: post-replies
