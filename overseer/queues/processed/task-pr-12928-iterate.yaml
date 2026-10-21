@@ -4,12 +4,17 @@ number: 12928
 priority: medium
 phase: 2
 createdAt: 2026-09-14T03:12:23Z
-enqueuedAt: 2026-10-16T18:29:04.343321421Z
-triggerEventTime: 2026-10-07T19:45:30Z
+enqueuedAt: 2026-10-21T16:26:57.594827532Z
+triggerEventTime: 2026-10-21T13:32:01Z
 triggerReason: PRMergeConflict
-triggerNotes: 'PR #12928 has merge conflicts with base branch ''master''; head commit 4402d6e committer date 2026-10-07T19:45:30Z, PR updated at 2026-10-07T19:59:06Z'
-startedAt: 2026-10-16T18:29:26.330656021Z
-completedAt: 2026-10-16T18:54:37.085404635Z
+triggerNotes: 'PR #12928 has merge conflicts with base branch ''master''; head commit 3d28f2d committer date 2026-10-21T13:32:01Z, PR updated at 2026-10-21T13:34:27Z'
+startedAt: 2026-10-21T16:27:24.231902605Z
+completedAt: 2026-10-21T16:43:37.200112986Z
 assignee: ada-coder-bot
 status: Completed
-commitSHA: 4402d6ee733f970cb3d5565ffa25baf73b12a605
+commitSHA: 3d28f2d0f77007f260984fd1d471b2c7264ba281
+rule: conflict
+recipe: care-rebase
+apply: post-replies
+expect:
+    - head
