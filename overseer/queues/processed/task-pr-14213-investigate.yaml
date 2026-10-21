@@ -9,9 +9,9 @@ triggerEventTime: 2026-10-21T01:32:29Z
 triggerReason: PRCheckFailed
 triggerNotes: Earliest CI failure in 'validate-generated-files' (failure) at 2026-10-21T01:32:29Z; total 3 failed check(s) on commit 853f3b0
 startedAt: 2026-10-21T01:44:37.232528625Z
+completedAt: 2026-10-21T07:10:50.659664004Z
 assignee: ada-coder-bot
-status: Pending
+status: Completed
 commitSHA: 853f3b0ec6d9dba9b85bd50ed54b26a1360f454f
-recovered: true
 expect:
     - head
