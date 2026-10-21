@@ -4,12 +4,12 @@ number: 14193
 priority: medium
 phase: 3
 createdAt: 2026-10-20T21:58:55Z
-enqueuedAt: 2026-10-20T22:17:34.134908422Z
-triggerEventTime: 2026-10-20T22:12:17Z
+enqueuedAt: 2026-10-21T00:49:13.132324181Z
+triggerEventTime: 2026-10-20T23:04:45Z
 triggerReason: PRCheckFailed
-triggerNotes: Earliest CI failure in 'presubmit-gatekeeper' (cancelled) at 2026-10-20T22:12:17Z; total 1 failed check(s) on commit 09f3a95
-startedAt: 2026-10-20T22:17:50.466513639Z
-completedAt: 2026-10-20T22:41:18.486604491Z
+triggerNotes: Earliest CI failure in 'Validate PR Release Note' (failure) at 2026-10-20T23:04:45Z; total 3 failed check(s) on commit 09f3a95
+startedAt: 2026-10-21T00:49:26.430794986Z
+completedAt: 2026-10-21T01:02:45.551844808Z
 assignee: neumann-coder-bot
 status: Completed
 commitSHA: 09f3a950a6459ecb109074f69714d46b92e0985f

@@ -4,12 +4,12 @@ number: 14188
 priority: medium
 phase: 3
 createdAt: 2026-10-20T21:46:19Z
-enqueuedAt: 2026-10-20T22:17:45.171349298Z
-triggerEventTime: 2026-10-20T22:12:20Z
+enqueuedAt: 2026-10-21T02:41:05.966978604Z
+triggerEventTime: 2026-10-20T22:38:34Z
 triggerReason: PRCheckFailed
-triggerNotes: Earliest CI failure in 'test-pause' (cancelled) at 2026-10-20T22:12:20Z; total 42 failed check(s) on commit 3ec4a5c
-startedAt: 2026-10-20T22:17:52.705294874Z
-completedAt: 2026-10-20T22:22:29.48235585Z
+triggerNotes: Earliest CI failure in 'validate-manifests' (cancelled) at 2026-10-20T22:38:34Z; total 43 failed check(s) on commit 3ec4a5c
+startedAt: 2026-10-21T02:41:24.313655847Z
+completedAt: 2026-10-21T02:46:08.547886012Z
 assignee: lovelace-coder-bot
 status: Completed
 commitSHA: 3ec4a5c10f0078cee6c8f4c2e7cac6dfa3a61d9c
