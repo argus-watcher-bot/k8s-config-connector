@@ -4,14 +4,14 @@ number: 14189
 priority: medium
 phase: 3
 createdAt: 2026-10-20T21:46:47Z
-enqueuedAt: 2026-10-21T00:25:24.103474064Z
-triggerEventTime: 2026-10-20T22:38:34Z
+enqueuedAt: 2026-10-21T02:57:53.029871679Z
+triggerEventTime: 2026-10-21T02:48:07Z
 triggerReason: PRCheckFailed
-triggerNotes: Earliest CI failure in 'presubmit-gatekeeper' (cancelled) at 2026-10-20T22:38:34Z; total 39 failed check(s) on commit 0ea21a8
-startedAt: 2026-10-21T00:25:59.625063678Z
-completedAt: 2026-10-21T00:33:04.472659515Z
+triggerNotes: Earliest CI failure in 'tests-e2e-fixtures-composer' (failure) at 2026-10-21T02:48:07Z; total 1 failed check(s) on commit df3b7bf
+startedAt: 2026-10-21T02:58:05.083283836Z
+completedAt: 2026-10-21T03:01:12.456095644Z
 assignee: neumann-coder-bot
 status: Completed
-commitSHA: 0ea21a8f11d05394fe74dd26cff8ff270cd65024
+commitSHA: df3b7bf114f981001b84cd2c0a5e876cbc8de687
 expect:
     - head

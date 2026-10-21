@@ -4,14 +4,14 @@ number: 14184
 priority: medium
 phase: 3
 createdAt: 2026-10-20T20:57:07Z
-enqueuedAt: 2026-10-21T00:58:14.16150906Z
-triggerEventTime: 2026-10-21T00:52:39Z
+enqueuedAt: 2026-10-21T02:58:05.183697343Z
+triggerEventTime: 2026-10-21T02:47:15Z
 triggerReason: PRCheckFailed
-triggerNotes: Earliest CI failure in 'tests-e2e-fixtures-tags' (failure) at 2026-10-21T00:52:39Z; total 1 failed check(s) on commit 9edc7ff
-startedAt: 2026-10-21T00:58:35.764365508Z
-completedAt: 2026-10-21T02:37:43.683909414Z
+triggerNotes: Earliest CI failure in 'unit-tests-1-of-4' (failure) at 2026-10-21T02:47:15Z; total 2 failed check(s) on commit c75eaed
+startedAt: 2026-10-21T02:58:41.537680208Z
+completedAt: 2026-10-21T03:11:59.523696443Z
 assignee: neumann-coder-bot
 status: Completed
-commitSHA: 9edc7fffb1a0d8e18434992cda0cf79578077224
+commitSHA: c75eaedd35897afd9643cd3a27df74a7492f9fa3
 expect:
     - head
