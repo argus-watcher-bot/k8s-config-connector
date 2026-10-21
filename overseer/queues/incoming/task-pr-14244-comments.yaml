@@ -10,8 +10,9 @@ triggerReason: PRCommentsAdded
 triggerNotes: Oldest unaddressed review by reviewbot-robot added at 2026-10-21T22:08:04Z (ID 5606839115) since last commit 1bc9c87 (committer date 2026-10-21T19:11:49Z)
 startedAt: 2026-10-21T22:09:56.24060528Z
 assignee: lovelace-coder-bot
-status: Running
+status: Pending
 commitSHA: 1bc9c87dd8a9a30ac36f0f707a19b3feac1e1428
+recovered: true
 rule: comments
 recipe: care-comments
 apply: post-replies
