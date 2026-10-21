@@ -4,15 +4,13 @@ number: 13276
 priority: medium
 phase: 4
 createdAt: 2026-09-19T00:04:49Z
-enqueuedAt: 2026-10-21T17:12:43.386602356Z
-triggerEventTime: 2026-09-19T00:04:49Z
-triggerReason: IssueCreated
-triggerNotes: 'Issue #13276 created at 2026-09-19T00:04:49Z with trigger label ''overseer'''
-startedAt: 2026-10-21T17:13:10.769641195Z
-completedAt: 2026-10-21T17:16:42.093873492Z
+enqueuedAt: 2026-10-21T21:50:21.793198077Z
+triggerEventTime: 2026-10-21T21:46:31Z
+triggerReason: LinkedIssueClosed
+triggerNotes: 'Linked issue #13423 was closed'
+startedAt: 2026-10-21T21:50:42.070737434Z
+completedAt: 2026-10-21T21:56:38.925072136Z
 assignee: feynman-agent-bot
 status: Completed
 agentFile: https://raw.githubusercontent.com/GoogleCloudPlatform/k8s-config-connector/refs/heads/master/.agents/workflows/kcc-greenfield.txt
 sessionId: issue-13276
-rule: workflow
-recipe: workflow

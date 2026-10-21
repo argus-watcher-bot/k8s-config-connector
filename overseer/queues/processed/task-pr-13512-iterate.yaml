@@ -4,12 +4,15 @@ number: 13512
 priority: medium
 phase: 2
 createdAt: 2026-09-29T16:56:00Z
-enqueuedAt: 2026-10-16T21:42:50.893014315Z
-triggerEventTime: 2026-10-02T08:06:25Z
+enqueuedAt: 2026-10-21T22:01:38.062099593Z
+triggerEventTime: 2026-10-16T23:57:51Z
 triggerReason: PRMergeConflict
-triggerNotes: 'PR #13512 has merge conflicts with base branch ''master''; head commit aa8d130 committer date 2026-10-02T08:06:25Z, PR updated at 2026-10-07T22:02:10Z'
-startedAt: 2026-10-16T21:43:19.379091721Z
-completedAt: 2026-10-16T21:58:36.351344148Z
+triggerNotes: 'PR #13512 has merge conflicts with base branch ''master''; head commit 506e869 committer date 2026-10-16T23:57:51Z, PR updated at 2026-10-20T08:26:57Z'
+startedAt: 2026-10-21T22:01:42.729955703Z
+completedAt: 2026-10-21T22:13:48.426941496Z
 assignee: lovelace-coder-bot
 status: Completed
-commitSHA: aa8d13064db62d4723a10bac9333d1eef4fb0603
+commitSHA: 506e8693545d96e08ad8f047c6dbb9368d966f94
+rule: conflict
+recipe: care-rebase
+apply: post-replies
