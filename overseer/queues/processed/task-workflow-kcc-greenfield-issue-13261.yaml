@@ -4,13 +4,15 @@ number: 13261
 priority: medium
 phase: 4
 createdAt: 2026-09-18T23:51:37Z
-enqueuedAt: 2026-10-21T06:14:36.773807767Z
+enqueuedAt: 2026-10-21T08:18:18.935720691Z
 triggerEventTime: 2026-09-18T23:51:38Z
 triggerReason: IssueLabeled
 triggerNotes: 'Issue #13261 created at 2026-09-18T23:51:37Z; trigger label ''overseer'' added by gemmahou at 2026-09-18T23:51:38Z'
-startedAt: 2026-10-21T06:15:00.084441632Z
-completedAt: 2026-10-21T06:17:08.956698258Z
+startedAt: 2026-10-21T08:18:33.23560818Z
+completedAt: 2026-10-21T08:19:01.406191502Z
 assignee: daedalus-agent-bot
 status: Completed
 agentFile: https://raw.githubusercontent.com/GoogleCloudPlatform/k8s-config-connector/refs/heads/master/.agents/workflows/kcc-greenfield.txt
 sessionId: issue-13261
+rule: workflow
+recipe: workflow
