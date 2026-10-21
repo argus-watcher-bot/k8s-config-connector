@@ -4,15 +4,13 @@ number: 14092
 priority: medium
 phase: 4
 createdAt: 2026-10-19T23:50:05Z
-enqueuedAt: 2026-10-21T22:07:18.724052839Z
-triggerEventTime: 2026-10-19T23:50:06Z
-triggerReason: IssueLabeled
-triggerNotes: 'Issue #14092 created at 2026-10-19T23:50:05Z; trigger label ''overseer'' added by anhdle-sso at 2026-10-19T23:50:06Z'
-startedAt: 2026-10-21T22:07:19.46439228Z
-completedAt: 2026-10-21T22:10:16.897714214Z
+enqueuedAt: 2026-10-21T23:00:40.680871063Z
+triggerEventTime: 2026-10-21T22:46:29Z
+triggerReason: LinkedIssueClosed
+triggerNotes: 'Linked issue #14216 was closed'
+startedAt: 2026-10-21T23:01:05.129549828Z
+completedAt: 2026-10-21T23:04:05.054495213Z
 assignee: feynman-agent-bot
 status: Completed
 agentFile: https://raw.githubusercontent.com/gke-labs/gemini-for-kubernetes-development/refs/heads/main/.agents/workflows/kcc-example.txt
 sessionId: issue-14092
-rule: workflow
-recipe: workflow
