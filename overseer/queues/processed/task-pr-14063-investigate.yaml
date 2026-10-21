@@ -4,14 +4,15 @@ number: 14063
 priority: high
 phase: 3
 createdAt: 2026-10-17T02:03:08Z
-enqueuedAt: 2026-10-20T10:32:54.242756812Z
+enqueuedAt: 2026-10-21T21:13:32.318348758Z
 triggerEventTime: 2026-10-17T03:32:43Z
 triggerReason: PRCheckFailed
 triggerNotes: Earliest CI failure in 'Validate PR Release Note' (failure) at 2026-10-17T03:32:43Z; total 1 failed check(s) on commit 086b673
-startedAt: 2026-10-20T10:32:57.119142515Z
-completedAt: 2026-10-20T10:34:22.251467497Z
+startedAt: 2026-10-21T21:13:49.515072229Z
+completedAt: 2026-10-21T21:14:53.520107612Z
 assignee: ada-coder-bot
 status: Completed
 commitSHA: 086b67327ab9d9bed7626201b95320d45ddadaed
-expect:
-    - head
+rule: ci
+recipe: care-ci
+apply: post-replies
