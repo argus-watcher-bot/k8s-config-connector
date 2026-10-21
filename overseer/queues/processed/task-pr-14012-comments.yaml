@@ -4,12 +4,15 @@ number: 14012
 priority: medium
 phase: 1
 createdAt: 2026-10-15T19:57:45Z
-enqueuedAt: 2026-10-21T04:07:44.64035663Z
-triggerEventTime: 2026-10-21T04:04:57Z
+enqueuedAt: 2026-10-21T19:45:33.159006764Z
+triggerEventTime: 2026-10-21T19:39:12Z
 triggerReason: PRCommentsAdded
-triggerNotes: Oldest unaddressed review by acpana added at 2026-10-21T04:04:57Z (ID 5594802626) since last commit 3c37629 (committer date 2026-10-19T17:57:03Z)
-startedAt: 2026-10-21T04:07:58.559556534Z
-completedAt: 2026-10-21T05:12:24.287076828Z
+triggerNotes: Oldest unaddressed review by acpana added at 2026-10-21T19:39:12Z (ID 5605172933) since last commit 1c1b99d (committer date 2026-10-21T05:11:24Z)
+startedAt: 2026-10-21T19:46:02.664872215Z
+completedAt: 2026-10-21T19:56:25.647729201Z
 assignee: lovelace-coder-bot
 status: Completed
-commitSHA: 3c3762912831d1b4f1fdfe27198b1c8b59da6dec
+commitSHA: 1c1b99d3014a66b8b5a0510313fde1a12d48123a
+rule: comments
+recipe: care-comments
+apply: post-replies
