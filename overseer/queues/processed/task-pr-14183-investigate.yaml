@@ -4,12 +4,12 @@ number: 14183
 priority: medium
 phase: 3
 createdAt: 2026-10-20T20:55:30Z
-enqueuedAt: 2026-10-20T22:44:46.305768588Z
-triggerEventTime: 2026-10-20T22:38:30Z
+enqueuedAt: 2026-10-21T00:49:11.466216967Z
+triggerEventTime: 2026-10-20T23:10:17Z
 triggerReason: PRCheckFailed
-triggerNotes: Earliest CI failure in 'validate-untested-fields' (cancelled) at 2026-10-20T22:38:30Z; total 44 failed check(s) on commit 6e455be
-startedAt: 2026-10-20T22:46:12.882426364Z
-completedAt: 2026-10-20T22:47:34.492932919Z
+triggerNotes: Earliest CI failure in 'Validate PR Release Note' (failure) at 2026-10-20T23:10:17Z; total 4 failed check(s) on commit 6e455be
+startedAt: 2026-10-21T00:49:25.143372243Z
+completedAt: 2026-10-21T11:24:45.443530657Z
 assignee: lovelace-coder-bot
 status: Completed
 commitSHA: 6e455be0ae0f5b7e62ef348dbf716f7515e4a434
