@@ -10,7 +10,8 @@ triggerReason: PRCheckFailed
 triggerNotes: Earliest CI failure in 'Validate PR Release Note' (failure) at 2026-10-20T23:10:17Z; total 4 failed check(s) on commit 6e455be
 startedAt: 2026-10-21T00:49:25.143372243Z
 assignee: lovelace-coder-bot
-status: Running
+status: Pending
 commitSHA: 6e455be0ae0f5b7e62ef348dbf716f7515e4a434
+recovered: true
 expect:
     - head
