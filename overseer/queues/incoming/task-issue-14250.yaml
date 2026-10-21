@@ -10,7 +10,8 @@ triggerReason: IssueLabeled
 triggerNotes: 'Issue #14250 created at 2026-10-21T21:54:49Z; trigger label ''overseer'' added by feynman-agent-bot at 2026-10-21T21:54:51Z'
 startedAt: 2026-10-21T21:55:46.819247859Z
 assignee: lovelace-coder-bot
-status: Running
+status: Pending
+recovered: true
 rule: fix
 recipe: fix
 apply: open-pr
