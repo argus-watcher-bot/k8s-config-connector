@@ -1,0 +1,20 @@
+type: issue-fix
+url: https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/14061
+number: 14061
+priority: high
+phase: 3
+createdAt: 2026-10-17T01:32:05Z
+enqueuedAt: 2026-10-21T21:49:29.346989985Z
+triggerEventTime: 2026-10-17T01:32:15Z
+triggerReason: IssueLabeled
+triggerNotes: 'Issue #14061 created at 2026-10-17T01:32:05Z; trigger label ''overseer'' added by ldanielmadariaga at 2026-10-17T01:32:15Z'
+startedAt: 2026-10-21T21:49:41.063499894Z
+completedAt: 2026-10-21T21:56:55.365355653Z
+assignee: ada-coder-bot
+status: Completed
+rule: fix
+recipe: fix
+apply: open-pr
+inputs:
+    draft: "false"
+prLabels: true
