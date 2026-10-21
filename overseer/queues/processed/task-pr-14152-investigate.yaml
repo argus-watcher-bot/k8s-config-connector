@@ -4,14 +4,14 @@ number: 14152
 priority: medium
 phase: 3
 createdAt: 2026-10-20T20:03:08Z
-enqueuedAt: 2026-10-20T22:18:30.08058034Z
-triggerEventTime: 2026-10-20T20:43:39Z
+enqueuedAt: 2026-10-21T00:48:18.577393269Z
+triggerEventTime: 2026-10-21T00:43:45Z
 triggerReason: PRCheckFailed
-triggerNotes: Earliest CI failure in 'Validate PR Release Note' (failure) at 2026-10-20T20:43:39Z; total 2 failed check(s) on commit 10d7257
-startedAt: 2026-10-20T22:18:58.196110658Z
-completedAt: 2026-10-20T22:24:05.613765905Z
+triggerNotes: Earliest CI failure in 'fuzz-roundtrippers-6-of-8' (failure) at 2026-10-21T00:43:45Z; total 1 failed check(s) on commit 4b8aa67
+startedAt: 2026-10-21T00:48:49.088954486Z
+completedAt: 2026-10-21T00:54:45.707872655Z
 assignee: hopper-coder-bot
 status: Completed
-commitSHA: 10d7257f57cf4c7e3b10cf8e1653fefc088a1d4b
+commitSHA: 4b8aa6730acfe5e76d3e17935c5f85e0d12e529a
 expect:
     - head
