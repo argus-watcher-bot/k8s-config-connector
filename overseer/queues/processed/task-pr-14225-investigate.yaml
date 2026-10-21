@@ -9,8 +9,9 @@ triggerEventTime: 2026-10-21T03:01:16Z
 triggerReason: PRCheckFailed
 triggerNotes: Earliest CI failure in 'Validate PR Release Note' (failure) at 2026-10-21T03:01:16Z; total 3 failed check(s) on commit 00a00f6
 startedAt: 2026-10-21T03:07:54.511016271Z
+completedAt: 2026-10-21T05:31:38.890630311Z
 assignee: hopper-coder-bot
-status: Running
+status: Completed
 commitSHA: 00a00f6725adb764204cabc166b93a775536b24c
 expect:
     - head
