@@ -1,0 +1,17 @@
+type: issue-fix
+url: https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/14168
+number: 14168
+priority: medium
+phase: 3
+createdAt: 2026-10-20T20:11:48Z
+enqueuedAt: 2026-10-21T01:01:54.349087354Z
+triggerEventTime: 2026-10-20T20:11:49Z
+triggerReason: IssueLabeled
+triggerNotes: 'Issue #14168 created at 2026-10-20T20:11:48Z; trigger label ''overseer'' added by fkc1e100 at 2026-10-20T20:11:49Z'
+startedAt: 2026-10-21T01:02:08.458880302Z
+completedAt: 2026-10-21T02:02:34.823345851Z
+assignee: hopper-coder-bot
+status: Failed
+error: 'exit status 1: running recipe: following task recipe-fix-20261021-010211-5703: Get "http://127.0.0.1:41065/v1/tasks/recipe-fix-20261021-010211-5703/log?follow=true&offset=42035": dial tcp 127.0.0.1:41065: connect: connection refused'
+expect:
+    - no-linked-pr

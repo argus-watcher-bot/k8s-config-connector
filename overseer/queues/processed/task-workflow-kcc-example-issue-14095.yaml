@@ -4,12 +4,12 @@ number: 14095
 priority: medium
 phase: 4
 createdAt: 2026-10-19T23:50:23Z
-enqueuedAt: 2026-10-20T22:54:25.033073725Z
-triggerEventTime: 2026-10-19T23:50:24Z
-triggerReason: IssueLabeled
-triggerNotes: 'Issue #14095 created at 2026-10-19T23:50:23Z; trigger label ''overseer'' added by anhdle-sso at 2026-10-19T23:50:24Z'
-startedAt: 2026-10-20T22:55:00.359518597Z
-completedAt: 2026-10-20T22:56:42.065464249Z
+enqueuedAt: 2026-10-21T01:09:45.17677853Z
+triggerEventTime: 2026-10-21T00:54:21Z
+triggerReason: LinkedIssueClosed
+triggerNotes: 'Linked issue #14110 was closed'
+startedAt: 2026-10-21T01:09:56.092168978Z
+completedAt: 2026-10-21T01:10:50.183323642Z
 assignee: daedalus-agent-bot
 status: Completed
 agentFile: https://raw.githubusercontent.com/gke-labs/gemini-for-kubernetes-development/refs/heads/main/.agents/workflows/kcc-example.txt
