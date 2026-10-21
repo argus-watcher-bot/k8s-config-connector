@@ -4,13 +4,15 @@ number: 11699
 priority: medium
 phase: 4
 createdAt: 2026-07-18T22:32:41Z
-enqueuedAt: 2026-10-21T06:10:36.690939627Z
+enqueuedAt: 2026-10-21T08:16:22.782819044Z
 triggerEventTime: 2026-07-18T22:32:41Z
 triggerReason: IssueCreated
 triggerNotes: 'Issue #11699 created at 2026-07-18T22:32:41Z with trigger label ''overseer'''
-startedAt: 2026-10-21T06:11:05.112627549Z
-completedAt: 2026-10-21T06:15:28.656693169Z
+startedAt: 2026-10-21T08:16:27.959038214Z
+completedAt: 2026-10-21T08:19:22.920386583Z
 assignee: walle-agent-bot
 status: Completed
 agentFile: https://raw.githubusercontent.com/GoogleCloudPlatform/k8s-config-connector/refs/heads/master/.agents/workflows/kcc-greenfield.txt
 sessionId: issue-11699
+rule: workflow
+recipe: workflow
