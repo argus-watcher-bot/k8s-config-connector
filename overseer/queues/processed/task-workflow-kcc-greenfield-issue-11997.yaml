@@ -4,15 +4,13 @@ number: 11997
 priority: medium
 phase: 4
 createdAt: 2026-07-28T23:46:00Z
-enqueuedAt: 2026-10-22T08:22:30.184178335Z
-triggerEventTime: 2026-07-28T23:46:00Z
-triggerReason: IssueCreated
-triggerNotes: 'Issue #11997 created at 2026-07-28T23:46:00Z with trigger label ''overseer'''
-startedAt: 2026-10-22T08:22:38.280849271Z
-completedAt: 2026-10-22T08:24:44.926371659Z
+enqueuedAt: 2026-10-22T11:14:02.719182328Z
+triggerEventTime: 2026-10-22T11:04:44Z
+triggerReason: LinkedIssueClosed
+triggerNotes: 'Linked issue #14237 was closed'
+startedAt: 2026-10-22T11:14:29.065697284Z
+completedAt: 2026-10-22T11:31:04.020906381Z
 assignee: walle-agent-bot
 status: Completed
 agentFile: https://raw.githubusercontent.com/GoogleCloudPlatform/k8s-config-connector/refs/heads/master/.agents/workflows/kcc-greenfield.txt
 sessionId: issue-11997
-rule: workflow
-recipe: workflow
