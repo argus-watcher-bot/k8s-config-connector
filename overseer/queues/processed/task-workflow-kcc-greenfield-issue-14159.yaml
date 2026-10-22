@@ -4,14 +4,15 @@ number: 14159
 priority: medium
 phase: 4
 createdAt: 2026-10-20T20:11:12Z
-enqueuedAt: 2026-10-22T12:05:01.59866609Z
+enqueuedAt: 2026-10-22T16:15:59.980281743Z
 triggerEventTime: 2026-10-20T20:11:15Z
 triggerReason: IssueLabeled
 triggerNotes: 'Issue #14159 created at 2026-10-20T20:11:12Z; trigger label ''overseer'' added by fkc1e100 at 2026-10-20T20:11:15Z'
-startedAt: 2026-10-22T12:05:16.692114911Z
-completedAt: 2026-10-22T12:10:36.661035033Z
+startedAt: 2026-10-22T16:16:23.956519167Z
+completedAt: 2026-10-22T16:17:14.629819766Z
 assignee: feynman-agent-bot
-status: Completed
+status: Failed
+error: 'exit status 1: connecting to sandbox: sandbox wf-issue-14159 has no task server to use (sandbox pod wf-issue-14159 is in Failed state (reason: Preempting): cannot connect to terminated pod); recreate it on a current image'
 agentFile: https://raw.githubusercontent.com/GoogleCloudPlatform/k8s-config-connector/refs/heads/master/.agents/workflows/kcc-greenfield.txt
 sessionId: issue-14159
 rule: workflow
