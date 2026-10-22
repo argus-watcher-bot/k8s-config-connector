@@ -1,0 +1,18 @@
+type: pr-investigate
+url: https://github.com/GoogleCloudPlatform/k8s-config-connector/pull/14240
+number: 14240
+priority: medium
+phase: 3
+createdAt: 2026-10-21T15:07:32Z
+enqueuedAt: 2026-10-22T09:26:33.877837805Z
+triggerEventTime: 2026-10-22T09:23:46Z
+triggerReason: PRCheckFailed
+triggerNotes: Earliest CI failure in 'test-mockgcp' (failure) at 2026-10-22T09:23:46Z; total 1 failed check(s) on commit ff4468f
+startedAt: 2026-10-22T09:26:49.563400889Z
+completedAt: 2026-10-22T09:37:02.56757473Z
+assignee: ada-coder-bot
+status: Completed
+commitSHA: ff4468fd71146f4b43bae6f402c6c261bdc39d86
+rule: ci
+recipe: care-ci
+apply: post-replies
