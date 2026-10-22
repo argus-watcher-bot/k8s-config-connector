@@ -1,0 +1,18 @@
+type: pr-comments
+url: https://github.com/GoogleCloudPlatform/k8s-config-connector/pull/14240
+number: 14240
+priority: medium
+phase: 1
+createdAt: 2026-10-21T15:07:32Z
+enqueuedAt: 2026-10-22T09:04:33.645774327Z
+triggerEventTime: 2026-10-22T08:59:41Z
+triggerReason: PRCommentsAdded
+triggerNotes: Oldest unaddressed comment by maqiuyujoyce added at 2026-10-22T08:59:41Z (ID 6336887954) since last commit a3ad0b5 (committer date 2026-10-22T07:54:15Z)
+startedAt: 2026-10-22T09:04:50.991597587Z
+completedAt: 2026-10-22T09:15:09.885029222Z
+assignee: ada-coder-bot
+status: Completed
+commitSHA: a3ad0b5f899fbcee28800d3ad806dc7de2bb291f
+rule: comments
+recipe: care-comments
+apply: post-replies
