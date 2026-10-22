@@ -4,12 +4,12 @@ number: 14268
 priority: medium
 phase: 3
 createdAt: 2026-10-22T00:01:38Z
-enqueuedAt: 2026-10-22T12:31:14.751771946Z
+enqueuedAt: 2026-10-22T14:36:16.776192225Z
 triggerEventTime: 2026-10-22T12:28:52Z
 triggerReason: PRCheckFailed
-triggerNotes: Earliest CI failure in 'validate-ensure' (failure) at 2026-10-22T12:28:52Z; total 1 failed check(s) on commit 06f3347
-startedAt: 2026-10-22T12:31:34.552073637Z
-completedAt: 2026-10-22T12:33:01.060079957Z
+triggerNotes: Earliest CI failure in 'validate-ensure' (failure) at 2026-10-22T12:28:52Z; total 2 failed check(s) on commit 06f3347
+startedAt: 2026-10-22T14:36:42.335731175Z
+completedAt: 2026-10-22T14:37:51.9759209Z
 assignee: lovelace-coder-bot
 status: Completed
 commitSHA: 06f3347d7755ba1a7059f110b49029a367429f56
