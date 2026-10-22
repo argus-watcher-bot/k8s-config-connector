@@ -1,0 +1,18 @@
+type: pr-investigate
+url: https://github.com/GoogleCloudPlatform/k8s-config-connector/pull/14275
+number: 14275
+priority: medium
+phase: 3
+createdAt: 2026-10-22T03:33:45Z
+enqueuedAt: 2026-10-22T03:34:08.555171195Z
+triggerEventTime: 2026-10-22T03:33:54Z
+triggerReason: PRCheckFailed
+triggerNotes: Earliest CI failure in 'Validate PR Release Note' (failure) at 2026-10-22T03:33:54Z; total 1 failed check(s) on commit fbe100f
+startedAt: 2026-10-22T03:34:15.038847703Z
+completedAt: 2026-10-22T03:38:19.522130871Z
+assignee: lovelace-coder-bot
+status: Completed
+commitSHA: fbe100f6beb88dcbab13dd6de35b16a5284ae796
+rule: ci
+recipe: care-ci
+apply: post-replies
