@@ -1,0 +1,17 @@
+type: pr-rule
+url: https://github.com/GoogleCloudPlatform/k8s-config-connector/pull/13573
+number: 13573
+priority: medium
+phase: 3
+createdAt: 2026-10-01T08:54:04Z
+enqueuedAt: 2026-10-20T19:02:56.132786995Z
+triggerEventTime: 2026-10-20T18:51:02Z
+triggerReason: PRCheckFailed
+triggerNotes: Earliest CI failure in 'build-images' (failure) at 2026-10-20T18:51:02Z; total 1 failed check(s) on commit 8c0b5e5
+startedAt: 2026-10-20T19:03:05.061131649Z
+completedAt: 2026-10-20T19:05:35.729779566Z
+assignee: neumann-coder-bot
+status: Completed
+commitSHA: 8c0b5e5dde028c380d45d371cf6c38e515c6e630
+runName: investigate-13573-8c0b5e5-1792522976
+rule: ci

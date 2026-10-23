@@ -4,15 +4,17 @@ number: 13595
 priority: medium
 phase: 4
 createdAt: 2026-10-01T22:18:00Z
-enqueuedAt: 2026-10-23T17:44:03.179550771Z
+enqueuedAt: 2026-10-23T19:47:00.002531331Z
 triggerEventTime: 2026-10-01T22:18:01Z
 triggerReason: IssueLabeled
 triggerNotes: 'Issue #13595 created at 2026-10-01T22:18:00Z; trigger label ''overseer'' added by acpana at 2026-10-01T22:18:01Z'
-startedAt: 2026-10-23T17:44:12.130310792Z
-completedAt: 2026-10-23T17:45:08.58997674Z
+startedAt: 2026-10-23T19:47:13.270723641Z
+completedAt: 2026-10-23T19:47:55.649378928Z
 assignee: daedalus-agent-bot
 status: Completed
 agentFile: https://raw.githubusercontent.com/GoogleCloudPlatform/k8s-config-connector/refs/heads/master/.agents/workflows/kcc-greenfield.txt
 sessionId: issue-13595
+claim: true
+runName: agent-13595-1792784820
 rule: workflow
 recipe: workflow

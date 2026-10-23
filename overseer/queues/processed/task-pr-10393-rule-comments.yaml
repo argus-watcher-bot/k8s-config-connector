@@ -1,0 +1,18 @@
+type: pr-rule
+url: https://github.com/GoogleCloudPlatform/k8s-config-connector/pull/10393
+number: 10393
+priority: medium
+phase: 1
+createdAt: 2026-06-17T13:08:22Z
+enqueuedAt: 2026-10-17T19:46:56.301892408Z
+triggerEventTime: 2026-10-17T19:44:56Z
+triggerReason: PRCommentsAdded
+triggerNotes: Oldest unaddressed comment by barney-s added at 2026-10-17T19:44:56Z (ID 6239855181) since last commit fe0ccf1 (committer date 2026-07-11T03:58:04Z)
+startedAt: 2026-10-17T19:47:23.315019318Z
+completedAt: 2026-10-17T20:30:20.617712733Z
+assignee: lovelace-coder-bot
+status: Completed
+commitSHA: fe0ccf15246b14d3a9e608433142245cef8e4e3d
+acknowledge: feedback
+runName: comments-10393-fe0ccf1-1792266416
+rule: comments
