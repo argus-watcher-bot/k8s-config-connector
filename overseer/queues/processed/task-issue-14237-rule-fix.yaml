@@ -1,0 +1,21 @@
+type: issue-rule
+url: https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/14237
+number: 14237
+priority: medium
+phase: 3
+createdAt: 2026-10-21T13:39:33Z
+enqueuedAt: 2026-10-21T13:41:17.882105633Z
+triggerEventTime: 2026-10-21T13:39:35Z
+triggerReason: IssueLabeled
+triggerNotes: 'Issue #14237 created at 2026-10-21T13:39:33Z; trigger label ''overseer'' added by walle-agent-bot at 2026-10-21T13:39:35Z'
+startedAt: 2026-10-21T13:41:27.439741903Z
+completedAt: 2026-10-21T15:07:37.691863731Z
+assignee: ada-coder-bot
+status: Completed
+runName: fix-14237-head-1792590077
+rule: fix
+recipe: fix
+apply: open-pr
+inputs:
+    draft: "false"
+prLabels: true

@@ -1,0 +1,17 @@
+type: pr-rule
+url: https://github.com/GoogleCloudPlatform/k8s-config-connector/pull/14034
+number: 14034
+priority: medium
+phase: 3
+createdAt: 2026-10-16T19:35:15Z
+enqueuedAt: 2026-10-16T20:23:14.708047872Z
+triggerEventTime: 2026-10-16T20:15:50Z
+triggerReason: PRCheckFailed
+triggerNotes: Earliest CI failure in 'tests-e2e-fixtures-networksecurity' (failure) at 2026-10-16T20:15:50Z; total 1 failed check(s) on commit 355d2ef
+startedAt: 2026-10-16T20:23:15.214057042Z
+completedAt: 2026-10-16T20:26:59.725156996Z
+assignee: neumann-coder-bot
+status: Completed
+commitSHA: 355d2ef3ae6082cadf69cedc75784a7cdbf2760e
+runName: investigate-14034-355d2ef-1792182194
+rule: ci

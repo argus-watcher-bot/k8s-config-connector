@@ -4,15 +4,17 @@ number: 13191
 priority: medium
 phase: 4
 createdAt: 2026-09-16T20:52:49Z
-enqueuedAt: 2026-10-23T17:02:02.320067551Z
+enqueuedAt: 2026-10-23T21:07:01.062620615Z
 triggerEventTime: 2026-09-18T20:47:13Z
 triggerReason: IssueLabeled
 triggerNotes: 'Issue #13191 created at 2026-09-16T20:52:49Z; trigger label ''overseer'' added by sdowell at 2026-09-18T20:47:13Z'
-startedAt: 2026-10-23T17:02:04.77206776Z
-completedAt: 2026-10-23T17:04:13.217679508Z
+startedAt: 2026-10-23T21:09:17.314989097Z
+completedAt: 2026-10-23T21:13:35.245923554Z
 assignee: feynman-agent-bot
 status: Completed
 agentFile: https://raw.githubusercontent.com/GoogleCloudPlatform/k8s-config-connector/refs/heads/master/.agents/workflows/kcc-greenfield.txt
 sessionId: issue-13191
+claim: true
+runName: agent-13191-1792789621
 rule: workflow
 recipe: workflow

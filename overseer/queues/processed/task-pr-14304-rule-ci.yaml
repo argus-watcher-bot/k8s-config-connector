@@ -1,0 +1,19 @@
+type: pr-rule
+url: https://github.com/GoogleCloudPlatform/k8s-config-connector/pull/14304
+number: 14304
+priority: medium
+phase: 3
+createdAt: 2026-10-23T01:32:03Z
+enqueuedAt: 2026-10-23T05:19:38.877949221Z
+triggerEventTime: 2026-10-23T03:01:35Z
+triggerReason: PRCheckFailed
+triggerNotes: Earliest CI failure in 'test-mockgcp' (failure) at 2026-10-23T03:01:35Z; total 2 failed check(s) on commit d7ee8a1
+startedAt: 2026-10-23T05:19:47.014138693Z
+completedAt: 2026-10-23T05:29:27.497498875Z
+assignee: lovelace-coder-bot
+status: Completed
+commitSHA: d7ee8a12e985018bb042102b9bd9f017358b9463
+runName: investigate-14304-d7ee8a1-1792732778
+rule: ci
+recipe: care-ci
+apply: post-replies

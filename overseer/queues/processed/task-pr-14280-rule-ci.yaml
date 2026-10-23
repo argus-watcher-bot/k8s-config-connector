@@ -1,0 +1,19 @@
+type: pr-rule
+url: https://github.com/GoogleCloudPlatform/k8s-config-connector/pull/14280
+number: 14280
+priority: medium
+phase: 3
+createdAt: 2026-10-22T07:09:34Z
+enqueuedAt: 2026-10-22T07:16:43.940935897Z
+triggerEventTime: 2026-10-22T07:09:46Z
+triggerReason: PRCheckFailed
+triggerNotes: Earliest CI failure in 'Validate PR Release Note' (failure) at 2026-10-22T07:09:46Z; total 1 failed check(s) on commit 5173484
+startedAt: 2026-10-22T07:16:56.947549445Z
+completedAt: 2026-10-22T07:41:45.394348206Z
+assignee: hopper-coder-bot
+status: Completed
+commitSHA: 517348472a3fd96b2263b4df2961155d11e17f87
+runName: investigate-14280-5173484-1792653403
+rule: ci
+recipe: care-ci
+apply: post-replies
