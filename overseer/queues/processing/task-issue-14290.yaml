@@ -1,0 +1,19 @@
+type: issue-fix
+url: https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/14290
+number: 14290
+priority: medium
+phase: 3
+createdAt: 2026-10-22T23:22:29Z
+enqueuedAt: 2026-10-23T00:23:30.036402751Z
+triggerEventTime: 2026-10-22T23:22:31Z
+triggerReason: IssueLabeled
+triggerNotes: 'Issue #14290 created at 2026-10-22T23:22:29Z; trigger label ''overseer'' added by feynman-agent-bot at 2026-10-22T23:22:31Z'
+startedAt: 2026-10-23T00:23:52.596504897Z
+assignee: ada-coder-bot
+status: Running
+rule: fix
+recipe: fix
+apply: open-pr
+inputs:
+    draft: "false"
+prLabels: true
