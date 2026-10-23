@@ -1,0 +1,18 @@
+type: pr-comments
+url: https://github.com/GoogleCloudPlatform/k8s-config-connector/pull/14286
+number: 14286
+priority: medium
+phase: 1
+createdAt: 2026-10-22T22:11:59Z
+enqueuedAt: 2026-10-22T23:29:44.392426837Z
+triggerEventTime: 2026-10-22T23:20:15Z
+triggerReason: PRCommentsAdded
+triggerNotes: Oldest unaddressed comment by anhdle-sso added at 2026-10-22T23:20:15Z (ID 6353480823) since last commit 5ac29d4 (committer date 2026-10-22T22:10:01Z)
+startedAt: 2026-10-22T23:29:50.490844245Z
+completedAt: 2026-10-22T23:38:42.214086225Z
+assignee: ada-coder-bot
+status: Completed
+commitSHA: 5ac29d49f5384bcc7305092a3308b988a103aaf3
+rule: comments
+recipe: care-comments
+apply: post-replies
