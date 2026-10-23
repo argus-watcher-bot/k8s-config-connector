@@ -1,0 +1,17 @@
+type: pr-rule
+url: https://github.com/GoogleCloudPlatform/k8s-config-connector/pull/14081
+number: 14081
+priority: medium
+phase: 3
+createdAt: 2026-10-19T18:30:05Z
+enqueuedAt: 2026-10-19T18:45:45.737125055Z
+triggerEventTime: 2026-10-19T18:42:14Z
+triggerReason: PRCheckFailed
+triggerNotes: Earliest CI failure in 'unit-tests-3-of-4' (failure) at 2026-10-19T18:42:14Z; total 1 failed check(s) on commit 8ee9375
+startedAt: 2026-10-19T18:45:59.841286513Z
+completedAt: 2026-10-19T19:01:45.569660456Z
+assignee: lovelace-coder-bot
+status: Completed
+commitSHA: 8ee93759d062327c273d8b6b9c203d59af83149b
+runName: investigate-14081-8ee9375-1792435545
+rule: ci

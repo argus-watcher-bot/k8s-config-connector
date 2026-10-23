@@ -1,0 +1,17 @@
+type: pr-rule
+url: https://github.com/GoogleCloudPlatform/k8s-config-connector/pull/14073
+number: 14073
+priority: medium
+phase: 2
+createdAt: 2026-10-17T22:34:55Z
+enqueuedAt: 2026-10-20T06:13:18.921055632Z
+triggerEventTime: 2026-10-17T22:52:11Z
+triggerReason: PRMergeConflict
+triggerNotes: 'PR #14073 has merge conflicts with base branch ''master''; head commit cba21f9 committer date 2026-10-17T22:52:11Z, PR updated at 2026-10-17T23:47:52Z'
+startedAt: 2026-10-20T06:13:30.137244438Z
+completedAt: 2026-10-20T06:26:29.93379082Z
+assignee: hopper-coder-bot
+status: Completed
+commitSHA: cba21f9973cb2f9a9b40965fd36d4694950406dc
+runName: iterate-14073-cba21f9-1792476798
+rule: conflict
