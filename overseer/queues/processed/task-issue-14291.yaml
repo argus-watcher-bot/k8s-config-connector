@@ -1,0 +1,21 @@
+type: issue-fix
+url: https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/14291
+number: 14291
+priority: medium
+phase: 3
+createdAt: 2026-10-22T23:23:08Z
+enqueuedAt: 2026-10-22T23:27:31.18000619Z
+triggerEventTime: 2026-10-22T23:23:10Z
+triggerReason: IssueLabeled
+triggerNotes: 'Issue #14291 created at 2026-10-22T23:23:08Z; trigger label ''overseer'' added by feynman-agent-bot at 2026-10-22T23:23:10Z'
+startedAt: 2026-10-22T23:27:41.548107261Z
+completedAt: 2026-10-23T00:01:39.032990847Z
+assignee: neumann-coder-bot
+status: Failed
+error: 'exit status 1: running recipe: task failed with exit code 137'
+rule: fix
+recipe: fix
+apply: open-pr
+inputs:
+    draft: "false"
+prLabels: true

@@ -4,13 +4,15 @@ number: 14093
 priority: medium
 phase: 4
 createdAt: 2026-10-19T23:50:14Z
-enqueuedAt: 2026-10-22T21:36:04.758712224Z
-triggerEventTime: 2026-10-22T21:29:37Z
-triggerReason: LinkedIssueClosed
-triggerNotes: 'Linked issue #14215 was closed'
-startedAt: 2026-10-22T21:36:22.661473111Z
-completedAt: 2026-10-22T21:41:50.800194884Z
+enqueuedAt: 2026-10-22T23:43:33.709171912Z
+triggerEventTime: 2026-10-19T23:50:15Z
+triggerReason: IssueLabeled
+triggerNotes: 'Issue #14093 created at 2026-10-19T23:50:14Z; trigger label ''overseer'' added by anhdle-sso at 2026-10-19T23:50:15Z'
+startedAt: 2026-10-22T23:44:01.097252985Z
+completedAt: 2026-10-22T23:47:02.719896339Z
 assignee: walle-agent-bot
 status: Completed
 agentFile: https://raw.githubusercontent.com/gke-labs/gemini-for-kubernetes-development/refs/heads/main/.agents/workflows/kcc-example.txt
 sessionId: issue-14093
+rule: workflow
+recipe: workflow

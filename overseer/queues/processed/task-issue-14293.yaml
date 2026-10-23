@@ -1,0 +1,20 @@
+type: issue-fix
+url: https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/14293
+number: 14293
+priority: medium
+phase: 3
+createdAt: 2026-10-22T23:44:50Z
+enqueuedAt: 2026-10-22T23:51:39.333221923Z
+triggerEventTime: 2026-10-22T23:44:52Z
+triggerReason: IssueLabeled
+triggerNotes: 'Issue #14293 created at 2026-10-22T23:44:50Z; trigger label ''overseer'' added by feynman-agent-bot at 2026-10-22T23:44:52Z'
+startedAt: 2026-10-22T23:51:40.590450539Z
+completedAt: 2026-10-23T00:33:24.489153943Z
+assignee: hopper-coder-bot
+status: Completed
+rule: fix
+recipe: fix
+apply: open-pr
+inputs:
+    draft: "false"
+prLabels: true
