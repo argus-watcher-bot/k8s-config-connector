@@ -1,0 +1,18 @@
+type: pr-rule
+url: https://github.com/GoogleCloudPlatform/k8s-config-connector/pull/14256
+number: 14256
+priority: medium
+phase: 1
+createdAt: 2026-10-21T22:57:58Z
+enqueuedAt: 2026-10-21T23:28:31.306357288Z
+triggerEventTime: 2026-10-21T23:19:44Z
+triggerReason: PRReadyForReview
+triggerNotes: Automated review triggered; all CI checks passed at 2026-10-21T23:19:44Z for commit 09949bb (committer date 2026-10-21T22:57:26Z)
+startedAt: 2026-10-21T23:29:01.40798064Z
+completedAt: 2026-10-21T23:42:26.569843606Z
+status: Completed
+commitSHA: 09949bb0c798a3e69b0024fdbeb0f35680fc560a
+runName: review-14256-09949bb-1792625311
+rule: review
+recipe: review
+apply: submit-review
