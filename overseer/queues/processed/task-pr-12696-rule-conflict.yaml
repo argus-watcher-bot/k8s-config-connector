@@ -1,0 +1,17 @@
+type: pr-rule
+url: https://github.com/GoogleCloudPlatform/k8s-config-connector/pull/12696
+number: 12696
+priority: medium
+phase: 2
+createdAt: 2026-09-02T06:02:32Z
+enqueuedAt: 2026-10-20T20:13:24.273825268Z
+triggerEventTime: 2026-10-20T07:34:39Z
+triggerReason: PRMergeConflict
+triggerNotes: 'PR #12696 has merge conflicts with base branch ''master''; head commit c81c170 committer date 2026-10-20T07:34:39Z, PR updated at 2026-10-20T08:25:23Z'
+startedAt: 2026-10-20T20:13:26.16719824Z
+completedAt: 2026-10-20T20:22:05.834973437Z
+assignee: neumann-coder-bot
+status: Completed
+commitSHA: c81c17096af238bed796db25418be3046468f286
+runName: iterate-12696-c81c170-1792527204
+rule: conflict

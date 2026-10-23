@@ -1,0 +1,19 @@
+type: pr-rule
+url: https://github.com/GoogleCloudPlatform/k8s-config-connector/pull/12928
+number: 12928
+priority: medium
+phase: 3
+createdAt: 2026-09-14T03:12:23Z
+enqueuedAt: 2026-10-22T12:43:15.444743599Z
+triggerEventTime: 2026-10-22T12:41:23Z
+triggerReason: PRCheckFailed
+triggerNotes: Earliest CI failure in 'tests-e2e-fixtures-certificatemanager' (failure) at 2026-10-22T12:41:23Z; total 2 failed check(s) on commit 3632da2
+startedAt: 2026-10-22T12:43:46.305525305Z
+completedAt: 2026-10-22T13:05:53.352342922Z
+assignee: ada-coder-bot
+status: Completed
+commitSHA: 3632da2533355ccaeb51609b59f02306a11b434c
+runName: investigate-12928-3632da2-1792672995
+rule: ci
+recipe: care-ci
+apply: post-replies
