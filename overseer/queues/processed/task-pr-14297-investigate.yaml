@@ -4,12 +4,12 @@ number: 14297
 priority: medium
 phase: 3
 createdAt: 2026-10-23T00:12:14Z
-enqueuedAt: 2026-10-23T00:21:44.94318859Z
+enqueuedAt: 2026-10-23T02:35:37.079531913Z
 triggerEventTime: 2026-10-23T00:21:40Z
 triggerReason: PRCheckFailed
-triggerNotes: Earliest CI failure in 'tests-e2e-fixtures-networksecurity' (failure) at 2026-10-23T00:21:40Z; total 1 failed check(s) on commit 5b25e75
-startedAt: 2026-10-23T00:22:14.199319936Z
-completedAt: 2026-10-23T00:31:15.329778067Z
+triggerNotes: Earliest CI failure in 'tests-e2e-fixtures-networksecurity' (failure) at 2026-10-23T00:21:40Z; total 2 failed check(s) on commit 5b25e75
+startedAt: 2026-10-23T02:35:47.67578524Z
+completedAt: 2026-10-23T02:41:16.378735776Z
 assignee: neumann-coder-bot
 status: Completed
 commitSHA: 5b25e7570cbce77ab89c5f4425600714f6bf3a7a

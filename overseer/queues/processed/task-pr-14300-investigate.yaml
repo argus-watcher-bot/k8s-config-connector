@@ -9,8 +9,9 @@ triggerEventTime: 2026-10-23T00:42:40Z
 triggerReason: PRCheckFailed
 triggerNotes: Earliest CI failure in 'unit-tests-3-of-4' (failure) at 2026-10-23T00:42:40Z; total 2 failed check(s) on commit e10b28c
 startedAt: 2026-10-23T00:46:05.995522844Z
+completedAt: 2026-10-23T01:07:46.611634438Z
 assignee: hopper-coder-bot
-status: Running
+status: Completed
 commitSHA: e10b28cdee80524082b75489d66eefa036da1c2c
 rule: ci
 recipe: care-ci
