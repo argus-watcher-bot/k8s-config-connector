@@ -1,0 +1,21 @@
+type: issue-rule
+url: https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/14292
+number: 14292
+priority: medium
+phase: 3
+createdAt: 2026-10-22T23:23:57Z
+enqueuedAt: 2026-10-22T23:27:30.287602572Z
+triggerEventTime: 2026-10-22T23:23:58Z
+triggerReason: IssueLabeled
+triggerNotes: 'Issue #14292 created at 2026-10-22T23:23:57Z; trigger label ''overseer'' added by walle-agent-bot at 2026-10-22T23:23:58Z'
+startedAt: 2026-10-22T23:27:40.574726844Z
+completedAt: 2026-10-23T00:28:03.530253069Z
+assignee: neumann-coder-bot
+status: Completed
+runName: fix-14292-head-1792711650
+rule: fix
+recipe: fix
+apply: open-pr
+inputs:
+    draft: "false"
+prLabels: true

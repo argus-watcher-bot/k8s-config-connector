@@ -1,0 +1,18 @@
+type: pr-rule
+url: https://github.com/GoogleCloudPlatform/k8s-config-connector/pull/14115
+number: 14115
+priority: medium
+phase: 1
+createdAt: 2026-10-20T00:41:28Z
+enqueuedAt: 2026-10-20T01:08:32.728975982Z
+triggerEventTime: 2026-10-20T01:02:30Z
+triggerReason: PRReadyForReview
+triggerNotes: Automated review triggered; all CI checks passed at 2026-10-20T01:02:30Z for commit f97b2db (committer date 2026-10-20T00:40:30Z)
+startedAt: 2026-10-20T01:08:53.628795818Z
+completedAt: 2026-10-20T01:18:30.540101664Z
+status: Completed
+commitSHA: f97b2db820fbf6d48fc74e501386745855569491
+instructions:
+    - Use  .gemini/skills/reviewgen-brownfield-new-types/SKILL.md to conduct the review.
+runName: review-14115-f97b2db-1792458512
+rule: review

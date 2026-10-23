@@ -4,15 +4,17 @@ number: 10101
 priority: medium
 phase: 4
 createdAt: 2026-06-13T04:12:36Z
-enqueuedAt: 2026-10-23T17:42:02.859295489Z
+enqueuedAt: 2026-10-23T19:44:58.178553011Z
 triggerEventTime: 2026-06-13T04:12:37Z
 triggerReason: IssueLabeled
 triggerNotes: 'Issue #10101 created at 2026-06-13T04:12:36Z; trigger label ''overseer'' added by factorybot-robot at 2026-06-13T04:12:37Z'
-startedAt: 2026-10-23T17:42:09.655954444Z
-completedAt: 2026-10-23T17:43:28.644455257Z
+startedAt: 2026-10-23T19:45:07.11202302Z
+completedAt: 2026-10-23T19:46:14.86700779Z
 assignee: walle-agent-bot
 status: Completed
 agentFile: https://raw.githubusercontent.com/gke-labs/gemini-for-kubernetes-development/refs/heads/main/.agents/workflows/kcc-example.txt
 sessionId: issue-10101
+claim: true
+runName: agent-10101-1792784698
 rule: workflow
 recipe: workflow

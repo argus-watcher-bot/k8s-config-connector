@@ -1,0 +1,21 @@
+type: issue-rule
+url: https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/14247
+number: 14247
+priority: medium
+phase: 3
+createdAt: 2026-10-21T20:21:56Z
+enqueuedAt: 2026-10-21T20:27:17.566709253Z
+triggerEventTime: 2026-10-21T20:21:57Z
+triggerReason: IssueLabeled
+triggerNotes: 'Issue #14247 created at 2026-10-21T20:21:56Z; trigger label ''overseer'' added by walle-agent-bot at 2026-10-21T20:21:57Z'
+startedAt: 2026-10-21T20:27:37.219219181Z
+completedAt: 2026-10-21T20:58:26.728529907Z
+assignee: lovelace-coder-bot
+status: Completed
+runName: fix-14247-head-1792614437
+rule: fix
+recipe: fix
+apply: open-pr
+inputs:
+    draft: "false"
+prLabels: true

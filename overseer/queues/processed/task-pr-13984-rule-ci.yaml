@@ -1,0 +1,17 @@
+type: pr-rule
+url: https://github.com/GoogleCloudPlatform/k8s-config-connector/pull/13984
+number: 13984
+priority: medium
+phase: 3
+createdAt: 2026-10-14T08:05:58Z
+enqueuedAt: 2026-10-16T21:41:38.719666878Z
+triggerEventTime: 2026-10-16T21:41:29Z
+triggerReason: PRCheckFailed
+triggerNotes: Earliest CI failure in 'tests-e2e-fixtures-licensemanager' (failure) at 2026-10-16T21:41:29Z; total 1 failed check(s) on commit 01b0172
+startedAt: 2026-10-16T21:41:47.729472211Z
+completedAt: 2026-10-16T21:43:36.298522015Z
+assignee: hopper-coder-bot
+status: Completed
+commitSHA: 01b0172bb3dff011b6957b32df71ad29c9c42718
+runName: investigate-13984-01b0172-1792186898
+rule: ci

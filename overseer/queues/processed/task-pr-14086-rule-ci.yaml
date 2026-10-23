@@ -1,0 +1,17 @@
+type: pr-rule
+url: https://github.com/GoogleCloudPlatform/k8s-config-connector/pull/14086
+number: 14086
+priority: medium
+phase: 3
+createdAt: 2026-10-19T21:06:31Z
+enqueuedAt: 2026-10-19T21:19:07.917201523Z
+triggerEventTime: 2026-10-19T21:12:50Z
+triggerReason: PRCheckFailed
+triggerNotes: Earliest CI failure in 'smoketest-with-kind' (failure) at 2026-10-19T21:12:50Z; total 2 failed check(s) on commit 55cebd0
+startedAt: 2026-10-19T21:19:20.332596815Z
+completedAt: 2026-10-19T21:43:42.048592782Z
+assignee: neumann-coder-bot
+status: Completed
+commitSHA: 55cebd08943f2fa22691f51984fe0429381eda2a
+runName: investigate-14086-55cebd0-1792444747
+rule: ci

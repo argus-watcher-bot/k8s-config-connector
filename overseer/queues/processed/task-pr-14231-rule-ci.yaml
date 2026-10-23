@@ -1,0 +1,19 @@
+type: pr-rule
+url: https://github.com/GoogleCloudPlatform/k8s-config-connector/pull/14231
+number: 14231
+priority: medium
+phase: 3
+createdAt: 2026-10-21T08:28:00Z
+enqueuedAt: 2026-10-21T08:54:37.614343866Z
+triggerEventTime: 2026-10-21T08:44:59Z
+triggerReason: PRCheckFailed
+triggerNotes: Earliest CI failure in 'unit-tests-3-of-4' (failure) at 2026-10-21T08:44:59Z; total 1 failed check(s) on commit 554ce44
+startedAt: 2026-10-21T08:54:58.992745664Z
+completedAt: 2026-10-21T09:10:23.355631619Z
+assignee: hopper-coder-bot
+status: Completed
+commitSHA: 554ce44d59deac820af2247a1b316ca2f60a5575
+runName: investigate-14231-554ce44-1792572877
+rule: ci
+recipe: care-ci
+apply: post-replies
