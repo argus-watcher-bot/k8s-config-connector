@@ -4,15 +4,13 @@ number: 10612
 priority: medium
 phase: 4
 createdAt: 2026-06-21T06:33:32Z
-enqueuedAt: 2026-10-22T21:22:04.925865611Z
-triggerEventTime: 2026-06-21T06:33:33Z
-triggerReason: IssueLabeled
-triggerNotes: 'Issue #10612 created at 2026-06-21T06:33:32Z; trigger label ''overseer'' added by barney-s at 2026-06-21T06:33:33Z'
-startedAt: 2026-10-22T21:22:09.054789094Z
-completedAt: 2026-10-22T21:23:23.877896581Z
+enqueuedAt: 2026-10-22T23:51:35.323266373Z
+triggerEventTime: 2026-10-22T23:42:37Z
+triggerReason: LinkedIssueClosed
+triggerNotes: 'Linked issue #14146 was closed'
+startedAt: 2026-10-22T23:51:41.126196394Z
+completedAt: 2026-10-23T00:01:37.150307667Z
 assignee: walle-agent-bot
 status: Completed
 agentFile: https://raw.githubusercontent.com/gke-labs/gemini-for-kubernetes-development/refs/heads/main/.agents/workflows/kcc-example.txt
 sessionId: issue-10612
-rule: workflow
-recipe: workflow

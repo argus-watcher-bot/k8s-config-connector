@@ -9,8 +9,9 @@ triggerEventTime: 2026-10-22T20:49:19Z
 triggerReason: PRCheckFailed
 triggerNotes: Earliest CI failure in 'validate-manifests' (failure) at 2026-10-22T20:49:19Z; total 2 failed check(s) on commit 4f23e3c
 startedAt: 2026-10-22T20:58:43.670129724Z
+completedAt: 2026-10-22T22:06:20.987045369Z
 assignee: lovelace-coder-bot
-status: Running
+status: Completed
 commitSHA: 4f23e3c6cf43c80a7a136dee85e53e5407ac9135
 rule: ci
 recipe: care-ci
