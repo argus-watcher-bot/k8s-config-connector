@@ -1,0 +1,20 @@
+type: agent-chore
+url: https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/14334
+number: 14334
+priority: medium
+phase: 4
+createdAt: 2026-10-23T22:12:51Z
+enqueuedAt: 2026-10-24T00:38:25.217492768Z
+triggerEventTime: 2026-10-23T22:12:52Z
+triggerReason: IssueLabeled
+triggerNotes: 'Issue #14334 created at 2026-10-23T22:12:51Z; trigger label ''overseer'' added by anhdle-sso at 2026-10-23T22:12:52Z'
+startedAt: 2026-10-24T00:38:44.049085514Z
+completedAt: 2026-10-24T00:43:31.299079186Z
+assignee: feynman-agent-bot
+status: Completed
+agentFile: https://raw.githubusercontent.com/gke-labs/gemini-for-kubernetes-development/refs/heads/main/.agents/workflows/kcc-example.txt
+sessionId: issue-14334
+claim: true
+runName: agent-14334-1792802305
+rule: workflow
+recipe: workflow

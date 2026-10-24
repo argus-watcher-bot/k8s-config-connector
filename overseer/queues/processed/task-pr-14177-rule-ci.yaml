@@ -4,14 +4,17 @@ number: 14177
 priority: medium
 phase: 3
 createdAt: 2026-10-20T20:40:24Z
-enqueuedAt: 2026-10-20T23:53:15.786917691Z
-triggerEventTime: 2026-10-20T21:45:00Z
+enqueuedAt: 2026-10-23T22:16:50.271670996Z
+triggerEventTime: 2026-10-23T22:06:57Z
 triggerReason: PRCheckFailed
-triggerNotes: Earliest CI failure in 'validate-resource-docs' (failure) at 2026-10-20T21:45:00Z; total 13 failed check(s) on commit 4bcefca
-startedAt: 2026-10-20T23:53:50.660263469Z
-completedAt: 2026-10-21T00:18:33.469788467Z
+triggerNotes: Earliest CI failure in 'validate-fmt' (failure) at 2026-10-23T22:06:57Z; total 1 failed check(s) on commit be05b71
+startedAt: 2026-10-23T22:17:16.752800457Z
+completedAt: 2026-10-23T22:21:32.823146809Z
 assignee: neumann-coder-bot
 status: Completed
-commitSHA: 4bcefca721d452fb6da2b09bf5dfca838def3850
-runName: investigate-14177-4bcefca-1792540395
+commitSHA: be05b719eae4b2ae693226b500a9d5cd699d7304
+startComment: "\U0001F916 AI Factory started investigating CI check failures for this pull request.\n\nNote: We recommend waiting for the 'ready-for-human' label before leaving review comments. Comments added while the system is actively working may be associated with outdated commits once a new commit is pushed, causing them to be ignored."
+runName: ci-14177-be05b71-1792793810
 rule: ci
+recipe: care-ci
+apply: post-replies
