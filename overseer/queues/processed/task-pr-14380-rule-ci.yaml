@@ -9,8 +9,9 @@ triggerEventTime: 2026-10-24T00:28:39Z
 triggerReason: PRCheckFailed
 triggerNotes: Earliest CI failure in 'tests-e2e-fixtures-networksecurity' (failure) at 2026-10-24T00:28:39Z; total 1 failed check(s) on commit 92c4641
 startedAt: 2026-10-24T00:41:17.111592359Z
+completedAt: 2026-10-24T00:53:05.725294097Z
 assignee: hopper-coder-bot
-status: Running
+status: Completed
 commitSHA: 92c4641dfeeb0fab4d7fc488501b918619bc9998
 startComment: "\U0001F916 AI Factory started investigating CI check failures for this pull request.\n\nNote: We recommend waiting for the 'ready-for-human' label before leaving review comments. Comments added while the system is actively working may be associated with outdated commits once a new commit is pushed, causing them to be ignored."
 runName: ci-14380-92c4641-1792802447
