@@ -4,17 +4,17 @@ number: 14091
 priority: medium
 phase: 4
 createdAt: 2026-10-19T23:49:54Z
-enqueuedAt: 2026-10-24T03:26:09.180715169Z
+enqueuedAt: 2026-10-24T05:27:44.842275989Z
 triggerEventTime: 2026-10-19T23:49:56Z
 triggerReason: IssueLabeled
 triggerNotes: 'Issue #14091 created at 2026-10-19T23:49:54Z; trigger label ''overseer'' added by anhdle-sso at 2026-10-19T23:49:56Z'
-startedAt: 2026-10-24T03:26:27.371236171Z
-completedAt: 2026-10-24T03:27:03.239280903Z
+startedAt: 2026-10-24T05:27:55.532991768Z
+completedAt: 2026-10-24T05:29:05.921152193Z
 assignee: walle-agent-bot
 status: Completed
 agentFile: https://raw.githubusercontent.com/gke-labs/gemini-for-kubernetes-development/refs/heads/main/.agents/workflows/kcc-example.txt
 sessionId: issue-14091
 claim: true
-runName: agent-14091-1792812369
+runName: agent-14091-1792819664
 rule: workflow
 recipe: workflow
