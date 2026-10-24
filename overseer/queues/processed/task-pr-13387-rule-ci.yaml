@@ -4,17 +4,17 @@ number: 13387
 priority: medium
 phase: 3
 createdAt: 2026-09-23T16:10:33Z
-enqueuedAt: 2026-10-23T22:39:09.932157307Z
+enqueuedAt: 2026-10-24T00:53:21.798723867Z
 triggerEventTime: 2026-10-23T22:33:40Z
 triggerReason: PRCheckFailed
-triggerNotes: Earliest CI failure in 'tests-e2e-fixtures-datastore' (failure) at 2026-10-23T22:33:40Z; total 1 failed check(s) on commit 03d404a
-startedAt: 2026-10-23T22:39:31.450300741Z
-completedAt: 2026-10-23T22:42:50.096685692Z
+triggerNotes: Earliest CI failure in 'tests-e2e-fixtures-datastore' (failure) at 2026-10-23T22:33:40Z; total 2 failed check(s) on commit 03d404a
+startedAt: 2026-10-24T00:53:45.95361143Z
+completedAt: 2026-10-24T00:56:53.247633815Z
 assignee: neumann-coder-bot
 status: Completed
 commitSHA: 03d404ae07253d1e33c596d388d0e4e84d2ded69
 startComment: "\U0001F916 AI Factory started investigating CI check failures for this pull request.\n\nNote: We recommend waiting for the 'ready-for-human' label before leaving review comments. Comments added while the system is actively working may be associated with outdated commits once a new commit is pushed, causing them to be ignored."
-runName: ci-13387-03d404a-1792795149
+runName: ci-13387-03d404a-1792803201
 rule: ci
 recipe: care-ci
 apply: post-replies

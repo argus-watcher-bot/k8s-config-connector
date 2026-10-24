@@ -4,17 +4,17 @@ number: 14361
 priority: medium
 phase: 3
 createdAt: 2026-10-23T23:16:50Z
-enqueuedAt: 2026-10-23T23:20:34.170575132Z
-triggerEventTime: 2026-10-23T23:17:06Z
+enqueuedAt: 2026-10-24T03:40:53.23853139Z
+triggerEventTime: 2026-10-23T23:28:13Z
 triggerReason: PRCheckFailed
-triggerNotes: Earliest CI failure in 'Validate PR Release Note' (failure) at 2026-10-23T23:17:06Z; total 1 failed check(s) on commit b1c0b04
-startedAt: 2026-10-23T23:20:41.398427171Z
-completedAt: 2026-10-23T23:24:22.91357731Z
+triggerNotes: Earliest CI failure in 'Validate PR Release Note' (failure) at 2026-10-23T23:28:13Z; total 1 failed check(s) on commit b1c0b04
+startedAt: 2026-10-24T03:41:04.824880158Z
+completedAt: 2026-10-24T03:44:54.805744647Z
 assignee: hopper-coder-bot
 status: Completed
 commitSHA: b1c0b04cbc87e5f8c618c32d8efae89bba5583ad
 startComment: "\U0001F916 AI Factory started investigating CI check failures for this pull request.\n\nNote: We recommend waiting for the 'ready-for-human' label before leaving review comments. Comments added while the system is actively working may be associated with outdated commits once a new commit is pushed, causing them to be ignored."
-runName: ci-14361-b1c0b04-1792797634
+runName: ci-14361-b1c0b04-1792813253
 rule: ci
 recipe: care-ci
 apply: post-replies
