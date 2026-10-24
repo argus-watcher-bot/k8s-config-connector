@@ -1,0 +1,21 @@
+type: agent-chore
+url: https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/14333
+number: 14333
+priority: medium
+phase: 4
+createdAt: 2026-10-23T22:12:50Z
+enqueuedAt: 2026-10-24T00:34:19.546159689Z
+triggerEventTime: 2026-10-23T22:12:52Z
+triggerReason: IssueLabeled
+triggerNotes: 'Issue #14333 created at 2026-10-23T22:12:50Z; trigger label ''overseer'' added by anhdle-sso at 2026-10-23T22:12:52Z'
+startedAt: 2026-10-24T00:34:32.377116195Z
+completedAt: 2026-10-24T00:34:49.84140884Z
+assignee: feynman-agent-bot
+status: Failed
+error: 'exit status 1: connecting to sandbox: sandbox wf-issue-14333 has no task server to use (sandbox pod wf-issue-14333 is in Failed state (reason: Preempting): cannot connect to terminated pod); recreate it on a current image'
+agentFile: https://raw.githubusercontent.com/gke-labs/gemini-for-kubernetes-development/refs/heads/main/.agents/workflows/kcc-example.txt
+sessionId: issue-14333
+claim: true
+runName: agent-14333-1792802059
+rule: workflow
+recipe: workflow

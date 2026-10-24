@@ -4,17 +4,17 @@ number: 14318
 priority: medium
 phase: 3
 createdAt: 2026-10-23T20:31:16Z
-enqueuedAt: 2026-10-23T20:45:01.529461535Z
-triggerEventTime: 2026-10-23T20:35:37Z
+enqueuedAt: 2026-10-23T22:17:01.47775646Z
+triggerEventTime: 2026-10-23T22:16:11Z
 triggerReason: PRCheckFailed
-triggerNotes: Earliest CI failure in 'Validate PR Release Note' (failure) at 2026-10-23T20:35:37Z; total 1 failed check(s) on commit f3d3ddf
-startedAt: 2026-10-23T20:45:21.308328891Z
-completedAt: 2026-10-23T20:48:27.885395697Z
+triggerNotes: Earliest CI failure in 'tests-e2e-fixtures-bigtable' (failure) at 2026-10-23T22:16:11Z; total 1 failed check(s) on commit 88873ce
+startedAt: 2026-10-23T22:17:31.729115283Z
+completedAt: 2026-10-23T22:34:09.635260752Z
 assignee: neumann-coder-bot
 status: Completed
-commitSHA: f3d3ddfe69bcf8254215f3a7190f9072d6a59424
+commitSHA: 88873ce138fcbf9d0095cc38b4e92c702b9aca71
 startComment: "\U0001F916 AI Factory started investigating CI check failures for this pull request.\n\nNote: We recommend waiting for the 'ready-for-human' label before leaving review comments. Comments added while the system is actively working may be associated with outdated commits once a new commit is pushed, causing them to be ignored."
-runName: ci-14318-f3d3ddf-1792788301
+runName: ci-14318-88873ce-1792793821
 rule: ci
 recipe: care-ci
 apply: post-replies
