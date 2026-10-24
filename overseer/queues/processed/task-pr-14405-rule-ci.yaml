@@ -4,17 +4,17 @@ number: 14405
 priority: medium
 phase: 3
 createdAt: 2026-10-24T02:37:32Z
-enqueuedAt: 2026-10-24T02:54:22.668636429Z
+enqueuedAt: 2026-10-24T05:03:56.40003007Z
 triggerEventTime: 2026-10-24T02:46:58Z
 triggerReason: PRCheckFailed
-triggerNotes: Earliest CI failure in 'tests-e2e-fixtures-visionai' (failure) at 2026-10-24T02:46:58Z; total 1 failed check(s) on commit 856ff42
-startedAt: 2026-10-24T02:54:42.430999831Z
-completedAt: 2026-10-24T02:57:10.342551491Z
+triggerNotes: Earliest CI failure in 'tests-e2e-fixtures-visionai' (failure) at 2026-10-24T02:46:58Z; total 2 failed check(s) on commit 856ff42
+startedAt: 2026-10-24T05:04:26.116595427Z
+completedAt: 2026-10-24T05:08:10.690477922Z
 assignee: lovelace-coder-bot
 status: Completed
 commitSHA: 856ff42c54e844cdc9ece0bc67b8c4b4689b5f39
 startComment: "\U0001F916 AI Factory started investigating CI check failures for this pull request.\n\nNote: We recommend waiting for the 'ready-for-human' label before leaving review comments. Comments added while the system is actively working may be associated with outdated commits once a new commit is pushed, causing them to be ignored."
-runName: ci-14405-856ff42-1792810462
+runName: ci-14405-856ff42-1792818236
 rule: ci
 recipe: care-ci
 apply: post-replies
