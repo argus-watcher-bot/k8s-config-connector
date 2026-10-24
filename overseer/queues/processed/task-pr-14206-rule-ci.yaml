@@ -4,14 +4,17 @@ number: 14206
 priority: medium
 phase: 3
 createdAt: 2026-10-21T00:30:46Z
-enqueuedAt: 2026-10-21T00:48:16.866558756Z
-triggerEventTime: 2026-10-21T00:42:47Z
+enqueuedAt: 2026-10-23T21:56:46.116390173Z
+triggerEventTime: 2026-10-23T21:56:42Z
 triggerReason: PRCheckFailed
-triggerNotes: Earliest CI failure in 'unit-tests-3-of-4' (failure) at 2026-10-21T00:42:47Z; total 2 failed check(s) on commit 53d812a
-startedAt: 2026-10-21T00:48:47.95923216Z
-completedAt: 2026-10-21T00:56:33.389218385Z
+triggerNotes: Earliest CI failure in 'unit-tests-3-of-4' (failure) at 2026-10-23T21:56:42Z; total 1 failed check(s) on commit 84e10fa
+startedAt: 2026-10-23T21:56:59.155919651Z
+completedAt: 2026-10-23T22:00:49.430942547Z
 assignee: ada-coder-bot
 status: Completed
-commitSHA: 53d812a4e96aad909576f6e0b4b14a837b9cbded
-runName: investigate-14206-53d812a-1792543696
+commitSHA: 84e10faa424b222e68b31d08b2d929cb856c0f78
+startComment: "\U0001F916 AI Factory started investigating CI check failures for this pull request.\n\nNote: We recommend waiting for the 'ready-for-human' label before leaving review comments. Comments added while the system is actively working may be associated with outdated commits once a new commit is pushed, causing them to be ignored."
+runName: ci-14206-84e10fa-1792792606
 rule: ci
+recipe: care-ci
+apply: post-replies

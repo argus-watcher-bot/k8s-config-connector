@@ -4,15 +4,17 @@ number: 14193
 priority: medium
 phase: 3
 createdAt: 2026-10-20T21:58:55Z
-enqueuedAt: 2026-10-21T03:08:40.425644323Z
-triggerEventTime: 2026-10-21T01:02:53Z
+enqueuedAt: 2026-10-23T22:29:09.707886515Z
+triggerEventTime: 2026-10-23T22:19:37Z
 triggerReason: PRCheckFailed
-triggerNotes: Earliest CI failure in 'Validate PR Release Note' (failure) at 2026-10-21T01:02:53Z; total 1 failed check(s) on commit 09f3a95
-startedAt: 2026-10-21T03:09:06.357959227Z
-completedAt: 2026-10-21T03:15:11.801705311Z
+triggerNotes: Earliest CI failure in 'unit-tests-1-of-4' (failure) at 2026-10-23T22:19:37Z; total 1 failed check(s) on commit 54868f8
+startedAt: 2026-10-23T22:29:29.20652066Z
+completedAt: 2026-10-23T22:41:25.979975137Z
 assignee: neumann-coder-bot
-status: Failed
-error: 'exit status 1: connecting to sandbox: sandbox fix-k8s-config-connector-12144 has no task server to use (timed out waiting for sandbox pod fix-k8s-config-connector-12144 to become ready); recreate it on a current image'
-commitSHA: 09f3a950a6459ecb109074f69714d46b92e0985f
-runName: investigate-14193-09f3a95-1792552120
+status: Completed
+commitSHA: 54868f84e709b8a77da1606bae10d520cd0d9c09
+startComment: "\U0001F916 AI Factory started investigating CI check failures for this pull request.\n\nNote: We recommend waiting for the 'ready-for-human' label before leaving review comments. Comments added while the system is actively working may be associated with outdated commits once a new commit is pushed, causing them to be ignored."
+runName: ci-14193-54868f8-1792794549
 rule: ci
+recipe: care-ci
+apply: post-replies

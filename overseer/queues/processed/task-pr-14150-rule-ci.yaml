@@ -4,17 +4,17 @@ number: 14150
 priority: medium
 phase: 3
 createdAt: 2026-10-20T19:58:16Z
-enqueuedAt: 2026-10-23T21:08:17.388370857Z
-triggerEventTime: 2026-10-23T20:56:59Z
+enqueuedAt: 2026-10-23T23:21:53.60772924Z
+triggerEventTime: 2026-10-23T21:18:13Z
 triggerReason: PRCheckFailed
-triggerNotes: Earliest CI failure in 'tests-e2e-samples-iam' (failure) at 2026-10-23T20:56:59Z; total 212 failed check(s) on commit d513d46
-startedAt: 2026-10-23T21:09:15.747499256Z
-completedAt: 2026-10-23T21:17:36.32250046Z
+triggerNotes: Earliest CI failure in 'tests-e2e-fixtures-bigquery-2-of-2' (failure) at 2026-10-23T21:18:13Z; total 212 failed check(s) on commit d513d46
+startedAt: 2026-10-23T23:22:01.989860574Z
+completedAt: 2026-10-23T23:27:27.700017138Z
 assignee: ada-coder-bot
 status: Completed
 commitSHA: d513d46f04263f5842db90341fd1ebacd893026b
 startComment: "\U0001F916 AI Factory started investigating CI check failures for this pull request.\n\nNote: We recommend waiting for the 'ready-for-human' label before leaving review comments. Comments added while the system is actively working may be associated with outdated commits once a new commit is pushed, causing them to be ignored."
-runName: ci-14150-d513d46-1792789697
+runName: ci-14150-d513d46-1792797713
 rule: ci
 recipe: care-ci
 apply: post-replies
