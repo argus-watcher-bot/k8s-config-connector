@@ -1,0 +1,22 @@
+type: pr-rule
+url: https://github.com/GoogleCloudPlatform/k8s-config-connector/pull/14404
+number: 14404
+priority: medium
+phase: 1
+createdAt: 2026-10-24T02:37:18Z
+enqueuedAt: 2026-10-24T03:16:30.146299825Z
+triggerEventTime: 2026-10-24T03:06:33Z
+triggerReason: PRReadyForReview
+triggerNotes: Automated review triggered; all CI checks passed at 2026-10-24T03:06:33Z for commit 7d05679 (committer date 2026-10-24T02:35:24Z)
+startedAt: 2026-10-24T03:16:43.656799721Z
+completedAt: 2026-10-24T03:33:35.267674625Z
+assignee: ada-coder-bot
+status: Completed
+commitSHA: 7d056793e0249d05f229da62fbbbd18866e56b20
+instructions:
+    - Use .gemini/skills/reviewgen-greenfield-controller/SKILL.md to conduct the review.
+startComment: "\U0001F916 AI Factory started reviewing this pull request in a sandbox."
+runName: review-14404-7d05679-1792811790
+rule: review
+recipe: review
+apply: submit-review

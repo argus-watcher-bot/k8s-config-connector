@@ -1,19 +1,19 @@
 type: pr-rule
-url: https://github.com/GoogleCloudPlatform/k8s-config-connector/pull/14188
-number: 14188
+url: https://github.com/GoogleCloudPlatform/k8s-config-connector/pull/14392
+number: 14392
 priority: medium
 phase: 3
-createdAt: 2026-10-20T21:46:19Z
-enqueuedAt: 2026-10-24T00:41:37.327376134Z
-triggerEventTime: 2026-10-23T22:16:42Z
+createdAt: 2026-10-24T01:21:17Z
+enqueuedAt: 2026-10-24T03:51:08.153694739Z
+triggerEventTime: 2026-10-24T01:29:01Z
 triggerReason: PRCheckFailed
-triggerNotes: Earliest CI failure in 'tests-e2e-fixtures-sql-2-of-2' (failure) at 2026-10-23T22:16:42Z; total 2 failed check(s) on commit b76979f
-startedAt: 2026-10-24T00:41:55.32964597Z
+triggerNotes: Earliest CI failure in 'test-mockgcp' (failure) at 2026-10-24T01:29:01Z; total 2 failed check(s) on commit 7017011
+startedAt: 2026-10-24T03:51:34.108659216Z
 assignee: lovelace-coder-bot
 status: Running
-commitSHA: b76979feffaf6c50c7e4482f61c0258b881591a0
+commitSHA: 701701117a9e48b97e9638fa8cb4eb1d604176bf
 startComment: "\U0001F916 AI Factory started investigating CI check failures for this pull request.\n\nNote: We recommend waiting for the 'ready-for-human' label before leaving review comments. Comments added while the system is actively working may be associated with outdated commits once a new commit is pushed, causing them to be ignored."
-runName: ci-14188-b76979f-1792802497
+runName: ci-14392-7017011-1792813868
 rule: ci
 recipe: care-ci
 apply: post-replies
