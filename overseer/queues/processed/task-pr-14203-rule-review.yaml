@@ -4,15 +4,19 @@ number: 14203
 priority: medium
 phase: 1
 createdAt: 2026-10-21T00:00:07Z
-enqueuedAt: 2026-10-21T01:44:33.969101649Z
-triggerEventTime: 2026-10-21T01:35:16Z
+enqueuedAt: 2026-10-23T22:07:06.537280917Z
+triggerEventTime: 2026-10-23T22:00:48Z
 triggerReason: PRReadyForReview
-triggerNotes: Automated review triggered; all CI checks passed at 2026-10-21T01:35:16Z for commit e881210 (committer date 2026-10-21T01:12:29Z)
-startedAt: 2026-10-21T01:44:35.397754038Z
-completedAt: 2026-10-21T01:46:32.526732423Z
+triggerNotes: Automated review triggered; all CI checks passed at 2026-10-23T22:00:48Z for commit 0a3c5dc (committer date 2026-10-23T21:12:51Z)
+startedAt: 2026-10-23T22:07:40.474770698Z
+completedAt: 2026-10-23T22:12:44.258548388Z
+assignee: hopper-coder-bot
 status: Completed
-commitSHA: e881210646870ace090fea66d91990fa09f2fe89
+commitSHA: 0a3c5dc86b72ca7e35ac9e21b2c7646a4b2f3c2b
 instructions:
     - Use .gemini/skills/reviewgen-greenfield-new-types/SKILL.md to conduct the review.
-runName: review-14203-e881210-1792547073
+startComment: "\U0001F916 AI Factory started reviewing this pull request in a sandbox."
+runName: review-14203-0a3c5dc-1792793226
 rule: review
+recipe: review
+apply: submit-review
