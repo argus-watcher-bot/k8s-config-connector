@@ -4,17 +4,17 @@ number: 12107
 priority: medium
 phase: 3
 createdAt: 2026-07-30T03:50:02Z
-enqueuedAt: 2026-10-23T23:00:32.163008842Z
-triggerEventTime: 2026-10-23T22:56:38Z
+enqueuedAt: 2026-10-24T03:16:14.398449797Z
+triggerEventTime: 2026-10-24T03:14:19Z
 triggerReason: PRCheckFailed
-triggerNotes: Earliest CI failure in 'Validate PR Release Note' (failure) at 2026-10-23T22:56:38Z; total 1 failed check(s) on commit b736b08
-startedAt: 2026-10-23T23:01:11.740855259Z
-completedAt: 2026-10-23T23:03:15.053286977Z
+triggerNotes: Earliest CI failure in 'zizmor-output' (failure) at 2026-10-24T03:14:19Z; total 1 failed check(s) on commit b312f18
+startedAt: 2026-10-24T03:16:49.000864048Z
+completedAt: 2026-10-24T03:50:00.468777607Z
 assignee: ada-coder-bot
 status: Completed
-commitSHA: b736b08659e7e058eeee79fa6bc73ac4542f602f
+commitSHA: b312f189501e553fbaf0ddd601dd195de6f4e976
 startComment: "\U0001F916 AI Factory started investigating CI check failures for this pull request.\n\nNote: We recommend waiting for the 'ready-for-human' label before leaving review comments. Comments added while the system is actively working may be associated with outdated commits once a new commit is pushed, causing them to be ignored."
-runName: ci-12107-b736b08-1792796432
+runName: ci-12107-b312f18-1792811774
 rule: ci
 recipe: care-ci
 apply: post-replies
