@@ -4,17 +4,18 @@ number: 14157
 priority: medium
 phase: 4
 createdAt: 2026-10-20T20:11:06Z
-enqueuedAt: 2026-10-24T20:49:56.872494556Z
+enqueuedAt: 2026-10-25T01:02:17.714965009Z
 triggerEventTime: 2026-10-20T20:11:08Z
 triggerReason: IssueLabeled
 triggerNotes: 'Issue #14157 created at 2026-10-20T20:11:06Z; trigger label ''overseer'' added by fkc1e100 at 2026-10-20T20:11:08Z'
-startedAt: 2026-10-24T20:50:25.589568707Z
-completedAt: 2026-10-24T20:53:06.944786391Z
+startedAt: 2026-10-25T01:02:47.710022835Z
+completedAt: 2026-10-25T01:08:50.431453036Z
 assignee: daedalus-agent-bot
-status: Completed
+status: Failed
+error: 'exit status 1: connecting to sandbox: sandbox wf-issue-14157 has no task server to use (timed out waiting for sandbox pod wf-issue-14157 to become ready); recreate it on a current image'
 agentFile: https://raw.githubusercontent.com/GoogleCloudPlatform/k8s-config-connector/refs/heads/master/.agents/workflows/kcc-greenfield.txt
 sessionId: issue-14157
 claim: true
-runName: agent-14157-1792874996
+runName: agent-14157-1792890137
 rule: workflow
 recipe: workflow
