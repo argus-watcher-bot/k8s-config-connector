@@ -4,17 +4,17 @@ number: 14192
 priority: critical
 phase: 4
 createdAt: 2026-10-20T21:56:41Z
-enqueuedAt: 2026-10-25T05:47:59.69627108Z
+enqueuedAt: 2026-10-25T09:57:05.561499525Z
 triggerEventTime: 2026-10-20T21:56:42Z
 triggerReason: IssueLabeled
 triggerNotes: 'Issue #14192 created at 2026-10-20T21:56:41Z; trigger label ''overseer'' added by ldanielmadariaga at 2026-10-20T21:56:42Z'
-startedAt: 2026-10-25T05:48:21.38736231Z
-completedAt: 2026-10-25T05:51:50.203034119Z
+startedAt: 2026-10-25T09:57:25.187587056Z
+completedAt: 2026-10-25T10:00:15.64478801Z
 assignee: daedalus-agent-bot
 status: Completed
 agentFile: https://raw.githubusercontent.com/GoogleCloudPlatform/k8s-config-connector/master/.agents/workflows/kcc-greenfield.txt
 sessionId: issue-14192
 claim: true
-runName: agent-14192-1792907279
+runName: agent-14192-1792922225
 rule: workflow
 recipe: workflow
