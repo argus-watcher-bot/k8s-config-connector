@@ -4,17 +4,17 @@ number: 14328
 priority: medium
 phase: 4
 createdAt: 2026-10-23T22:12:46Z
-enqueuedAt: 2026-10-24T23:18:17.045055882Z
+enqueuedAt: 2026-10-25T03:27:23.782524115Z
 triggerEventTime: 2026-10-23T22:12:47Z
 triggerReason: IssueLabeled
 triggerNotes: 'Issue #14328 created at 2026-10-23T22:12:46Z; trigger label ''overseer'' added by anhdle-sso at 2026-10-23T22:12:47Z'
-startedAt: 2026-10-24T23:18:44.320194481Z
-completedAt: 2026-10-24T23:21:24.505385471Z
+startedAt: 2026-10-25T03:27:50.145502882Z
+completedAt: 2026-10-25T03:30:08.696506886Z
 assignee: daedalus-agent-bot
 status: Completed
 agentFile: https://raw.githubusercontent.com/gke-labs/gemini-for-kubernetes-development/refs/heads/main/.agents/workflows/kcc-example.txt
 sessionId: issue-14328
 claim: true
-runName: agent-14328-1792883897
+runName: agent-14328-1792898843
 rule: workflow
 recipe: workflow
