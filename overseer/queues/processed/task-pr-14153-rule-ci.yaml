@@ -4,17 +4,17 @@ number: 14153
 priority: medium
 phase: 3
 createdAt: 2026-10-20T20:05:54Z
-enqueuedAt: 2026-10-26T00:11:19.297724246Z
+enqueuedAt: 2026-10-26T02:20:50.395989758Z
 triggerEventTime: 2026-10-20T22:38:35Z
 triggerReason: PRCheckFailed
 triggerNotes: Earliest CI failure in 'Validate PR Release Note' (cancelled) at 2026-10-20T22:38:35Z; total 1 failed check(s) on commit 3166f13
-startedAt: 2026-10-26T00:11:44.012929535Z
-completedAt: 2026-10-26T00:13:00.186755689Z
+startedAt: 2026-10-26T02:21:14.377430603Z
+completedAt: 2026-10-26T02:22:43.251668467Z
 assignee: neumann-coder-bot
 status: Completed
 commitSHA: 3166f13e9ef8065c240c2d41817b2ecd61f11155
 startComment: "\U0001F916 AI Factory started investigating CI check failures for this pull request.\n\nNote: We recommend waiting for the 'ready-for-human' label before leaving review comments. Comments added while the system is actively working may be associated with outdated commits once a new commit is pushed, causing them to be ignored."
-runName: ci-14153-3166f13-1792973479
+runName: ci-14153-3166f13-1792981250
 rule: ci
 recipe: care-ci
 apply: post-replies
