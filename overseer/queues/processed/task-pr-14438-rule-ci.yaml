@@ -4,12 +4,12 @@ number: 14438
 priority: medium
 phase: 3
 createdAt: 2026-10-26T08:43:33Z
-enqueuedAt: 2026-10-26T12:40:06.772076674Z
-triggerEventTime: 2026-10-26T10:30:06Z
+enqueuedAt: 2026-10-26T14:45:21.416492086Z
+triggerEventTime: 2026-10-26T12:55:39Z
 triggerReason: PRCheckFailed
-triggerNotes: Earliest CI failure in 'golangci-lint' (failure) at 2026-10-26T10:30:06Z; total 2 failed check(s) on commit 5f649a0
-startedAt: 2026-10-26T12:40:41.417592209Z
-completedAt: 2026-10-26T12:42:20.026246002Z
+triggerNotes: Earliest CI failure in 'golangci-lint' (failure) at 2026-10-26T12:55:39Z; total 2 failed check(s) on commit 5f649a0
+startedAt: 2026-10-26T14:45:32.406725056Z
+completedAt: 2026-10-26T14:50:35.012704754Z
 assignee: ada-coder-bot
 status: Completed
 commitSHA: 5f649a044598667297bb5aa3b9921781e9daa2c2
@@ -18,7 +18,7 @@ onStart:
         AI Factory started investigating CI check failures for this pull request.
 
         Note: We recommend waiting for the 'ready-for-human' label before leaving review comments. Comments added while the system is actively working may be associated with outdated commits once a new commit is pushed, causing them to be ignored.
-runName: ci-14438-5f649a0-1793018406
+runName: ci-14438-5f649a0-1793025921
 rule: ci
 recipe: care-ci
 apply: post-replies
