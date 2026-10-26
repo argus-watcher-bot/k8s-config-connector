@@ -4,12 +4,12 @@ number: 14327
 priority: medium
 phase: 4
 createdAt: 2026-10-23T22:12:46Z
-enqueuedAt: 2026-10-26T14:17:08.663073724Z
+enqueuedAt: 2026-10-26T18:23:05.643252613Z
 triggerEventTime: 2026-10-23T22:12:47Z
 triggerReason: IssueLabeled
 triggerNotes: 'Issue #14327 created at 2026-10-23T22:12:46Z; trigger label ''overseer'' added by anhdle-sso at 2026-10-23T22:12:47Z'
-startedAt: 2026-10-26T14:17:21.605003128Z
-completedAt: 2026-10-26T14:17:52.49761415Z
+startedAt: 2026-10-26T18:23:21.849808491Z
+completedAt: 2026-10-26T18:27:58.021243823Z
 assignee: walle-agent-bot
 status: Completed
 agentFile: https://raw.githubusercontent.com/gke-labs/gemini-for-kubernetes-development/refs/heads/main/.agents/workflows/kcc-example.txt
@@ -17,6 +17,6 @@ sessionId: issue-14327
 onStart:
     assign:
         - '{{bot}}'
-runName: agent-14327-1793024228
+runName: agent-14327-1793038985
 rule: workflow
 recipe: workflow
