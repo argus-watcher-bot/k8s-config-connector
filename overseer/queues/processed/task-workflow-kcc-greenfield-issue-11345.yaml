@@ -4,17 +4,19 @@ number: 11345
 priority: medium
 phase: 4
 createdAt: 2026-07-06T05:16:13Z
-enqueuedAt: 2026-10-26T05:10:45.99454186Z
+enqueuedAt: 2026-10-26T09:18:49.532558296Z
 triggerEventTime: 2026-07-23T06:31:27Z
 triggerReason: IssueLabeled
 triggerNotes: 'Issue #11345 created at 2026-07-06T05:16:13Z; trigger label ''overseer'' added by acpana at 2026-07-23T06:31:27Z'
-startedAt: 2026-10-26T05:11:13.42245605Z
-completedAt: 2026-10-26T05:13:45.889127131Z
+startedAt: 2026-10-26T09:18:56.419418178Z
+completedAt: 2026-10-26T09:19:32.375698775Z
 assignee: daedalus-agent-bot
 status: Completed
 agentFile: https://raw.githubusercontent.com/GoogleCloudPlatform/k8s-config-connector/refs/heads/master/.agents/workflows/kcc-greenfield.txt
 sessionId: issue-11345
-claim: true
-runName: agent-11345-1792991445
+onStart:
+    assign:
+        - '{{bot}}'
+runName: agent-11345-1793006329
 rule: workflow
 recipe: workflow

@@ -4,17 +4,19 @@ number: 14099
 priority: medium
 phase: 4
 createdAt: 2026-10-19T23:50:42Z
-enqueuedAt: 2026-10-26T05:14:44.307791903Z
+enqueuedAt: 2026-10-26T09:26:20.489967956Z
 triggerEventTime: 2026-10-19T23:50:43Z
 triggerReason: IssueLabeled
 triggerNotes: 'Issue #14099 created at 2026-10-19T23:50:42Z; trigger label ''overseer'' added by anhdle-sso at 2026-10-19T23:50:43Z'
-startedAt: 2026-10-26T05:14:51.750145031Z
-completedAt: 2026-10-26T05:18:43.336020264Z
+startedAt: 2026-10-26T09:26:41.755840252Z
+completedAt: 2026-10-26T09:30:37.845400824Z
 assignee: feynman-agent-bot
 status: Completed
 agentFile: https://raw.githubusercontent.com/gke-labs/gemini-for-kubernetes-development/refs/heads/main/.agents/workflows/kcc-example.txt
 sessionId: issue-14099
-claim: true
-runName: agent-14099-1792991684
+onStart:
+    assign:
+        - '{{bot}}'
+runName: agent-14099-1793006780
 rule: workflow
 recipe: workflow
