@@ -10,11 +10,12 @@ triggerReason: PRCommentsAdded
 triggerNotes: Oldest unaddressed comment by fkc1e100 added at 2026-10-25T21:50:43Z (ID 6403809766) since last commit 7b1c568 (committer date 2026-10-24T00:35:56Z)
 startedAt: 2026-10-25T21:51:38.495964654Z
 assignee: neumann-coder-bot
-status: Running
+status: Pending
 commitSHA: 7b1c5680d1d12bcd14e04b2e577361322f24e9ba
 acknowledge: feedback
 startComment: "\U0001F916 AI Factory started addressing review feedback for this pull request."
 runName: comments-14181-7b1c568-1792965087
+recovered: true
 rule: comments
 recipe: care-comments
 apply: post-replies
