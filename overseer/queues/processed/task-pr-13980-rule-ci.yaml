@@ -4,14 +4,21 @@ number: 13980
 priority: medium
 phase: 3
 createdAt: 2026-10-14T05:31:13Z
-enqueuedAt: 2026-10-20T10:32:52.306193383Z
-triggerEventTime: 2026-10-20T08:42:21Z
+enqueuedAt: 2026-10-26T08:52:32.415965125Z
+triggerEventTime: 2026-10-26T08:43:40Z
 triggerReason: PRCheckFailed
-triggerNotes: Earliest CI failure in 'unit-tests-2-of-4' (failure) at 2026-10-20T08:42:21Z; total 2 failed check(s) on commit 307c342
-startedAt: 2026-10-20T10:32:58.150034317Z
-completedAt: 2026-10-20T10:34:45.955441305Z
+triggerNotes: Earliest CI failure in 'golangci-lint' (failure) at 2026-10-26T08:43:40Z; total 1 failed check(s) on commit 95d89d8
+startedAt: 2026-10-26T08:52:50.047822886Z
+completedAt: 2026-10-26T08:56:56.956993226Z
 assignee: hopper-coder-bot
 status: Completed
-commitSHA: 307c342271f0d81a3ddb3a3427adcd0101022d99
-runName: investigate-13980-307c342-1792492372
+commitSHA: 95d89d894c83fb3f70cd665ffcf201ccfc93cb0b
+onStart:
+    comment: |-
+        AI Factory started investigating CI check failures for this pull request.
+
+        Note: We recommend waiting for the 'ready-for-human' label before leaving review comments. Comments added while the system is actively working may be associated with outdated commits once a new commit is pushed, causing them to be ignored.
+runName: ci-13980-95d89d8-1793004752
 rule: ci
+recipe: care-ci
+apply: post-replies

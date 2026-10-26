@@ -4,17 +4,19 @@ number: 10103
 priority: medium
 phase: 4
 createdAt: 2026-06-13T04:13:20Z
-enqueuedAt: 2026-10-26T05:14:41.032780796Z
+enqueuedAt: 2026-10-26T09:26:18.35450426Z
 triggerEventTime: 2026-06-13T04:13:22Z
 triggerReason: IssueLabeled
 triggerNotes: 'Issue #10103 created at 2026-06-13T04:13:20Z; trigger label ''overseer'' added by factorybot-robot at 2026-06-13T04:13:22Z'
-startedAt: 2026-10-26T05:14:50.283704868Z
-completedAt: 2026-10-26T05:18:49.268973035Z
+startedAt: 2026-10-26T09:26:41.11195016Z
+completedAt: 2026-10-26T09:30:38.897083459Z
 assignee: daedalus-agent-bot
 status: Completed
 agentFile: https://raw.githubusercontent.com/gke-labs/gemini-for-kubernetes-development/refs/heads/main/.agents/workflows/kcc-example.txt
 sessionId: issue-10103
-claim: true
-runName: agent-10103-1792991681
+onStart:
+    assign:
+        - '{{bot}}'
+runName: agent-10103-1793006778
 rule: workflow
 recipe: workflow
