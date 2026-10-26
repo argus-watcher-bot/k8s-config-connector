@@ -4,17 +4,19 @@ number: 11706
 priority: medium
 phase: 4
 createdAt: 2026-07-18T22:35:13Z
-enqueuedAt: 2026-10-26T05:02:42.213233694Z
+enqueuedAt: 2026-10-26T09:06:24.019153939Z
 triggerEventTime: 2026-08-25T21:23:31Z
 triggerReason: IssueLabeled
 triggerNotes: 'Issue #11706 created at 2026-07-18T22:35:13Z; trigger label ''overseer'' added by gemmahou at 2026-08-25T21:23:31Z'
-startedAt: 2026-10-26T05:02:55.232743877Z
-completedAt: 2026-10-26T05:03:37.10128974Z
+startedAt: 2026-10-26T09:06:36.466117593Z
+completedAt: 2026-10-26T09:10:12.819080357Z
 assignee: daedalus-agent-bot
 status: Completed
 agentFile: https://raw.githubusercontent.com/GoogleCloudPlatform/k8s-config-connector/refs/heads/master/.agents/workflows/kcc-greenfield.txt
 sessionId: issue-11706
-claim: true
-runName: agent-11706-1792990962
+onStart:
+    assign:
+        - '{{bot}}'
+runName: agent-11706-1793005584
 rule: workflow
 recipe: workflow

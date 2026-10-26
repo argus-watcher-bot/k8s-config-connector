@@ -4,17 +4,19 @@ number: 13267
 priority: medium
 phase: 4
 createdAt: 2026-09-18T23:54:58Z
-enqueuedAt: 2026-10-26T06:50:35.408803207Z
+enqueuedAt: 2026-10-26T08:56:29.212064793Z
 triggerEventTime: 2026-10-05T23:14:44Z
 triggerReason: IssueLabeled
 triggerNotes: 'Issue #13267 created at 2026-09-18T23:54:58Z; trigger label ''overseer'' added by gemmahou at 2026-10-05T23:14:44Z'
-startedAt: 2026-10-26T06:50:41.085459874Z
-completedAt: 2026-10-26T06:55:02.251114657Z
+startedAt: 2026-10-26T08:56:55.302962497Z
+completedAt: 2026-10-26T09:02:36.318649041Z
 assignee: walle-agent-bot
 status: Completed
 agentFile: https://raw.githubusercontent.com/GoogleCloudPlatform/k8s-config-connector/refs/heads/master/.agents/workflows/kcc-greenfield.txt
 sessionId: issue-13267
-claim: true
-runName: agent-13267-1792997435
+onStart:
+    assign:
+        - '{{bot}}'
+runName: agent-13267-1793004989
 rule: workflow
 recipe: workflow
