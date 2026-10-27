@@ -1,0 +1,42 @@
+type: pr-rule
+url: https://github.com/GoogleCloudPlatform/k8s-config-connector/pull/14479
+number: 14479
+priority: medium
+phase: 1
+createdAt: 2026-10-27T17:49:10Z
+enqueuedAt: 2026-10-27T18:23:30.07679712Z
+triggerEventTime: 2026-10-27T18:23:01Z
+triggerReason: PRReadyForReview
+triggerNotes: Automated review triggered; all CI checks passed at 2026-10-27T18:23:01Z for commit 2a3353a (committer date 2026-10-27T17:13:41Z)
+startedAt: 2026-10-27T18:23:35.229088157Z
+completedAt: 2026-10-27T18:48:00.073954316Z
+assignee: lovelace-coder-bot
+status: Completed
+commitSHA: 2a3353ad209aeb2a3e83a042bce70a481219938f
+instructions:
+    - Check every item, then post the result in the format at the end.
+    - '**Prerequisites, generation and registration.** `ArtifactRegistryRule`''s queue entries are all `resolved` and `ArtifactRegistryRuleSpec` has no top-level `Labels`. `generate.sh` calls `generate-controller` (or `generate-direct-reconciler`) and `generate-fuzzer`, both with `--prepopulate-resource --resource ArtifactRegistryRule:<ProtoMessage>`. `<proto_lower>_controller.go` carries `// +generated:controller`, `artifactregistryrule_fuzzer.generated.go` carries `// +generated:fuzzer`, and `static_config.go` was regenerated with `python3 dev/tasks/generate_static_config.py`. `TestGenerateScripts`, `TestDirectResourceFileNaming`, `TestRegisteredTemplatesMatchCAI` and `TestVerifyLabelsTestCasesExist` pass.'
+    - '**The five standards.**'
+    - The REST GAPIC client with `m.config.RESTClientOptions()`; gRPC only when REST is unsupported or broken, with the reason stated.
+    - '`common.NormalizeGreenfieldReferences` in `AdapterForObject`, before `GetIdentity` and `ArtifactRegistryRuleSpec_ToProto`.'
+    - '`obj.GetIdentity` asserted to `*krm.ArtifactRegistryRuleIdentity`. For server-generated IDs, `Create` reads the ID back with `a.id.FromExternal(created.GetName())` and `setStatus` writes `status.externalRef`.'
+    - '`common.CompareGreenfieldSpec` / `CompareGreenfieldSpecAndLabels` (never `CompareProtoMessage` or `CompareBrownfieldSpec`), with `structuredreporting.ReportDiff` before the update request when paths changed.'
+    - Every LRO is waited on. `setStatus` runs at the end of `Create` and on every `Update` path, the no-op path included (or unconditionally for immutable resources without an update RPC).
+    - '**Fuzzer.** `artifactregistryrule_fuzzer.generated.go` registers in `init()` and passes `FOCUS=ArtifactRegistryRule go test ./pkg/fuzztesting/fuzztests -run TestFocusedMappers` and `dev/ci/presubmits/fuzz-roundtrippers`.'
+    - '**Real-GCP fixtures.** `artifactregistryrule-minimal` and `artifactregistryrule-maximal` have `create.yaml`, `update.yaml` (if mutable), `_http.log` and `_audit_probe.log` recorded against **real GCP**, never mock. The maximal fixture covers the spec. A child resource''s fixtures set `spec.parentRef` (to the parent created in `dependencies.yaml`, or `external:` for an external-only parent), and no `update.yaml` changes the parent fields. `ArtifactRegistryRule` isn''t excluded in `ShouldTestRereconiliation`. The PR states the project and PDT timestamps and has the audit-log comment.'
+    - '```markdown'
+    - '### KCC Greenfield Controller Auto-Review Results'
+    - '**Post-Judgement, Deterministic `generate.sh`, & `static_config.go`**: [Pass/Fail] - (queue resolved; generate-controller & generate-fuzzer with --prepopulate-resource; +generated markers; static_config.go updated)'
+    - '**Client Creation & Reference Normalization**: [Pass/Fail] - (GAPIC REST client; common.NormalizeGreenfieldReferences in AdapterForObject)'
+    - '**CompareGreenfieldSpec & Structured Reporting**: [Pass/Fail]'
+    - '**LRO Wait & Mandatory Status Updates**: [Pass/Fail] - (op.Wait; setStatus on no-op and mutating paths)'
+    - '**Fuzzer & Real-GCP Test Coverage**: [Pass/Fail] - (fuzzer; minimal/maximal real-GCP _http.log & _audit_probe.log; ratcheting enabled)'
+    - '#### Detailed Findings / Actions Required:'
+    - '[file, line, exact issue]'
+    - '`'
+onStart:
+    comment: AI Factory started reviewing this pull request in a sandbox.
+runName: review-14479-2a3353a-1793125410
+rule: review
+recipe: review
+apply: submit-review
