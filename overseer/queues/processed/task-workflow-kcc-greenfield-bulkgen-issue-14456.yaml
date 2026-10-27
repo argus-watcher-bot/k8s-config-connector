@@ -1,0 +1,20 @@
+type: agent-chore
+url: https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/14456
+number: 14456
+priority: medium
+phase: 4
+createdAt: 2026-10-26T23:03:00Z
+enqueuedAt: 2026-10-27T00:23:45.058979856Z
+triggerEventTime: 2026-10-27T00:13:13Z
+triggerReason: LinkedIssueClosed
+triggerNotes: 'Linked issue #14457 was closed'
+startedAt: 2026-10-27T00:23:54.871091634Z
+completedAt: 2026-10-27T00:30:40.155239665Z
+assignee: daedalus-agent-bot
+status: Completed
+agentFile: https://raw.githubusercontent.com/acpana/k8s-config-connector/refs/heads/acpana-bulkgen-wf/.agents/workflows/kcc-greenfield-bulkgen
+sessionId: issue-14456
+onStart:
+    assign:
+        - '{{bot}}'
+runName: agent-14456-1793060625
