@@ -4,12 +4,12 @@ number: 11365
 priority: medium
 phase: 4
 createdAt: 2026-07-06T21:12:47Z
-enqueuedAt: 2026-10-27T03:32:39.090665565Z
+enqueuedAt: 2026-10-27T05:34:22.943681375Z
 triggerEventTime: 2026-08-08T01:17:01Z
 triggerReason: IssueLabeled
 triggerNotes: 'Issue #11365 created at 2026-07-06T21:12:47Z; trigger label ''overseer'' added by acpana at 2026-08-08T01:17:01Z'
-startedAt: 2026-10-27T03:33:00.48929855Z
-completedAt: 2026-10-27T03:33:49.992627289Z
+startedAt: 2026-10-27T05:34:52.121703339Z
+completedAt: 2026-10-27T05:35:40.007509929Z
 assignee: walle-agent-bot
 status: Completed
 agentFile: https://raw.githubusercontent.com/GoogleCloudPlatform/k8s-config-connector/refs/heads/master/.agents/workflows/kcc-greenfield.txt
@@ -17,6 +17,6 @@ sessionId: issue-11365
 onStart:
     assign:
         - '{{bot}}'
-runName: agent-11365-1793071959
+runName: agent-11365-1793079262
 rule: workflow
 recipe: workflow
