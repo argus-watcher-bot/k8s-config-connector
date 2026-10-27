@@ -10,12 +10,13 @@ triggerReason: IssueLabeled
 triggerNotes: 'Issue #14444 created at 2026-10-26T19:25:41Z; trigger label ''overseer'' added by feynman-agent-bot at 2026-10-26T19:25:43Z'
 startedAt: 2026-10-26T19:27:12.522280349Z
 assignee: lovelace-coder-bot
-status: Running
+status: Pending
 onStart:
     assign:
         - '{{bot}}'
     comment: AI Factory started fixing this issue in a sandbox.
 runName: fix-14444-head-1793042818
+recovered: true
 rule: fix
 recipe: fix
 apply: open-pr
