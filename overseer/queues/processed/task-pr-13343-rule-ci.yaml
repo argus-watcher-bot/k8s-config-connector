@@ -4,16 +4,22 @@ number: 13343
 priority: medium
 phase: 3
 createdAt: 2026-09-21T19:10:09Z
-enqueuedAt: 2026-10-21T23:16:24.918687505Z
-triggerEventTime: 2026-10-21T23:15:38Z
+enqueuedAt: 2026-10-26T22:54:44.527007189Z
+triggerEventTime: 2026-10-26T22:51:13Z
 triggerReason: PRCheckFailed
-triggerNotes: Earliest CI failure in 'test-mockgcp' (failure) at 2026-10-21T23:15:38Z; total 1 failed check(s) on commit 602c875
-startedAt: 2026-10-21T23:17:01.362054939Z
-completedAt: 2026-10-21T23:41:50.096384153Z
-assignee: ada-coder-bot
-status: Completed
-commitSHA: 602c875820292e3208a55c145d7031d9d7630dbe
-runName: investigate-13343-602c875-1792624584
+triggerNotes: Earliest CI failure in 'tests-e2e-fixtures-compute-3-of-4' (failure) at 2026-10-26T22:51:13Z; total 1 failed check(s) on commit f8d698f
+startedAt: 2026-10-26T22:54:49.326727284Z
+completedAt: 2026-10-26T22:54:50.934456353Z
+assignee: reviewbot-robot
+status: Failed
+error: 'exit status 1: recipe care-ci runs on a PR you can push to, one you authored from your fork; #13343 is not (factory pr adopt takes it over)'
+commitSHA: f8d698f53e19a30dc661494ffe5dc93bfbe182ee
+onStart:
+    comment: |-
+        AI Factory started investigating CI check failures for this pull request.
+
+        Note: We recommend waiting for the 'ready-for-human' label before leaving review comments. Comments added while the system is actively working may be associated with outdated commits once a new commit is pushed, causing them to be ignored.
+runName: ci-13343-f8d698f-1793055284
 rule: ci
 recipe: care-ci
 apply: post-replies

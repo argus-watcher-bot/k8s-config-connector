@@ -4,14 +4,21 @@ number: 14196
 priority: medium
 phase: 3
 createdAt: 2026-10-20T22:12:47Z
-enqueuedAt: 2026-10-21T01:23:14.175689112Z
-triggerEventTime: 2026-10-20T23:31:02Z
+enqueuedAt: 2026-10-27T01:07:09.404577778Z
+triggerEventTime: 2026-10-27T01:03:38Z
 triggerReason: PRCheckFailed
-triggerNotes: Earliest CI failure in 'Validate PR Release Note' (failure) at 2026-10-20T23:31:02Z; total 3 failed check(s) on commit 29d2815
-startedAt: 2026-10-21T01:23:33.992781311Z
-completedAt: 2026-10-21T01:35:12.26986032Z
+triggerNotes: Earliest CI failure in 'tests-e2e-fixtures-clouddeploy' (failure) at 2026-10-27T01:03:38Z; total 2 failed check(s) on commit d3e4afc
+startedAt: 2026-10-27T01:07:17.938748606Z
+completedAt: 2026-10-27T01:13:55.622526816Z
 assignee: hopper-coder-bot
 status: Completed
-commitSHA: 29d2815e6f878f3a19ca1cf911836cf862f58237
-runName: investigate-14196-29d2815-1792545794
+commitSHA: d3e4afcb01cf4cb321070e4e34f571ed477d3f0b
+onStart:
+    comment: |-
+        AI Factory started investigating CI check failures for this pull request.
+
+        Note: We recommend waiting for the 'ready-for-human' label before leaving review comments. Comments added while the system is actively working may be associated with outdated commits once a new commit is pushed, causing them to be ignored.
+runName: ci-14196-d3e4afc-1793063229
 rule: ci
+recipe: care-ci
+apply: post-replies
