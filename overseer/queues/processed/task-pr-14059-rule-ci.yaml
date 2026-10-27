@@ -4,12 +4,12 @@ number: 14059
 priority: medium
 phase: 3
 createdAt: 2026-10-17T01:17:44Z
-enqueuedAt: 2026-10-27T00:33:01.505616289Z
+enqueuedAt: 2026-10-27T02:50:53.598949417Z
 triggerEventTime: 2026-10-27T00:20:59Z
 triggerReason: PRCheckFailed
-triggerNotes: Earliest CI failure in 'tests-e2e-fixtures-bigtable' (failure) at 2026-10-27T00:20:59Z; total 1 failed check(s) on commit 38a3c8b
-startedAt: 2026-10-27T00:33:09.138026875Z
-completedAt: 2026-10-27T00:39:15.625229974Z
+triggerNotes: Earliest CI failure in 'tests-e2e-fixtures-bigtable' (failure) at 2026-10-27T00:20:59Z; total 2 failed check(s) on commit 38a3c8b
+startedAt: 2026-10-27T02:51:10.23126906Z
+completedAt: 2026-10-27T02:52:54.353174025Z
 assignee: ada-coder-bot
 status: Completed
 commitSHA: 38a3c8b86f9768c3934666ad4ff4cc260bb1ab93
@@ -18,7 +18,7 @@ onStart:
         AI Factory started investigating CI check failures for this pull request.
 
         Note: We recommend waiting for the 'ready-for-human' label before leaving review comments. Comments added while the system is actively working may be associated with outdated commits once a new commit is pushed, causing them to be ignored.
-runName: ci-14059-38a3c8b-1793061181
+runName: ci-14059-38a3c8b-1793069453
 rule: ci
 recipe: care-ci
 apply: post-replies
