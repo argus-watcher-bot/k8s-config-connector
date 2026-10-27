@@ -9,8 +9,9 @@ triggerEventTime: 2026-10-27T01:03:14Z
 triggerReason: PRCheckFailed
 triggerNotes: Earliest CI failure in 'fuzz-roundtrippers-1-of-8' (failure) at 2026-10-27T01:03:14Z; total 2 failed check(s) on commit c94be20
 startedAt: 2026-10-27T01:07:13.72995283Z
+completedAt: 2026-10-27T01:36:15.551702164Z
 assignee: lovelace-coder-bot
-status: Running
+status: Completed
 commitSHA: c94be206cbe995bf94163838e1985130be1741c3
 onStart:
     comment: |-

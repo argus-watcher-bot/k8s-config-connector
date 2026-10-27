@@ -4,14 +4,21 @@ number: 13982
 priority: medium
 phase: 3
 createdAt: 2026-10-14T05:58:18Z
-enqueuedAt: 2026-10-20T06:44:50.234429869Z
-triggerEventTime: 2026-10-20T06:38:07Z
+enqueuedAt: 2026-10-27T01:16:55.925385804Z
+triggerEventTime: 2026-10-27T01:08:01Z
 triggerReason: PRCheckFailed
-triggerNotes: Earliest CI failure in 'build-images' (failure) at 2026-10-20T06:38:07Z; total 3 failed check(s) on commit f59cbe3
-startedAt: 2026-10-20T06:44:59.889806287Z
-completedAt: 2026-10-20T07:23:29.464689337Z
+triggerNotes: Earliest CI failure in 'tests-e2e-fixtures-cloudidentity' (failure) at 2026-10-27T01:08:01Z; total 1 failed check(s) on commit c55c223
+startedAt: 2026-10-27T01:17:12.157498149Z
+completedAt: 2026-10-27T01:28:23.535547684Z
 assignee: neumann-coder-bot
 status: Completed
-commitSHA: f59cbe301d005efee7908cfc6b74e2ea9fbc1289
-runName: investigate-13982-f59cbe3-1792478690
+commitSHA: c55c2237db72d0fb5c7b3005201aa1493c870b23
+onStart:
+    comment: |-
+        AI Factory started investigating CI check failures for this pull request.
+
+        Note: We recommend waiting for the 'ready-for-human' label before leaving review comments. Comments added while the system is actively working may be associated with outdated commits once a new commit is pushed, causing them to be ignored.
+runName: ci-13982-c55c223-1793063815
 rule: ci
+recipe: care-ci
+apply: post-replies
