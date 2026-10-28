@@ -4,12 +4,12 @@ number: 10588
 priority: medium
 phase: 4
 createdAt: 2026-06-20T16:03:35Z
-enqueuedAt: 2026-10-28T09:53:31.588347298Z
-triggerEventTime: 2026-10-28T09:37:56Z
-triggerReason: LinkedIssueClosed
-triggerNotes: 'Linked issue #12700 was closed'
-startedAt: 2026-10-28T09:53:46.317394806Z
-completedAt: 2026-10-28T10:01:44.856211466Z
+enqueuedAt: 2026-10-28T16:09:04.381793434Z
+triggerEventTime: 2026-06-25T03:50:05Z
+triggerReason: IssueLabeled
+triggerNotes: 'Issue #10588 created at 2026-06-20T16:03:35Z; trigger label ''overseer'' added by barney-s at 2026-06-25T03:50:05Z'
+startedAt: 2026-10-28T16:09:08.955124127Z
+completedAt: 2026-10-28T16:23:06.649893093Z
 assignee: daedalus-agent-bot
 status: Completed
 agentFile: https://raw.githubusercontent.com/gke-labs/gemini-for-kubernetes-development/refs/heads/main/.agents/workflows/kcc-direct-migration-tracker.txt
@@ -17,4 +17,6 @@ sessionId: issue-10588
 onStart:
     assign:
         - '{{bot}}'
-runName: agent-10588-1793181211
+runName: agent-10588-1793203744
+rule: workflow
+recipe: workflow
