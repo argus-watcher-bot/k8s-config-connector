@@ -4,12 +4,12 @@ number: 14336
 priority: medium
 phase: 4
 createdAt: 2026-10-23T22:12:52Z
-enqueuedAt: 2026-10-28T11:36:35.501243049Z
-triggerEventTime: 2026-10-23T22:12:53Z
-triggerReason: IssueLabeled
-triggerNotes: 'Issue #14336 created at 2026-10-23T22:12:52Z; trigger label ''overseer'' added by anhdle-sso at 2026-10-23T22:12:53Z'
-startedAt: 2026-10-28T11:36:42.652107318Z
-completedAt: 2026-10-28T11:39:20.978887615Z
+enqueuedAt: 2026-10-28T13:34:07.234481097Z
+triggerEventTime: 2026-10-28T13:29:11Z
+triggerReason: LinkedIssueClosed
+triggerNotes: 'Linked issue #14488 was closed'
+startedAt: 2026-10-28T13:34:21.570134063Z
+completedAt: 2026-10-28T13:40:42.315749589Z
 assignee: walle-agent-bot
 status: Completed
 agentFile: https://raw.githubusercontent.com/gke-labs/gemini-for-kubernetes-development/refs/heads/main/.agents/workflows/kcc-example.txt
@@ -17,6 +17,4 @@ sessionId: issue-14336
 onStart:
     assign:
         - '{{bot}}'
-runName: agent-14336-1793187395
-rule: workflow
-recipe: workflow
+runName: agent-14336-1793194447
