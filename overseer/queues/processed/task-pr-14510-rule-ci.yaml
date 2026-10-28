@@ -4,21 +4,21 @@ number: 14510
 priority: medium
 phase: 3
 createdAt: 2026-10-28T12:06:41Z
-enqueuedAt: 2026-10-28T15:15:26.155263086Z
-triggerEventTime: 2026-10-28T12:57:44Z
+enqueuedAt: 2026-10-28T15:37:09.663649371Z
+triggerEventTime: 2026-10-28T15:35:53Z
 triggerReason: PRCheckFailed
-triggerNotes: Earliest CI failure in 'tests-gcptracker' (failure) at 2026-10-28T12:57:44Z; total 4 failed check(s) on commit 705c4cc
-startedAt: 2026-10-28T15:15:56.920290589Z
-completedAt: 2026-10-28T15:24:44.950734719Z
+triggerNotes: Earliest CI failure in 'tests-e2e-fixtures-dataflow' (failure) at 2026-10-28T15:35:53Z; total 1 failed check(s) on commit 853c75e
+startedAt: 2026-10-28T15:37:20.973681325Z
+completedAt: 2026-10-28T15:43:07.793048238Z
 assignee: hopper-coder-bot
 status: Completed
-commitSHA: 705c4ccdd224fd5df8b83da39dd7d80ef751c923
+commitSHA: 853c75e7ce65233815d66d09277c2606e932a217
 onStart:
     comment: |-
         AI Factory started investigating CI check failures for this pull request.
 
         Note: We recommend waiting for the 'ready-for-human' label before leaving review comments. Comments added while the system is actively working may be associated with outdated commits once a new commit is pushed, causing them to be ignored.
-runName: ci-14510-705c4cc-1793200526
+runName: ci-14510-853c75e-1793201829
 rule: ci
 recipe: care-ci
 apply: post-replies
