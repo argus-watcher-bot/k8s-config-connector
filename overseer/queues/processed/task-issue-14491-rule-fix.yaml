@@ -4,20 +4,19 @@ number: 14491
 priority: medium
 phase: 3
 createdAt: 2026-10-27T23:47:57Z
-enqueuedAt: 2026-10-28T01:39:54.162255044Z
+enqueuedAt: 2026-10-28T05:49:07.46961918Z
 triggerEventTime: 2026-10-27T23:47:59Z
 triggerReason: IssueLabeled
 triggerNotes: 'Issue #14491 created at 2026-10-27T23:47:57Z; trigger label ''overseer'' added by feynman-agent-bot at 2026-10-27T23:47:59Z'
-startedAt: 2026-10-28T01:40:04.237015605Z
-completedAt: 2026-10-28T02:38:02.777382032Z
+startedAt: 2026-10-28T05:49:16.621542645Z
+completedAt: 2026-10-28T06:09:41.499253627Z
 assignee: neumann-coder-bot
-status: Failed
-error: 'exit status 1: running recipe: task failed with exit code 1'
+status: Completed
 onStart:
     assign:
         - '{{bot}}'
     comment: AI Factory started fixing this issue in a sandbox.
-runName: fix-14491-head-1793151594
+runName: fix-14491-head-1793166547
 rule: fix
 recipe: fix
 apply: open-pr
