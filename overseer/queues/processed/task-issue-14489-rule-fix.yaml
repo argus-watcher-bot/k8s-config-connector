@@ -4,20 +4,19 @@ number: 14489
 priority: medium
 phase: 3
 createdAt: 2026-10-27T23:12:35Z
-enqueuedAt: 2026-10-28T01:53:01.763550382Z
+enqueuedAt: 2026-10-28T03:40:59.969704479Z
 triggerEventTime: 2026-10-27T23:12:37Z
 triggerReason: IssueLabeled
 triggerNotes: 'Issue #14489 created at 2026-10-27T23:12:35Z; trigger label ''overseer'' added by feynman-agent-bot at 2026-10-27T23:12:37Z'
-startedAt: 2026-10-28T01:53:27.263402354Z
-completedAt: 2026-10-28T02:04:56.267677175Z
+startedAt: 2026-10-28T03:41:08.531327588Z
+completedAt: 2026-10-28T04:36:05.621066769Z
 assignee: hopper-coder-bot
-status: Failed
-error: 'exit status 1: running recipe: task failed with exit code 1'
+status: Completed
 onStart:
     assign:
         - '{{bot}}'
     comment: AI Factory started fixing this issue in a sandbox.
-runName: fix-14489-head-1793152381
+runName: fix-14489-head-1793158859
 rule: fix
 recipe: fix
 apply: open-pr
