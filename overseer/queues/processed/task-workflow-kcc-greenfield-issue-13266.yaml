@@ -4,12 +4,12 @@ number: 13266
 priority: medium
 phase: 4
 createdAt: 2026-09-18T23:54:30Z
-enqueuedAt: 2026-10-27T23:44:07.208658046Z
-triggerEventTime: 2026-10-27T23:35:16Z
-triggerReason: LinkedIssueClosed
-triggerNotes: 'Linked issue #14389 was closed'
-startedAt: 2026-10-27T23:44:37.791598414Z
-completedAt: 2026-10-28T00:16:23.842810963Z
+enqueuedAt: 2026-10-28T00:37:16.915430639Z
+triggerEventTime: 2026-10-05T23:15:28Z
+triggerReason: IssueLabeled
+triggerNotes: 'Issue #13266 created at 2026-09-18T23:54:30Z; trigger label ''overseer'' added by gemmahou at 2026-10-05T23:15:28Z'
+startedAt: 2026-10-28T00:37:44.629128229Z
+completedAt: 2026-10-28T01:22:56.421269371Z
 assignee: walle-agent-bot
 status: Failed
 error: 'exit status 1: running recipe: task failed with exit code 1'
@@ -18,4 +18,6 @@ sessionId: issue-13266
 onStart:
     assign:
         - '{{bot}}'
-runName: agent-13266-1793144647
+runName: agent-13266-1793147836
+rule: workflow
+recipe: workflow

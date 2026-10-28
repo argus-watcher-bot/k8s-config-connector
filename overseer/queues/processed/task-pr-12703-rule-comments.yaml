@@ -4,19 +4,21 @@ number: 12703
 priority: medium
 phase: 1
 createdAt: 2026-09-02T11:07:51Z
-enqueuedAt: 2026-10-27T13:42:55.582799488Z
-triggerEventTime: 2026-10-27T13:41:03Z
+enqueuedAt: 2026-10-28T01:55:19.603095034Z
+triggerEventTime: 2026-10-28T00:48:04Z
 triggerReason: PRCommentsAdded
-triggerNotes: Oldest unaddressed comment by maqiuyujoyce added at 2026-10-27T13:41:03Z (ID 6443363110) since last commit 3f5689a (committer date 2026-09-29T23:24:06Z)
-startedAt: 2026-10-27T13:43:03.318091451Z
-completedAt: 2026-10-27T15:25:16.934368601Z
+triggerNotes: Retrying the failed address-comments task (retry 2) on commit 9f39b85
+startedAt: 2026-10-28T01:55:34.497126058Z
+completedAt: 2026-10-28T02:16:06.666135009Z
 assignee: lovelace-coder-bot
-status: Completed
-commitSHA: 3f5689a09cca54b671c16b670ce1b710eb090008
+status: Failed
+error: 'exit status 1: running recipe: task failed with exit code 1'
+commitSHA: 9f39b85181d4fd8a7b487893e498736bf5f6873c
+retryCount: 2
 acknowledge: feedback
 onStart:
     comment: AI Factory started addressing review feedback for this pull request.
-runName: comments-12703-3f5689a-1793108575
+runName: comments-12703-9f39b85-1793152519
 rule: comments
 recipe: care-comments
 apply: post-replies

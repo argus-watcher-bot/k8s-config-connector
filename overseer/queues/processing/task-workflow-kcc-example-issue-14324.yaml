@@ -4,11 +4,11 @@ number: 14324
 priority: medium
 phase: 4
 createdAt: 2026-10-23T22:12:44Z
-enqueuedAt: 2026-10-28T00:14:05.969444426Z
-triggerEventTime: 2026-10-28T00:03:48Z
-triggerReason: LinkedIssueClosed
-triggerNotes: 'Linked issue #14447 was closed'
-startedAt: 2026-10-28T00:14:26.823522191Z
+enqueuedAt: 2026-10-28T03:05:08.284440663Z
+triggerEventTime: 2026-10-23T22:12:45Z
+triggerReason: IssueLabeled
+triggerNotes: 'Issue #14324 created at 2026-10-23T22:12:44Z; trigger label ''overseer'' added by anhdle-sso at 2026-10-23T22:12:45Z'
+startedAt: 2026-10-28T03:05:16.816134639Z
 assignee: feynman-agent-bot
 status: Running
 agentFile: https://raw.githubusercontent.com/gke-labs/gemini-for-kubernetes-development/refs/heads/main/.agents/workflows/kcc-example.txt
@@ -16,4 +16,6 @@ sessionId: issue-14324
 onStart:
     assign:
         - '{{bot}}'
-runName: agent-14324-1793146445
+runName: agent-14324-1793156708
+rule: workflow
+recipe: workflow

@@ -4,17 +4,21 @@ number: 14370
 priority: medium
 phase: 3
 createdAt: 2026-10-23T23:44:11Z
-enqueuedAt: 2026-10-24T00:04:49.671466412Z
-triggerEventTime: 2026-10-24T00:03:03Z
+enqueuedAt: 2026-10-28T00:25:29.148576943Z
+triggerEventTime: 2026-10-28T00:18:47Z
 triggerReason: PRCheckFailed
-triggerNotes: Earliest CI failure in 'unit-tests-3-of-4' (failure) at 2026-10-24T00:03:03Z; total 1 failed check(s) on commit fd8f634
-startedAt: 2026-10-24T00:05:08.629396848Z
-completedAt: 2026-10-24T00:30:27.044254924Z
+triggerNotes: Earliest CI failure in 'fuzz-roundtrippers-2-of-8' (failure) at 2026-10-28T00:18:47Z; total 1 failed check(s) on commit 3d6fdfc
+startedAt: 2026-10-28T00:25:39.212089769Z
+completedAt: 2026-10-28T01:02:35.877422234Z
 assignee: ada-coder-bot
 status: Completed
-commitSHA: fd8f634f0949233ec6050a307892780b61b72861
-startComment: "\U0001F916 AI Factory started investigating CI check failures for this pull request.\n\nNote: We recommend waiting for the 'ready-for-human' label before leaving review comments. Comments added while the system is actively working may be associated with outdated commits once a new commit is pushed, causing them to be ignored."
-runName: ci-14370-fd8f634-1792800289
+commitSHA: 3d6fdfc976310f08a664e90a71f55e5d60e5b92b
+onStart:
+    comment: |-
+        AI Factory started investigating CI check failures for this pull request.
+
+        Note: We recommend waiting for the 'ready-for-human' label before leaving review comments. Comments added while the system is actively working may be associated with outdated commits once a new commit is pushed, causing them to be ignored.
+runName: ci-14370-3d6fdfc-1793147129
 rule: ci
 recipe: care-ci
 apply: post-replies

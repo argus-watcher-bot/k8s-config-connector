@@ -4,19 +4,20 @@ number: 14335
 priority: medium
 phase: 4
 createdAt: 2026-10-23T22:12:51Z
-enqueuedAt: 2026-10-27T23:39:31.3159893Z
+enqueuedAt: 2026-10-28T01:45:33.3466169Z
 triggerEventTime: 2026-10-23T22:12:52Z
 triggerReason: IssueLabeled
 triggerNotes: 'Issue #14335 created at 2026-10-23T22:12:51Z; trigger label ''overseer'' added by anhdle-sso at 2026-10-23T22:12:52Z'
-startedAt: 2026-10-27T23:39:51.111877967Z
-completedAt: 2026-10-27T23:40:34.08103867Z
+startedAt: 2026-10-28T01:45:46.243551352Z
+completedAt: 2026-10-28T02:11:24.001984677Z
 assignee: daedalus-agent-bot
-status: Completed
+status: Failed
+error: 'exit status 1: running recipe: task failed with exit code 1'
 agentFile: https://raw.githubusercontent.com/gke-labs/gemini-for-kubernetes-development/refs/heads/main/.agents/workflows/kcc-example.txt
 sessionId: issue-14335
 onStart:
     assign:
         - '{{bot}}'
-runName: agent-14335-1793144371
+runName: agent-14335-1793151933
 rule: workflow
 recipe: workflow
