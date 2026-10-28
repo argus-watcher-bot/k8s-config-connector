@@ -1,0 +1,19 @@
+type: agent-chore
+url: https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/14324
+number: 14324
+priority: medium
+phase: 4
+createdAt: 2026-10-23T22:12:44Z
+enqueuedAt: 2026-10-28T00:14:05.969444426Z
+triggerEventTime: 2026-10-28T00:03:48Z
+triggerReason: LinkedIssueClosed
+triggerNotes: 'Linked issue #14447 was closed'
+startedAt: 2026-10-28T00:14:26.823522191Z
+assignee: feynman-agent-bot
+status: Running
+agentFile: https://raw.githubusercontent.com/gke-labs/gemini-for-kubernetes-development/refs/heads/main/.agents/workflows/kcc-example.txt
+sessionId: issue-14324
+onStart:
+    assign:
+        - '{{bot}}'
+runName: agent-14324-1793146445
