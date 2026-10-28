@@ -1,0 +1,21 @@
+type: agent-chore
+url: https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/14335
+number: 14335
+priority: medium
+phase: 4
+createdAt: 2026-10-23T22:12:51Z
+enqueuedAt: 2026-10-28T02:33:33.369080917Z
+triggerEventTime: 2026-10-23T22:12:52Z
+triggerReason: IssueLabeled
+triggerNotes: 'Issue #14335 created at 2026-10-23T22:12:51Z; trigger label ''overseer'' added by anhdle-sso at 2026-10-23T22:12:52Z'
+startedAt: 2026-10-28T02:33:43.231519412Z
+assignee: daedalus-agent-bot
+status: Running
+agentFile: https://raw.githubusercontent.com/gke-labs/gemini-for-kubernetes-development/refs/heads/main/.agents/workflows/kcc-example.txt
+sessionId: issue-14335
+onStart:
+    assign:
+        - '{{bot}}'
+runName: agent-14335-1793154813
+rule: workflow
+recipe: workflow

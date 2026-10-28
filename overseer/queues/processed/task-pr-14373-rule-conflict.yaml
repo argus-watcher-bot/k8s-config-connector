@@ -4,22 +4,21 @@ number: 14373
 priority: medium
 phase: 2
 createdAt: 2026-10-23T23:48:22Z
-enqueuedAt: 2026-10-27T23:19:48.914218496Z
+enqueuedAt: 2026-10-28T00:35:11.523766043Z
 triggerEventTime: 2026-10-27T14:52:15Z
 triggerReason: PRMergeConflict
-triggerNotes: 'PR #14373 has merge conflicts with base branch ''master''; head commit 78df747 committer date 2026-10-27T14:52:15Z, PR updated at 2026-10-27T15:14:01Z'
-startedAt: 2026-10-27T23:19:51.937351598Z
-completedAt: 2026-10-27T23:52:09.510954065Z
+triggerNotes: 'PR #14373 has merge conflicts with base branch ''master''; head commit 78df747 committer date 2026-10-27T14:52:15Z, PR updated at 2026-10-28T00:29:31Z'
+startedAt: 2026-10-28T00:35:29.211294239Z
+completedAt: 2026-10-28T00:59:26.863919874Z
 assignee: lovelace-coder-bot
-status: Failed
-error: 'exit status 1: running recipe: task failed with exit code 1'
+status: Completed
 commitSHA: 78df74734bd491057307f4b3be18d6a6a8d722c2
 onStart:
     comment: |-
         AI Factory started resolving merge conflicts / rebasing this pull request in a sandbox.
 
         Note: We recommend waiting for the 'ready-for-human' label before leaving review comments. Comments added while the system is actively working may be associated with outdated commits once a new commit is pushed, causing them to be ignored.
-runName: conflict-14373-78df747-1793143188
+runName: conflict-14373-78df747-1793147711
 rule: conflict
 recipe: care-rebase
 apply: post-replies
