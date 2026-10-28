@@ -4,12 +4,12 @@ number: 10977
 priority: medium
 phase: 3
 createdAt: 2026-06-29T23:25:57Z
-enqueuedAt: 2026-10-27T20:49:28.677322919Z
+enqueuedAt: 2026-10-27T22:57:22.514676676Z
 triggerEventTime: 2026-10-27T20:49:17Z
 triggerReason: PRCheckFailed
-triggerNotes: Earliest CI failure in 'tests-e2e-fixtures-bigtable' (failure) at 2026-10-27T20:49:17Z; total 1 failed check(s) on commit bfcfef8
-startedAt: 2026-10-27T20:50:00.388289671Z
-completedAt: 2026-10-27T20:52:30.08542063Z
+triggerNotes: Earliest CI failure in 'tests-e2e-fixtures-bigtable' (failure) at 2026-10-27T20:49:17Z; total 2 failed check(s) on commit bfcfef8
+startedAt: 2026-10-27T22:57:31.935271033Z
+completedAt: 2026-10-27T22:59:27.410317267Z
 assignee: lovelace-coder-bot
 status: Completed
 commitSHA: bfcfef81c65b6528b48e0b452ad1209f370c9016
@@ -18,7 +18,7 @@ onStart:
         AI Factory started investigating CI check failures for this pull request.
 
         Note: We recommend waiting for the 'ready-for-human' label before leaving review comments. Comments added while the system is actively working may be associated with outdated commits once a new commit is pushed, causing them to be ignored.
-runName: ci-10977-bfcfef8-1793134168
+runName: ci-10977-bfcfef8-1793141842
 rule: ci
 recipe: care-ci
 apply: post-replies
