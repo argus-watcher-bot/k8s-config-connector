@@ -4,12 +4,12 @@ number: 12700
 priority: medium
 phase: 4
 createdAt: 2026-09-02T08:19:09Z
-enqueuedAt: 2026-10-28T06:52:19.837729201Z
-triggerEventTime: 2026-09-02T08:19:11Z
-triggerReason: IssueLabeled
-triggerNotes: 'Issue #12700 created at 2026-09-02T08:19:09Z; trigger label ''overseer'' added by maqiuyujoyce at 2026-09-02T08:19:11Z'
-startedAt: 2026-10-28T06:52:42.927534783Z
-completedAt: 2026-10-28T06:53:30.372363136Z
+enqueuedAt: 2026-10-28T09:33:32.947872019Z
+triggerEventTime: 2026-10-28T09:26:40Z
+triggerReason: LinkedIssueClosed
+triggerNotes: 'Linked issue #12701 was closed'
+startedAt: 2026-10-28T09:34:03.708658492Z
+completedAt: 2026-10-28T09:38:14.672594304Z
 assignee: walle-agent-bot
 status: Completed
 agentFile: https://github.com/gke-labs/gemini-for-kubernetes-development/blob/main/.agents/workflows/kcc-example.txt
@@ -17,6 +17,4 @@ sessionId: issue-12700
 onStart:
     assign:
         - '{{bot}}'
-runName: agent-12700-1793170339
-rule: workflow
-recipe: workflow
+runName: agent-12700-1793180012
