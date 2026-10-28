@@ -4,20 +4,19 @@ number: 10114
 priority: medium
 phase: 4
 createdAt: 2026-06-13T04:17:16Z
-enqueuedAt: 2026-10-28T03:19:29.073507252Z
+enqueuedAt: 2026-10-28T05:50:55.596010267Z
 triggerEventTime: 2026-06-13T04:17:17Z
 triggerReason: IssueLabeled
 triggerNotes: 'Issue #10114 created at 2026-06-13T04:17:16Z; trigger label ''overseer'' added by factorybot-robot at 2026-06-13T04:17:17Z'
-startedAt: 2026-10-28T03:19:30.542826801Z
-completedAt: 2026-10-28T03:25:34.949017285Z
+startedAt: 2026-10-28T05:51:19.942820297Z
+completedAt: 2026-10-28T05:52:04.778585001Z
 assignee: daedalus-agent-bot
-status: Failed
-error: 'exit status 1: connecting to sandbox: sandbox wf-issue-10114 has no task server to use (timed out waiting for sandbox pod wf-issue-10114 to become ready); recreate it on a current image'
+status: Completed
 agentFile: https://raw.githubusercontent.com/gke-labs/gemini-for-kubernetes-development/refs/heads/main/.agents/workflows/kcc-example.txt
 sessionId: issue-10114
 onStart:
     assign:
         - '{{bot}}'
-runName: agent-10114-1793157569
+runName: agent-10114-1793166655
 rule: workflow
 recipe: workflow

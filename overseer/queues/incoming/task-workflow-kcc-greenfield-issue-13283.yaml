@@ -1,0 +1,20 @@
+type: agent-chore
+url: https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/13283
+number: 13283
+priority: medium
+phase: 4
+createdAt: 2026-09-19T00:09:20Z
+enqueuedAt: 2026-10-28T05:54:50.626690741Z
+triggerEventTime: 2026-09-19T00:09:22Z
+triggerReason: IssueLabeled
+triggerNotes: 'Issue #13283 created at 2026-09-19T00:09:20Z; trigger label ''overseer'' added by gemmahou at 2026-09-19T00:09:22Z'
+assignee: feynman-agent-bot
+status: Pending
+agentFile: https://raw.githubusercontent.com/GoogleCloudPlatform/k8s-config-connector/refs/heads/master/.agents/workflows/kcc-greenfield.txt
+sessionId: issue-13283
+onStart:
+    assign:
+        - '{{bot}}'
+runName: agent-13283-1793166890
+rule: workflow
+recipe: workflow
