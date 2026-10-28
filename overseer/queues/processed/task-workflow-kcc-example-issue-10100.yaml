@@ -4,19 +4,20 @@ number: 10100
 priority: medium
 phase: 4
 createdAt: 2026-06-13T04:12:13Z
-enqueuedAt: 2026-10-27T23:27:36.464878659Z
+enqueuedAt: 2026-10-28T01:31:30.169524728Z
 triggerEventTime: 2026-06-13T04:12:14Z
 triggerReason: IssueLabeled
 triggerNotes: 'Issue #10100 created at 2026-06-13T04:12:13Z; trigger label ''overseer'' added by factorybot-robot at 2026-06-13T04:12:14Z'
-startedAt: 2026-10-27T23:28:06.735385446Z
-completedAt: 2026-10-27T23:31:17.779416186Z
+startedAt: 2026-10-28T01:31:43.705351543Z
+completedAt: 2026-10-28T02:12:57.032780178Z
 assignee: walle-agent-bot
-status: Completed
+status: Failed
+error: 'exit status 1: running recipe: task failed with exit code 1'
 agentFile: https://raw.githubusercontent.com/gke-labs/gemini-for-kubernetes-development/refs/heads/main/.agents/workflows/kcc-example.txt
 sessionId: issue-10100
 onStart:
     assign:
         - '{{bot}}'
-runName: agent-10100-1793143656
+runName: agent-10100-1793151090
 rule: workflow
 recipe: workflow
