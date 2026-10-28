@@ -4,12 +4,12 @@ number: 14370
 priority: medium
 phase: 3
 createdAt: 2026-10-23T23:44:11Z
-enqueuedAt: 2026-10-28T00:25:29.148576943Z
-triggerEventTime: 2026-10-28T00:18:47Z
+enqueuedAt: 2026-10-28T20:11:42.472707813Z
+triggerEventTime: 2026-10-28T20:02:11Z
 triggerReason: PRCheckFailed
-triggerNotes: Earliest CI failure in 'fuzz-roundtrippers-2-of-8' (failure) at 2026-10-28T00:18:47Z; total 1 failed check(s) on commit 3d6fdfc
-startedAt: 2026-10-28T00:25:39.212089769Z
-completedAt: 2026-10-28T01:02:35.877422234Z
+triggerNotes: Earliest CI failure in 'crd-equivalence-check' (failure) at 2026-10-28T20:02:11Z; total 1 failed check(s) on commit 3d6fdfc
+startedAt: 2026-10-28T20:11:56.847718217Z
+completedAt: 2026-10-28T20:23:07.235370479Z
 assignee: ada-coder-bot
 status: Completed
 commitSHA: 3d6fdfc976310f08a664e90a71f55e5d60e5b92b
@@ -18,7 +18,7 @@ onStart:
         AI Factory started investigating CI check failures for this pull request.
 
         Note: We recommend waiting for the 'ready-for-human' label before leaving review comments. Comments added while the system is actively working may be associated with outdated commits once a new commit is pushed, causing them to be ignored.
-runName: ci-14370-3d6fdfc-1793147129
+runName: ci-14370-3d6fdfc-1793218302
 rule: ci
 recipe: care-ci
 apply: post-replies
