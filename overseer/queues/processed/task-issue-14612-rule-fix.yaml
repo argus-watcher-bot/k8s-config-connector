@@ -4,20 +4,19 @@ number: 14612
 priority: medium
 phase: 3
 createdAt: 2026-10-29T07:32:00Z
-enqueuedAt: 2026-10-29T07:43:42.02106512Z
+enqueuedAt: 2026-10-29T08:14:21.962907067Z
 triggerEventTime: 2026-10-29T07:32:02Z
 triggerReason: IssueLabeled
 triggerNotes: 'Issue #14612 created at 2026-10-29T07:32:00Z; trigger label ''overseer'' added by feynman-agent-bot at 2026-10-29T07:32:02Z'
-startedAt: 2026-10-29T07:44:01.127820483Z
-completedAt: 2026-10-29T07:50:06.536637306Z
+startedAt: 2026-10-29T08:14:35.301992332Z
+completedAt: 2026-10-29T09:33:21.949365931Z
 assignee: hopper-coder-bot
-status: Failed
-error: 'exit status 1: connecting to sandbox: sandbox fix-k8s-config-connector-14612 has no task server to use (timed out waiting for sandbox pod fix-k8s-config-connector-14612 to become ready); recreate it on a current image'
+status: Completed
 onStart:
     assign:
         - '{{bot}}'
     comment: AI Factory started fixing this issue in a sandbox.
-runName: fix-14612-head-1793259822
+runName: fix-14612-head-1793261661
 rule: fix
 recipe: fix
 apply: open-pr
