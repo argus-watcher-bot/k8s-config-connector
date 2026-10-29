@@ -1,0 +1,24 @@
+type: pr-rule
+url: https://github.com/GoogleCloudPlatform/k8s-config-connector/pull/13278
+number: 13278
+priority: medium
+phase: 3
+createdAt: 2026-09-19T00:05:40Z
+enqueuedAt: 2026-10-29T03:01:30.59087075Z
+triggerEventTime: 2026-10-29T02:57:25Z
+triggerReason: PRCheckFailed
+triggerNotes: Earliest CI failure in 'fuzz-roundtrippers-6-of-8' (failure) at 2026-10-29T02:57:25Z; total 1 failed check(s) on commit 96600fb
+startedAt: 2026-10-29T03:02:07.30068639Z
+completedAt: 2026-10-29T03:21:11.842761519Z
+assignee: neumann-coder-bot
+status: Completed
+commitSHA: 96600fbad771996fbfd287530839626ec66e3443
+onStart:
+    comment: |-
+        AI Factory started investigating CI check failures for this pull request.
+
+        Note: We recommend waiting for the 'ready-for-human' label before leaving review comments. Comments added while the system is actively working may be associated with outdated commits once a new commit is pushed, causing them to be ignored.
+runName: ci-13278-96600fb-1793242890
+rule: ci
+recipe: care-ci
+apply: post-replies
