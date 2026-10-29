@@ -4,20 +4,19 @@ number: 14601
 priority: medium
 phase: 3
 createdAt: 2026-10-29T07:06:45Z
-enqueuedAt: 2026-10-29T07:07:39.672792233Z
+enqueuedAt: 2026-10-29T07:37:20.441082084Z
 triggerEventTime: 2026-10-29T07:06:47Z
 triggerReason: IssueLabeled
 triggerNotes: 'Issue #14601 created at 2026-10-29T07:06:45Z; trigger label ''overseer'' added by daedalus-agent-bot at 2026-10-29T07:06:47Z'
-startedAt: 2026-10-29T07:08:06.886467964Z
-completedAt: 2026-10-29T07:14:12.544971541Z
+startedAt: 2026-10-29T07:37:51.136422836Z
+completedAt: 2026-10-29T09:58:08.698249932Z
 assignee: lovelace-coder-bot
-status: Failed
-error: 'exit status 1: connecting to sandbox: sandbox fix-k8s-config-connector-14601 has no task server to use (timed out waiting for sandbox pod fix-k8s-config-connector-14601 to become ready); recreate it on a current image'
+status: Completed
 onStart:
     assign:
         - '{{bot}}'
     comment: AI Factory started fixing this issue in a sandbox.
-runName: fix-14601-head-1793257659
+runName: fix-14601-head-1793259440
 rule: fix
 recipe: fix
 apply: open-pr

@@ -4,20 +4,19 @@ number: 14603
 priority: medium
 phase: 3
 createdAt: 2026-10-29T07:07:26Z
-enqueuedAt: 2026-10-29T07:09:24.543946572Z
+enqueuedAt: 2026-10-29T07:37:15.453146021Z
 triggerEventTime: 2026-10-29T07:07:28Z
 triggerReason: IssueLabeled
 triggerNotes: 'Issue #14603 created at 2026-10-29T07:07:26Z; trigger label ''overseer'' added by daedalus-agent-bot at 2026-10-29T07:07:28Z'
-startedAt: 2026-10-29T07:09:39.341438099Z
-completedAt: 2026-10-29T07:15:45.088532005Z
+startedAt: 2026-10-29T07:37:18.200918707Z
+completedAt: 2026-10-29T09:26:56.938255723Z
 assignee: hopper-coder-bot
-status: Failed
-error: 'exit status 1: connecting to sandbox: sandbox fix-k8s-config-connector-14603 has no task server to use (timed out waiting for sandbox pod fix-k8s-config-connector-14603 to become ready); recreate it on a current image'
+status: Completed
 onStart:
     assign:
         - '{{bot}}'
     comment: AI Factory started fixing this issue in a sandbox.
-runName: fix-14603-head-1793257764
+runName: fix-14603-head-1793259435
 rule: fix
 recipe: fix
 apply: open-pr
