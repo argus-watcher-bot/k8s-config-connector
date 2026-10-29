@@ -4,12 +4,12 @@ number: 12108
 priority: medium
 phase: 3
 createdAt: 2026-07-30T04:04:37Z
-enqueuedAt: 2026-10-28T21:51:20.390470021Z
+enqueuedAt: 2026-10-29T01:47:21.498649514Z
 triggerEventTime: 2026-10-28T21:48:24Z
 triggerReason: PRCheckFailed
-triggerNotes: Earliest CI failure in 'tests-e2e-fixtures-appoptimize' (failure) at 2026-10-28T21:48:24Z; total 1 failed check(s) on commit 3479202
-startedAt: 2026-10-28T21:51:44.386369944Z
-completedAt: 2026-10-28T21:52:27.633686432Z
+triggerNotes: Earliest CI failure in 'tests-e2e-fixtures-appoptimize' (failure) at 2026-10-28T21:48:24Z; total 2 failed check(s) on commit 3479202
+startedAt: 2026-10-29T01:47:29.877850185Z
+completedAt: 2026-10-29T01:52:23.431296038Z
 assignee: neumann-coder-bot
 status: Completed
 commitSHA: 3479202b2381a5e69e34c137df4b1b4d598c60aa
@@ -18,7 +18,7 @@ onStart:
         AI Factory started investigating CI check failures for this pull request.
 
         Note: We recommend waiting for the 'ready-for-human' label before leaving review comments. Comments added while the system is actively working may be associated with outdated commits once a new commit is pushed, causing them to be ignored.
-runName: ci-12108-3479202-1793224280
+runName: ci-12108-3479202-1793238441
 rule: ci
 recipe: care-ci
 apply: post-replies

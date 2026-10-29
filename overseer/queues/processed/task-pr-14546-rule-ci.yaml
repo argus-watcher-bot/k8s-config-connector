@@ -1,0 +1,24 @@
+type: pr-rule
+url: https://github.com/GoogleCloudPlatform/k8s-config-connector/pull/14546
+number: 14546
+priority: medium
+phase: 3
+createdAt: 2026-10-29T00:04:31Z
+enqueuedAt: 2026-10-29T02:21:39.179653151Z
+triggerEventTime: 2026-10-29T00:13:29Z
+triggerReason: PRCheckFailed
+triggerNotes: Earliest CI failure in 'test-mockgcp' (failure) at 2026-10-29T00:13:29Z; total 3 failed check(s) on commit 87cf7dd
+startedAt: 2026-10-29T02:21:52.177646425Z
+completedAt: 2026-10-29T02:32:58.1794021Z
+assignee: ada-coder-bot
+status: Completed
+commitSHA: 87cf7dd7368d30684ccbeeffb3b942588579ee30
+onStart:
+    comment: |-
+        AI Factory started investigating CI check failures for this pull request.
+
+        Note: We recommend waiting for the 'ready-for-human' label before leaving review comments. Comments added while the system is actively working may be associated with outdated commits once a new commit is pushed, causing them to be ignored.
+runName: ci-14546-87cf7dd-1793240499
+rule: ci
+recipe: care-ci
+apply: post-replies

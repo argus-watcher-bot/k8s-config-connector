@@ -4,15 +4,19 @@ number: 14101
 priority: medium
 phase: 1
 createdAt: 2026-10-19T23:54:26Z
-enqueuedAt: 2026-10-20T03:51:50.456065644Z
-triggerEventTime: 2026-10-20T03:48:30Z
+enqueuedAt: 2026-10-29T00:05:26.581663424Z
+triggerEventTime: 2026-10-29T00:02:22Z
 triggerReason: PRCommentsAdded
-triggerNotes: Oldest unaddressed review by reviewbot-robot added at 2026-10-20T03:48:30Z (ID 5580542771) since last commit 65cc7c0 (committer date 2026-10-20T03:09:02Z)
-startedAt: 2026-10-20T03:52:05.791254088Z
-completedAt: 2026-10-20T03:52:43.614256121Z
+triggerNotes: Oldest unaddressed review by acpana added at 2026-10-29T00:02:22Z (ID 5691251237) since last commit 6be1fc0 (committer date 2026-10-26T10:05:52Z)
+startedAt: 2026-10-29T00:05:33.578309635Z
+completedAt: 2026-10-29T00:39:52.187210451Z
 assignee: hopper-coder-bot
 status: Completed
-commitSHA: 65cc7c0144190025cad8d31849fe1e93c62350e1
+commitSHA: 6be1fc09053e03308bfae7dd3ba68c7984c6d51b
 acknowledge: feedback
-runName: comments-14101-65cc7c0-1792468310
+onStart:
+    comment: AI Factory started addressing review feedback for this pull request.
+runName: comments-14101-6be1fc0-1793232326
 rule: comments
+recipe: care-comments
+apply: post-replies
