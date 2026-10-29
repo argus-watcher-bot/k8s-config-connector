@@ -4,18 +4,18 @@ number: 14541
 priority: medium
 phase: 3
 createdAt: 2026-10-28T23:15:11Z
-enqueuedAt: 2026-10-28T23:17:17.574497984Z
+enqueuedAt: 2026-10-29T00:57:41.91533397Z
 triggerEventTime: 2026-10-28T23:15:13Z
 triggerReason: IssueLabeled
 triggerNotes: 'Issue #14541 created at 2026-10-28T23:15:11Z; trigger label ''overseer'' added by walle-agent-bot at 2026-10-28T23:15:13Z'
-startedAt: 2026-10-28T23:17:19.418664461Z
+startedAt: 2026-10-29T00:58:01.090600999Z
 assignee: hopper-coder-bot
 status: Running
 onStart:
     assign:
         - '{{bot}}'
     comment: AI Factory started fixing this issue in a sandbox.
-runName: fix-14541-head-1793229437
+runName: fix-14541-head-1793235461
 rule: fix
 recipe: fix
 apply: open-pr
