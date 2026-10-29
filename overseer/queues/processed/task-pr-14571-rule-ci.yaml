@@ -4,12 +4,12 @@ number: 14571
 priority: medium
 phase: 3
 createdAt: 2026-10-29T03:30:01Z
-enqueuedAt: 2026-10-29T03:43:23.524618699Z
+enqueuedAt: 2026-10-29T05:56:06.727432119Z
 triggerEventTime: 2026-10-29T03:37:59Z
 triggerReason: PRCheckFailed
-triggerNotes: Earliest CI failure in 'tests-e2e-fixtures-saasservicemgmt' (failure) at 2026-10-29T03:37:59Z; total 1 failed check(s) on commit 36e5c1d
-startedAt: 2026-10-29T03:43:50.26339895Z
-completedAt: 2026-10-29T03:48:47.896660667Z
+triggerNotes: Earliest CI failure in 'tests-e2e-fixtures-saasservicemgmt' (failure) at 2026-10-29T03:37:59Z; total 2 failed check(s) on commit 36e5c1d
+startedAt: 2026-10-29T05:56:12.033767744Z
+completedAt: 2026-10-29T05:57:39.539923289Z
 assignee: ada-coder-bot
 status: Completed
 commitSHA: 36e5c1da36308fe7fbb0d6ead2e284593d08b18a
@@ -18,7 +18,7 @@ onStart:
         AI Factory started investigating CI check failures for this pull request.
 
         Note: We recommend waiting for the 'ready-for-human' label before leaving review comments. Comments added while the system is actively working may be associated with outdated commits once a new commit is pushed, causing them to be ignored.
-runName: ci-14571-36e5c1d-1793245403
+runName: ci-14571-36e5c1d-1793253366
 rule: ci
 recipe: care-ci
 apply: post-replies
