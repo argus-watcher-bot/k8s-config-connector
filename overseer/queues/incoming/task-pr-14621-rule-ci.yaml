@@ -10,7 +10,7 @@ triggerReason: PRCheckFailed
 triggerNotes: Earliest CI failure in 'tests-preview' (failure) at 2026-10-29T10:09:46Z; total 1 failed check(s) on commit 4b466d0
 startedAt: 2026-10-29T10:17:49.183489192Z
 assignee: lovelace-coder-bot
-status: Running
+status: Pending
 commitSHA: 4b466d0a6fff7ec6904796ec9cdd67287e70415c
 onStart:
     comment: |-
@@ -18,6 +18,7 @@ onStart:
 
         Note: We recommend waiting for the 'ready-for-human' label before leaving review comments. Comments added while the system is actively working may be associated with outdated commits once a new commit is pushed, causing them to be ignored.
 runName: ci-14621-4b466d0-1793269050
+recovered: true
 rule: ci
 recipe: care-ci
 apply: post-replies
