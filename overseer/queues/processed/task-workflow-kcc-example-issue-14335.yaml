@@ -4,12 +4,12 @@ number: 14335
 priority: medium
 phase: 4
 createdAt: 2026-10-23T22:12:51Z
-enqueuedAt: 2026-10-29T00:53:13.185079907Z
-triggerEventTime: 2026-10-29T00:47:07Z
-triggerReason: LinkedIssueClosed
-triggerNotes: 'Linked issue #14512 was closed'
-startedAt: 2026-10-29T00:53:24.958370856Z
-completedAt: 2026-10-29T01:02:15.17164287Z
+enqueuedAt: 2026-10-29T05:29:13.196078279Z
+triggerEventTime: 2026-10-23T22:12:52Z
+triggerReason: IssueLabeled
+triggerNotes: 'Issue #14335 created at 2026-10-23T22:12:51Z; trigger label ''overseer'' added by anhdle-sso at 2026-10-23T22:12:52Z'
+startedAt: 2026-10-29T05:29:22.452787154Z
+completedAt: 2026-10-29T05:33:36.716959785Z
 assignee: daedalus-agent-bot
 status: Completed
 agentFile: https://raw.githubusercontent.com/gke-labs/gemini-for-kubernetes-development/refs/heads/main/.agents/workflows/kcc-example.txt
@@ -17,4 +17,6 @@ sessionId: issue-14335
 onStart:
     assign:
         - '{{bot}}'
-runName: agent-14335-1793235193
+runName: agent-14335-1793251753
+rule: workflow
+recipe: workflow

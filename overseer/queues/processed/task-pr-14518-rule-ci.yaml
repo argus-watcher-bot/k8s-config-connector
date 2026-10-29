@@ -4,21 +4,21 @@ number: 14518
 priority: medium
 phase: 3
 createdAt: 2026-10-28T14:44:44Z
-enqueuedAt: 2026-10-28T15:05:23.279804387Z
-triggerEventTime: 2026-10-28T14:52:47Z
+enqueuedAt: 2026-10-29T03:43:30.93216127Z
+triggerEventTime: 2026-10-29T03:33:02Z
 triggerReason: PRCheckFailed
-triggerNotes: Earliest CI failure in 'validate-resource-docs' (failure) at 2026-10-28T14:52:47Z; total 1 failed check(s) on commit 46705f3
-startedAt: 2026-10-28T15:05:31.943237931Z
-completedAt: 2026-10-28T15:11:35.612761116Z
+triggerNotes: Earliest CI failure in 'validate-manifests' (failure) at 2026-10-29T03:33:02Z; total 2 failed check(s) on commit 89ca498
+startedAt: 2026-10-29T03:43:57.632722134Z
+completedAt: 2026-10-29T04:13:49.831582278Z
 assignee: ada-coder-bot
 status: Completed
-commitSHA: 46705f304de8de07d682f8b1c868bed3a104344a
+commitSHA: 89ca49873a7df139a9a3adcc18f19e30179bedc2
 onStart:
     comment: |-
         AI Factory started investigating CI check failures for this pull request.
 
         Note: We recommend waiting for the 'ready-for-human' label before leaving review comments. Comments added while the system is actively working may be associated with outdated commits once a new commit is pushed, causing them to be ignored.
-runName: ci-14518-46705f3-1793199923
+runName: ci-14518-89ca498-1793245410
 rule: ci
 recipe: care-ci
 apply: post-replies

@@ -4,17 +4,21 @@ number: 14382
 priority: medium
 phase: 3
 createdAt: 2026-10-24T00:29:28Z
-enqueuedAt: 2026-10-24T02:54:14.55819485Z
-triggerEventTime: 2026-10-24T02:53:19Z
+enqueuedAt: 2026-10-29T02:39:40.372538999Z
+triggerEventTime: 2026-10-29T02:37:05Z
 triggerReason: PRCheckFailed
-triggerNotes: Earliest CI failure in 'validate-ensure' (failure) at 2026-10-24T02:53:19Z; total 1 failed check(s) on commit 18d2ce9
-startedAt: 2026-10-24T02:54:37.790210974Z
-completedAt: 2026-10-24T02:57:01.291384034Z
+triggerNotes: Earliest CI failure in 'unit-tests-4-of-4' (failure) at 2026-10-29T02:37:05Z; total 1 failed check(s) on commit 01cab70
+startedAt: 2026-10-29T02:39:51.766910673Z
+completedAt: 2026-10-29T02:53:56.966045115Z
 assignee: lovelace-coder-bot
 status: Completed
-commitSHA: 18d2ce90d082f87509e19d2e700c764cb9f97d26
-startComment: "\U0001F916 AI Factory started investigating CI check failures for this pull request.\n\nNote: We recommend waiting for the 'ready-for-human' label before leaving review comments. Comments added while the system is actively working may be associated with outdated commits once a new commit is pushed, causing them to be ignored."
-runName: ci-14382-18d2ce9-1792810454
+commitSHA: 01cab703afc790ea17eb2770c84ff346b3dcaf43
+onStart:
+    comment: |-
+        AI Factory started investigating CI check failures for this pull request.
+
+        Note: We recommend waiting for the 'ready-for-human' label before leaving review comments. Comments added while the system is actively working may be associated with outdated commits once a new commit is pushed, causing them to be ignored.
+runName: ci-14382-01cab70-1793241580
 rule: ci
 recipe: care-ci
 apply: post-replies
