@@ -4,20 +4,19 @@ number: 14613
 priority: medium
 phase: 3
 createdAt: 2026-10-29T07:42:31Z
-enqueuedAt: 2026-10-29T07:43:40.710346886Z
+enqueuedAt: 2026-10-29T08:14:41.939388075Z
 triggerEventTime: 2026-10-29T07:42:34Z
 triggerReason: IssueLabeled
 triggerNotes: 'Issue #14613 created at 2026-10-29T07:42:31Z; trigger label ''overseer'' added by daedalus-agent-bot at 2026-10-29T07:42:34Z'
-startedAt: 2026-10-29T07:44:00.164229012Z
-completedAt: 2026-10-29T07:50:05.444261758Z
+startedAt: 2026-10-29T08:15:07.319686138Z
+completedAt: 2026-10-29T09:57:38.070891593Z
 assignee: neumann-coder-bot
-status: Failed
-error: 'exit status 1: connecting to sandbox: sandbox fix-k8s-config-connector-14613 has no task server to use (timed out waiting for sandbox pod fix-k8s-config-connector-14613 to become ready); recreate it on a current image'
+status: Completed
 onStart:
     assign:
         - '{{bot}}'
     comment: AI Factory started fixing this issue in a sandbox.
-runName: fix-14613-head-1793259820
+runName: fix-14613-head-1793261681
 rule: fix
 recipe: fix
 apply: open-pr
