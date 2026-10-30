@@ -1,0 +1,22 @@
+type: agent-chore
+url: https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/14664
+number: 14664
+priority: medium
+phase: 4
+createdAt: 2026-10-29T22:08:29Z
+enqueuedAt: 2026-10-29T22:10:22.793622316Z
+triggerEventTime: 2026-10-29T22:08:31Z
+triggerReason: IssueLabeled
+triggerNotes: 'Issue #14664 created at 2026-10-29T22:08:29Z; trigger label ''overseer'' added by acpana at 2026-10-29T22:08:31Z'
+startedAt: 2026-10-29T22:10:33.34254499Z
+completedAt: 2026-10-29T22:18:12.868856465Z
+assignee: walle-agent-bot
+status: Completed
+agentFile: https://raw.githubusercontent.com/acpana/k8s-config-connector/refs/heads/acpana-bulkgen-wf/.agents/workflows/kcc-greenfield-bulkgen
+sessionId: issue-14664
+onStart:
+    assign:
+        - '{{bot}}'
+runName: agent-14664-1793311822
+rule: workflow
+recipe: workflow
