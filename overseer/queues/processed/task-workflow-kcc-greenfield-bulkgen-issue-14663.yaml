@@ -1,0 +1,22 @@
+type: agent-chore
+url: https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/14663
+number: 14663
+priority: medium
+phase: 4
+createdAt: 2026-10-29T22:08:26Z
+enqueuedAt: 2026-10-29T22:17:15.835895021Z
+triggerEventTime: 2026-10-29T22:08:28Z
+triggerReason: IssueLabeled
+triggerNotes: 'Issue #14663 created at 2026-10-29T22:08:26Z; trigger label ''overseer'' added by acpana at 2026-10-29T22:08:28Z'
+startedAt: 2026-10-29T22:17:24.531570469Z
+completedAt: 2026-10-29T22:24:53.910840639Z
+assignee: feynman-agent-bot
+status: Completed
+agentFile: https://raw.githubusercontent.com/acpana/k8s-config-connector/refs/heads/acpana-bulkgen-wf/.agents/workflows/kcc-greenfield-bulkgen
+sessionId: issue-14663
+onStart:
+    assign:
+        - '{{bot}}'
+runName: agent-14663-1793312235
+rule: workflow
+recipe: workflow
