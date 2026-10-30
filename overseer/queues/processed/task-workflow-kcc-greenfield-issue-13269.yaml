@@ -4,20 +4,19 @@ number: 13269
 priority: medium
 phase: 4
 createdAt: 2026-09-18T23:56:05Z
-enqueuedAt: 2026-10-30T15:13:47.238342462Z
+enqueuedAt: 2026-10-30T17:58:57.73714665Z
 triggerEventTime: 2026-10-23T21:27:49Z
 triggerReason: IssueLabeled
 triggerNotes: 'Issue #13269 created at 2026-09-18T23:56:05Z; trigger label ''overseer'' added by acpana at 2026-10-23T21:27:49Z'
-startedAt: 2026-10-30T15:14:13.20708629Z
-completedAt: 2026-10-30T15:14:30.508564307Z
+startedAt: 2026-10-30T17:59:07.624830368Z
+completedAt: 2026-10-30T18:00:04.644557365Z
 assignee: walle-agent-bot
-status: Failed
-error: 'exit status 1: connecting to sandbox: sandbox wf-issue-13269 has no task server to use (sandbox pod wf-issue-13269 is in Failed state (reason: Preempting): cannot connect to terminated pod); recreate it on a current image'
+status: Completed
 agentFile: https://raw.githubusercontent.com/GoogleCloudPlatform/k8s-config-connector/refs/heads/master/.agents/workflows/kcc-greenfield.txt
 sessionId: issue-13269
 onStart:
     assign:
         - '{{bot}}'
-runName: agent-13269-1793373227
+runName: agent-13269-1793383137
 rule: workflow
 recipe: workflow
