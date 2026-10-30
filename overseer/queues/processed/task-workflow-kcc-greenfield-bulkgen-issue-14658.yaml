@@ -4,12 +4,12 @@ number: 14658
 priority: medium
 phase: 4
 createdAt: 2026-10-29T22:08:10Z
-enqueuedAt: 2026-10-30T16:35:37.007192056Z
-triggerEventTime: 2026-10-29T22:08:11Z
-triggerReason: IssueLabeled
-triggerNotes: 'Issue #14658 created at 2026-10-29T22:08:10Z; trigger label ''overseer'' added by acpana at 2026-10-29T22:08:11Z'
-startedAt: 2026-10-30T16:36:01.644012863Z
-completedAt: 2026-10-30T16:36:50.715440327Z
+enqueuedAt: 2026-10-30T19:43:43.418589803Z
+triggerEventTime: 2026-10-30T19:38:32Z
+triggerReason: LinkedIssueClosed
+triggerNotes: 'Linked issue #14666 was closed'
+startedAt: 2026-10-30T19:43:59.930602779Z
+completedAt: 2026-10-30T19:48:46.717936742Z
 assignee: feynman-agent-bot
 status: Completed
 agentFile: https://raw.githubusercontent.com/acpana/k8s-config-connector/refs/heads/acpana-bulkgen-wf/.agents/workflows/kcc-greenfield-bulkgen
@@ -17,6 +17,4 @@ sessionId: issue-14658
 onStart:
     assign:
         - '{{bot}}'
-runName: agent-14658-1793378137
-rule: workflow
-recipe: workflow
+runName: agent-14658-1793389423
