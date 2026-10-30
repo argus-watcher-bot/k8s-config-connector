@@ -4,21 +4,21 @@ number: 14698
 priority: medium
 phase: 3
 createdAt: 2026-10-30T09:16:27Z
-enqueuedAt: 2026-10-30T09:28:24.341495905Z
-triggerEventTime: 2026-10-30T09:25:23Z
+enqueuedAt: 2026-10-30T14:11:32.507009828Z
+triggerEventTime: 2026-10-30T14:05:44Z
 triggerReason: PRCheckFailed
-triggerNotes: Earliest CI failure in 'test-pause' (failure) at 2026-10-30T09:25:23Z; total 1 failed check(s) on commit a78a483
-startedAt: 2026-10-30T09:28:44.991818468Z
-completedAt: 2026-10-30T09:47:27.149375119Z
+triggerNotes: Earliest CI failure in 'tests-e2e-fixtures-vmwareengine' (failure) at 2026-10-30T14:05:44Z; total 5 failed check(s) on commit 9d501ef
+startedAt: 2026-10-30T14:12:00.440004705Z
+completedAt: 2026-10-30T14:14:36.902288415Z
 assignee: lovelace-coder-bot
 status: Completed
-commitSHA: a78a48309b4031acb5297a0c4b2a3820704ba1bf
+commitSHA: 9d501ef196ebcd2e3783381be7e2d4624232435c
 onStart:
     comment: |-
         AI Factory started investigating CI check failures for this pull request.
 
         Note: We recommend waiting for the 'ready-for-human' label before leaving review comments. Comments added while the system is actively working may be associated with outdated commits once a new commit is pushed, causing them to be ignored.
-runName: ci-14698-a78a483-1793352504
+runName: ci-14698-9d501ef-1793369492
 rule: ci
 recipe: care-ci
 apply: post-replies
