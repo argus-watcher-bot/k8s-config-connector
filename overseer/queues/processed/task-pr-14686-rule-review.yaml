@@ -1,0 +1,58 @@
+type: pr-rule
+url: https://github.com/GoogleCloudPlatform/k8s-config-connector/pull/14686
+number: 14686
+priority: medium
+phase: 1
+createdAt: 2026-10-29T23:57:39Z
+enqueuedAt: 2026-10-30T00:36:46.239076813Z
+triggerEventTime: 2026-10-30T00:30:40Z
+triggerReason: PRReadyForReview
+triggerNotes: Automated review triggered; all CI checks passed at 2026-10-30T00:30:40Z for commit 8b3725e (committer date 2026-10-29T23:56:06Z)
+startedAt: 2026-10-30T00:37:01.981309559Z
+completedAt: 2026-10-30T00:48:50.513787899Z
+assignee: neumann-coder-bot
+status: Completed
+commitSHA: 8b3725e398ece8b44ad286baaa9ba40cec9b78cc
+instructions:
+    - Check every item, cross-checking against the proto in `.build/third_party/googleapis/google/...`, then post the result in the format at the end.
+    - '**Queue complete and intact.**'
+    - No entry was deleted. `DialogflowPlaybook`'s `untriaged-bulk-generation` is `resolved`, as is every other `DialogflowPlaybook` entry and any legacy `protoMessage:` entry reachable from `DialogflowPlaybookSpec` or `DialogflowPlaybookObservedState`. Only `well-known-proto-type` and `sensitive-field` may stay `open` (or be `deferred` with a note).
+    - Reference entries for the same `(kind, group, field)` share one status. Every `edited`, `deferred` or `not-applicable` resolution has an accurate note.
+    - No `+kcc:guess` markers remain in `dialogflowplaybook_types.go`, `dialogflowplaybook_identity*.go` or structs moved out of `types.generated.go`.
+    - '**Resolutions are right.**'
+    - A field resolved as `not-applicable` or `accepted` that really references a control-plane GCP resource (KMS key, network, subnetwork, service account, project, dataset, bucket, Pub/Sub topic, Secret Manager secret, sibling resource) must be a `*Ref`. Data-plane objects KCC doesn't manage, such as Cloud Storage objects, may stay strings.
+    - 'Reject any PR that deletes, truncates or rewords proto doc comments (e.g. `"Format: projects/{project}/..."`) to get past `TestMissingRefs`.'
+    - An output-only field resolved as `not-applicable` must really be user-settable on Create/Update; otherwise it belongs in `ObservedState`. `empty-observedstate` was fixed by moving fields or by commenting out the empty ObservedState. `etag` is never in a spec struct.
+    - '**Parent, identity and references** (against `option (google.api.resource)` and `Create<ProtoMessage>Request`).'
+    - '**Top-level resources** (the parent pattern is `projects/{project}`, `folders/{folder}` or `organizations/{organization}`, optionally plus `locations/{location}`) keep the root reference plus `location`. A project+location parent is an embedded `*parent.ProjectAndLocationRef` with `json:",inline"`, not separate `ProjectRef` and `Location` fields; its `Location string` is not a pointer violation. A global resource has no `Location`. A multi-root resource has optional `ProjectRef`/`FolderRef`/`OrganizationRef` and an identity that accepts every root.'
+    - '**Child resources** (the parent pattern ends in another resource) have exactly one hierarchy field, `ParentRef *<ParentKind>Ref` with `json:"parentRef"`, marked `+required` and carrying the `self == oldSelf` CEL immutability rule. No `projectRef`, `folderRef`, `organizationRef`, `location`, `region`, `zone` or grandparent reference anywhere in the spec, no `json:",inline"` on it, and no other `parent<Something>Ref` field. The identity takes project, location and ancestor IDs only from the resolved `spec.parentRef` (no `refs.ResolveProjectID`, `refs.GetLocation` or annotations).'
+    - '**The `parentRef` name is intentional** (single-parent design; `TestCRDsHaveParentRefs` is skipped on master for greenfield parent refs). Don''t ask to rename it after the parent kind. Fail the PR if it adds lines to `crds_have_parent_refs.txt` or changes `TestCRDsHaveParentRefs`.'
+    - '`generate.sh` runs `generate-identity`. Hand-written identity/reference code appears only where the generator can''t express the pattern. Singleton templates keep the literal suffix.'
+    - '`DialogflowPlaybookIdentity` is `ServerGeneratedIdentity` exactly when `Create<ProtoMessage>Request` has no `<resource>_id` field; otherwise `IdentityV2`.'
+    - Every new `<TargetKind>Ref` lives in its own `<targetkind>_reference*.go` with a matching identity file, never in `_types.go` or under `apis/refs/v1beta1/`. No new ref type duplicates one that already exists elsewhere in `apis/` (check with `git grep "type <TargetKind>Ref struct" -- apis/`). Targets with a full CRD use `refs.Normalize` (never `NormalizeWithFallback`); external-only references validate `External`.
+    - '**Proto-vs-KRM audit and struct isolation.**'
+    - '`+kcc:spec:proto=` and `+kcc:observedstate:proto=` point at exactly `DialogflowPlaybook`''s message, and no proto is shared by two kinds.'
+    - Flag any reference still typed `*string` / `[]string` anywhere reachable from `DialogflowPlaybookSpec`, even without a queue entry.
+    - Hand-written nested structs carry `// +kcc:proto=` and contain the proto message name. Structs shared with a triaged or pre-existing kind were forked under a distinct name, not changed in place. `TestCRDBackwardCompatibility` and `TestHandWrittenProtoStructAnnotationsAndNaming` pass.
+    - Scalars are pointers (except the embedded parent `Location`), slices and maps are not, and an empty ObservedState is commented out.
+    - '**Generated files, controller sync and exceptions.**'
+    - '`DialogflowPlaybook` is still in `BLOCKED_KINDS`.'
+    - '`generate.sh` has `generate-mapper --prepopulate-resource` (plus `--multiversion` / `--proto-source-path` where needed), or `DialogflowPlaybook`''s mappers are isolated in `dialogflowplaybook_mapper.go`. `types.generated.go`, the mappers, `zz_generated.deepcopy.go` and the CRD are in sync with `dialogflowplaybook_types.go`. `DialogflowPlaybookSpec` has no top-level `Labels`.'
+    - '**Gate:** if a controller or fuzzer already exists for `DialogflowPlaybook`, it still builds (`go build ./pkg/controller/direct/<group>/...`) and passes `FOCUS=DialogflowPlaybook go test ./pkg/fuzztesting/fuzztests -run TestFocusedMappers`. If not, fail the review and ask for the controller and fuzzer to be regenerated with `generate-controller` / `generate-fuzzer --prepopulate-resource` and fixed.'
+    - Only `alpha-missingfields.txt`, `pkg/gcpurls/registry_test.go` (verified non-CAI templates) and `naming_violations.txt` (new external-only files) may grow. `missingrefs.txt` and `crds_have_parent_refs.txt` are untouched.
+    - '```markdown'
+    - '### KCC Greenfield Step 1b (Judgement Queue) Auto-Review Results'
+    - '**Judgement Queue Completeness**: [Pass/Fail] - (all DialogflowPlaybook entries resolved, none deleted, no +kcc:guess left)'
+    - '**Queue Resolution Accuracy**: [Pass/Fail] - (wrong not-applicable/accepted; etag or top-level labels in Spec; doc comments stripped)'
+    - '**Parent, Identity & References**: [Pass/Fail] - (top-level: root ref + location / ProjectAndLocationRef; child: single required, immutable spec.parentRef; generate-identity; singleton/multi-pattern templates; ServerGeneratedIdentity vs IdentityV2; refs.Normalize)'
+    - '**Unflagged Proto-vs-KRM Audit & Struct Isolation**: [Pass/Fail] - (unflagged refs; missing +kcc:proto; shared structs mutated; non-pointer scalars; empty ObservedState)'
+    - '**Generated Files, Controller/Fuzzer Sync & `BLOCKED_KINDS`**: [Pass/Fail] - (CRD/mapper/deepcopy in sync; pre-existing controller/fuzzer regenerated and passing; BLOCKED_KINDS; missingrefs.txt untouched)'
+    - '#### Detailed Findings / Actions Required:'
+    - '[file, line, exact issue]'
+    - '`'
+onStart:
+    comment: AI Factory started reviewing this pull request in a sandbox.
+runName: review-14686-8b3725e-1793320606
+rule: review
+recipe: review
+apply: submit-review
