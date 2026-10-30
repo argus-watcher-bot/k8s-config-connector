@@ -4,12 +4,12 @@ number: 14597
 priority: medium
 phase: 4
 createdAt: 2026-10-29T06:52:50Z
-enqueuedAt: 2026-10-29T22:44:27.464344541Z
+enqueuedAt: 2026-10-30T01:02:40.950073265Z
 triggerEventTime: 2026-10-29T06:52:52Z
 triggerReason: IssueLabeled
 triggerNotes: 'Issue #14597 created at 2026-10-29T06:52:50Z; trigger label ''overseer'' added by acpana at 2026-10-29T06:52:52Z'
-startedAt: 2026-10-29T22:44:42.588990117Z
-completedAt: 2026-10-29T22:45:18.564379349Z
+startedAt: 2026-10-30T01:03:02.349014606Z
+completedAt: 2026-10-30T01:05:53.284669268Z
 assignee: daedalus-agent-bot
 status: Completed
 agentFile: https://raw.githubusercontent.com/acpana/k8s-config-connector/refs/heads/acpana-bulkgen-wf/.agents/workflows/kcc-greenfield-bulkgen
@@ -17,6 +17,6 @@ sessionId: issue-14597
 onStart:
     assign:
         - '{{bot}}'
-runName: agent-14597-1793313867
+runName: agent-14597-1793322160
 rule: workflow
 recipe: workflow

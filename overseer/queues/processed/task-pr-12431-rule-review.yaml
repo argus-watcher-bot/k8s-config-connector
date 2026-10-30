@@ -1,0 +1,23 @@
+type: pr-rule
+url: https://github.com/GoogleCloudPlatform/k8s-config-connector/pull/12431
+number: 12431
+priority: medium
+phase: 1
+createdAt: 2026-08-16T04:22:27Z
+enqueuedAt: 2026-10-30T02:40:39.731530109Z
+triggerEventTime: 2026-10-30T02:39:04Z
+triggerReason: PRReadyForReview
+triggerNotes: Automated review triggered; all CI checks passed at 2026-10-30T02:39:04Z for commit bab46da (committer date 2026-10-30T02:04:59Z)
+startedAt: 2026-10-30T02:40:50.879897063Z
+completedAt: 2026-10-30T02:54:25.128706497Z
+assignee: ada-coder-bot
+status: Completed
+commitSHA: bab46dad4b37eaf77f4ab4c181d068c5ba7496bb
+instructions:
+    - Use .gemini/skills/reviewgen-greenfield-controller/SKILL.md to conduct the review.
+onStart:
+    comment: AI Factory started reviewing this pull request in a sandbox.
+runName: review-12431-bab46da-1793328039
+rule: review
+recipe: review
+apply: submit-review
