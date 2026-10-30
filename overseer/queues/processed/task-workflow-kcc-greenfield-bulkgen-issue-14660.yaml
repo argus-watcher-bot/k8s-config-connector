@@ -1,0 +1,22 @@
+type: agent-chore
+url: https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/14660
+number: 14660
+priority: medium
+phase: 4
+createdAt: 2026-10-29T22:08:16Z
+enqueuedAt: 2026-10-29T22:17:09.667351352Z
+triggerEventTime: 2026-10-29T22:08:18Z
+triggerReason: IssueLabeled
+triggerNotes: 'Issue #14660 created at 2026-10-29T22:08:16Z; trigger label ''overseer'' added by acpana at 2026-10-29T22:08:18Z'
+startedAt: 2026-10-29T22:17:24.00735314Z
+completedAt: 2026-10-29T22:22:26.041005978Z
+assignee: daedalus-agent-bot
+status: Completed
+agentFile: https://raw.githubusercontent.com/acpana/k8s-config-connector/refs/heads/acpana-bulkgen-wf/.agents/workflows/kcc-greenfield-bulkgen
+sessionId: issue-14660
+onStart:
+    assign:
+        - '{{bot}}'
+runName: agent-14660-1793312229
+rule: workflow
+recipe: workflow
