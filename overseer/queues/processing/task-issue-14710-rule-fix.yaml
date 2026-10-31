@@ -1,0 +1,24 @@
+type: issue-rule
+url: https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/14710
+number: 14710
+priority: medium
+phase: 3
+createdAt: 2026-10-30T23:22:46Z
+enqueuedAt: 2026-10-30T23:24:37.717013443Z
+triggerEventTime: 2026-10-30T23:22:49Z
+triggerReason: IssueLabeled
+triggerNotes: 'Issue #14710 created at 2026-10-30T23:22:46Z; trigger label ''overseer'' added by walle-agent-bot at 2026-10-30T23:22:49Z'
+startedAt: 2026-10-30T23:25:06.671088792Z
+assignee: ada-coder-bot
+status: Running
+onStart:
+    assign:
+        - '{{bot}}'
+    comment: AI Factory started fixing this issue in a sandbox.
+runName: fix-14710-head-1793402677
+rule: fix
+recipe: fix
+apply: open-pr
+inputs:
+    draft: "false"
+prLabels: true
