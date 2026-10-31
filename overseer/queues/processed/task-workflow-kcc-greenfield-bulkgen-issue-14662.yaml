@@ -4,12 +4,12 @@ number: 14662
 priority: medium
 phase: 4
 createdAt: 2026-10-29T22:08:23Z
-enqueuedAt: 2026-10-30T19:53:43.237273424Z
-triggerEventTime: 2026-10-30T19:46:19Z
-triggerReason: LinkedIssueClosed
-triggerNotes: 'Linked issue #14667 was closed'
-startedAt: 2026-10-30T19:54:09.26405553Z
-completedAt: 2026-10-30T20:05:07.339487133Z
+enqueuedAt: 2026-10-31T00:37:12.140141091Z
+triggerEventTime: 2026-10-29T22:08:24Z
+triggerReason: IssueLabeled
+triggerNotes: 'Issue #14662 created at 2026-10-29T22:08:23Z; trigger label ''overseer'' added by acpana at 2026-10-29T22:08:24Z'
+startedAt: 2026-10-31T00:37:25.293167793Z
+completedAt: 2026-10-31T00:41:45.516058639Z
 assignee: walle-agent-bot
 status: Completed
 agentFile: https://raw.githubusercontent.com/acpana/k8s-config-connector/refs/heads/acpana-bulkgen-wf/.agents/workflows/kcc-greenfield-bulkgen
@@ -17,4 +17,6 @@ sessionId: issue-14662
 onStart:
     assign:
         - '{{bot}}'
-runName: agent-14662-1793390023
+runName: agent-14662-1793407032
+rule: workflow
+recipe: workflow

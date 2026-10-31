@@ -4,17 +4,21 @@ number: 14209
 priority: medium
 phase: 2
 createdAt: 2026-10-21T01:01:38Z
-enqueuedAt: 2026-10-24T00:28:34.508851399Z
-triggerEventTime: 2026-10-24T00:17:20Z
+enqueuedAt: 2026-10-30T23:38:58.099047322Z
+triggerEventTime: 2026-10-24T00:30:06Z
 triggerReason: PRMergeConflict
-triggerNotes: 'PR #14209 has merge conflicts with base branch ''master''; head commit bb715d1 committer date 2026-10-24T00:17:20Z, PR updated at 2026-10-24T00:19:31Z'
-startedAt: 2026-10-24T00:28:38.745379956Z
-completedAt: 2026-10-24T00:38:35.509721705Z
+triggerNotes: 'PR #14209 has merge conflicts with base branch ''master''; head commit 888faa2 committer date 2026-10-24T00:30:06Z, PR updated at 2026-10-24T00:38:35Z'
+startedAt: 2026-10-30T23:39:03.977682362Z
+completedAt: 2026-10-31T00:06:25.711935465Z
 assignee: hopper-coder-bot
 status: Completed
-commitSHA: bb715d1311a8bc809453914f12ab5f71d2283ff3
-startComment: "\U0001F916 AI Factory started resolving merge conflicts / rebasing this pull request in a sandbox.\n\nNote: We recommend waiting for the 'ready-for-human' label before leaving review comments. Comments added while the system is actively working may be associated with outdated commits once a new commit is pushed, causing them to be ignored."
-runName: conflict-14209-bb715d1-1792801714
+commitSHA: 888faa28cbc7ac4184cbc91985b713c3549444d0
+onStart:
+    comment: |-
+        AI Factory started resolving merge conflicts / rebasing this pull request in a sandbox.
+
+        Note: We recommend waiting for the 'ready-for-human' label before leaving review comments. Comments added while the system is actively working may be associated with outdated commits once a new commit is pushed, causing them to be ignored.
+runName: conflict-14209-888faa2-1793403538
 rule: conflict
 recipe: care-rebase
 apply: post-replies
