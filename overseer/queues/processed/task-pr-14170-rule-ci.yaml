@@ -4,14 +4,21 @@ number: 14170
 priority: medium
 phase: 3
 createdAt: 2026-10-20T20:13:33Z
-enqueuedAt: 2026-10-21T00:59:05.575336466Z
-triggerEventTime: 2026-10-20T22:12:34Z
+enqueuedAt: 2026-10-31T00:00:55.037342315Z
+triggerEventTime: 2026-10-30T23:57:11Z
 triggerReason: PRCheckFailed
-triggerNotes: Earliest CI failure in 'tests-e2e-fixtures-compute' (cancelled) at 2026-10-20T22:12:34Z; total 6 failed check(s) on commit 52a61d3
-startedAt: 2026-10-21T00:59:14.834924669Z
-completedAt: 2026-10-21T01:05:09.506144531Z
+triggerNotes: Earliest CI failure in 'tests-e2e-fixtures-networksecurity' (failure) at 2026-10-30T23:57:11Z; total 5 failed check(s) on commit 5b31d11
+startedAt: 2026-10-31T00:01:24.540645397Z
+completedAt: 2026-10-31T00:13:22.53401156Z
 assignee: neumann-coder-bot
 status: Completed
-commitSHA: 52a61d303aec2fbe9b1ce8357fcb9b5c96319fec
-runName: investigate-14170-52a61d3-1792544345
+commitSHA: 5b31d112814779f4e5d5fca717e3e3a7e369e99b
+onStart:
+    comment: |-
+        AI Factory started investigating CI check failures for this pull request.
+
+        Note: We recommend waiting for the 'ready-for-human' label before leaving review comments. Comments added while the system is actively working may be associated with outdated commits once a new commit is pushed, causing them to be ignored.
+runName: ci-14170-5b31d11-1793404855
 rule: ci
+recipe: care-ci
+apply: post-replies

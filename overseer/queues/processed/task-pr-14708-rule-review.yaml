@@ -1,0 +1,42 @@
+type: pr-rule
+url: https://github.com/GoogleCloudPlatform/k8s-config-connector/pull/14708
+number: 14708
+priority: medium
+phase: 1
+createdAt: 2026-10-30T21:47:04Z
+enqueuedAt: 2026-10-30T22:52:59.294590921Z
+triggerEventTime: 2026-10-30T22:42:55Z
+triggerReason: PRReadyForReview
+triggerNotes: Automated review triggered; all CI checks passed at 2026-10-30T22:42:55Z for commit e391a4b (committer date 2026-10-30T22:08:40Z)
+startedAt: 2026-10-30T22:53:03.49705025Z
+completedAt: 2026-10-30T23:17:08.918772118Z
+assignee: ada-coder-bot
+status: Completed
+commitSHA: e391a4b98550dd956a755b85cca5f49734b0251f
+instructions:
+    - Check every item, then post the result in the format at the end.
+    - '**Prerequisites, generation and registration.** `BigQueryAnalyticsHubQueryTemplate`''s queue entries are all `resolved` and `BigQueryAnalyticsHubQueryTemplateSpec` has no top-level `Labels`. `generate.sh` calls `generate-controller` (or `generate-direct-reconciler`) and `generate-fuzzer`, both with `--prepopulate-resource --resource BigQueryAnalyticsHubQueryTemplate:<ProtoMessage>`. `<proto_lower>_controller.go` carries `// +generated:controller`, `bigqueryanalyticshubquerytemplate_fuzzer.generated.go` carries `// +generated:fuzzer`, and `static_config.go` was regenerated with `python3 dev/tasks/generate_static_config.py`. `TestGenerateScripts`, `TestDirectResourceFileNaming`, `TestRegisteredTemplatesMatchCAI` and `TestVerifyLabelsTestCasesExist` pass.'
+    - '**The five standards.**'
+    - The REST GAPIC client with `m.config.RESTClientOptions()`; gRPC only when REST is unsupported or broken, with the reason stated.
+    - '`common.NormalizeGreenfieldReferences` in `AdapterForObject`, before `GetIdentity` and `BigQueryAnalyticsHubQueryTemplateSpec_ToProto`.'
+    - '`obj.GetIdentity` asserted to `*krm.BigQueryAnalyticsHubQueryTemplateIdentity`. For server-generated IDs, `Create` reads the ID back with `a.id.FromExternal(created.GetName())` and `setStatus` writes `status.externalRef`.'
+    - '`common.CompareGreenfieldSpec` / `CompareGreenfieldSpecAndLabels` (never `CompareProtoMessage` or `CompareBrownfieldSpec`), with `structuredreporting.ReportDiff` before the update request when paths changed.'
+    - Every LRO is waited on. `setStatus` runs at the end of `Create` and on every `Update` path, the no-op path included (or unconditionally for immutable resources without an update RPC).
+    - '**Fuzzer.** `bigqueryanalyticshubquerytemplate_fuzzer.generated.go` registers in `init()` and passes `FOCUS=BigQueryAnalyticsHubQueryTemplate go test ./pkg/fuzztesting/fuzztests -run TestFocusedMappers` and `dev/ci/presubmits/fuzz-roundtrippers`.'
+    - '**Real-GCP fixtures.** `bigqueryanalyticshubquerytemplate-minimal` and `bigqueryanalyticshubquerytemplate-maximal` have `create.yaml`, `update.yaml` (if mutable), `_http.log` and `_audit_probe.log` recorded against **real GCP**, never mock. The maximal fixture covers the spec. A child resource''s fixtures set `spec.parentRef` (to the parent created in `dependencies.yaml`, or `external:` for an external-only parent), and no `update.yaml` changes the parent fields. `BigQueryAnalyticsHubQueryTemplate` isn''t excluded in `ShouldTestRereconiliation`. The PR states the project and PDT timestamps and has the audit-log comment.'
+    - '```markdown'
+    - '### KCC Greenfield Controller Auto-Review Results'
+    - '**Post-Judgement, Deterministic `generate.sh`, & `static_config.go`**: [Pass/Fail] - (queue resolved; generate-controller & generate-fuzzer with --prepopulate-resource; +generated markers; static_config.go updated)'
+    - '**Client Creation & Reference Normalization**: [Pass/Fail] - (GAPIC REST client; common.NormalizeGreenfieldReferences in AdapterForObject)'
+    - '**CompareGreenfieldSpec & Structured Reporting**: [Pass/Fail]'
+    - '**LRO Wait & Mandatory Status Updates**: [Pass/Fail] - (op.Wait; setStatus on no-op and mutating paths)'
+    - '**Fuzzer & Real-GCP Test Coverage**: [Pass/Fail] - (fuzzer; minimal/maximal real-GCP _http.log & _audit_probe.log; ratcheting enabled)'
+    - '#### Detailed Findings / Actions Required:'
+    - '[file, line, exact issue]'
+    - '`'
+onStart:
+    comment: AI Factory started reviewing this pull request in a sandbox.
+runName: review-14708-e391a4b-1793400779
+rule: review
+recipe: review
+apply: submit-review
