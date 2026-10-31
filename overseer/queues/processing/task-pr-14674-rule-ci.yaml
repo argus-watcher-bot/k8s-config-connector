@@ -1,0 +1,23 @@
+type: pr-rule
+url: https://github.com/GoogleCloudPlatform/k8s-config-connector/pull/14674
+number: 14674
+priority: medium
+phase: 3
+createdAt: 2026-10-29T22:46:55Z
+enqueuedAt: 2026-10-30T23:48:58.957785573Z
+triggerEventTime: 2026-10-30T23:44:12Z
+triggerReason: PRCheckFailed
+triggerNotes: Earliest CI failure in 'tests-e2e-fixtures-bigquerybiglake' (failure) at 2026-10-30T23:44:12Z; total 31 failed check(s) on commit 704b433
+startedAt: 2026-10-30T23:49:30.381741551Z
+assignee: ada-coder-bot
+status: Running
+commitSHA: 704b4330c030da002ac6d2f787bf718c66e4a2f6
+onStart:
+    comment: |-
+        AI Factory started investigating CI check failures for this pull request.
+
+        Note: We recommend waiting for the 'ready-for-human' label before leaving review comments. Comments added while the system is actively working may be associated with outdated commits once a new commit is pushed, causing them to be ignored.
+runName: ci-14674-704b433-1793404138
+rule: ci
+recipe: care-ci
+apply: post-replies
