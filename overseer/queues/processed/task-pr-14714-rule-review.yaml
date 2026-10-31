@@ -4,15 +4,15 @@ number: 14714
 priority: medium
 phase: 1
 createdAt: 2026-10-30T23:57:47Z
-enqueuedAt: 2026-10-31T02:29:03.219338577Z
-triggerEventTime: 2026-10-31T02:23:40Z
+enqueuedAt: 2026-10-31T04:52:53.786042051Z
+triggerEventTime: 2026-10-31T04:44:41Z
 triggerReason: PRReadyForReview
-triggerNotes: Automated review triggered; all CI checks passed at 2026-10-31T02:23:40Z for commit 5904cbc (committer date 2026-10-31T01:13:36Z)
-startedAt: 2026-10-31T02:29:25.836938696Z
-completedAt: 2026-10-31T02:54:45.611121742Z
+triggerNotes: Automated review triggered; all CI checks passed at 2026-10-31T04:44:41Z for commit c0f215f (committer date 2026-10-31T03:32:19Z)
+startedAt: 2026-10-31T04:53:00.859132635Z
+completedAt: 2026-10-31T05:02:06.193294606Z
 assignee: ada-coder-bot
 status: Completed
-commitSHA: 5904cbcde16b0b145fb51624f8569407875dde30
+commitSHA: c0f215f9d0dac6e75803216904dec5742b46946b
 instructions:
     - Check every item, then post the result in the format at the end.
     - '**Prerequisites, generation and registration.** `DataplexEntry`''s queue entries are all `resolved` and `DataplexEntrySpec` has no top-level `Labels`. `generate.sh` calls `generate-controller` (or `generate-direct-reconciler`) and `generate-fuzzer`, both with `--prepopulate-resource --resource DataplexEntry:<ProtoMessage>`. `<proto_lower>_controller.go` carries `// +generated:controller`, `dataplexentry_fuzzer.generated.go` carries `// +generated:fuzzer`, and `static_config.go` was regenerated with `python3 dev/tasks/generate_static_config.py`. `TestGenerateScripts`, `TestDirectResourceFileNaming`, `TestRegisteredTemplatesMatchCAI` and `TestVerifyLabelsTestCasesExist` pass.'
@@ -36,7 +36,7 @@ instructions:
     - '`'
 onStart:
     comment: AI Factory started reviewing this pull request in a sandbox.
-runName: review-14714-5904cbc-1793413743
+runName: review-14714-c0f215f-1793422373
 rule: review
 recipe: review
 apply: submit-review
