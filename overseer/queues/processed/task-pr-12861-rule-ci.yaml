@@ -4,12 +4,12 @@ number: 12861
 priority: medium
 phase: 3
 createdAt: 2026-09-09T22:09:12Z
-enqueuedAt: 2026-10-31T02:40:55.291751859Z
+enqueuedAt: 2026-10-31T04:53:01.682764709Z
 triggerEventTime: 2026-10-31T02:30:02Z
 triggerReason: PRCheckFailed
-triggerNotes: Earliest CI failure in 'tests-e2e-fixtures-dataplex' (failure) at 2026-10-31T02:30:02Z; total 5 failed check(s) on commit 5e71b30
-startedAt: 2026-10-31T02:41:15.605443649Z
-completedAt: 2026-10-31T02:43:39.601903073Z
+triggerNotes: Earliest CI failure in 'tests-e2e-fixtures-dataplex' (failure) at 2026-10-31T02:30:02Z; total 8 failed check(s) on commit 5e71b30
+startedAt: 2026-10-31T04:53:35.665565338Z
+completedAt: 2026-10-31T05:31:50.729376634Z
 assignee: hopper-coder-bot
 status: Completed
 commitSHA: 5e71b30faedc4f9e5daf7818f3006f759d349f51
@@ -18,7 +18,7 @@ onStart:
         AI Factory started investigating CI check failures for this pull request.
 
         Note: We recommend waiting for the 'ready-for-human' label before leaving review comments. Comments added while the system is actively working may be associated with outdated commits once a new commit is pushed, causing them to be ignored.
-runName: ci-12861-5e71b30-1793414455
+runName: ci-12861-5e71b30-1793422381
 rule: ci
 recipe: care-ci
 apply: post-replies
