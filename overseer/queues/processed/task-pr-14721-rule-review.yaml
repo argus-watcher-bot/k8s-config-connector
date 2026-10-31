@@ -4,16 +4,15 @@ number: 14721
 priority: medium
 phase: 1
 createdAt: 2026-10-31T03:14:36Z
-enqueuedAt: 2026-10-31T06:22:55.428210197Z
-triggerEventTime: 2026-10-31T06:12:35Z
+enqueuedAt: 2026-10-31T08:20:27.278424832Z
+triggerEventTime: 2026-10-31T08:14:09Z
 triggerReason: PRReadyForReview
-triggerNotes: Automated review triggered; all CI checks passed at 2026-10-31T06:12:35Z for commit e1d2161 (committer date 2026-10-31T05:39:05Z)
-startedAt: 2026-10-31T06:23:02.457091776Z
-completedAt: 2026-10-31T06:40:44.426033004Z
+triggerNotes: Automated review triggered; all CI checks passed at 2026-10-31T08:14:09Z for commit 31085fe (committer date 2026-10-31T07:40:37Z)
+startedAt: 2026-10-31T08:20:52.08032126Z
+completedAt: 2026-10-31T08:57:29.90253821Z
 assignee: ada-coder-bot
-status: Failed
-error: 'exit status 1: applying the Review for https://github.com/GoogleCloudPlatform/k8s-config-connector/pull/14721: posting a review: POST https://api.github.com/repos/GoogleCloudPlatform/k8s-config-connector/pulls/14721/reviews: 422 Unprocessable Entity [{Resource: Field: Code: Message:Start position could not be reso…'
-commitSHA: e1d2161bdc31cfcc1c493c123832da41691e9498
+status: Completed
+commitSHA: 31085fef180b55fadee81e6fa59439da271c7ab1
 instructions:
     - Check every item, then post the result in the format at the end.
     - '**Prerequisites, generation and registration.** `ComposerUserWorkloadsConfigMap`''s queue entries are all `resolved` and `ComposerUserWorkloadsConfigMapSpec` has no top-level `Labels`. `generate.sh` calls `generate-controller` (or `generate-direct-reconciler`) and `generate-fuzzer`, both with `--prepopulate-resource --resource ComposerUserWorkloadsConfigMap:<ProtoMessage>`. `<proto_lower>_controller.go` carries `// +generated:controller`, `composeruserworkloadsconfigmap_fuzzer.generated.go` carries `// +generated:fuzzer`, and `static_config.go` was regenerated with `python3 dev/tasks/generate_static_config.py`. `TestGenerateScripts`, `TestDirectResourceFileNaming`, `TestRegisteredTemplatesMatchCAI` and `TestVerifyLabelsTestCasesExist` pass.'
@@ -37,7 +36,7 @@ instructions:
     - '`'
 onStart:
     comment: AI Factory started reviewing this pull request in a sandbox.
-runName: review-14721-e1d2161-1793427775
+runName: review-14721-31085fe-1793434827
 rule: review
 recipe: review
 apply: submit-review
