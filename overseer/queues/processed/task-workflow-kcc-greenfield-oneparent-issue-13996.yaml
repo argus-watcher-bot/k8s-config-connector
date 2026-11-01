@@ -4,12 +4,12 @@ number: 13996
 priority: critical
 phase: 4
 createdAt: 2026-10-14T21:33:18Z
-enqueuedAt: 2026-11-01T03:43:41.657102105Z
+enqueuedAt: 2026-11-01T06:05:56.759869375Z
 triggerEventTime: 2026-10-15T19:46:58Z
 triggerReason: IssueLabeled
 triggerNotes: 'Issue #13996 created at 2026-10-14T21:33:18Z; trigger label ''overseer'' added by acpana at 2026-10-15T19:46:58Z'
-startedAt: 2026-11-01T03:43:53.261509238Z
-completedAt: 2026-11-01T03:44:24.033922084Z
+startedAt: 2026-11-01T06:06:17.221596446Z
+completedAt: 2026-11-01T06:06:56.513622435Z
 assignee: feynman-agent-bot
 status: Completed
 agentFile: https://raw.githubusercontent.com/acpana/k8s-config-connector/refs/heads/acpana-oneParent-wf/.agents/workflows/kcc-greenfield-oneParent
@@ -17,6 +17,6 @@ sessionId: issue-13996
 onStart:
     assign:
         - '{{bot}}'
-runName: agent-13996-1793504621
+runName: agent-13996-1793513156
 rule: workflow
 recipe: workflow
