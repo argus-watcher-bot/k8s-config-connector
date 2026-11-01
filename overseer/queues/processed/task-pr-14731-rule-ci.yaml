@@ -4,21 +4,22 @@ number: 14731
 priority: medium
 phase: 3
 createdAt: 2026-11-01T03:58:34Z
-enqueuedAt: 2026-11-01T04:11:43.07308243Z
+enqueuedAt: 2026-11-01T06:43:53.501844505Z
 triggerEventTime: 2026-11-01T04:11:34Z
 triggerReason: PRCheckFailed
-triggerNotes: Earliest CI failure in 'validate-generated-files' (failure) at 2026-11-01T04:11:34Z; total 1 failed check(s) on commit 2801b0f
-startedAt: 2026-11-01T04:12:13.779869202Z
-completedAt: 2026-11-01T04:17:04.402636809Z
+triggerNotes: Earliest CI failure in 'validate-generated-files' (failure) at 2026-11-01T04:11:34Z; total 2 failed check(s) on commit 2801b0f
+startedAt: 2026-11-01T06:44:17.429332066Z
+completedAt: 2026-11-01T06:44:21.315980879Z
 assignee: ada-coder-bot
-status: Completed
+status: Failed
+error: 'exit status 1: connecting to sandbox: sandbox fix-k8s-config-connector-14730 has no task server to use (sandbox pod fix-k8s-config-connector-14730 is in Failed state (reason: Preempting): cannot connect to terminated pod); recreate it on a current image'
 commitSHA: 2801b0f369daae1ef671f005547e39edd216c0cb
 onStart:
     comment: |-
         AI Factory started investigating CI check failures for this pull request.
 
         Note: We recommend waiting for the 'ready-for-human' label before leaving review comments. Comments added while the system is actively working may be associated with outdated commits once a new commit is pushed, causing them to be ignored.
-runName: ci-14731-2801b0f-1793506303
+runName: ci-14731-2801b0f-1793515433
 rule: ci
 recipe: care-ci
 apply: post-replies
