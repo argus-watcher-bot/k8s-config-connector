@@ -10,12 +10,13 @@ triggerReason: IssueLabeled
 triggerNotes: 'Issue #14732 created at 2026-11-01T17:40:47Z; trigger label ''overseer'' added by daedalus-agent-bot at 2026-11-01T17:40:49Z'
 startedAt: 2026-11-01T17:41:59.478393788Z
 assignee: hopper-coder-bot
-status: Running
+status: Pending
 onStart:
     assign:
         - '{{bot}}'
     comment: AI Factory started fixing this issue in a sandbox.
 runName: fix-14732-head-1793554902
+recovered: true
 rule: fix
 recipe: fix
 apply: open-pr
