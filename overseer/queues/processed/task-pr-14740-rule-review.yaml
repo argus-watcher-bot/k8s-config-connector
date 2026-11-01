@@ -1,0 +1,42 @@
+type: pr-rule
+url: https://github.com/GoogleCloudPlatform/k8s-config-connector/pull/14740
+number: 14740
+priority: medium
+phase: 1
+createdAt: 2026-11-01T20:19:35Z
+enqueuedAt: 2026-11-01T22:07:31.677047866Z
+triggerEventTime: 2026-11-01T22:05:45Z
+triggerReason: PRReadyForReview
+triggerNotes: Automated review triggered; all CI checks passed at 2026-11-01T22:05:45Z for commit e991c07 (committer date 2026-11-01T20:58:05Z)
+startedAt: 2026-11-01T22:07:47.015715173Z
+completedAt: 2026-11-01T22:21:44.574464362Z
+assignee: ada-coder-bot
+status: Completed
+commitSHA: e991c07e38ebecb1093ac7c1eb3683370e5d0689
+instructions:
+    - Check every item, then post the result in the format at the end.
+    - '**Prerequisites, generation and registration.** `DataplexDataAsset`''s queue entries are all `resolved` and `DataplexDataAssetSpec` has no top-level `Labels`. `generate.sh` calls `generate-controller` (or `generate-direct-reconciler`) and `generate-fuzzer`, both with `--prepopulate-resource --resource DataplexDataAsset:<ProtoMessage>`. `<proto_lower>_controller.go` carries `// +generated:controller`, `dataplexdataasset_fuzzer.generated.go` carries `// +generated:fuzzer`, and `static_config.go` was regenerated with `python3 dev/tasks/generate_static_config.py`. `TestGenerateScripts`, `TestDirectResourceFileNaming`, `TestRegisteredTemplatesMatchCAI` and `TestVerifyLabelsTestCasesExist` pass.'
+    - '**The five standards.**'
+    - The REST GAPIC client with `m.config.RESTClientOptions()`; gRPC only when REST is unsupported or broken, with the reason stated.
+    - '`common.NormalizeGreenfieldReferences` in `AdapterForObject`, before `GetIdentity` and `DataplexDataAssetSpec_ToProto`.'
+    - '`obj.GetIdentity` asserted to `*krm.DataplexDataAssetIdentity`. For server-generated IDs, `Create` reads the ID back with `a.id.FromExternal(created.GetName())` and `setStatus` writes `status.externalRef`.'
+    - '`common.CompareGreenfieldSpec` / `CompareGreenfieldSpecAndLabels` (never `CompareProtoMessage` or `CompareBrownfieldSpec`), with `structuredreporting.ReportDiff` before the update request when paths changed.'
+    - Every LRO is waited on. `setStatus` runs at the end of `Create` and on every `Update` path, the no-op path included (or unconditionally for immutable resources without an update RPC).
+    - '**Fuzzer.** `dataplexdataasset_fuzzer.generated.go` registers in `init()` and passes `FOCUS=DataplexDataAsset go test ./pkg/fuzztesting/fuzztests -run TestFocusedMappers` and `dev/ci/presubmits/fuzz-roundtrippers`.'
+    - '**Real-GCP fixtures.** `dataplexdataasset-minimal` and `dataplexdataasset-maximal` have `create.yaml`, `update.yaml` (if mutable), `_http.log` and `_audit_probe.log` recorded against **real GCP**, never mock. The maximal fixture covers the spec. A child resource''s fixtures set `spec.parentRef` (to the parent created in `dependencies.yaml`, or `external:` for an external-only parent), and no `update.yaml` changes the parent fields. `DataplexDataAsset` isn''t excluded in `ShouldTestRereconiliation`. The PR states the project and PDT timestamps and has the audit-log comment.'
+    - '```markdown'
+    - '### KCC Greenfield Controller Auto-Review Results'
+    - '**Post-Judgement, Deterministic `generate.sh`, & `static_config.go`**: [Pass/Fail] - (queue resolved; generate-controller & generate-fuzzer with --prepopulate-resource; +generated markers; static_config.go updated)'
+    - '**Client Creation & Reference Normalization**: [Pass/Fail] - (GAPIC REST client; common.NormalizeGreenfieldReferences in AdapterForObject)'
+    - '**CompareGreenfieldSpec & Structured Reporting**: [Pass/Fail]'
+    - '**LRO Wait & Mandatory Status Updates**: [Pass/Fail] - (op.Wait; setStatus on no-op and mutating paths)'
+    - '**Fuzzer & Real-GCP Test Coverage**: [Pass/Fail] - (fuzzer; minimal/maximal real-GCP _http.log & _audit_probe.log; ratcheting enabled)'
+    - '#### Detailed Findings / Actions Required:'
+    - '[file, line, exact issue]'
+    - '`'
+onStart:
+    comment: AI Factory started reviewing this pull request in a sandbox.
+runName: review-14740-e991c07-1793570851
+rule: review
+recipe: review
+apply: submit-review
