@@ -4,12 +4,12 @@ number: 14584
 priority: medium
 phase: 3
 createdAt: 2026-10-29T05:18:18Z
-enqueuedAt: 2026-11-02T15:46:04.592295253Z
+enqueuedAt: 2026-11-02T17:54:23.053735709Z
 triggerEventTime: 2026-11-02T15:36:10Z
 triggerReason: PRCheckFailed
-triggerNotes: Earliest CI failure in 'tests-e2e-fixtures-compute-2-of-4' (failure) at 2026-11-02T15:36:10Z; total 5 failed check(s) on commit 7044bad
-startedAt: 2026-11-02T15:46:37.12644776Z
-completedAt: 2026-11-02T15:48:24.002885063Z
+triggerNotes: Earliest CI failure in 'tests-e2e-fixtures-compute-2-of-4' (failure) at 2026-11-02T15:36:10Z; total 6 failed check(s) on commit 7044bad
+startedAt: 2026-11-02T17:54:32.101987214Z
+completedAt: 2026-11-02T18:00:58.02231085Z
 assignee: neumann-coder-bot
 status: Completed
 commitSHA: 7044badba510f8b2c986052daca75155e7cea1db
@@ -18,7 +18,7 @@ onStart:
         AI Factory started investigating CI check failures for this pull request.
 
         Note: We recommend waiting for the 'ready-for-human' label before leaving review comments. Comments added while the system is actively working may be associated with outdated commits once a new commit is pushed, causing them to be ignored.
-runName: ci-14584-7044bad-1793634364
+runName: ci-14584-7044bad-1793642063
 rule: ci
 recipe: care-ci
 apply: post-replies
