@@ -4,20 +4,19 @@ number: 14735
 priority: medium
 phase: 3
 createdAt: 2026-11-01T18:21:55Z
-enqueuedAt: 2026-11-01T18:23:38.485573099Z
+enqueuedAt: 2026-11-01T19:49:55.033225633Z
 triggerEventTime: 2026-11-01T18:21:57Z
 triggerReason: IssueLabeled
 triggerNotes: 'Issue #14735 created at 2026-11-01T18:21:55Z; trigger label ''overseer'' added by walle-agent-bot at 2026-11-01T18:21:57Z'
-startedAt: 2026-11-01T18:24:02.393146127Z
-completedAt: 2026-11-01T19:28:05.674316853Z
+startedAt: 2026-11-01T19:50:03.000935658Z
+completedAt: 2026-11-01T22:45:02.58258328Z
 assignee: lovelace-coder-bot
-status: Failed
-error: 'exit status 1: task recipe-fix-20261101-182545-6bed failed (exit 137); nothing applied. Its log: factory sandbox task logs fix-k8s-config-connector-14735 -n overseer-kcc --task recipe-fix-20261101-182545-6bed'
+status: Completed
 onStart:
     assign:
         - '{{bot}}'
     comment: AI Factory started fixing this issue in a sandbox.
-runName: fix-14735-head-1793557418
+runName: fix-14735-head-1793562595
 rule: fix
 recipe: fix
 apply: open-pr
