@@ -4,20 +4,19 @@ number: 14700
 priority: medium
 phase: 3
 createdAt: 2026-10-30T20:02:50Z
-enqueuedAt: 2026-11-03T18:19:58.335998194Z
+enqueuedAt: 2026-11-03T20:37:20.96010683Z
 triggerEventTime: 2026-10-30T20:02:52Z
 triggerReason: IssueLabeled
 triggerNotes: 'Issue #14700 created at 2026-10-30T20:02:50Z; trigger label ''overseer'' added by walle-agent-bot at 2026-10-30T20:02:52Z'
-startedAt: 2026-11-03T18:20:09.097641877Z
-completedAt: 2026-11-03T18:33:47.432833914Z
+startedAt: 2026-11-03T20:37:27.632311772Z
+completedAt: 2026-11-03T21:19:21.553502675Z
 assignee: ada-coder-bot
-status: Failed
-error: 'exit status 1: running recipe: task failed with exit code 1'
+status: Completed
 onStart:
     assign:
         - '{{bot}}'
     comment: AI Factory started fixing this issue in a sandbox.
-runName: fix-14700-head-1793729998
+runName: fix-14700-head-1793738240
 rule: fix
 recipe: fix
 apply: open-pr

@@ -4,20 +4,19 @@ number: 14701
 priority: medium
 phase: 3
 createdAt: 2026-10-30T20:03:31Z
-enqueuedAt: 2026-11-03T18:03:44.068451481Z
+enqueuedAt: 2026-11-03T21:13:27.293386024Z
 triggerEventTime: 2026-10-30T20:03:34Z
 triggerReason: IssueLabeled
 triggerNotes: 'Issue #14701 created at 2026-10-30T20:03:31Z; trigger label ''overseer'' added by daedalus-agent-bot at 2026-10-30T20:03:34Z'
-startedAt: 2026-11-03T18:04:01.829674289Z
-completedAt: 2026-11-03T18:29:40.201151711Z
+startedAt: 2026-11-03T21:13:54.407698429Z
+completedAt: 2026-11-03T22:12:30.333103231Z
 assignee: lovelace-coder-bot
-status: Failed
-error: 'exit status 1: running recipe: task failed with exit code 1'
+status: Completed
 onStart:
     assign:
         - '{{bot}}'
     comment: AI Factory started fixing this issue in a sandbox.
-runName: fix-14701-head-1793729024
+runName: fix-14701-head-1793740407
 rule: fix
 recipe: fix
 apply: open-pr
