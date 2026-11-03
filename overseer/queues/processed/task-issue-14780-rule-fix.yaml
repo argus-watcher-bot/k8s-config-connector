@@ -4,19 +4,20 @@ number: 14780
 priority: medium
 phase: 3
 createdAt: 2026-11-02T07:54:40Z
-enqueuedAt: 2026-11-02T07:55:55.994287946Z
+enqueuedAt: 2026-11-03T18:17:44.767687412Z
 triggerEventTime: 2026-11-02T07:54:41Z
 triggerReason: IssueLabeled
 triggerNotes: 'Issue #14780 created at 2026-11-02T07:54:40Z; trigger label ''overseer'' added by argus-watcher-bot at 2026-11-02T07:54:41Z'
-startedAt: 2026-11-02T07:56:02.583313941Z
-completedAt: 2026-11-02T11:39:40.815709852Z
+startedAt: 2026-11-03T18:17:57.987268798Z
+completedAt: 2026-11-03T18:30:34.802748327Z
 assignee: lovelace-coder-bot
-status: Completed
+status: Failed
+error: 'exit status 1: running recipe: task failed with exit code 1'
 onStart:
     assign:
         - '{{bot}}'
     comment: AI Factory started fixing this issue in a sandbox.
-runName: fix-14780-head-1793606155
+runName: fix-14780-head-1793729864
 rule: fix
 recipe: fix
 apply: open-pr
