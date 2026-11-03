@@ -4,14 +4,21 @@ number: 12696
 priority: medium
 phase: 3
 createdAt: 2026-09-02T06:02:32Z
-enqueuedAt: 2026-10-20T22:45:31.792573505Z
-triggerEventTime: 2026-10-20T22:38:35Z
+enqueuedAt: 2026-11-02T07:40:02.837035857Z
+triggerEventTime: 2026-11-02T07:33:49Z
 triggerReason: PRCheckFailed
-triggerNotes: Earliest CI failure in 'tests-e2e-fixtures-sql' (cancelled) at 2026-10-20T22:38:35Z; total 5 failed check(s) on commit da802ae
-startedAt: 2026-10-20T22:46:23.855555398Z
-completedAt: 2026-10-20T22:49:37.43253298Z
+triggerNotes: Earliest CI failure in 'tests-preview' (failure) at 2026-11-02T07:33:49Z; total 2 failed check(s) on commit 0936a59
+startedAt: 2026-11-02T07:40:18.693699816Z
+completedAt: 2026-11-02T22:37:44.379230875Z
 assignee: neumann-coder-bot
 status: Completed
-commitSHA: da802ae5f82b189cda12b5e9c9e64918777f26a7
-runName: investigate-12696-da802ae-1792536331
+commitSHA: 0936a59c9222dd3330e4591ad45a75765ae222f6
+onStart:
+    comment: |-
+        AI Factory started investigating CI check failures for this pull request.
+
+        Note: We recommend waiting for the 'ready-for-human' label before leaving review comments. Comments added while the system is actively working may be associated with outdated commits once a new commit is pushed, causing them to be ignored.
+runName: ci-12696-0936a59-1793605202
 rule: ci
+recipe: care-ci
+apply: post-replies
