@@ -4,19 +4,20 @@ number: 14159
 priority: medium
 phase: 4
 createdAt: 2026-10-20T20:11:12Z
-enqueuedAt: 2026-11-03T08:55:34.963160917Z
+enqueuedAt: 2026-11-03T13:33:14.861685933Z
 triggerEventTime: 2026-10-20T20:11:15Z
 triggerReason: IssueLabeled
 triggerNotes: 'Issue #14159 created at 2026-10-20T20:11:12Z; trigger label ''overseer'' added by fkc1e100 at 2026-10-20T20:11:15Z'
-startedAt: 2026-11-03T08:55:51.40712427Z
-completedAt: 2026-11-03T08:59:27.097294358Z
+startedAt: 2026-11-03T13:33:46.093296409Z
+completedAt: 2026-11-03T13:46:30.811766951Z
 assignee: feynman-agent-bot
-status: Completed
+status: Failed
+error: 'exit status 1: running recipe: task failed with exit code 1'
 agentFile: https://raw.githubusercontent.com/GoogleCloudPlatform/k8s-config-connector/refs/heads/master/.agents/workflows/kcc-greenfield.txt
 sessionId: issue-14159
 onStart:
     assign:
         - '{{bot}}'
-runName: agent-14159-1793696134
+runName: agent-14159-1793712794
 rule: workflow
 recipe: workflow
