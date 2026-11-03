@@ -4,20 +4,19 @@ number: 14779
 priority: medium
 phase: 3
 createdAt: 2026-11-02T07:40:11Z
-enqueuedAt: 2026-11-03T18:18:01.867647931Z
+enqueuedAt: 2026-11-03T19:15:11.003700501Z
 triggerEventTime: 2026-11-02T07:40:12Z
 triggerReason: IssueLabeled
 triggerNotes: 'Issue #14779 created at 2026-11-02T07:40:11Z; trigger label ''overseer'' added by argus-watcher-bot at 2026-11-02T07:40:12Z'
-startedAt: 2026-11-03T18:18:31.809596712Z
-completedAt: 2026-11-03T18:32:55.694822816Z
+startedAt: 2026-11-03T19:15:18.308783502Z
+completedAt: 2026-11-03T20:01:21.826061726Z
 assignee: hopper-coder-bot
-status: Failed
-error: 'exit status 1: running recipe: task failed with exit code 1'
+status: Completed
 onStart:
     assign:
         - '{{bot}}'
     comment: AI Factory started fixing this issue in a sandbox.
-runName: fix-14779-head-1793729881
+runName: fix-14779-head-1793733311
 rule: fix
 recipe: fix
 apply: open-pr
