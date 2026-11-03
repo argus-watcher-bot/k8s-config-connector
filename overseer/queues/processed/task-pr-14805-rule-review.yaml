@@ -4,15 +4,15 @@ number: 14805
 priority: medium
 phase: 1
 createdAt: 2026-11-03T00:08:42Z
-enqueuedAt: 2026-11-03T00:53:58.406714453Z
-triggerEventTime: 2026-11-03T00:48:46Z
+enqueuedAt: 2026-11-03T05:09:49.840675084Z
+triggerEventTime: 2026-11-03T05:08:25Z
 triggerReason: PRReadyForReview
-triggerNotes: Automated review triggered; all CI checks passed at 2026-11-03T00:48:46Z for commit a45e541 (committer date 2026-11-03T00:07:32Z)
-startedAt: 2026-11-03T00:54:05.837794814Z
-completedAt: 2026-11-03T01:18:11.262061644Z
+triggerNotes: Automated review triggered; all CI checks passed at 2026-11-03T05:08:25Z for commit 354c3f3 (committer date 2026-11-03T01:53:16Z)
+startedAt: 2026-11-03T05:10:19.648771541Z
+completedAt: 2026-11-03T05:34:28.220738416Z
 assignee: lovelace-coder-bot
 status: Completed
-commitSHA: a45e54110a7f5942e0a604276d2a73c151ac21de
+commitSHA: 354c3f3b7cf6ba95d64a52d62387534c53f2fa53
 instructions:
     - Check every item, then post the result in the format at the end.
     - '**Prerequisites, generation and registration.** `VectorsearchIndex`''s queue entries are all `resolved` and `VectorsearchIndexSpec` has no top-level `Labels`. `generate.sh` calls `generate-controller` (or `generate-direct-reconciler`) and `generate-fuzzer`, both with `--prepopulate-resource --resource VectorsearchIndex:<ProtoMessage>`. `<proto_lower>_controller.go` carries `// +generated:controller`, `vectorsearchindex_fuzzer.generated.go` carries `// +generated:fuzzer`, and `static_config.go` was regenerated with `python3 dev/tasks/generate_static_config.py`. `TestGenerateScripts`, `TestDirectResourceFileNaming`, `TestRegisteredTemplatesMatchCAI` and `TestVerifyLabelsTestCasesExist` pass.'
@@ -36,7 +36,7 @@ instructions:
     - '`'
 onStart:
     comment: AI Factory started reviewing this pull request in a sandbox.
-runName: review-14805-a45e541-1793667238
+runName: review-14805-354c3f3-1793682589
 rule: review
 recipe: review
 apply: submit-review
