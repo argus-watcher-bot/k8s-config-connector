@@ -4,19 +4,19 @@ number: 14733
 priority: medium
 phase: 3
 createdAt: 2026-11-01T18:05:17Z
-enqueuedAt: 2026-11-01T18:06:15.281140513Z
+enqueuedAt: 2026-11-03T16:50:22.474084414Z
 triggerEventTime: 2026-11-01T18:05:19Z
 triggerReason: IssueLabeled
 triggerNotes: 'Issue #14733 created at 2026-11-01T18:05:17Z; trigger label ''overseer'' added by daedalus-agent-bot at 2026-11-01T18:05:19Z'
-startedAt: 2026-11-01T18:06:17.829334426Z
-completedAt: 2026-11-01T20:19:37.600971082Z
+startedAt: 2026-11-03T16:50:23.938956127Z
+completedAt: 2026-11-03T18:37:14.813340823Z
 assignee: ada-coder-bot
 status: Completed
 onStart:
     assign:
         - '{{bot}}'
     comment: AI Factory started fixing this issue in a sandbox.
-runName: fix-14733-head-1793556375
+runName: fix-14733-head-1793724622
 rule: fix
 recipe: fix
 apply: open-pr
