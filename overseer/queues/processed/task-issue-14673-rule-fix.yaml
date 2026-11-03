@@ -4,19 +4,20 @@ number: 14673
 priority: medium
 phase: 3
 createdAt: 2026-10-29T22:25:35Z
-enqueuedAt: 2026-10-29T22:26:32.162858568Z
+enqueuedAt: 2026-11-03T16:30:31.167598307Z
 triggerEventTime: 2026-10-29T22:25:38Z
 triggerReason: IssueLabeled
 triggerNotes: 'Issue #14673 created at 2026-10-29T22:25:35Z; trigger label ''overseer'' added by daedalus-agent-bot at 2026-10-29T22:25:38Z'
-startedAt: 2026-10-29T22:26:45.744029038Z
-completedAt: 2026-10-29T23:28:53.271242996Z
+startedAt: 2026-11-03T16:30:36.302812836Z
+completedAt: 2026-11-03T16:39:38.054332628Z
 assignee: hopper-coder-bot
-status: Completed
+status: Failed
+error: 'exit status 1: running recipe: task failed with exit code 1'
 onStart:
     assign:
         - '{{bot}}'
     comment: AI Factory started fixing this issue in a sandbox.
-runName: fix-14673-head-1793312792
+runName: fix-14673-head-1793723431
 rule: fix
 recipe: fix
 apply: open-pr

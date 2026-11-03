@@ -4,20 +4,19 @@ number: 14157
 priority: medium
 phase: 4
 createdAt: 2026-10-20T20:11:06Z
-enqueuedAt: 2026-11-03T13:51:51.304819225Z
+enqueuedAt: 2026-11-03T15:08:43.27646509Z
 triggerEventTime: 2026-10-20T20:11:08Z
 triggerReason: IssueLabeled
 triggerNotes: 'Issue #14157 created at 2026-10-20T20:11:06Z; trigger label ''overseer'' added by fkc1e100 at 2026-10-20T20:11:08Z'
-startedAt: 2026-11-03T13:51:55.198803661Z
-completedAt: 2026-11-03T13:59:51.402103459Z
+startedAt: 2026-11-03T15:09:08.493996718Z
+completedAt: 2026-11-03T15:11:34.428714416Z
 assignee: daedalus-agent-bot
-status: Failed
-error: 'exit status 1: running recipe: task failed with exit code 1'
+status: Completed
 agentFile: https://raw.githubusercontent.com/GoogleCloudPlatform/k8s-config-connector/refs/heads/master/.agents/workflows/kcc-greenfield.txt
 sessionId: issue-14157
 onStart:
     assign:
         - '{{bot}}'
-runName: agent-14157-1793713911
+runName: agent-14157-1793718523
 rule: workflow
 recipe: workflow
