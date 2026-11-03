@@ -4,22 +4,21 @@ number: 14821
 priority: medium
 phase: 3
 createdAt: 2026-11-03T18:37:12Z
-enqueuedAt: 2026-11-03T18:43:56.207613673Z
-triggerEventTime: 2026-11-03T18:37:30Z
+enqueuedAt: 2026-11-03T21:15:25.437989855Z
+triggerEventTime: 2026-11-03T21:06:41Z
 triggerReason: PRCheckFailed
-triggerNotes: Earliest CI failure in 'cla/google' (failure) at 2026-11-03T18:37:30Z; total 1 failed check(s) on commit 773027c
-startedAt: 2026-11-03T18:44:16.943946205Z
-completedAt: 2026-11-03T19:09:45.19659881Z
+triggerNotes: Earliest CI failure in 'cla/google' (failure) at 2026-11-03T21:06:41Z; total 1 failed check(s) on commit 8a06dbf
+startedAt: 2026-11-03T21:15:34.784655069Z
+completedAt: 2026-11-03T21:35:17.651877904Z
 assignee: ada-coder-bot
-status: Failed
-error: 'exit status 1: running recipe: task failed with exit code 1'
-commitSHA: 773027c56ea69903fe01c5ca76b321b3ca7bdd50
+status: Completed
+commitSHA: 8a06dbf5ff21b980c61288e23ed86457c3ca9211
 onStart:
     comment: |-
         AI Factory started investigating CI check failures for this pull request.
 
         Note: We recommend waiting for the 'ready-for-human' label before leaving review comments. Comments added while the system is actively working may be associated with outdated commits once a new commit is pushed, causing them to be ignored.
-runName: ci-14821-773027c-1793731436
+runName: ci-14821-8a06dbf-1793740525
 rule: ci
 recipe: care-ci
 apply: post-replies

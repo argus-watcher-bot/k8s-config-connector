@@ -4,19 +4,20 @@ number: 14716
 priority: medium
 phase: 1
 createdAt: 2026-10-31T00:06:39Z
-enqueuedAt: 2026-11-02T20:25:37.519932368Z
-triggerEventTime: 2026-11-02T20:20:53Z
+enqueuedAt: 2026-11-03T20:41:21.078459041Z
+triggerEventTime: 2026-11-03T20:02:59Z
 triggerReason: PRCommentsAdded
-triggerNotes: Oldest unaddressed inline review comment by acpana added at 2026-11-02T20:20:53Z (ID 4447289617) since last commit 5ab377a (committer date 2026-11-02T08:22:44Z)
-startedAt: 2026-11-02T20:25:48.71293963Z
-completedAt: 2026-11-02T21:09:25.543024387Z
+triggerNotes: Retrying the failed address-comments task (retry 2) on commit c52a164
+startedAt: 2026-11-03T20:41:37.015119332Z
+completedAt: 2026-11-03T20:43:37.865930761Z
 assignee: hopper-coder-bot
 status: Completed
-commitSHA: 5ab377aa437e1ba91576942fef7c18a6da23cc98
+commitSHA: c52a164ac90f351b6bd506018ae0865cabf4bda8
+retryCount: 2
 acknowledge: feedback
 onStart:
     comment: AI Factory started addressing review feedback for this pull request.
-runName: comments-14716-5ab377a-1793651137
+runName: comments-14716-c52a164-1793738481
 rule: comments
 recipe: care-comments
 apply: post-replies

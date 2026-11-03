@@ -4,12 +4,12 @@ number: 12690
 priority: medium
 phase: 4
 createdAt: 2026-09-02T04:42:28Z
-enqueuedAt: 2026-11-03T18:34:06.430098312Z
+enqueuedAt: 2026-11-03T21:52:08.760018098Z
 triggerEventTime: 2026-09-02T04:42:52Z
 triggerReason: IssueLabeled
 triggerNotes: 'Issue #12690 created at 2026-09-02T04:42:28Z; trigger label ''overseer'' added by anfernee at 2026-09-02T04:42:52Z'
-startedAt: 2026-11-03T18:34:33.898552018Z
-completedAt: 2026-11-03T18:57:48.892505315Z
+startedAt: 2026-11-03T21:52:17.707716691Z
+completedAt: 2026-11-03T22:10:46.281644145Z
 assignee: walle-agent-bot
 status: Failed
 error: 'exit status 1: running recipe: task failed with exit code 1'
@@ -18,6 +18,6 @@ sessionId: issue-12690
 onStart:
     assign:
         - '{{bot}}'
-runName: agent-12690-1793730846
+runName: agent-12690-1793742728
 rule: workflow
 recipe: workflow
