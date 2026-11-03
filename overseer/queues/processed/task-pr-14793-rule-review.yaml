@@ -4,15 +4,15 @@ number: 14793
 priority: medium
 phase: 1
 createdAt: 2026-11-02T20:27:34Z
-enqueuedAt: 2026-11-03T00:30:04.058333643Z
-triggerEventTime: 2026-11-03T00:20:31Z
+enqueuedAt: 2026-11-03T02:40:02.497457741Z
+triggerEventTime: 2026-11-03T02:38:26Z
 triggerReason: PRReadyForReview
-triggerNotes: Automated review triggered; all CI checks passed at 2026-11-03T00:20:31Z for commit 9ee560d (committer date 2026-11-02T22:33:50Z)
-startedAt: 2026-11-03T00:30:34.817380638Z
-completedAt: 2026-11-03T00:55:37.110146395Z
+triggerNotes: Automated review triggered; all CI checks passed at 2026-11-03T02:38:26Z for commit 6f5fabf (committer date 2026-11-03T02:09:09Z)
+startedAt: 2026-11-03T02:40:07.692222294Z
+completedAt: 2026-11-03T03:41:07.433863714Z
 assignee: hopper-coder-bot
 status: Completed
-commitSHA: 9ee560d1f95cded2324f2a51c7a9daeaf097ec7e
+commitSHA: 6f5fabff0c1c5f663ed0c5e1df893f20df1db4ce
 instructions:
     - Check every item, then post the result in the format at the end.
     - '**Prerequisites, generation and registration.** `SecureSourceManagerHook`''s queue entries are all `resolved` and `SecureSourceManagerHookSpec` has no top-level `Labels`. `generate.sh` calls `generate-controller` (or `generate-direct-reconciler`) and `generate-fuzzer`, both with `--prepopulate-resource --resource SecureSourceManagerHook:<ProtoMessage>`. `<proto_lower>_controller.go` carries `// +generated:controller`, `securesourcemanagerhook_fuzzer.generated.go` carries `// +generated:fuzzer`, and `static_config.go` was regenerated with `python3 dev/tasks/generate_static_config.py`. `TestGenerateScripts`, `TestDirectResourceFileNaming`, `TestRegisteredTemplatesMatchCAI` and `TestVerifyLabelsTestCasesExist` pass.'
@@ -36,7 +36,7 @@ instructions:
     - '`'
 onStart:
     comment: AI Factory started reviewing this pull request in a sandbox.
-runName: review-14793-9ee560d-1793665804
+runName: review-14793-6f5fabf-1793673602
 rule: review
 recipe: review
 apply: submit-review
