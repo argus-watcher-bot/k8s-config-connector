@@ -1,0 +1,22 @@
+type: pr-rule
+url: https://github.com/GoogleCloudPlatform/k8s-config-connector/pull/14877
+number: 14877
+priority: medium
+phase: 1
+createdAt: 2026-11-04T11:25:56Z
+enqueuedAt: 2026-11-04T13:00:44.785246623Z
+triggerEventTime: 2026-11-04T12:49:45Z
+triggerReason: PRCommentsAdded
+triggerNotes: Oldest unaddressed review by reviewbot-robot added at 2026-11-04T12:49:45Z (ID 5768549251) since last commit 3f06204 (committer date 2026-11-04T11:25:21Z)
+startedAt: 2026-11-04T13:01:20.441686705Z
+completedAt: 2026-11-04T13:11:28.288114464Z
+assignee: neumann-coder-bot
+status: Completed
+commitSHA: 3f06204fee6cd61b82a5be8ce300b57ca4c240a0
+acknowledge: feedback
+onStart:
+    comment: AI Factory started addressing review feedback for this pull request.
+runName: comments-14877-3f06204-1793797244
+rule: comments
+recipe: care-comments
+apply: post-replies

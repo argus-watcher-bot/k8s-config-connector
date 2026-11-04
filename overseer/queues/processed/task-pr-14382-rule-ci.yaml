@@ -4,22 +4,21 @@ number: 14382
 priority: medium
 phase: 3
 createdAt: 2026-10-24T00:29:28Z
-enqueuedAt: 2026-11-04T11:35:00.642428731Z
+enqueuedAt: 2026-11-04T12:06:54.031621274Z
 triggerEventTime: 2026-11-04T09:00:37Z
 triggerReason: PRCheckFailed
 triggerNotes: Earliest CI failure in 'validate-generated-files' (failure) at 2026-11-04T09:00:37Z; total 8 failed check(s) on commit 4c32292
-startedAt: 2026-11-04T11:35:38.088713201Z
-completedAt: 2026-11-04T11:42:36.76569224Z
+startedAt: 2026-11-04T12:07:20.923039885Z
+completedAt: 2026-11-04T13:10:58.127601642Z
 assignee: lovelace-coder-bot
-status: Failed
-error: 'exit status 1: running recipe: task failed with exit code 1'
+status: Completed
 commitSHA: 4c3229284d06d07ad828bf9855b69814c23b2d6b
 onStart:
     comment: |-
         AI Factory started investigating CI check failures for this pull request.
 
         Note: We recommend waiting for the 'ready-for-human' label before leaving review comments. Comments added while the system is actively working may be associated with outdated commits once a new commit is pushed, causing them to be ignored.
-runName: ci-14382-4c32292-1793792100
+runName: ci-14382-4c32292-1793794014
 rule: ci
 recipe: care-ci
 apply: post-replies

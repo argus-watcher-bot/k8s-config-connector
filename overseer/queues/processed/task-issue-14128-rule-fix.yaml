@@ -4,13 +4,22 @@ number: 14128
 priority: medium
 phase: 3
 createdAt: 2026-10-20T13:25:09Z
-enqueuedAt: 2026-10-20T14:15:07.664627027Z
+enqueuedAt: 2026-11-04T14:34:32.617928952Z
 triggerEventTime: 2026-10-20T14:07:30Z
 triggerReason: IssueLabeled
 triggerNotes: 'Issue #14128 created at 2026-10-20T13:25:09Z; trigger label ''overseer'' added by fkc1e100 at 2026-10-20T14:07:30Z'
-startedAt: 2026-10-20T14:15:08.419400624Z
-completedAt: 2026-10-20T15:42:10.799050183Z
+startedAt: 2026-11-04T14:34:45.145449799Z
+completedAt: 2026-11-04T15:08:51.386092748Z
 assignee: hopper-coder-bot
 status: Completed
-runName: fix-14128-head-1792505707
+onStart:
+    assign:
+        - '{{bot}}'
+    comment: AI Factory started fixing this issue in a sandbox.
+runName: fix-14128-head-1793802872
 rule: fix
+recipe: fix
+apply: open-pr
+inputs:
+    draft: "false"
+prLabels: true
