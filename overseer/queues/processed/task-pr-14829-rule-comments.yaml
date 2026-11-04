@@ -4,19 +4,21 @@ number: 14829
 priority: medium
 phase: 1
 createdAt: 2026-11-03T21:35:21Z
-enqueuedAt: 2026-11-04T01:46:33.470669058Z
-triggerEventTime: 2026-11-04T01:43:57Z
+enqueuedAt: 2026-11-04T05:04:41.137477197Z
+triggerEventTime: 2026-11-04T04:36:31Z
 triggerReason: PRCommentsAdded
-triggerNotes: Oldest unaddressed review by reviewbot-robot added at 2026-11-04T01:43:57Z (ID 5762038403) since last commit 51dfc08 (committer date 2026-11-04T00:26:24Z)
-startedAt: 2026-11-04T01:46:39.059707972Z
-completedAt: 2026-11-04T02:21:03.335957235Z
+triggerNotes: Retrying the failed address-comments task (retry 2) on commit 3611bf5
+startedAt: 2026-11-04T05:04:59.452873316Z
+completedAt: 2026-11-04T05:13:17.674741445Z
 assignee: ada-coder-bot
-status: Completed
-commitSHA: 51dfc0829680094132df8a4b8c4d38e25e83f989
+status: Failed
+error: 'exit status 1: running recipe: task failed with exit code 1'
+commitSHA: 3611bf516f6570743d1ad8d503064d7f35e18f3a
+retryCount: 2
 acknowledge: feedback
 onStart:
     comment: AI Factory started addressing review feedback for this pull request.
-runName: comments-14829-51dfc08-1793756793
+runName: comments-14829-3611bf5-1793768681
 rule: comments
 recipe: care-comments
 apply: post-replies
