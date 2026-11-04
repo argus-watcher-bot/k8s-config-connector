@@ -4,12 +4,12 @@ number: 14821
 priority: medium
 phase: 3
 createdAt: 2026-11-03T18:37:12Z
-enqueuedAt: 2026-11-04T02:42:56.651935785Z
+enqueuedAt: 2026-11-04T04:52:53.008594732Z
 triggerEventTime: 2026-11-04T00:28:05Z
 triggerReason: PRCheckFailed
 triggerNotes: Earliest CI failure in 'cla/google' (failure) at 2026-11-04T00:28:05Z; total 1 failed check(s) on commit 8a79644
-startedAt: 2026-11-04T02:43:01.084215276Z
-completedAt: 2026-11-04T02:47:57.463994189Z
+startedAt: 2026-11-04T04:53:04.192472199Z
+completedAt: 2026-11-04T05:22:34.849220979Z
 assignee: ada-coder-bot
 status: Completed
 commitSHA: 8a7964447d6391770e96b592ee7d53d47db6cf0d
@@ -18,7 +18,7 @@ onStart:
         AI Factory started investigating CI check failures for this pull request.
 
         Note: We recommend waiting for the 'ready-for-human' label before leaving review comments. Comments added while the system is actively working may be associated with outdated commits once a new commit is pushed, causing them to be ignored.
-runName: ci-14821-8a79644-1793760176
+runName: ci-14821-8a79644-1793767973
 rule: ci
 recipe: care-ci
 apply: post-replies
