@@ -4,22 +4,21 @@ number: 14845
 priority: medium
 phase: 3
 createdAt: 2026-11-04T03:13:24Z
-enqueuedAt: 2026-11-04T05:14:44.560014849Z
-triggerEventTime: 2026-11-04T03:30:40Z
+enqueuedAt: 2026-11-04T08:08:16.597269176Z
+triggerEventTime: 2026-11-04T08:07:49Z
 triggerReason: PRCheckFailed
-triggerNotes: Earliest CI failure in 'unit-tests-4-of-4' (failure) at 2026-11-04T03:30:40Z; total 3 failed check(s) on commit 74fd8bf
-startedAt: 2026-11-04T05:15:00.532553851Z
-completedAt: 2026-11-04T05:35:24.418970249Z
+triggerNotes: Earliest CI failure in 'validate-manifests' (failure) at 2026-11-04T08:07:49Z; total 1 failed check(s) on commit b681bd7
+startedAt: 2026-11-04T08:08:26.894352067Z
+completedAt: 2026-11-04T08:50:21.552689157Z
 assignee: lovelace-coder-bot
-status: Failed
-error: 'exit status 1: running recipe: task failed with exit code 1'
-commitSHA: 74fd8bf152bab72c600dcb9d38921d381c2a03ee
+status: Completed
+commitSHA: b681bd76475af50742f94fd1b08eaa698ef66874
 onStart:
     comment: |-
         AI Factory started investigating CI check failures for this pull request.
 
         Note: We recommend waiting for the 'ready-for-human' label before leaving review comments. Comments added while the system is actively working may be associated with outdated commits once a new commit is pushed, causing them to be ignored.
-runName: ci-14845-74fd8bf-1793769284
+runName: ci-14845-b681bd7-1793779696
 rule: ci
 recipe: care-ci
 apply: post-replies
