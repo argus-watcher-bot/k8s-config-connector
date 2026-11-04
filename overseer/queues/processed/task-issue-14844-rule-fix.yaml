@@ -1,0 +1,26 @@
+type: issue-rule
+url: https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/14844
+number: 14844
+priority: medium
+phase: 3
+createdAt: 2026-11-04T02:14:13Z
+enqueuedAt: 2026-11-04T03:54:46.850473035Z
+triggerEventTime: 2026-11-04T02:14:15Z
+triggerReason: IssueLabeled
+triggerNotes: 'Issue #14844 created at 2026-11-04T02:14:13Z; trigger label ''overseer'' added by daedalus-agent-bot at 2026-11-04T02:14:15Z'
+startedAt: 2026-11-04T03:54:49.122277308Z
+completedAt: 2026-11-04T04:19:51.512128379Z
+assignee: hopper-coder-bot
+status: Failed
+error: 'exit status 1: running recipe: task failed with exit code 1'
+onStart:
+    assign:
+        - '{{bot}}'
+    comment: AI Factory started fixing this issue in a sandbox.
+runName: fix-14844-head-1793764486
+rule: fix
+recipe: fix
+apply: open-pr
+inputs:
+    draft: "false"
+prLabels: true

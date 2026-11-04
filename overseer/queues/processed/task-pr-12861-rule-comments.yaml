@@ -4,20 +4,21 @@ number: 12861
 priority: medium
 phase: 1
 createdAt: 2026-09-09T22:09:12Z
-enqueuedAt: 2026-11-03T22:40:43.307438509Z
-triggerEventTime: 2026-11-03T21:14:32Z
+enqueuedAt: 2026-11-04T02:42:47.316303075Z
+triggerEventTime: 2026-11-04T02:09:01Z
 triggerReason: PRCommentsAdded
-triggerNotes: Retrying the failed address-comments task (retry 2) on commit ef181a1
-startedAt: 2026-11-03T22:40:48.846709349Z
-completedAt: 2026-11-04T00:23:45.395215671Z
+triggerNotes: Retrying the failed address-comments task (retry 1) on commit 4a97a87
+startedAt: 2026-11-04T02:42:53.225552157Z
+completedAt: 2026-11-04T02:56:31.123323816Z
 assignee: hopper-coder-bot
-status: Completed
-commitSHA: ef181a18125c9ca1372a84ab43af396ca033d855
-retryCount: 2
+status: Failed
+error: 'exit status 1: running recipe: task failed with exit code 1'
+commitSHA: 4a97a87eaf8ad614a2ae183a880413404a5510c2
+retryCount: 1
 acknowledge: feedback
 onStart:
     comment: AI Factory started addressing review feedback for this pull request.
-runName: comments-12861-ef181a1-1793745643
+runName: comments-12861-4a97a87-1793760167
 rule: comments
 recipe: care-comments
 apply: post-replies
