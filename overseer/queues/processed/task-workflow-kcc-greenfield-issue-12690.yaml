@@ -4,20 +4,17 @@ number: 12690
 priority: medium
 phase: 4
 createdAt: 2026-09-02T04:42:28Z
-enqueuedAt: 2026-11-03T21:52:08.760018098Z
-triggerEventTime: 2026-09-02T04:42:52Z
-triggerReason: IssueLabeled
-triggerNotes: 'Issue #12690 created at 2026-09-02T04:42:28Z; trigger label ''overseer'' added by anfernee at 2026-09-02T04:42:52Z'
-startedAt: 2026-11-03T21:52:17.707716691Z
-completedAt: 2026-11-03T22:10:46.281644145Z
+enqueuedAt: 2026-11-04T00:25:39.990342012Z
+triggerEventTime: 2026-11-04T00:05:57Z
+triggerReason: LinkedIssueClosed
+triggerNotes: 'Linked issue #11336 was closed'
+startedAt: 2026-11-04T00:25:48.396151031Z
+completedAt: 2026-11-04T00:26:49.887887297Z
 assignee: walle-agent-bot
-status: Failed
-error: 'exit status 1: running recipe: task failed with exit code 1'
+status: Completed
 agentFile: https://raw.githubusercontent.com/GoogleCloudPlatform/k8s-config-connector/refs/heads/master/.agents/workflows/kcc-greenfield.txt
 sessionId: issue-12690
 onStart:
     assign:
         - '{{bot}}'
-runName: agent-12690-1793742728
-rule: workflow
-recipe: workflow
+runName: agent-12690-1793751939

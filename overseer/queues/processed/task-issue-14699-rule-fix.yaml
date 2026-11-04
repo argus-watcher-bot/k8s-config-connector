@@ -4,20 +4,19 @@ number: 14699
 priority: medium
 phase: 3
 createdAt: 2026-10-30T19:47:54Z
-enqueuedAt: 2026-11-03T21:31:21.377235439Z
+enqueuedAt: 2026-11-03T22:34:39.628883869Z
 triggerEventTime: 2026-10-30T19:47:56Z
 triggerReason: IssueLabeled
 triggerNotes: 'Issue #14699 created at 2026-10-30T19:47:54Z; trigger label ''overseer'' added by feynman-agent-bot at 2026-10-30T19:47:56Z'
-startedAt: 2026-11-03T21:31:23.758115646Z
-completedAt: 2026-11-03T22:14:07.937900049Z
+startedAt: 2026-11-03T22:34:58.330055315Z
+completedAt: 2026-11-03T23:37:07.720774823Z
 assignee: ada-coder-bot
-status: Failed
-error: 'exit status 1: running recipe: task failed with exit code 1'
+status: Completed
 onStart:
     assign:
         - '{{bot}}'
     comment: AI Factory started fixing this issue in a sandbox.
-runName: fix-14699-head-1793741481
+runName: fix-14699-head-1793745279
 rule: fix
 recipe: fix
 apply: open-pr
