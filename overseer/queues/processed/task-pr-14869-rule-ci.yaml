@@ -4,22 +4,21 @@ number: 14869
 priority: medium
 phase: 3
 createdAt: 2026-11-04T09:16:55Z
-enqueuedAt: 2026-11-04T17:24:38.340997077Z
+enqueuedAt: 2026-11-04T18:33:11.981234481Z
 triggerEventTime: 2026-11-04T09:54:58Z
 triggerReason: PRCheckFailed
 triggerNotes: Earliest CI failure in 'tests-e2e-fixtures-dataplex' (failure) at 2026-11-04T09:54:58Z; total 6 failed check(s) on commit f6ba7ec
-startedAt: 2026-11-04T17:25:18.951205632Z
-completedAt: 2026-11-04T18:06:25.396873833Z
+startedAt: 2026-11-04T18:33:29.582401567Z
+completedAt: 2026-11-04T18:49:10.271380867Z
 assignee: ada-coder-bot
-status: Failed
-error: 'exit status 1: running recipe: task failed with exit code 1'
+status: Completed
 commitSHA: f6ba7ec0b1306aca6a6bfd51a61bb4c01fd5f715
 onStart:
     comment: |-
         AI Factory started investigating CI check failures for this pull request.
 
         Note: We recommend waiting for the 'ready-for-human' label before leaving review comments. Comments added while the system is actively working may be associated with outdated commits once a new commit is pushed, causing them to be ignored.
-runName: ci-14869-f6ba7ec-1793813078
+runName: ci-14869-f6ba7ec-1793817191
 rule: ci
 recipe: care-ci
 apply: post-replies
