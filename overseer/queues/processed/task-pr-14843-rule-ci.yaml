@@ -1,0 +1,25 @@
+type: pr-rule
+url: https://github.com/GoogleCloudPlatform/k8s-config-connector/pull/14843
+number: 14843
+priority: medium
+phase: 3
+createdAt: 2026-11-04T02:13:18Z
+enqueuedAt: 2026-11-04T03:40:39.51371208Z
+triggerEventTime: 2026-11-04T02:28:09Z
+triggerReason: PRCheckFailed
+triggerNotes: Earliest CI failure in 'tests-e2e-fixtures-hypercomputecluster' (failure) at 2026-11-04T02:28:09Z; total 8 failed check(s) on commit 5a8e183
+startedAt: 2026-11-04T03:41:00.579064486Z
+completedAt: 2026-11-04T04:01:09.255153046Z
+assignee: hopper-coder-bot
+status: Failed
+error: 'exit status 1: running recipe: task failed with exit code 1'
+commitSHA: 5a8e183c83d0b8426e3ab1eecbf417a11ef83fb9
+onStart:
+    comment: |-
+        AI Factory started investigating CI check failures for this pull request.
+
+        Note: We recommend waiting for the 'ready-for-human' label before leaving review comments. Comments added while the system is actively working may be associated with outdated commits once a new commit is pushed, causing them to be ignored.
+runName: ci-14843-5a8e183-1793763639
+rule: ci
+recipe: care-ci
+apply: post-replies
