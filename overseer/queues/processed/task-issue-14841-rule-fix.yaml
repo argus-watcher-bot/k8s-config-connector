@@ -1,0 +1,26 @@
+type: issue-rule
+url: https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/14841
+number: 14841
+priority: medium
+phase: 3
+createdAt: 2026-11-04T01:59:33Z
+enqueuedAt: 2026-11-04T03:02:56.530825225Z
+triggerEventTime: 2026-11-04T01:59:35Z
+triggerReason: IssueLabeled
+triggerNotes: 'Issue #14841 created at 2026-11-04T01:59:33Z; trigger label ''overseer'' added by argus-watcher-bot at 2026-11-04T01:59:35Z'
+startedAt: 2026-11-04T03:02:58.684648265Z
+completedAt: 2026-11-04T04:02:08.699951452Z
+assignee: neumann-coder-bot
+status: Failed
+error: 'exit status 1: running recipe: task failed with exit code 1'
+onStart:
+    assign:
+        - '{{bot}}'
+    comment: AI Factory started fixing this issue in a sandbox.
+runName: fix-14841-head-1793761376
+rule: fix
+recipe: fix
+apply: open-pr
+inputs:
+    draft: "false"
+prLabels: true
