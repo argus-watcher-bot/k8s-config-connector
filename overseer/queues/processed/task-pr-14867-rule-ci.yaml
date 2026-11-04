@@ -4,22 +4,21 @@ number: 14867
 priority: medium
 phase: 3
 createdAt: 2026-11-04T09:08:23Z
-enqueuedAt: 2026-11-04T17:24:32.268302706Z
-triggerEventTime: 2026-11-04T14:20:05Z
+enqueuedAt: 2026-11-04T20:53:13.599136437Z
+triggerEventTime: 2026-11-04T18:45:48Z
 triggerReason: PRCheckFailed
-triggerNotes: Earliest CI failure in 'Validate PR Release Note' (failure) at 2026-11-04T14:20:05Z; total 1 failed check(s) on commit 9f9f9da
-startedAt: 2026-11-04T17:25:14.493446771Z
-completedAt: 2026-11-04T17:47:24.661019823Z
+triggerNotes: Earliest CI failure in 'Validate PR Release Note' (failure) at 2026-11-04T18:45:48Z; total 1 failed check(s) on commit 9f9f9da
+startedAt: 2026-11-04T20:53:27.015538705Z
+completedAt: 2026-11-04T21:04:00.907123743Z
 assignee: hopper-coder-bot
-status: Failed
-error: 'exit status 1: running recipe: task failed with exit code 1'
+status: Completed
 commitSHA: 9f9f9da4713d899d5d6a0a94ffb98aceac5ca850
 onStart:
     comment: |-
         AI Factory started investigating CI check failures for this pull request.
 
         Note: We recommend waiting for the 'ready-for-human' label before leaving review comments. Comments added while the system is actively working may be associated with outdated commits once a new commit is pushed, causing them to be ignored.
-runName: ci-14867-9f9f9da-1793813072
+runName: ci-14867-9f9f9da-1793825593
 rule: ci
 recipe: care-ci
 apply: post-replies
