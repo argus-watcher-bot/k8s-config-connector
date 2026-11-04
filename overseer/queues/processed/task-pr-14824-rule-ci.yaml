@@ -4,12 +4,12 @@ number: 14824
 priority: medium
 phase: 3
 createdAt: 2026-11-03T20:01:19Z
-enqueuedAt: 2026-11-03T21:05:26.538874776Z
+enqueuedAt: 2026-11-03T23:36:49.160977391Z
 triggerEventTime: 2026-11-03T20:59:54Z
 triggerReason: PRCheckFailed
-triggerNotes: Earliest CI failure in 'smoketest-with-kind' (failure) at 2026-11-03T20:59:54Z; total 1 failed check(s) on commit 014477c
-startedAt: 2026-11-03T21:05:36.85588814Z
-completedAt: 2026-11-03T21:30:21.180255652Z
+triggerNotes: Earliest CI failure in 'smoketest-with-kind' (failure) at 2026-11-03T20:59:54Z; total 2 failed check(s) on commit 014477c
+startedAt: 2026-11-03T23:36:58.720201831Z
+completedAt: 2026-11-03T23:57:19.37832201Z
 assignee: hopper-coder-bot
 status: Completed
 commitSHA: 014477c997f4da9d282b7ddae9a0b7255f9e15e1
@@ -18,7 +18,7 @@ onStart:
         AI Factory started investigating CI check failures for this pull request.
 
         Note: We recommend waiting for the 'ready-for-human' label before leaving review comments. Comments added while the system is actively working may be associated with outdated commits once a new commit is pushed, causing them to be ignored.
-runName: ci-14824-014477c-1793739926
+runName: ci-14824-014477c-1793749009
 rule: ci
 recipe: care-ci
 apply: post-replies
