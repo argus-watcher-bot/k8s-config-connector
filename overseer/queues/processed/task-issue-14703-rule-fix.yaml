@@ -4,12 +4,12 @@ number: 14703
 priority: medium
 phase: 3
 createdAt: 2026-10-30T21:02:26Z
-enqueuedAt: 2026-11-04T04:02:23.026854162Z
+enqueuedAt: 2026-11-04T05:12:27.243456098Z
 triggerEventTime: 2026-11-04T03:58:11Z
 triggerReason: IssueLabeled
 triggerNotes: 'Issue #14703 created at 2026-10-30T21:02:26Z; trigger label ''overseer'' added by gemmahou at 2026-11-04T03:58:11Z'
-startedAt: 2026-11-04T04:02:35.934572545Z
-completedAt: 2026-11-04T04:15:22.860794939Z
+startedAt: 2026-11-04T05:12:45.612832145Z
+completedAt: 2026-11-04T05:19:29.474015603Z
 assignee: neumann-coder-bot
 status: Failed
 error: 'exit status 1: running recipe: task failed with exit code 1'
@@ -17,7 +17,7 @@ onStart:
     assign:
         - '{{bot}}'
     comment: AI Factory started fixing this issue in a sandbox.
-runName: fix-14703-head-1793764943
+runName: fix-14703-head-1793769147
 rule: fix
 recipe: fix
 apply: open-pr
