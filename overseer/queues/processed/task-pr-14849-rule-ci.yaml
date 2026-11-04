@@ -4,22 +4,22 @@ number: 14849
 priority: medium
 phase: 3
 createdAt: 2026-11-04T04:45:07Z
-enqueuedAt: 2026-11-04T11:12:56.87901211Z
+enqueuedAt: 2026-11-04T11:58:52.131361437Z
 triggerEventTime: 2026-11-04T10:35:34Z
 triggerReason: PRCheckFailed
 triggerNotes: Earliest CI failure in 'tests-e2e-fixtures-dataflow' (failure) at 2026-11-04T10:35:34Z; total 6 failed check(s) on commit ea8a130
-startedAt: 2026-11-04T11:13:30.549659015Z
-completedAt: 2026-11-04T11:29:07.32165054Z
+startedAt: 2026-11-04T11:59:22.667686457Z
+completedAt: 2026-11-04T12:13:06.164462702Z
 assignee: neumann-coder-bot
 status: Failed
-error: 'exit status 1: applying the Change for https://github.com/GoogleCloudPlatform/k8s-config-connector/pull/14849: rerunning run 126531896252: GET https://api.github.com/repos/GoogleCloudPlatform/k8s-config-connector/actions/runs/126531896252: 404 Not Found []'
+error: 'exit status 1: task recipe-care-ci-20261104-115927-ba71 failed (exit 1); nothing applied. Its log: factory sandbox task logs fix-k8s-config-connector-14841 -n overseer-kcc --task recipe-care-ci-20261104-115927-ba71'
 commitSHA: ea8a13029270aaca7240e57e048671d7b22f945d
 onStart:
     comment: |-
         AI Factory started investigating CI check failures for this pull request.
 
         Note: We recommend waiting for the 'ready-for-human' label before leaving review comments. Comments added while the system is actively working may be associated with outdated commits once a new commit is pushed, causing them to be ignored.
-runName: ci-14849-ea8a130-1793790776
+runName: ci-14849-ea8a130-1793793532
 rule: ci
 recipe: care-ci
 apply: post-replies

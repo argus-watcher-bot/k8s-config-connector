@@ -9,14 +9,14 @@ triggerEventTime: 2026-09-18T21:07:51Z
 triggerReason: IssueLabeled
 triggerNotes: 'Issue #13236 created at 2026-09-18T21:07:50Z; trigger label ''overseer'' added by feynman-agent-bot at 2026-09-18T21:07:51Z'
 startedAt: 2026-11-04T07:34:39.536508914Z
+completedAt: 2026-11-04T13:03:25.354942386Z
 assignee: lovelace-coder-bot
-status: Pending
+status: Completed
 onStart:
     assign:
         - '{{bot}}'
     comment: AI Factory started fixing this issue in a sandbox.
 runName: fix-13236-head-1793777662
-recovered: true
 rule: fix
 recipe: fix
 apply: open-pr
