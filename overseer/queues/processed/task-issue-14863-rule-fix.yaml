@@ -4,18 +4,19 @@ number: 14863
 priority: medium
 phase: 3
 createdAt: 2026-11-04T08:34:29Z
-enqueuedAt: 2026-11-04T08:36:28.029085503Z
+enqueuedAt: 2026-11-04T10:03:17.349342292Z
 triggerEventTime: 2026-11-04T08:34:30Z
 triggerReason: IssueLabeled
 triggerNotes: 'Issue #14863 created at 2026-11-04T08:34:29Z; trigger label ''overseer'' added by argus-watcher-bot at 2026-11-04T08:34:30Z'
-startedAt: 2026-11-04T08:36:49.639108792Z
+startedAt: 2026-11-04T10:03:50.211251232Z
+completedAt: 2026-11-04T10:24:42.692297764Z
 assignee: neumann-coder-bot
-status: Running
+status: Completed
 onStart:
     assign:
         - '{{bot}}'
     comment: AI Factory started fixing this issue in a sandbox.
-runName: fix-14863-head-1793781388
+runName: fix-14863-head-1793786597
 rule: fix
 recipe: fix
 apply: open-pr

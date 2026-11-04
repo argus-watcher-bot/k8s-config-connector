@@ -4,21 +4,22 @@ number: 14849
 priority: medium
 phase: 3
 createdAt: 2026-11-04T04:45:07Z
-enqueuedAt: 2026-11-04T05:54:20.247045149Z
-triggerEventTime: 2026-11-04T05:03:46Z
+enqueuedAt: 2026-11-04T11:12:56.87901211Z
+triggerEventTime: 2026-11-04T10:35:34Z
 triggerReason: PRCheckFailed
-triggerNotes: Earliest CI failure in 'unit-tests-4-of-4' (failure) at 2026-11-04T05:03:46Z; total 3 failed check(s) on commit fc5aa57
-startedAt: 2026-11-04T05:54:43.554073805Z
-completedAt: 2026-11-04T06:55:50.231208737Z
+triggerNotes: Earliest CI failure in 'tests-e2e-fixtures-dataflow' (failure) at 2026-11-04T10:35:34Z; total 6 failed check(s) on commit ea8a130
+startedAt: 2026-11-04T11:13:30.549659015Z
+completedAt: 2026-11-04T11:29:07.32165054Z
 assignee: neumann-coder-bot
-status: Completed
-commitSHA: fc5aa57b4eebd47e96e78a3697cd1bb094466673
+status: Failed
+error: 'exit status 1: applying the Change for https://github.com/GoogleCloudPlatform/k8s-config-connector/pull/14849: rerunning run 126531896252: GET https://api.github.com/repos/GoogleCloudPlatform/k8s-config-connector/actions/runs/126531896252: 404 Not Found []'
+commitSHA: ea8a13029270aaca7240e57e048671d7b22f945d
 onStart:
     comment: |-
         AI Factory started investigating CI check failures for this pull request.
 
         Note: We recommend waiting for the 'ready-for-human' label before leaving review comments. Comments added while the system is actively working may be associated with outdated commits once a new commit is pushed, causing them to be ignored.
-runName: ci-14849-fc5aa57-1793771660
+runName: ci-14849-ea8a130-1793790776
 rule: ci
 recipe: care-ci
 apply: post-replies
