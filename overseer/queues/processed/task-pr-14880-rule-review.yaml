@@ -1,0 +1,24 @@
+type: pr-rule
+url: https://github.com/GoogleCloudPlatform/k8s-config-connector/pull/14880
+number: 14880
+priority: medium
+phase: 1
+createdAt: 2026-11-04T12:40:15Z
+enqueuedAt: 2026-11-04T17:14:47.367864209Z
+triggerEventTime: 2026-11-04T17:10:06Z
+triggerReason: PRReadyForReview
+triggerNotes: Automated review triggered; all CI checks passed at 2026-11-04T17:10:06Z for commit 4fd318d (committer date 2026-11-04T16:11:59Z)
+startedAt: 2026-11-04T17:14:52.241805376Z
+completedAt: 2026-11-04T17:21:02.093983919Z
+assignee: hopper-coder-bot
+status: Failed
+error: 'exit status 1: running recipe: task failed with exit code 1'
+commitSHA: 4fd318dc7baf5eef40a4737e3489f052ee20f67a
+instructions:
+    - Use .gemini/skills/reviewgen-greenfield-new-types/SKILL.md to conduct the review.
+onStart:
+    comment: AI Factory started reviewing this pull request in a sandbox.
+runName: review-14880-4fd318d-1793812487
+rule: review
+recipe: review
+apply: submit-review

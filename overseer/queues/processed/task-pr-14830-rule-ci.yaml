@@ -4,12 +4,12 @@ number: 14830
 priority: medium
 phase: 3
 createdAt: 2026-11-03T22:12:27Z
-enqueuedAt: 2026-11-04T04:00:36.630786682Z
+enqueuedAt: 2026-11-04T17:36:33.780639912Z
 triggerEventTime: 2026-11-04T01:01:51Z
 triggerReason: PRCheckFailed
 triggerNotes: Earliest CI failure in 'tests-e2e-fixtures-dataplex' (failure) at 2026-11-04T01:01:51Z; total 8 failed check(s) on commit 56a8be0
-startedAt: 2026-11-04T04:01:04.315076628Z
-completedAt: 2026-11-04T04:19:03.583985161Z
+startedAt: 2026-11-04T17:37:08.8543123Z
+completedAt: 2026-11-04T18:07:13.595754309Z
 assignee: lovelace-coder-bot
 status: Failed
 error: 'exit status 1: running recipe: task failed with exit code 1'
@@ -19,7 +19,7 @@ onStart:
         AI Factory started investigating CI check failures for this pull request.
 
         Note: We recommend waiting for the 'ready-for-human' label before leaving review comments. Comments added while the system is actively working may be associated with outdated commits once a new commit is pushed, causing them to be ignored.
-runName: ci-14830-56a8be0-1793764836
+runName: ci-14830-56a8be0-1793813793
 rule: ci
 recipe: care-ci
 apply: post-replies
