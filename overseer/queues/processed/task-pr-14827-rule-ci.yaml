@@ -4,20 +4,21 @@ number: 14827
 priority: medium
 phase: 3
 createdAt: 2026-11-03T21:08:35Z
-enqueuedAt: 2026-11-03T22:09:25.606505232Z
-triggerEventTime: 2026-11-03T22:00:36Z
+enqueuedAt: 2026-11-03T23:02:40.840687341Z
+triggerEventTime: 2026-11-03T23:01:34Z
 triggerReason: PRCheckFailed
-triggerNotes: Earliest CI failure in 'unit-tests-2-of-4' (failure) at 2026-11-03T22:00:36Z; total 1 failed check(s) on commit 9a7f625
-startedAt: 2026-11-03T22:09:42.595079478Z
+triggerNotes: Earliest CI failure in 'validate-resource-docs' (failure) at 2026-11-03T23:01:34Z; total 1 failed check(s) on commit b6a67fc
+startedAt: 2026-11-03T23:02:54.563432396Z
+completedAt: 2026-11-03T23:20:52.477791024Z
 assignee: hopper-coder-bot
-status: Running
-commitSHA: 9a7f625f85231d3c872d1ecd07f9607f666f4765
+status: Completed
+commitSHA: b6a67fc2a4aaf623799818e86fb23ac875f90f35
 onStart:
     comment: |-
         AI Factory started investigating CI check failures for this pull request.
 
         Note: We recommend waiting for the 'ready-for-human' label before leaving review comments. Comments added while the system is actively working may be associated with outdated commits once a new commit is pushed, causing them to be ignored.
-runName: ci-14827-9a7f625-1793743765
+runName: ci-14827-b6a67fc-1793746960
 rule: ci
 recipe: care-ci
 apply: post-replies
