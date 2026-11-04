@@ -4,21 +4,20 @@ number: 14849
 priority: medium
 phase: 1
 createdAt: 2026-11-04T04:45:07Z
-enqueuedAt: 2026-11-04T17:36:29.443815683Z
-triggerEventTime: 2026-11-04T17:32:41Z
+enqueuedAt: 2026-11-04T20:41:00.357419809Z
+triggerEventTime: 2026-11-04T20:40:05Z
 triggerReason: PRReadyForReview
-triggerNotes: Automated review triggered; all CI checks passed at 2026-11-04T17:32:41Z for commit ea8a130 (committer date 2026-11-04T10:23:36Z)
-startedAt: 2026-11-04T17:37:03.421427485Z
-completedAt: 2026-11-04T18:06:44.280906232Z
+triggerNotes: Automated review triggered; all CI checks passed at 2026-11-04T20:40:05Z for commit b67a6e4 (committer date 2026-11-04T19:44:39Z)
+startedAt: 2026-11-04T20:41:28.772531935Z
+completedAt: 2026-11-04T20:55:01.257677748Z
 assignee: neumann-coder-bot
-status: Failed
-error: 'exit status 1: running recipe: task failed with exit code 1'
-commitSHA: ea8a13029270aaca7240e57e048671d7b22f945d
+status: Completed
+commitSHA: b67a6e47b5847149bedd7c4d2e05856f69655e95
 instructions:
-    - Use .gemini/skills/reviewgen-greenfield-controller/SKILL.md to conduct the review.
+    - Use .gemini/skills/reviewgen-greenfield-mockgcp/SKILL.md to conduct the review.
 onStart:
     comment: AI Factory started reviewing this pull request in a sandbox.
-runName: review-14849-ea8a130-1793813789
+runName: review-14849-b67a6e4-1793824860
 rule: review
 recipe: review
 apply: submit-review

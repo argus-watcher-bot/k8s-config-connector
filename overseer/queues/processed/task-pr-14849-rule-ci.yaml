@@ -4,22 +4,21 @@ number: 14849
 priority: medium
 phase: 3
 createdAt: 2026-11-04T04:45:07Z
-enqueuedAt: 2026-11-04T11:58:52.131361437Z
-triggerEventTime: 2026-11-04T10:35:34Z
+enqueuedAt: 2026-11-04T19:53:01.293016308Z
+triggerEventTime: 2026-11-04T19:49:52Z
 triggerReason: PRCheckFailed
-triggerNotes: Earliest CI failure in 'tests-e2e-fixtures-dataflow' (failure) at 2026-11-04T10:35:34Z; total 6 failed check(s) on commit ea8a130
-startedAt: 2026-11-04T11:59:22.667686457Z
-completedAt: 2026-11-04T12:13:06.164462702Z
+triggerNotes: Earliest CI failure in 'tests-e2e-fixtures-configcontroller' (failure) at 2026-11-04T19:49:52Z; total 5 failed check(s) on commit b67a6e4
+startedAt: 2026-11-04T19:53:28.44301914Z
+completedAt: 2026-11-04T20:17:07.140619242Z
 assignee: neumann-coder-bot
-status: Failed
-error: 'exit status 1: task recipe-care-ci-20261104-115927-ba71 failed (exit 1); nothing applied. Its log: factory sandbox task logs fix-k8s-config-connector-14841 -n overseer-kcc --task recipe-care-ci-20261104-115927-ba71'
-commitSHA: ea8a13029270aaca7240e57e048671d7b22f945d
+status: Completed
+commitSHA: b67a6e47b5847149bedd7c4d2e05856f69655e95
 onStart:
     comment: |-
         AI Factory started investigating CI check failures for this pull request.
 
         Note: We recommend waiting for the 'ready-for-human' label before leaving review comments. Comments added while the system is actively working may be associated with outdated commits once a new commit is pushed, causing them to be ignored.
-runName: ci-14849-ea8a130-1793793532
+runName: ci-14849-b67a6e4-1793821981
 rule: ci
 recipe: care-ci
 apply: post-replies
