@@ -1,0 +1,23 @@
+type: pr-rule
+url: https://github.com/GoogleCloudPlatform/k8s-config-connector/pull/14874
+number: 14874
+priority: medium
+phase: 1
+createdAt: 2026-11-04T09:52:26Z
+enqueuedAt: 2026-11-04T13:00:57.405547568Z
+triggerEventTime: 2026-11-04T12:53:57Z
+triggerReason: PRReadyForReview
+triggerNotes: Automated review triggered; all CI checks passed at 2026-11-04T12:53:57Z for commit c90eedd (committer date 2026-11-04T11:49:28Z)
+startedAt: 2026-11-04T13:01:30.206474111Z
+completedAt: 2026-11-04T14:04:46.209575293Z
+assignee: neumann-coder-bot
+status: Completed
+commitSHA: c90eedd7c3ec704be430330cbcb547220eea29b5
+instructions:
+    - Use .gemini/skills/reviewgen-greenfield-new-types/SKILL.md to conduct the review.
+onStart:
+    comment: AI Factory started reviewing this pull request in a sandbox.
+runName: review-14874-c90eedd-1793797257
+rule: review
+recipe: review
+apply: submit-review

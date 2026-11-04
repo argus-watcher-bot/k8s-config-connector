@@ -4,20 +4,19 @@ number: 9290
 priority: medium
 phase: 3
 createdAt: 2026-06-05T04:19:02Z
-enqueuedAt: 2026-11-04T11:08:46.599611155Z
+enqueuedAt: 2026-11-04T11:50:20.302035498Z
 triggerEventTime: 2026-07-06T05:13:03Z
 triggerReason: IssueLabeled
 triggerNotes: 'Issue #9290 created at 2026-06-05T04:19:02Z; trigger label ''overseer'' added by acpana at 2026-07-06T05:13:03Z'
-startedAt: 2026-11-04T11:09:15.738623841Z
-completedAt: 2026-11-04T11:30:11.469165794Z
+startedAt: 2026-11-04T11:50:45.550690309Z
+completedAt: 2026-11-04T12:40:19.746592874Z
 assignee: hopper-coder-bot
-status: Failed
-error: 'exit status 1: running recipe: task failed with exit code 1'
+status: Completed
 onStart:
     assign:
         - '{{bot}}'
     comment: AI Factory started fixing this issue in a sandbox.
-runName: fix-9290-head-1793790526
+runName: fix-9290-head-1793793020
 rule: fix
 recipe: fix
 apply: open-pr
