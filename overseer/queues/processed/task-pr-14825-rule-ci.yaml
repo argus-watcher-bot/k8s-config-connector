@@ -4,12 +4,12 @@ number: 14825
 priority: medium
 phase: 3
 createdAt: 2026-11-03T20:01:49Z
-enqueuedAt: 2026-11-03T20:53:23.38277923Z
+enqueuedAt: 2026-11-03T23:02:57.175365306Z
 triggerEventTime: 2026-11-03T20:48:41Z
 triggerReason: PRCheckFailed
-triggerNotes: Earliest CI failure in 'test-mockgcp' (failure) at 2026-11-03T20:48:41Z; total 1 failed check(s) on commit 8591291
-startedAt: 2026-11-03T20:53:51.963972128Z
-completedAt: 2026-11-03T20:58:30.557329218Z
+triggerNotes: Earliest CI failure in 'test-mockgcp' (failure) at 2026-11-03T20:48:41Z; total 2 failed check(s) on commit 8591291
+startedAt: 2026-11-03T23:03:03.401685527Z
+completedAt: 2026-11-03T23:16:36.01040916Z
 assignee: hopper-coder-bot
 status: Completed
 commitSHA: 85912914248da2991e9e7af9067d61ce2500ff89
@@ -18,7 +18,7 @@ onStart:
         AI Factory started investigating CI check failures for this pull request.
 
         Note: We recommend waiting for the 'ready-for-human' label before leaving review comments. Comments added while the system is actively working may be associated with outdated commits once a new commit is pushed, causing them to be ignored.
-runName: ci-14825-8591291-1793739203
+runName: ci-14825-8591291-1793746977
 rule: ci
 recipe: care-ci
 apply: post-replies
