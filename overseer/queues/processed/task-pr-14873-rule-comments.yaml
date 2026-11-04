@@ -4,20 +4,19 @@ number: 14873
 priority: medium
 phase: 1
 createdAt: 2026-11-04T09:30:39Z
-enqueuedAt: 2026-11-04T11:46:41.535446395Z
-triggerEventTime: 2026-11-04T11:15:03Z
+enqueuedAt: 2026-11-04T13:00:42.599032503Z
+triggerEventTime: 2026-11-04T12:56:16Z
 triggerReason: PRCommentsAdded
-triggerNotes: Retrying the failed address-comments task (retry 1) on commit 43ef4b5
-startedAt: 2026-11-04T11:46:58.670727607Z
-completedAt: 2026-11-04T11:53:48.204910562Z
+triggerNotes: Oldest unaddressed review by reviewbot-robot added at 2026-11-04T12:56:16Z (ID 5768654352) since last commit c4fe045 (committer date 2026-11-04T11:53:09Z)
+startedAt: 2026-11-04T13:01:15.274352217Z
+completedAt: 2026-11-04T13:11:33.054148505Z
 assignee: neumann-coder-bot
 status: Completed
-commitSHA: 43ef4b5d48fe4d195940987b2fa0f44fe44aace7
-retryCount: 1
+commitSHA: c4fe045bfa372860fd6fa04c0af5fdf93247e45c
 acknowledge: feedback
 onStart:
     comment: AI Factory started addressing review feedback for this pull request.
-runName: comments-14873-43ef4b5-1793792801
+runName: comments-14873-c4fe045-1793797242
 rule: comments
 recipe: care-comments
 apply: post-replies
