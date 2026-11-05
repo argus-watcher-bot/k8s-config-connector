@@ -1,0 +1,23 @@
+type: pr-rule
+url: https://github.com/GoogleCloudPlatform/k8s-config-connector/pull/14938
+number: 14938
+priority: medium
+phase: 1
+createdAt: 2026-11-05T00:30:07Z
+enqueuedAt: 2026-11-05T01:10:44.282729638Z
+triggerEventTime: 2026-11-05T01:03:02Z
+triggerReason: PRReadyForReview
+triggerNotes: Automated review triggered; all CI checks passed at 2026-11-05T01:03:02Z for commit dcca501 (committer date 2026-11-05T00:19:20Z)
+startedAt: 2026-11-05T01:10:52.904018574Z
+completedAt: 2026-11-05T01:25:28.162359413Z
+assignee: ada-coder-bot
+status: Completed
+commitSHA: dcca50178b12686091f1681d6d26a18dc19dad6d
+instructions:
+    - Use .gemini/skills/reviewgen-greenfield-mockgcp/SKILL.md to conduct the review.
+onStart:
+    comment: AI Factory started reviewing this pull request in a sandbox.
+runName: review-14938-dcca501-1793841044
+rule: review
+recipe: review
+apply: submit-review
