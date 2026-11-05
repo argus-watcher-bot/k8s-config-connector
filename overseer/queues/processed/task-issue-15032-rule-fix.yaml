@@ -9,8 +9,10 @@ triggerEventTime: 2026-11-05T19:09:38Z
 triggerReason: IssueLabeled
 triggerNotes: 'Issue #15032 created at 2026-11-05T18:50:26Z; trigger label ''overseer'' added by anfernee at 2026-11-05T19:09:38Z'
 startedAt: 2026-11-05T19:12:05.836409341Z
+completedAt: 2026-11-05T22:28:58.929503477Z
 assignee: neumann-coder-bot
-status: Running
+status: Failed
+error: 'exit status 1: task recipe-fix-20261105-191345-56d7 failed (exit 137); nothing applied. Its log: factory sandbox task logs fix-k8s-config-connector-15032 -n overseer-kcc --task recipe-fix-20261105-191345-56d7'
 onStart:
     assign:
         - '{{bot}}'
