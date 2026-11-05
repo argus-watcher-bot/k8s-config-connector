@@ -1,0 +1,25 @@
+type: issue-rule
+url: https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/14957
+number: 14957
+priority: medium
+phase: 3
+createdAt: 2026-11-05T04:56:48Z
+enqueuedAt: 2026-11-05T04:58:52.533061367Z
+triggerEventTime: 2026-11-05T04:56:50Z
+triggerReason: IssueLabeled
+triggerNotes: 'Issue #14957 created at 2026-11-05T04:56:48Z; trigger label ''overseer'' added by walle-agent-bot at 2026-11-05T04:56:50Z'
+startedAt: 2026-11-05T04:59:12.302827328Z
+completedAt: 2026-11-05T05:37:03.146383912Z
+assignee: lovelace-coder-bot
+status: Completed
+onStart:
+    assign:
+        - '{{bot}}'
+    comment: AI Factory started fixing this issue in a sandbox.
+runName: fix-14957-head-1793854732
+rule: fix
+recipe: fix
+apply: open-pr
+inputs:
+    draft: "false"
+prLabels: true
