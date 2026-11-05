@@ -4,14 +4,21 @@ number: 14055
 priority: medium
 phase: 3
 createdAt: 2026-10-17T00:04:54Z
-enqueuedAt: 2026-10-17T03:30:43.950652836Z
-triggerEventTime: 2026-10-17T00:06:40Z
+enqueuedAt: 2026-11-05T06:33:07.181997985Z
+triggerEventTime: 2026-11-05T06:31:20Z
 triggerReason: PRCheckFailed
-triggerNotes: Earliest CI failure in 'capture-pprof' (failure) at 2026-10-17T00:06:40Z; total 8 failed check(s) on commit ffdae77
-startedAt: 2026-10-17T03:31:03.851372256Z
-completedAt: 2026-10-17T04:50:30.666585113Z
+triggerNotes: Earliest CI failure in 'validate-manifests' (failure) at 2026-11-05T06:31:20Z; total 2 failed check(s) on commit b49be9a
+startedAt: 2026-11-05T06:33:41.920825788Z
+completedAt: 2026-11-05T08:33:05.287213941Z
 assignee: ada-coder-bot
 status: Completed
-commitSHA: ffdae7725a6de53d2ea1c984839f8af88432e17e
-runName: investigate-14055-ffdae77-1792207843
+commitSHA: b49be9afc2ffa7ac81c1d5e1c84ad072cec79589
+onStart:
+    comment: |-
+        AI Factory started investigating CI check failures for this pull request.
+
+        Note: We recommend waiting for the 'ready-for-human' label before leaving review comments. Comments added while the system is actively working may be associated with outdated commits once a new commit is pushed, causing them to be ignored.
+runName: ci-14055-b49be9a-1793860387
 rule: ci
+recipe: care-ci
+apply: post-replies
