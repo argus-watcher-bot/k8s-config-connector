@@ -4,21 +4,21 @@ number: 15003
 priority: medium
 phase: 3
 createdAt: 2026-11-05T07:33:51Z
-enqueuedAt: 2026-11-05T12:58:09.017707539Z
-triggerEventTime: 2026-11-05T12:50:38Z
+enqueuedAt: 2026-11-05T15:08:15.111907762Z
+triggerEventTime: 2026-11-05T15:04:13Z
 triggerReason: PRCheckFailed
-triggerNotes: Earliest CI failure in 'run-linters' (failure) at 2026-11-05T12:50:38Z; total 2 failed check(s) on commit 2e96317
-startedAt: 2026-11-05T12:58:40.892746148Z
-completedAt: 2026-11-05T13:08:39.400322681Z
+triggerNotes: Earliest CI failure in 'tests-e2e-fixtures-dialogflow' (failure) at 2026-11-05T15:04:13Z; total 1 failed check(s) on commit e34f44b
+startedAt: 2026-11-05T15:08:26.617827829Z
+completedAt: 2026-11-05T15:31:20.920874961Z
 assignee: hopper-coder-bot
 status: Completed
-commitSHA: 2e963172b70981405b861831aff1ac78d4b21708
+commitSHA: e34f44baae05c33e951b5f744157c9647095785c
 onStart:
     comment: |-
         AI Factory started investigating CI check failures for this pull request.
 
         Note: We recommend waiting for the 'ready-for-human' label before leaving review comments. Comments added while the system is actively working may be associated with outdated commits once a new commit is pushed, causing them to be ignored.
-runName: ci-15003-2e96317-1793883489
+runName: ci-15003-e34f44b-1793891295
 rule: ci
 recipe: care-ci
 apply: post-replies
