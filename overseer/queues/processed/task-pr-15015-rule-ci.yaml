@@ -4,22 +4,21 @@ number: 15015
 priority: medium
 phase: 3
 createdAt: 2026-11-05T10:50:39Z
-enqueuedAt: 2026-11-05T17:50:20.76707625Z
-triggerEventTime: 2026-11-05T16:54:31Z
+enqueuedAt: 2026-11-05T18:58:29.798911866Z
+triggerEventTime: 2026-11-05T18:56:39Z
 triggerReason: PRCheckFailed
-triggerNotes: Earliest CI failure in 'unit-tests-1-of-4' (failure) at 2026-11-05T16:54:31Z; total 3 failed check(s) on commit 312872c
-startedAt: 2026-11-05T17:50:44.083679901Z
-completedAt: 2026-11-05T18:12:57.759121984Z
+triggerNotes: Earliest CI failure in 'unit-tests-1-of-4' (failure) at 2026-11-05T18:56:39Z; total 1 failed check(s) on commit 312872c
+startedAt: 2026-11-05T18:58:45.801873204Z
+completedAt: 2026-11-05T19:50:18.479736046Z
 assignee: ada-coder-bot
-status: Failed
-error: 'exit status 1: running recipe: task failed with exit code 1'
+status: Completed
 commitSHA: 312872cc342c43633ddac2e5b0943800377e7667
 onStart:
     comment: |-
         AI Factory started investigating CI check failures for this pull request.
 
         Note: We recommend waiting for the 'ready-for-human' label before leaving review comments. Comments added while the system is actively working may be associated with outdated commits once a new commit is pushed, causing them to be ignored.
-runName: ci-15015-312872c-1793901020
+runName: ci-15015-312872c-1793905109
 rule: ci
 recipe: care-ci
 apply: post-replies
