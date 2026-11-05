@@ -4,20 +4,20 @@ number: 12859
 priority: medium
 phase: 1
 createdAt: 2026-09-09T22:04:16Z
-enqueuedAt: 2026-11-05T01:32:37.978592627Z
-triggerEventTime: 2026-11-05T01:28:49Z
+enqueuedAt: 2026-11-05T03:40:41.851871776Z
+triggerEventTime: 2026-11-05T03:40:32Z
 triggerReason: PRReadyForReview
-triggerNotes: Automated review triggered; all CI checks passed at 2026-11-05T01:28:49Z for commit db2a026 (committer date 2026-11-05T00:38:27Z)
-startedAt: 2026-11-05T01:32:48.61974341Z
-completedAt: 2026-11-05T02:17:47.356873457Z
+triggerNotes: Automated review triggered; all CI checks passed at 2026-11-05T03:40:32Z for commit 3bc2f01 (committer date 2026-11-05T02:44:48Z)
+startedAt: 2026-11-05T03:40:46.639593591Z
+completedAt: 2026-11-05T03:57:12.258905715Z
 assignee: neumann-coder-bot
 status: Completed
-commitSHA: db2a026e027bd48eaaf815509577ffa2d4b0bc47
+commitSHA: 3bc2f01a4cb9acd1006f681a61af90b1476012e3
 instructions:
     - Use .gemini/skills/reviewgen-greenfield-new-types/SKILL.md to conduct the review.
 onStart:
     comment: AI Factory started reviewing this pull request in a sandbox.
-runName: review-12859-db2a026-1793842357
+runName: review-12859-3bc2f01-1793850041
 rule: review
 recipe: review
 apply: submit-review
