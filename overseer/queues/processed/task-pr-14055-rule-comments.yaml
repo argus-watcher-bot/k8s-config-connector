@@ -4,15 +4,19 @@ number: 14055
 priority: medium
 phase: 1
 createdAt: 2026-10-17T00:04:54Z
-enqueuedAt: 2026-10-17T07:15:44.382562617Z
-triggerEventTime: 2026-10-17T07:10:22Z
+enqueuedAt: 2026-11-05T05:49:03.174761145Z
+triggerEventTime: 2026-11-05T05:45:08Z
 triggerReason: PRCommentsAdded
-triggerNotes: Oldest unaddressed review by reviewbot-robot added at 2026-10-17T07:10:22Z (ID 5556772932) since last commit e74020d (committer date 2026-10-17T06:31:21Z)
-startedAt: 2026-10-17T07:16:12.626300581Z
-completedAt: 2026-10-17T07:17:03.647531383Z
+triggerNotes: Oldest unaddressed comment by acpana added at 2026-11-05T05:45:08Z (ID 6650756541) since last commit e74020d (committer date 2026-10-17T06:31:21Z)
+startedAt: 2026-11-05T05:49:20.461863599Z
+completedAt: 2026-11-05T06:11:36.211220378Z
 assignee: ada-coder-bot
 status: Completed
 commitSHA: e74020da4c52992a8e5e8aecbce37707f87dc65b
 acknowledge: feedback
-runName: comments-14055-e74020d-1792221344
+onStart:
+    comment: AI Factory started addressing review feedback for this pull request.
+runName: comments-14055-e74020d-1793857743
 rule: comments
+recipe: care-comments
+apply: post-replies

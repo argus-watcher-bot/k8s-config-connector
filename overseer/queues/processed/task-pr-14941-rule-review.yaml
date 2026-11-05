@@ -9,15 +9,15 @@ triggerEventTime: 2026-11-05T03:35:19Z
 triggerReason: PRReadyForReview
 triggerNotes: Automated review triggered; all CI checks passed at 2026-11-05T03:35:19Z for commit f944fe0 (committer date 2026-11-05T01:15:24Z)
 startedAt: 2026-11-05T03:40:41.785554808Z
+completedAt: 2026-11-05T04:21:59.960050711Z
 assignee: lovelace-coder-bot
-status: Pending
+status: Completed
 commitSHA: f944fe059fdadf1dc118b7b868ad9805134a0545
 instructions:
     - Use .gemini/skills/reviewgen-greenfield-new-types/SKILL.md to conduct the review.
 onStart:
     comment: AI Factory started reviewing this pull request in a sandbox.
 runName: review-14941-f944fe0-1793850034
-recovered: true
 rule: review
 recipe: review
 apply: submit-review
