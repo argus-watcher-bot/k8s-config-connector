@@ -4,20 +4,19 @@ number: 14968
 priority: medium
 phase: 3
 createdAt: 2026-11-05T06:09:16Z
-enqueuedAt: 2026-11-05T06:10:52.615888748Z
+enqueuedAt: 2026-11-05T06:34:53.037239432Z
 triggerEventTime: 2026-11-05T06:09:18Z
 triggerReason: IssueLabeled
 triggerNotes: 'Issue #14968 created at 2026-11-05T06:09:16Z; trigger label ''overseer'' added by argus-watcher-bot at 2026-11-05T06:09:18Z'
-startedAt: 2026-11-05T06:11:17.330935548Z
-completedAt: 2026-11-05T06:12:56.521320969Z
+startedAt: 2026-11-05T06:35:14.740794283Z
+completedAt: 2026-11-05T10:29:17.682869581Z
 assignee: neumann-coder-bot
-status: Failed
-error: 'exit status 1: connecting to sandbox: sandbox fix-k8s-config-connector-14968 has no task server to use (sandbox pod fix-k8s-config-connector-14968 is in Failed state (reason: OutOfcpu): cannot connect to terminated pod); recreate it on a current image'
+status: Completed
 onStart:
     assign:
         - '{{bot}}'
     comment: AI Factory started fixing this issue in a sandbox.
-runName: fix-14968-head-1793859052
+runName: fix-14968-head-1793860493
 rule: fix
 recipe: fix
 apply: open-pr

@@ -4,20 +4,19 @@ number: 14156
 priority: medium
 phase: 4
 createdAt: 2026-10-20T20:11:03Z
-enqueuedAt: 2026-11-05T10:01:43.084228546Z
+enqueuedAt: 2026-11-05T12:38:05.749354432Z
 triggerEventTime: 2026-10-20T20:11:05Z
 triggerReason: IssueLabeled
 triggerNotes: 'Issue #14156 created at 2026-10-20T20:11:03Z; trigger label ''overseer'' added by fkc1e100 at 2026-10-20T20:11:05Z'
-startedAt: 2026-11-05T10:01:52.672311122Z
-completedAt: 2026-11-05T10:02:13.086670432Z
+startedAt: 2026-11-05T12:38:14.368167573Z
+completedAt: 2026-11-05T12:40:38.098992416Z
 assignee: daedalus-agent-bot
-status: Failed
-error: 'exit status 1: connecting to sandbox: sandbox wf-issue-14156 has no task server to use (sandbox pod wf-issue-14156 is in Failed state (reason: Preempting): cannot connect to terminated pod); recreate it on a current image'
+status: Completed
 agentFile: https://raw.githubusercontent.com/GoogleCloudPlatform/k8s-config-connector/refs/heads/master/.agents/workflows/kcc-greenfield.txt
 sessionId: issue-14156
 onStart:
     assign:
         - '{{bot}}'
-runName: agent-14156-1793872903
+runName: agent-14156-1793882285
 rule: workflow
 recipe: workflow

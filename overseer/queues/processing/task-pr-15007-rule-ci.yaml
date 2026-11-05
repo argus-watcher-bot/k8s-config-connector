@@ -1,23 +1,23 @@
 type: pr-rule
-url: https://github.com/GoogleCloudPlatform/k8s-config-connector/pull/15004
-number: 15004
+url: https://github.com/GoogleCloudPlatform/k8s-config-connector/pull/15007
+number: 15007
 priority: medium
 phase: 3
-createdAt: 2026-11-05T07:38:18Z
-enqueuedAt: 2026-11-05T10:05:44.581993815Z
-triggerEventTime: 2026-11-05T10:02:47Z
+createdAt: 2026-11-05T07:50:44Z
+enqueuedAt: 2026-11-05T13:20:31.414587703Z
+triggerEventTime: 2026-11-05T11:17:38Z
 triggerReason: PRCheckFailed
-triggerNotes: Earliest CI failure in 'tests-e2e-fixtures-networksecurity' (failure) at 2026-11-05T10:02:47Z; total 1 failed check(s) on commit d7ddc1c
-startedAt: 2026-11-05T10:06:16.781765559Z
+triggerNotes: Earliest CI failure in 'Validate PR Release Note' (failure) at 2026-11-05T11:17:38Z; total 1 failed check(s) on commit aa6b83d
+startedAt: 2026-11-05T13:20:47.146708124Z
 assignee: hopper-coder-bot
 status: Running
-commitSHA: d7ddc1c0e056881911c2443c7b2a4ab14e0cd67c
+commitSHA: aa6b83d485f123c9bbd899d8668a4fc4272cd53c
 onStart:
     comment: |-
         AI Factory started investigating CI check failures for this pull request.
 
         Note: We recommend waiting for the 'ready-for-human' label before leaving review comments. Comments added while the system is actively working may be associated with outdated commits once a new commit is pushed, causing them to be ignored.
-runName: ci-15004-d7ddc1c-1793873144
+runName: ci-15007-aa6b83d-1793884831
 rule: ci
 recipe: care-ci
 apply: post-replies

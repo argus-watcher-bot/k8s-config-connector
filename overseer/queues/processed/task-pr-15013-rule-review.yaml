@@ -1,0 +1,24 @@
+type: pr-rule
+url: https://github.com/GoogleCloudPlatform/k8s-config-connector/pull/15013
+number: 15013
+priority: medium
+phase: 1
+createdAt: 2026-11-05T09:44:20Z
+enqueuedAt: 2026-11-05T12:14:22.236567711Z
+triggerEventTime: 2026-11-05T12:03:53Z
+triggerReason: PRReadyForReview
+triggerNotes: Automated review triggered; all CI checks passed at 2026-11-05T12:03:53Z for commit b969dd2 (committer date 2026-11-05T11:21:46Z)
+startedAt: 2026-11-05T12:14:35.510230453Z
+completedAt: 2026-11-05T13:02:59.448144246Z
+assignee: hopper-coder-bot
+status: Failed
+error: 'exit status 1: running recipe: task failed with exit code 1'
+commitSHA: b969dd240b3d29a035a47c5393186d670e2dad3f
+instructions:
+    - Use .gemini/skills/reviewgen-greenfield-controller/SKILL.md to conduct the review.
+onStart:
+    comment: AI Factory started reviewing this pull request in a sandbox.
+runName: review-15013-b969dd2-1793880862
+rule: review
+recipe: review
+apply: submit-review
