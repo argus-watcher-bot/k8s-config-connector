@@ -9,8 +9,9 @@ triggerEventTime: 2026-11-04T11:00:20Z
 triggerReason: PRMergeConflict
 triggerNotes: 'PR #14876 has merge conflicts with base branch ''master''; head commit 5758dce committer date 2026-11-04T11:00:20Z, PR updated at 2026-11-04T12:48:49Z'
 startedAt: 2026-11-04T23:37:49.409992786Z
+completedAt: 2026-11-05T01:26:34.409407764Z
 assignee: lovelace-coder-bot
-status: Pending
+status: Completed
 commitSHA: 5758dce5bcc3c8ef445135d5f7525f941a7730bc
 onStart:
     comment: |-
@@ -18,7 +19,6 @@ onStart:
 
         Note: We recommend waiting for the 'ready-for-human' label before leaving review comments. Comments added while the system is actively working may be associated with outdated commits once a new commit is pushed, causing them to be ignored.
 runName: conflict-14876-5758dce-1793835465
-recovered: true
 rule: conflict
 recipe: care-rebase
 apply: post-replies
