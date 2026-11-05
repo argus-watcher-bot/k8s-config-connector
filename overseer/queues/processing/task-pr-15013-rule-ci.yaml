@@ -1,0 +1,23 @@
+type: pr-rule
+url: https://github.com/GoogleCloudPlatform/k8s-config-connector/pull/15013
+number: 15013
+priority: medium
+phase: 3
+createdAt: 2026-11-05T09:44:20Z
+enqueuedAt: 2026-11-05T10:05:54.554055431Z
+triggerEventTime: 2026-11-05T10:03:07Z
+triggerReason: PRCheckFailed
+triggerNotes: Earliest CI failure in 'tests-e2e-fixtures-recaptchaenterprise' (failure) at 2026-11-05T10:03:07Z; total 2 failed check(s) on commit cf501c6
+startedAt: 2026-11-05T10:06:25.773408253Z
+assignee: hopper-coder-bot
+status: Running
+commitSHA: cf501c64b70f883aa8a1f2647271be8001e03b91
+onStart:
+    comment: |-
+        AI Factory started investigating CI check failures for this pull request.
+
+        Note: We recommend waiting for the 'ready-for-human' label before leaving review comments. Comments added while the system is actively working may be associated with outdated commits once a new commit is pushed, causing them to be ignored.
+runName: ci-15013-cf501c6-1793873154
+rule: ci
+recipe: care-ci
+apply: post-replies

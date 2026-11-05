@@ -4,21 +4,21 @@ number: 14947
 priority: medium
 phase: 3
 createdAt: 2026-11-05T02:32:49Z
-enqueuedAt: 2026-11-05T05:49:06.430108371Z
-triggerEventTime: 2026-11-05T05:39:14Z
+enqueuedAt: 2026-11-05T08:55:51.045799194Z
+triggerEventTime: 2026-11-05T08:53:15Z
 triggerReason: PRCheckFailed
-triggerNotes: Earliest CI failure in 'tests-e2e-fixtures-networksecurity' (failure) at 2026-11-05T05:39:14Z; total 5 failed check(s) on commit e6a4d64
-startedAt: 2026-11-05T05:49:24.894221803Z
-completedAt: 2026-11-05T05:59:11.753474028Z
+triggerNotes: Earliest CI failure in 'unit-tests-3-of-4' (failure) at 2026-11-05T08:53:15Z; total 1 failed check(s) on commit ed7e61c
+startedAt: 2026-11-05T08:56:07.174601479Z
+completedAt: 2026-11-05T09:23:28.260290606Z
 assignee: ada-coder-bot
 status: Completed
-commitSHA: e6a4d6443ece5b4ac528ba838e8365ae4528f6d8
+commitSHA: ed7e61c6d78db05a3d3cfcbf4e1d5d1c4240a44c
 onStart:
     comment: |-
         AI Factory started investigating CI check failures for this pull request.
 
         Note: We recommend waiting for the 'ready-for-human' label before leaving review comments. Comments added while the system is actively working may be associated with outdated commits once a new commit is pushed, causing them to be ignored.
-runName: ci-14947-e6a4d64-1793857746
+runName: ci-14947-ed7e61c-1793868951
 rule: ci
 recipe: care-ci
 apply: post-replies

@@ -10,12 +10,13 @@ triggerReason: PRCommentsAdded
 triggerNotes: Oldest unaddressed review by reviewbot-robot added at 2026-11-05T05:15:00Z (ID 5780189666) since last commit cc6a3de (committer date 2026-11-05T04:07:51Z)
 startedAt: 2026-11-05T05:17:38.352380039Z
 assignee: lovelace-coder-bot
-status: Running
+status: Pending
 commitSHA: cc6a3de84224d91e33cce1020ecbcd7b6662a4b1
 acknowledge: feedback
 onStart:
     comment: AI Factory started addressing review feedback for this pull request.
 runName: comments-14948-cc6a3de-1793855822
+recovered: true
 rule: comments
 recipe: care-comments
 apply: post-replies
