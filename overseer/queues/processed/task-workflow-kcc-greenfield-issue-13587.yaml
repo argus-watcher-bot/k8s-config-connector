@@ -4,12 +4,12 @@ number: 13587
 priority: medium
 phase: 4
 createdAt: 2026-10-01T22:17:29Z
-enqueuedAt: 2026-11-04T18:23:42.113623933Z
-triggerEventTime: 2026-11-04T18:15:53Z
-triggerReason: LinkedIssueClosed
-triggerNotes: 'Linked issue #14574 was closed'
-startedAt: 2026-11-04T18:24:04.477319033Z
-completedAt: 2026-11-04T18:49:46.502495081Z
+enqueuedAt: 2026-11-04T23:35:34.466093588Z
+triggerEventTime: 2026-10-01T22:17:30Z
+triggerReason: IssueLabeled
+triggerNotes: 'Issue #13587 created at 2026-10-01T22:17:29Z; trigger label ''overseer'' added by acpana at 2026-10-01T22:17:30Z'
+startedAt: 2026-11-04T23:35:42.123825782Z
+completedAt: 2026-11-04T23:36:25.149254235Z
 assignee: feynman-agent-bot
 status: Completed
 agentFile: https://raw.githubusercontent.com/GoogleCloudPlatform/k8s-config-connector/refs/heads/master/.agents/workflows/kcc-greenfield.txt
@@ -17,4 +17,6 @@ sessionId: issue-13587
 onStart:
     assign:
         - '{{bot}}'
-runName: agent-13587-1793816622
+runName: agent-13587-1793835334
+rule: workflow
+recipe: workflow
