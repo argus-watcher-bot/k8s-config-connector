@@ -1,0 +1,26 @@
+type: issue-rule
+url: https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/15055
+number: 15055
+priority: medium
+phase: 3
+createdAt: 2026-11-05T21:21:23Z
+enqueuedAt: 2026-11-05T21:23:07.755467784Z
+triggerEventTime: 2026-11-05T21:21:25Z
+triggerReason: IssueLabeled
+triggerNotes: 'Issue #15055 created at 2026-11-05T21:21:23Z; trigger label ''overseer'' added by argus-watcher-bot at 2026-11-05T21:21:25Z'
+startedAt: 2026-11-05T21:23:18.482521498Z
+completedAt: 2026-11-05T21:34:41.081309195Z
+assignee: neumann-coder-bot
+status: Failed
+error: 'exit status 1: running recipe: following task recipe-fix-20261105-212908-4ffd: Get "http://127.0.0.1:35095/v1/tasks/recipe-fix-20261105-212908-4ffd/log?follow=true&offset=2438": dial tcp 127.0.0.1:35095: connect: connection refused'
+onStart:
+    assign:
+        - '{{bot}}'
+    comment: AI Factory started fixing this issue in a sandbox.
+runName: fix-15055-head-1793913787
+rule: fix
+recipe: fix
+apply: open-pr
+inputs:
+    draft: "false"
+prLabels: true

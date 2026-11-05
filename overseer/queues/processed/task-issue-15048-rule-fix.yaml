@@ -1,0 +1,26 @@
+type: issue-rule
+url: https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/15048
+number: 15048
+priority: medium
+phase: 3
+createdAt: 2026-11-05T20:51:44Z
+enqueuedAt: 2026-11-05T21:42:51.120660005Z
+triggerEventTime: 2026-11-05T21:41:21Z
+triggerReason: IssueLabeled
+triggerNotes: 'Issue #15048 created at 2026-11-05T20:51:44Z; trigger label ''overseer'' added by fkc1e100 at 2026-11-05T21:41:21Z'
+startedAt: 2026-11-05T21:42:57.211718315Z
+completedAt: 2026-11-05T21:49:02.532724835Z
+assignee: ada-coder-bot
+status: Failed
+error: 'exit status 1: connecting to sandbox: sandbox fix-k8s-config-connector-15048 has no task server to use (timed out waiting for sandbox pod fix-k8s-config-connector-15048 to become ready); recreate it on a current image'
+onStart:
+    assign:
+        - '{{bot}}'
+    comment: AI Factory started fixing this issue in a sandbox.
+runName: fix-15048-head-1793914971
+rule: fix
+recipe: fix
+apply: open-pr
+inputs:
+    draft: "false"
+prLabels: true
