@@ -4,12 +4,12 @@ number: 13264
 priority: medium
 phase: 4
 createdAt: 2026-09-18T23:53:33Z
-enqueuedAt: 2026-11-05T04:33:54.413338413Z
-triggerEventTime: 2026-11-05T04:22:01Z
-triggerReason: LinkedIssueClosed
-triggerNotes: 'Linked issue #14322 was closed'
-startedAt: 2026-11-05T04:34:12.571071311Z
-completedAt: 2026-11-05T04:57:38.024636888Z
+enqueuedAt: 2026-11-05T09:33:44.813056746Z
+triggerEventTime: 2026-10-23T21:28:38Z
+triggerReason: IssueLabeled
+triggerNotes: 'Issue #13264 created at 2026-09-18T23:53:33Z; trigger label ''overseer'' added by acpana at 2026-10-23T21:28:38Z'
+startedAt: 2026-11-05T09:34:06.111367651Z
+completedAt: 2026-11-05T09:34:41.252427168Z
 assignee: walle-agent-bot
 status: Completed
 agentFile: https://raw.githubusercontent.com/GoogleCloudPlatform/k8s-config-connector/refs/heads/master/.agents/workflows/kcc-greenfield.txt
@@ -17,4 +17,6 @@ sessionId: issue-13264
 onStart:
     assign:
         - '{{bot}}'
-runName: agent-13264-1793853234
+runName: agent-13264-1793871224
+rule: workflow
+recipe: workflow
