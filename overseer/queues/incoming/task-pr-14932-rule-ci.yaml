@@ -10,7 +10,7 @@ triggerReason: PRCheckFailed
 triggerNotes: Earliest CI failure in 'tests-preview' (failure) at 2026-11-05T00:01:16Z; total 1 failed check(s) on commit 54d9c9d
 startedAt: 2026-11-05T00:11:58.498955863Z
 assignee: neumann-coder-bot
-status: Running
+status: Pending
 commitSHA: 54d9c9d2a4ae92d32a1988eaed6fcf20a98a8e85
 onStart:
     comment: |-
@@ -18,6 +18,7 @@ onStart:
 
         Note: We recommend waiting for the 'ready-for-human' label before leaving review comments. Comments added while the system is actively working may be associated with outdated commits once a new commit is pushed, causing them to be ignored.
 runName: ci-14932-54d9c9d-1793837491
+recovered: true
 rule: ci
 recipe: care-ci
 apply: post-replies
