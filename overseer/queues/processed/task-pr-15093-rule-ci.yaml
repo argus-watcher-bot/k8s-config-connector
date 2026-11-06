@@ -4,22 +4,21 @@ number: 15093
 priority: medium
 phase: 3
 createdAt: 2026-11-06T04:00:10Z
-enqueuedAt: 2026-11-06T11:02:19.193862427Z
+enqueuedAt: 2026-11-06T19:22:47.659433213Z
 triggerEventTime: 2026-11-06T10:53:12Z
 triggerReason: PRCheckFailed
-triggerNotes: Earliest CI failure in 'tests-e2e-fixtures-managedkafka' (failure) at 2026-11-06T10:53:12Z; total 6 failed check(s) on commit 1986a12
-startedAt: 2026-11-06T11:02:47.45686267Z
-completedAt: 2026-11-06T18:58:34.899560811Z
+triggerNotes: Earliest CI failure in 'tests-e2e-fixtures-managedkafka' (failure) at 2026-11-06T10:53:12Z; total 7 failed check(s) on commit 1986a12
+startedAt: 2026-11-06T19:24:31.849130765Z
+completedAt: 2026-11-06T19:50:27.640596241Z
 assignee: lovelace-coder-bot
-status: Failed
-error: 'exit status 1: task recipe-care-ci-20261106-110251-a698 failed (exit 1); nothing applied. Its log: factory sandbox task logs fix-k8s-config-connector-15081 -n overseer-kcc --task recipe-care-ci-20261106-110251-a698'
+status: Completed
 commitSHA: 1986a12035b0a06cdb216100b30baf40f413a09c
 onStart:
     comment: |-
         AI Factory started investigating CI check failures for this pull request.
 
         Note: We recommend waiting for the 'ready-for-human' label before leaving review comments. Comments added while the system is actively working may be associated with outdated commits once a new commit is pushed, causing them to be ignored.
-runName: ci-15093-1986a12-1793962939
+runName: ci-15093-1986a12-1793992967
 rule: ci
 recipe: care-ci
 apply: post-replies

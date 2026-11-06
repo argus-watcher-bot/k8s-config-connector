@@ -10,12 +10,13 @@ triggerReason: IssueLabeled
 triggerNotes: 'Issue #15147 created at 2026-11-06T19:08:08Z; trigger label ''overseer'' added by walle-agent-bot at 2026-11-06T19:08:10Z'
 startedAt: 2026-11-06T19:09:53.645347858Z
 assignee: neumann-coder-bot
-status: Running
+status: Pending
 onStart:
     assign:
         - '{{bot}}'
     comment: AI Factory started fixing this issue in a sandbox.
 runName: fix-15147-head-1793992181
+recovered: true
 rule: fix
 recipe: fix
 apply: open-pr
