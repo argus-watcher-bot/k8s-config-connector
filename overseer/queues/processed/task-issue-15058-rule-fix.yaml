@@ -4,19 +4,19 @@ number: 15058
 priority: medium
 phase: 3
 createdAt: 2026-11-05T21:41:35Z
-enqueuedAt: 2026-11-05T21:42:49.417857095Z
+enqueuedAt: 2026-11-06T05:41:12.75904372Z
 triggerEventTime: 2026-11-05T21:41:37Z
 triggerReason: IssueLabeled
 triggerNotes: 'Issue #15058 created at 2026-11-05T21:41:35Z; trigger label ''overseer'' added by feynman-agent-bot at 2026-11-05T21:41:37Z'
-startedAt: 2026-11-05T21:42:55.029610115Z
-completedAt: 2026-11-05T23:34:06.739308649Z
+startedAt: 2026-11-06T05:41:26.794616429Z
+completedAt: 2026-11-06T05:58:53.467878675Z
 assignee: ada-coder-bot
 status: Completed
 onStart:
     assign:
         - '{{bot}}'
     comment: AI Factory started fixing this issue in a sandbox.
-runName: fix-15058-head-1793914969
+runName: fix-15058-head-1793943672
 rule: fix
 recipe: fix
 apply: open-pr
