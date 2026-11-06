@@ -1,0 +1,26 @@
+type: issue-rule
+url: https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/15049
+number: 15049
+priority: medium
+phase: 3
+createdAt: 2026-11-05T20:51:46Z
+enqueuedAt: 2026-11-05T22:49:52.290303532Z
+triggerEventTime: 2026-11-05T20:51:46Z
+triggerReason: IssueCreated
+triggerNotes: 'Issue #15049 created at 2026-11-05T20:51:46Z with trigger label ''overseer'''
+startedAt: 2026-11-05T22:50:20.937467274Z
+completedAt: 2026-11-06T00:06:07.193832477Z
+assignee: ada-coder-bot
+status: Completed
+onSuccess:
+    label:
+        - overseer/planned
+onFailure:
+    comment: Planning failed; apply the plan label again to retry.
+onEnd:
+    unlabel:
+        - overseer/plan
+runName: plan-15049-head-1793918992
+rule: plan
+recipe: plan
+apply: comment
