@@ -4,12 +4,12 @@ number: 12690
 priority: medium
 phase: 4
 createdAt: 2026-09-02T04:42:28Z
-enqueuedAt: 2026-11-06T15:58:06.589812474Z
-triggerEventTime: 2026-09-02T04:42:52Z
-triggerReason: IssueLabeled
-triggerNotes: 'Issue #12690 created at 2026-09-02T04:42:28Z; trigger label ''overseer'' added by anfernee at 2026-09-02T04:42:52Z'
-startedAt: 2026-11-06T15:58:35.865668893Z
-completedAt: 2026-11-06T16:02:29.400282996Z
+enqueuedAt: 2026-11-06T18:49:49.140872304Z
+triggerEventTime: 2026-11-06T18:32:08Z
+triggerReason: LinkedIssueClosed
+triggerNotes: 'Linked issue #15070 was closed'
+startedAt: 2026-11-06T18:50:18.393255808Z
+completedAt: 2026-11-06T19:12:33.465676189Z
 assignee: walle-agent-bot
 status: Completed
 agentFile: https://raw.githubusercontent.com/GoogleCloudPlatform/k8s-config-connector/refs/heads/master/.agents/workflows/kcc-greenfield.txt
@@ -17,6 +17,4 @@ sessionId: issue-12690
 onStart:
     assign:
         - '{{bot}}'
-runName: agent-12690-1793980686
-rule: workflow
-recipe: workflow
+runName: agent-12690-1793990989
