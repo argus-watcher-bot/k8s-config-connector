@@ -1,0 +1,22 @@
+type: pr-rule
+url: https://github.com/GoogleCloudPlatform/k8s-config-connector/pull/15093
+number: 15093
+priority: medium
+phase: 1
+createdAt: 2026-11-06T04:00:10Z
+enqueuedAt: 2026-11-06T05:58:52.765690676Z
+triggerEventTime: 2026-11-06T05:54:58Z
+triggerReason: PRCommentsAdded
+triggerNotes: Oldest unaddressed comment by barney-s added at 2026-11-06T05:54:58Z (ID 6678076069) since last commit bb59586 (committer date 2026-11-06T04:55:19Z)
+startedAt: 2026-11-06T05:59:15.965748071Z
+completedAt: 2026-11-06T06:14:25.646016623Z
+assignee: lovelace-coder-bot
+status: Completed
+commitSHA: bb595864c5c9a8568f2e1d5b1658694dc3235321
+acknowledge: feedback
+onStart:
+    comment: AI Factory started addressing review feedback for this pull request.
+runName: comments-15093-bb59586-1793944732
+rule: comments
+recipe: care-comments
+apply: post-replies
