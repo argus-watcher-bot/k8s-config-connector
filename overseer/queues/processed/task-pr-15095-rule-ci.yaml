@@ -4,21 +4,21 @@ number: 15095
 priority: medium
 phase: 3
 createdAt: 2026-11-06T04:23:08Z
-enqueuedAt: 2026-11-06T05:59:07.734041562Z
-triggerEventTime: 2026-11-06T05:48:06Z
+enqueuedAt: 2026-11-06T11:58:13.994643899Z
+triggerEventTime: 2026-11-06T11:52:47Z
 triggerReason: PRCheckFailed
-triggerNotes: Earliest CI failure in 'tests-e2e-fixtures-essentialcontacts' (failure) at 2026-11-06T05:48:06Z; total 17 failed check(s) on commit 3ffdd35
-startedAt: 2026-11-06T05:59:21.29018204Z
-completedAt: 2026-11-06T06:24:42.319462732Z
+triggerNotes: Earliest CI failure in 'test-mockgcp' (failure) at 2026-11-06T11:52:47Z; total 15 failed check(s) on commit 6b6389f
+startedAt: 2026-11-06T11:58:49.853901466Z
+completedAt: 2026-11-06T13:26:02.877307183Z
 assignee: neumann-coder-bot
 status: Completed
-commitSHA: 3ffdd357c7c6b0ab3473bc3a879980de3335a0d8
+commitSHA: 6b6389f76b7ae53c7bcae48571f5caaac580669f
 onStart:
     comment: |-
         AI Factory started investigating CI check failures for this pull request.
 
         Note: We recommend waiting for the 'ready-for-human' label before leaving review comments. Comments added while the system is actively working may be associated with outdated commits once a new commit is pushed, causing them to be ignored.
-runName: ci-15095-3ffdd35-1793944747
+runName: ci-15095-6b6389f-1793966293
 rule: ci
 recipe: care-ci
 apply: post-replies
