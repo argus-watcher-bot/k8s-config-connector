@@ -1,0 +1,21 @@
+type: pr-rule
+url: https://github.com/GoogleCloudPlatform/k8s-config-connector/pull/15067
+number: 15067
+priority: medium
+phase: 1
+createdAt: 2026-11-05T23:26:24Z
+enqueuedAt: 2026-11-06T03:26:45.322600166Z
+triggerEventTime: 2026-11-06T03:16:11Z
+triggerReason: PRReadyForReview
+triggerNotes: Automated review triggered; all CI checks passed at 2026-11-06T03:16:11Z for commit bdff0c9 (committer date 2026-11-06T02:31:18Z)
+startedAt: 2026-11-06T03:26:49.84274848Z
+completedAt: 2026-11-06T03:41:57.359537813Z
+assignee: hopper-coder-bot
+status: Completed
+commitSHA: bdff0c9cb5e59ea9e872b6dc74faee38fbfb5669
+onStart:
+    comment: AI Factory started reviewing this pull request in a sandbox.
+runName: review-15067-bdff0c9-1793935605
+rule: review
+recipe: review
+apply: submit-review
