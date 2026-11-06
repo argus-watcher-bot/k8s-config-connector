@@ -9,8 +9,9 @@ triggerEventTime: 2026-11-05T22:29:37Z
 triggerReason: PRCheckFailed
 triggerNotes: Earliest CI failure in 'golangci-lint' (failure) at 2026-11-05T22:29:37Z; total 1 failed check(s) on commit 78fdaaf
 startedAt: 2026-11-05T22:39:41.957389833Z
+completedAt: 2026-11-05T22:52:15.503661461Z
 assignee: neumann-coder-bot
-status: Running
+status: Completed
 commitSHA: 78fdaafdc9f33ed6f5ee7f38cf04a6fbb5c98078
 onStart:
     comment: |-

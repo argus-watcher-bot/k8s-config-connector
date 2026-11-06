@@ -1,0 +1,27 @@
+type: issue-rule
+url: https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/15052
+number: 15052
+priority: medium
+phase: 3
+createdAt: 2026-11-05T20:52:21Z
+enqueuedAt: 2026-11-05T22:49:51.377668537Z
+triggerEventTime: 2026-11-05T20:52:21Z
+triggerReason: IssueCreated
+triggerNotes: 'Issue #15052 created at 2026-11-05T20:52:21Z with trigger label ''overseer'''
+startedAt: 2026-11-05T22:50:20.344960815Z
+completedAt: 2026-11-05T22:56:23.504129657Z
+assignee: hopper-coder-bot
+status: Failed
+error: 'exit status 1: connecting to sandbox: sandbox fix-k8s-config-connector-15052 has no task server to use (timed out waiting for sandbox pod fix-k8s-config-connector-15052 to become ready); recreate it on a current image'
+onSuccess:
+    label:
+        - overseer/planned
+onFailure:
+    comment: Planning failed; apply the plan label again to retry.
+onEnd:
+    unlabel:
+        - overseer/plan
+runName: plan-15052-head-1793918991
+rule: plan
+recipe: plan
+apply: comment
