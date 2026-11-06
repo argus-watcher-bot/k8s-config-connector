@@ -1,0 +1,25 @@
+type: issue-rule
+url: https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/15143
+number: 15143
+priority: medium
+phase: 3
+createdAt: 2026-11-06T11:50:34Z
+enqueuedAt: 2026-11-06T11:52:04.004330918Z
+triggerEventTime: 2026-11-06T11:50:35Z
+triggerReason: IssueLabeled
+triggerNotes: 'Issue #15143 created at 2026-11-06T11:50:34Z; trigger label ''overseer'' added by argus-watcher-bot at 2026-11-06T11:50:35Z'
+startedAt: 2026-11-06T11:52:06.715260634Z
+completedAt: 2026-11-06T12:05:07.534440108Z
+assignee: lovelace-coder-bot
+status: Completed
+onStart:
+    assign:
+        - '{{bot}}'
+    comment: AI Factory started fixing this issue in a sandbox.
+runName: fix-15143-head-1793965924
+rule: fix
+recipe: fix
+apply: open-pr
+inputs:
+    draft: "false"
+prLabels: true
