@@ -4,12 +4,12 @@ number: 12831
 priority: medium
 phase: 4
 createdAt: 2026-09-09T20:29:44Z
-enqueuedAt: 2026-11-06T01:49:08.752344641Z
-triggerEventTime: 2026-11-06T01:37:52Z
-triggerReason: LinkedIssueClosed
-triggerNotes: 'Linked issue #12837 was closed'
-startedAt: 2026-11-06T01:49:11.309488448Z
-completedAt: 2026-11-06T02:30:48.955120621Z
+enqueuedAt: 2026-11-06T06:40:42.473127099Z
+triggerEventTime: 2026-09-09T20:29:46Z
+triggerReason: IssueLabeled
+triggerNotes: 'Issue #12831 created at 2026-09-09T20:29:44Z; trigger label ''overseer'' added by gemmahou at 2026-09-09T20:29:46Z'
+startedAt: 2026-11-06T06:40:44.942910416Z
+completedAt: 2026-11-06T06:41:13.49573649Z
 assignee: daedalus-agent-bot
 status: Completed
 agentFile: https://raw.githubusercontent.com/GoogleCloudPlatform/k8s-config-connector/refs/heads/master/.agents/workflows/kcc-greenfield.txt
@@ -17,4 +17,6 @@ sessionId: issue-12831
 onStart:
     assign:
         - '{{bot}}'
-runName: agent-12831-1793929748
+runName: agent-12831-1793947242
+rule: workflow
+recipe: workflow
