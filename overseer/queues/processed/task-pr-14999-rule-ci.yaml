@@ -4,21 +4,21 @@ number: 14999
 priority: medium
 phase: 3
 createdAt: 2026-11-05T07:10:32Z
-enqueuedAt: 2026-11-05T14:46:21.839847594Z
-triggerEventTime: 2026-11-05T14:39:52Z
+enqueuedAt: 2026-11-06T21:10:36.943251887Z
+triggerEventTime: 2026-11-06T21:04:45Z
 triggerReason: PRCheckFailed
-triggerNotes: Earliest CI failure in 'validate-generated-files' (failure) at 2026-11-05T14:39:52Z; total 1 failed check(s) on commit c91d65e
-startedAt: 2026-11-05T14:46:56.674695542Z
-completedAt: 2026-11-05T15:28:22.776433478Z
+triggerNotes: Earliest CI failure in 'validate-generated-files' (failure) at 2026-11-06T21:04:45Z; total 3 failed check(s) on commit c23b274
+startedAt: 2026-11-06T21:11:09.420227006Z
+completedAt: 2026-11-06T22:23:26.195855954Z
 assignee: ada-coder-bot
 status: Completed
-commitSHA: c91d65ebfdffdb3c7da1345ca4b4df7bba34b931
+commitSHA: c23b274fb6cfc604013278f0d459795937fc0fe4
 onStart:
     comment: |-
         AI Factory started investigating CI check failures for this pull request.
 
         Note: We recommend waiting for the 'ready-for-human' label before leaving review comments. Comments added while the system is actively working may be associated with outdated commits once a new commit is pushed, causing them to be ignored.
-runName: ci-14999-c91d65e-1793889981
+runName: ci-14999-c23b274-1793999436
 rule: ci
 recipe: care-ci
 apply: post-replies
