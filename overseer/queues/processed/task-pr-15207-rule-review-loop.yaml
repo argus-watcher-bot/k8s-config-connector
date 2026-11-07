@@ -4,12 +4,12 @@ number: 15207
 priority: medium
 phase: 1
 createdAt: 2026-11-07T04:52:45Z
-enqueuedAt: 2026-11-07T05:39:37.045482209Z
-triggerEventTime: 2026-11-07T05:28:13Z
+enqueuedAt: 2026-11-07T07:31:35.711846818Z
+triggerEventTime: 2026-11-07T07:22:12Z
 triggerReason: RuleDecided
 triggerNotes: The review-loop rule decided to run on commit c1579fd
-startedAt: 2026-11-07T05:39:57.433336719Z
-completedAt: 2026-11-07T05:40:08.401843544Z
+startedAt: 2026-11-07T07:31:55.639096174Z
+completedAt: 2026-11-07T07:32:08.10367803Z
 assignee: hopper-coder-bot
 status: Failed
 error: 'exit status 1: running recipe: task failed with exit code 1'
@@ -18,6 +18,6 @@ instructions:
     - Use .gemini/skills/reviewgen-greenfield-controller/SKILL.md to conduct the review.
 onStart:
     comment: AI Factory started reviewing and fixing this pull request in its sandbox before its review.
-runName: review-loop-15207-c1579fd-1794029977
+runName: review-loop-15207-c1579fd-1794036695
 rule: review-loop
 recipe: review-loop

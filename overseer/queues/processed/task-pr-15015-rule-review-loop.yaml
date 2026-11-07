@@ -4,12 +4,12 @@ number: 15015
 priority: medium
 phase: 1
 createdAt: 2026-11-05T10:50:39Z
-enqueuedAt: 2026-11-07T05:39:38.711831453Z
-triggerEventTime: 2026-11-07T05:28:10Z
+enqueuedAt: 2026-11-07T07:31:38.570891063Z
+triggerEventTime: 2026-11-07T07:22:09Z
 triggerReason: RuleDecided
 triggerNotes: The review-loop rule decided to run on commit a78bed3
-startedAt: 2026-11-07T05:40:01.478071566Z
-completedAt: 2026-11-07T05:40:13.122697743Z
+startedAt: 2026-11-07T07:32:00.616608705Z
+completedAt: 2026-11-07T07:32:12.645838173Z
 assignee: ada-coder-bot
 status: Failed
 error: 'exit status 1: running recipe: task failed with exit code 1'
@@ -18,6 +18,6 @@ instructions:
     - Use .gemini/skills/reviewgen-greenfield-controller/SKILL.md to conduct the review.
 onStart:
     comment: AI Factory started reviewing and fixing this pull request in its sandbox before its review.
-runName: review-loop-15015-a78bed3-1794029978
+runName: review-loop-15015-a78bed3-1794036698
 rule: review-loop
 recipe: review-loop
