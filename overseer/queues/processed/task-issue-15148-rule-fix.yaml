@@ -4,20 +4,19 @@ number: 15148
 priority: medium
 phase: 3
 createdAt: 2026-11-06T19:52:43Z
-enqueuedAt: 2026-11-06T19:54:23.591541722Z
+enqueuedAt: 2026-11-06T22:30:48.615734035Z
 triggerEventTime: 2026-11-06T19:52:45Z
 triggerReason: IssueLabeled
 triggerNotes: 'Issue #15148 created at 2026-11-06T19:52:43Z; trigger label ''overseer'' added by argus-watcher-bot at 2026-11-06T19:52:45Z'
-startedAt: 2026-11-06T19:54:27.210552412Z
-completedAt: 2026-11-06T22:01:56.627213515Z
+startedAt: 2026-11-06T22:31:17.799231105Z
+completedAt: 2026-11-07T01:28:58.657634858Z
 assignee: neumann-coder-bot
-status: Failed
-error: 'exit status 1: running recipe: task failed with exit code 1'
+status: Completed
 onStart:
     assign:
         - '{{bot}}'
     comment: AI Factory started fixing this issue in a sandbox.
-runName: fix-15148-head-1793994863
+runName: fix-15148-head-1794004248
 rule: fix
 recipe: fix
 apply: open-pr
