@@ -1,0 +1,20 @@
+type: pr-rule
+url: https://github.com/GoogleCloudPlatform/k8s-config-connector/pull/15213
+number: 15213
+priority: medium
+phase: 1
+createdAt: 2026-11-07T09:09:14Z
+enqueuedAt: 2026-11-07T09:14:54.8521839Z
+triggerEventTime: 2026-11-07T09:09:32Z
+triggerReason: RuleDecided
+triggerNotes: The review-loop rule decided to run on commit 444db1a
+startedAt: 2026-11-07T09:15:18.287584041Z
+completedAt: 2026-11-07T09:28:48.689090774Z
+assignee: ada-coder-bot
+status: Completed
+commitSHA: 444db1aa3c79536568188b90e3861428deb89bb1
+instructions:
+    - Use .gemini/skills/reviewgen-greenfield-controller/SKILL.md to conduct the review.
+runName: review-loop-15213-444db1a-1794042894
+rule: review-loop
+recipe: review-loop
