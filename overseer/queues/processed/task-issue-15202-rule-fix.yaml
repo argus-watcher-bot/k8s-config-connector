@@ -9,14 +9,14 @@ triggerEventTime: 2026-11-07T01:09:37Z
 triggerReason: IssueLabeled
 triggerNotes: 'Issue #15202 created at 2026-11-07T01:09:35Z; trigger label ''overseer'' added by acpana at 2026-11-07T01:09:37Z'
 startedAt: 2026-11-07T01:13:08.056373734Z
+completedAt: 2026-11-07T03:50:21.16969497Z
 assignee: lovelace-coder-bot
-status: Pending
+status: Completed
 onStart:
     assign:
         - '{{bot}}'
     comment: AI Factory started fixing this issue in a sandbox.
 runName: fix-15202-head-1794013954
-recovered: true
 rule: fix
 recipe: fix
 apply: open-pr
