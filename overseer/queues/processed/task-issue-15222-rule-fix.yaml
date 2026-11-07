@@ -1,0 +1,26 @@
+type: issue-rule
+url: https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/15222
+number: 15222
+priority: medium
+phase: 3
+createdAt: 2026-11-07T20:56:35Z
+enqueuedAt: 2026-11-07T21:41:11.972503262Z
+triggerEventTime: 2026-11-07T20:56:37Z
+triggerReason: IssueLabeled
+triggerNotes: 'Issue #15222 created at 2026-11-07T20:56:35Z; trigger label ''overseer'' added by argus-watcher-bot at 2026-11-07T20:56:37Z'
+startedAt: 2026-11-07T21:41:24.375611594Z
+completedAt: 2026-11-07T21:41:26.363470267Z
+assignee: lovelace-coder-bot
+status: Failed
+error: 'exit status 1: connecting to sandbox: sandbox fix-k8s-config-connector-15222 has no task server to use (sandbox pod fix-k8s-config-connector-15222 is in Failed state (reason: OutOfcpu): cannot connect to terminated pod); recreate it on a current image'
+onStart:
+    assign:
+        - '{{bot}}'
+    comment: AI Factory started fixing this issue in a sandbox.
+runName: fix-15222-head-1794087671
+rule: fix
+recipe: fix
+apply: open-pr
+inputs:
+    draft: "false"
+prLabels: true
