@@ -4,21 +4,21 @@ number: 15094
 priority: medium
 phase: 3
 createdAt: 2026-11-06T04:18:50Z
-enqueuedAt: 2026-11-06T05:27:20.099001657Z
-triggerEventTime: 2026-11-06T05:19:22Z
+enqueuedAt: 2026-11-09T20:46:45.069139641Z
+triggerEventTime: 2026-11-09T20:38:37Z
 triggerReason: PRCheckFailed
-triggerNotes: Earliest CI failure in 'fuzz-roundtrippers-8-of-8' (cancelled) at 2026-11-06T05:19:22Z; total 3 failed check(s) on commit 049a3b9
-startedAt: 2026-11-06T05:27:54.17994571Z
-completedAt: 2026-11-06T06:01:17.376080012Z
+triggerNotes: Earliest CI failure in 'unit-tests-1-of-1' (failure) at 2026-11-09T20:38:37Z; total 2 failed check(s) on commit ded9845
+startedAt: 2026-11-09T20:47:10.401620436Z
+completedAt: 2026-11-09T21:46:08.737901086Z
 assignee: lovelace-coder-bot
 status: Completed
-commitSHA: 049a3b973a57c6cbfcdb68e5fd366b45ec2cc4bd
+commitSHA: ded9845f221cc2b0408181aa4bcb7a72664ba0c6
 onStart:
     comment: |-
         AI Factory started investigating CI check failures for this pull request.
 
         Note: We recommend waiting for the 'ready-for-human' label before leaving review comments. Comments added while the system is actively working may be associated with outdated commits once a new commit is pushed, causing them to be ignored.
-runName: ci-15094-049a3b9-1793942840
+runName: ci-15094-ded9845-1794257205
 rule: ci
 recipe: care-ci
 apply: post-replies

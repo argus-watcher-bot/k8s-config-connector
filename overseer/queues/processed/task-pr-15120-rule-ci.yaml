@@ -4,21 +4,21 @@ number: 15120
 priority: medium
 phase: 3
 createdAt: 2026-11-06T07:02:25Z
-enqueuedAt: 2026-11-09T08:18:43.761029366Z
-triggerEventTime: 2026-11-09T08:11:13Z
+enqueuedAt: 2026-11-09T22:17:24.495434811Z
+triggerEventTime: 2026-11-09T22:13:27Z
 triggerReason: PRCheckFailed
-triggerNotes: Earliest CI failure in 'validate-fmt' (failure) at 2026-11-09T08:11:13Z; total 1 failed check(s) on commit a126290
-startedAt: 2026-11-09T08:18:50.020438468Z
-completedAt: 2026-11-09T08:22:40.389517758Z
+triggerNotes: Earliest CI failure in 'fuzz-roundtrippers-7-of-8' (cancelled) at 2026-11-09T22:13:27Z; total 2 failed check(s) on commit 41ce38f
+startedAt: 2026-11-09T22:17:43.754383736Z
+completedAt: 2026-11-09T22:52:27.946129645Z
 assignee: hopper-coder-bot
 status: Completed
-commitSHA: a126290b4120e4584dbf642ebc5fb3ed3a136f11
+commitSHA: 41ce38f51b633ad54cbb1f7288f99ad7b61abeaa
 onStart:
     comment: |-
         AI Factory started investigating CI check failures for this pull request.
 
         Note: We recommend waiting for the 'ready-for-human' label before leaving review comments. Comments added while the system is actively working may be associated with outdated commits once a new commit is pushed, causing them to be ignored.
-runName: ci-15120-a126290-1794212323
+runName: ci-15120-41ce38f-1794262644
 rule: ci
 recipe: care-ci
 apply: post-replies
