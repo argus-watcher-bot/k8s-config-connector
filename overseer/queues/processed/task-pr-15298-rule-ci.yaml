@@ -4,12 +4,12 @@ number: 15298
 priority: medium
 phase: 3
 createdAt: 2026-11-10T16:29:49Z
-enqueuedAt: 2026-11-10T18:03:13.068639564Z
-triggerEventTime: 2026-11-10T17:29:56Z
+enqueuedAt: 2026-11-10T20:36:25.933228523Z
+triggerEventTime: 2026-11-10T18:36:06Z
 triggerReason: PRCheckFailed
-triggerNotes: Earliest CI failure in 'test-mockgcp' (failure) at 2026-11-10T17:29:56Z; total 10 failed check(s) on commit 997a05f
-startedAt: 2026-11-10T18:03:18.664465117Z
-completedAt: 2026-11-10T18:27:13.604080572Z
+triggerNotes: Earliest CI failure in 'tests-e2e-fixtures-compute-3-of-4' (failure) at 2026-11-10T18:36:06Z; total 10 failed check(s) on commit 997a05f
+startedAt: 2026-11-10T20:37:02.598995109Z
+completedAt: 2026-11-10T21:10:05.487913848Z
 assignee: ada-coder-bot
 status: Completed
 commitSHA: 997a05f980a0f9d3fcdf15597d85c6ea133aa598
@@ -18,7 +18,7 @@ onStart:
         AI Factory started investigating CI check failures for this pull request.
 
         Note: We recommend waiting for the 'ready-for-human' label before leaving review comments. Comments added while the system is actively working may be associated with outdated commits once a new commit is pushed, causing them to be ignored.
-runName: ci-15298-997a05f-1794333793
+runName: ci-15298-997a05f-1794342985
 rule: ci
 recipe: care-ci
 apply: post-replies
