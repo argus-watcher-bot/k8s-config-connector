@@ -10,12 +10,13 @@ triggerReason: IssueLabeled
 triggerNotes: 'Issue #15297 created at 2026-11-10T16:06:31Z; trigger label ''overseer'' added by acpana at 2026-11-10T16:06:33Z'
 startedAt: 2026-11-10T16:39:22.379884492Z
 assignee: hopper-coder-bot
-status: Running
+status: Pending
 onStart:
     assign:
         - '{{bot}}'
     comment: AI Factory started fixing this issue in a sandbox.
 runName: fix-15297-head-1794328753
+recovered: true
 rule: fix
 recipe: fix
 apply: open-pr
