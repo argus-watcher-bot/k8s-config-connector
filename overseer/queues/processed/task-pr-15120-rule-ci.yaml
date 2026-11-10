@@ -4,12 +4,12 @@ number: 15120
 priority: medium
 phase: 3
 createdAt: 2026-11-06T07:02:25Z
-enqueuedAt: 2026-11-10T01:30:16.534327696Z
-triggerEventTime: 2026-11-10T01:26:23Z
+enqueuedAt: 2026-11-10T03:56:58.056086616Z
+triggerEventTime: 2026-11-10T03:49:26Z
 triggerReason: PRCheckFailed
-triggerNotes: Earliest CI failure in 'tests-e2e-fixtures-compute-3-of-4' (failure) at 2026-11-10T01:26:23Z; total 9 failed check(s) on commit fe9c67c
-startedAt: 2026-11-10T01:30:24.648531642Z
-completedAt: 2026-11-10T01:35:47.150725017Z
+triggerNotes: Earliest CI failure in 'tests-e2e-fixtures-compute-3-of-4' (failure) at 2026-11-10T03:49:26Z; total 8 failed check(s) on commit fe9c67c
+startedAt: 2026-11-10T03:57:12.274800551Z
+completedAt: 2026-11-10T04:04:16.55556635Z
 assignee: hopper-coder-bot
 status: Completed
 commitSHA: fe9c67c69609c8e94d07b0fc491c12308cd8d161
@@ -18,7 +18,7 @@ onStart:
         AI Factory started investigating CI check failures for this pull request.
 
         Note: We recommend waiting for the 'ready-for-human' label before leaving review comments. Comments added while the system is actively working may be associated with outdated commits once a new commit is pushed, causing them to be ignored.
-runName: ci-15120-fe9c67c-1794274216
+runName: ci-15120-fe9c67c-1794283018
 rule: ci
 recipe: care-ci
 apply: post-replies
