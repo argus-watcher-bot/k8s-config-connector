@@ -4,12 +4,12 @@ number: 15180
 priority: medium
 phase: 3
 createdAt: 2026-11-06T23:19:56Z
-enqueuedAt: 2026-11-10T00:05:09.919389767Z
+enqueuedAt: 2026-11-10T02:16:36.00353808Z
 triggerEventTime: 2026-11-10T00:02:15Z
 triggerReason: PRCheckFailed
-triggerNotes: Earliest CI failure in 'test-mockgcp' (failure) at 2026-11-10T00:02:15Z; total 1 failed check(s) on commit c2b2746
-startedAt: 2026-11-10T00:05:27.7780108Z
-completedAt: 2026-11-10T00:11:28.176899235Z
+triggerNotes: Earliest CI failure in 'test-mockgcp' (failure) at 2026-11-10T00:02:15Z; total 2 failed check(s) on commit c2b2746
+startedAt: 2026-11-10T02:17:03.097783012Z
+completedAt: 2026-11-10T02:23:28.230935174Z
 assignee: lovelace-coder-bot
 status: Completed
 commitSHA: c2b27465b1008b0b58b18c86e1c13823ca969b3d
@@ -18,7 +18,7 @@ onStart:
         AI Factory started investigating CI check failures for this pull request.
 
         Note: We recommend waiting for the 'ready-for-human' label before leaving review comments. Comments added while the system is actively working may be associated with outdated commits once a new commit is pushed, causing them to be ignored.
-runName: ci-15180-c2b2746-1794269109
+runName: ci-15180-c2b2746-1794276996
 rule: ci
 recipe: care-ci
 apply: post-replies

@@ -1,0 +1,19 @@
+type: sandbox-rule
+url: https://github.com/GoogleCloudPlatform/k8s-config-connector
+number: 0
+priority: low
+phase: 4
+createdAt: 2026-11-10T01:09:57.926005459Z
+enqueuedAt: 2026-11-10T01:09:57.926005459Z
+triggerReason: RuleDecided
+triggerNotes: workspace 30.3/39.1 GB used, 8.8 GB free
+startedAt: 2026-11-10T01:10:05.420173138Z
+completedAt: 2026-11-10T01:10:09.785013453Z
+assignee: ada-coder-bot
+status: Completed
+runName: workspace-cleanup-fix-k8s-config-connector-14985-1794272997
+rule: workspace-cleanup
+recipe: workspace-cleanup
+sandbox: fix-k8s-config-connector-14985
+inputs:
+    target_bytes: "21474836480"
