@@ -10,12 +10,13 @@ triggerReason: IssueLabeled
 triggerNotes: 'Issue #15345 created at 2026-11-10T22:27:15Z; trigger label ''overseer'' added by anhdle-sso at 2026-11-10T22:27:16Z'
 startedAt: 2026-11-10T22:27:48.118748783Z
 assignee: ada-coder-bot
-status: Running
+status: Pending
 onStart:
     assign:
         - '{{bot}}'
     comment: AI Factory started fixing this issue in a sandbox.
 runName: fix-15345-head-1794349655
+recovered: true
 rule: fix
 recipe: fix
 apply: open-pr
