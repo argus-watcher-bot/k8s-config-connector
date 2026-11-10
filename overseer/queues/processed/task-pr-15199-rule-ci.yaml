@@ -4,21 +4,21 @@ number: 15199
 priority: medium
 phase: 3
 createdAt: 2026-11-07T00:29:19Z
-enqueuedAt: 2026-11-09T20:58:43.429316109Z
-triggerEventTime: 2026-11-09T20:46:50Z
+enqueuedAt: 2026-11-10T03:14:31.081464717Z
+triggerEventTime: 2026-11-10T00:50:41Z
 triggerReason: PRCheckFailed
-triggerNotes: Earliest CI failure in 'unit-tests-3-of-4' (failure) at 2026-11-09T20:46:50Z; total 2 failed check(s) on commit 9f42372
-startedAt: 2026-11-09T20:59:00.705743241Z
-completedAt: 2026-11-09T21:40:47.076998084Z
+triggerNotes: Earliest CI failure in 'tests-e2e-fixtures-compute-3-of-4' (failure) at 2026-11-10T00:50:41Z; total 10 failed check(s) on commit 3f33255
+startedAt: 2026-11-10T03:14:39.482799726Z
+completedAt: 2026-11-10T03:20:36.703487342Z
 assignee: lovelace-coder-bot
 status: Completed
-commitSHA: 9f42372c0b392ed139f18129bad4f5b82fb7b94a
+commitSHA: 3f332551bb5a6500b70dd2ae425c6d52af7edf6e
 onStart:
     comment: |-
         AI Factory started investigating CI check failures for this pull request.
 
         Note: We recommend waiting for the 'ready-for-human' label before leaving review comments. Comments added while the system is actively working may be associated with outdated commits once a new commit is pushed, causing them to be ignored.
-runName: ci-15199-9f42372-1794257923
+runName: ci-15199-3f33255-1794280471
 rule: ci
 recipe: care-ci
 apply: post-replies
