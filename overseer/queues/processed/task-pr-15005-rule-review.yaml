@@ -4,20 +4,20 @@ number: 15005
 priority: medium
 phase: 1
 createdAt: 2026-11-05T07:40:41Z
-enqueuedAt: 2026-11-05T17:50:18.556086792Z
-triggerEventTime: 2026-11-05T17:45:57Z
+enqueuedAt: 2026-11-10T03:22:45.317542513Z
+triggerEventTime: 2026-11-10T03:15:56Z
 triggerReason: PRReadyForReview
-triggerNotes: Automated review triggered; all CI checks passed at 2026-11-05T17:45:57Z for commit ca1b574 (committer date 2026-11-05T17:01:29Z)
-startedAt: 2026-11-05T17:50:39.141665164Z
-completedAt: 2026-11-05T18:50:14.337733945Z
+triggerNotes: Automated review triggered; all CI checks passed at 2026-11-10T03:15:56Z for commit f0c25ec (committer date 2026-11-10T02:40:34Z)
+startedAt: 2026-11-10T03:22:58.082226121Z
+completedAt: 2026-11-10T03:28:40.73347126Z
 assignee: ada-coder-bot
 status: Completed
-commitSHA: ca1b57407cc68e22192de2def6b18397badac0d5
+commitSHA: f0c25ec47976c2ceeb731927c254e4402c74363b
 instructions:
     - Use .gemini/skills/reviewgen-brownfield-new-types/SKILL.md to conduct the review.
 onStart:
     comment: AI Factory started reviewing this pull request in a sandbox.
-runName: review-15005-ca1b574-1793901018
+runName: review-15005-f0c25ec-1794280965
 rule: review
 recipe: review
 apply: submit-review
