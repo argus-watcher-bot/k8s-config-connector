@@ -4,20 +4,19 @@ number: 15400
 priority: medium
 phase: 3
 createdAt: 2026-11-11T08:01:21Z
-enqueuedAt: 2026-11-11T08:02:32.450789073Z
+enqueuedAt: 2026-11-11T08:29:02.314266807Z
 triggerEventTime: 2026-11-11T08:01:22Z
 triggerReason: IssueLabeled
 triggerNotes: 'Issue #15400 created at 2026-11-11T08:01:21Z; trigger label ''overseer'' added by argus-watcher-bot at 2026-11-11T08:01:22Z'
-startedAt: 2026-11-11T08:02:52.702221649Z
-completedAt: 2026-11-11T08:08:57.738461336Z
+startedAt: 2026-11-11T08:29:26.033405321Z
+completedAt: 2026-11-11T09:22:31.714068318Z
 assignee: lovelace-coder-bot
-status: Failed
-error: 'exit status 1: connecting to sandbox: sandbox fix-k8s-config-connector-15400 has no task server to use (timed out waiting for sandbox pod fix-k8s-config-connector-15400 to become ready); recreate it on a current image'
+status: Completed
 onStart:
     assign:
         - '{{bot}}'
     comment: AI Factory started fixing this issue in a sandbox.
-runName: fix-15400-head-1794384152
+runName: fix-15400-head-1794385742
 rule: fix
 recipe: fix
 apply: open-pr
