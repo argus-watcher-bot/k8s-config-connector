@@ -3,15 +3,15 @@ url: https://github.com/GoogleCloudPlatform/k8s-config-connector
 number: 0
 priority: low
 phase: 4
-createdAt: 2026-11-11T12:33:06.542949569Z
-enqueuedAt: 2026-11-11T12:33:06.542949569Z
+createdAt: 2026-11-11T17:37:23.463507693Z
+enqueuedAt: 2026-11-11T17:37:23.463507693Z
 triggerReason: RuleDecided
-triggerNotes: workspace 52.5/58.8 GB used, 6.2 GB free
-startedAt: 2026-11-11T12:33:31.567641766Z
-completedAt: 2026-11-11T12:33:37.400799945Z
+triggerNotes: workspace 50.0/58.8 GB used, 8.7 GB free
+startedAt: 2026-11-11T17:37:24.665573361Z
+completedAt: 2026-11-11T17:37:28.967339695Z
 assignee: lovelace-coder-bot
 status: Completed
-runName: workspace-cleanup-fix-k8s-config-connector-15404-1794400386
+runName: workspace-cleanup-fix-k8s-config-connector-15404-1794418643
 rule: workspace-cleanup
 recipe: workspace-cleanup
 sandbox: fix-k8s-config-connector-15404
