@@ -4,21 +4,20 @@ number: 15323
 priority: medium
 phase: 3
 createdAt: 2026-11-10T20:53:26Z
-enqueuedAt: 2026-11-10T23:15:35.855577594Z
+enqueuedAt: 2026-11-11T00:22:44.615953996Z
 triggerEventTime: 2026-11-10T20:53:26Z
 triggerReason: IssueCreated
 triggerNotes: 'Issue #15323 created at 2026-11-10T20:53:26Z with trigger label ''overseer'''
-startedAt: 2026-11-10T23:15:49.566563763Z
-completedAt: 2026-11-10T23:21:52.415160428Z
+startedAt: 2026-11-11T00:23:04.545346028Z
+completedAt: 2026-11-11T00:46:36.202280147Z
 assignee: neumann-coder-bot
-status: Failed
-error: 'exit status 1: connecting to sandbox: sandbox fix-k8s-config-connector-15323 has no task server to use (timed out waiting for sandbox pod fix-k8s-config-connector-15323 to become ready); recreate it on a current image'
+status: Completed
 onSuccess:
     label:
         - overseer/triaged
     unlabel:
         - overseer/triage
-runName: greenfield-triage-15323-head-1794352535
+runName: greenfield-triage-15323-head-1794356564
 rule: greenfield-triage
 recipe: greenfield-triage
 apply: comment,label
