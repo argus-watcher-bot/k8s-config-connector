@@ -4,19 +4,19 @@ number: 15297
 priority: medium
 phase: 3
 createdAt: 2026-11-10T16:06:31Z
-enqueuedAt: 2026-11-10T16:39:13.814546899Z
+enqueuedAt: 2026-11-11T08:04:40.022495629Z
 triggerEventTime: 2026-11-10T16:06:33Z
 triggerReason: IssueLabeled
 triggerNotes: 'Issue #15297 created at 2026-11-10T16:06:31Z; trigger label ''overseer'' added by acpana at 2026-11-10T16:06:33Z'
-startedAt: 2026-11-10T16:39:22.379884492Z
-completedAt: 2026-11-10T20:09:36.166774057Z
+startedAt: 2026-11-11T08:05:02.169158791Z
+completedAt: 2026-11-11T08:12:00.306103991Z
 assignee: hopper-coder-bot
 status: Completed
 onStart:
     assign:
         - '{{bot}}'
     comment: AI Factory started fixing this issue in a sandbox.
-runName: fix-15297-head-1794328753
+runName: fix-15297-head-1794384280
 rule: fix
 recipe: fix
 apply: open-pr
