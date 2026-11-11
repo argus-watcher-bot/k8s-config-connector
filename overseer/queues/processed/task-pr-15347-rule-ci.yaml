@@ -9,8 +9,9 @@ triggerEventTime: 2026-11-10T23:28:31Z
 triggerReason: PRCheckFailed
 triggerNotes: Earliest CI failure in 'unit-tests-2-of-4' (failure) at 2026-11-10T23:28:31Z; total 1 failed check(s) on commit 7df085a
 startedAt: 2026-11-10T23:33:58.924496032Z
+completedAt: 2026-11-11T02:56:06.816432626Z
 assignee: ada-coder-bot
-status: Pending
+status: Completed
 commitSHA: 7df085a6978a759a14cb7c6d42038544b2949385
 onStart:
     comment: |-
@@ -18,7 +19,6 @@ onStart:
 
         Note: We recommend waiting for the 'ready-for-human' label before leaving review comments. Comments added while the system is actively working may be associated with outdated commits once a new commit is pushed, causing them to be ignored.
 runName: ci-15347-7df085a-1794353613
-recovered: true
 rule: ci
 recipe: care-ci
 apply: post-replies
