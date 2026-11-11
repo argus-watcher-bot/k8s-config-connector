@@ -1,0 +1,19 @@
+type: pr-rule
+url: https://github.com/GoogleCloudPlatform/k8s-config-connector/pull/15414
+number: 15414
+priority: medium
+phase: 1
+createdAt: 2026-11-11T09:53:03Z
+enqueuedAt: 2026-11-11T10:53:25.478441189Z
+triggerEventTime: 2026-11-11T10:50:11Z
+triggerReason: RuleDecided
+triggerNotes: The assess-controller-step rule decided to run on commit 990a4b6
+startedAt: 2026-11-11T10:53:32.565714266Z
+completedAt: 2026-11-11T11:02:50.285734846Z
+assignee: lovelace-coder-bot
+status: Completed
+commitSHA: 990a4b62f07fd928afd3e23ffee175a0edb4b0f0
+runName: assess-controller-step-15414-990a4b6-1794394405
+rule: assess-controller-step
+recipe: assess-controller
+apply: comment,label
