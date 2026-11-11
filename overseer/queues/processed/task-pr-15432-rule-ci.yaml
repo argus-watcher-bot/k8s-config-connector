@@ -1,0 +1,24 @@
+type: pr-rule
+url: https://github.com/GoogleCloudPlatform/k8s-config-connector/pull/15432
+number: 15432
+priority: medium
+phase: 3
+createdAt: 2026-11-11T15:40:57Z
+enqueuedAt: 2026-11-11T17:42:01.397722338Z
+triggerEventTime: 2026-11-11T17:38:20Z
+triggerReason: PRCheckFailed
+triggerNotes: Earliest CI failure in 'validate-ensure' (failure) at 2026-11-11T17:38:20Z; total 1 failed check(s) on commit 4b69069
+startedAt: 2026-11-11T17:42:32.869047808Z
+completedAt: 2026-11-11T17:49:40.873603389Z
+assignee: neumann-coder-bot
+status: Completed
+commitSHA: 4b690693f1ae32be2aba053e1f3b46b5e91aea4b
+onStart:
+    comment: |-
+        AI Factory started investigating CI check failures for this pull request.
+
+        Note: We recommend waiting for the 'ready-for-human' label before leaving review comments. Comments added while the system is actively working may be associated with outdated commits once a new commit is pushed, causing them to be ignored.
+runName: ci-15432-4b69069-1794418921
+rule: ci
+recipe: care-ci
+apply: post-replies

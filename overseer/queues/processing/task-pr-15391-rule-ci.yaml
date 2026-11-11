@@ -1,23 +1,23 @@
 type: pr-rule
-url: https://github.com/GoogleCloudPlatform/k8s-config-connector/pull/15415
-number: 15415
+url: https://github.com/GoogleCloudPlatform/k8s-config-connector/pull/15391
+number: 15391
 priority: medium
 phase: 3
-createdAt: 2026-11-11T09:53:36Z
-enqueuedAt: 2026-11-11T13:52:22.715901637Z
-triggerEventTime: 2026-11-11T13:42:34Z
+createdAt: 2026-11-11T06:44:10Z
+enqueuedAt: 2026-11-11T18:06:10.966255412Z
+triggerEventTime: 2026-11-11T16:14:09Z
 triggerReason: PRCheckFailed
-triggerNotes: Earliest CI failure in 'build-images' (failure) at 2026-11-11T13:42:34Z; total 3 failed check(s) on commit 9b386ad
-startedAt: 2026-11-11T13:52:39.760768235Z
+triggerNotes: Earliest CI failure in 'validate-manifests' (failure) at 2026-11-11T16:14:09Z; total 4 failed check(s) on commit ce18389
+startedAt: 2026-11-11T18:06:20.753267378Z
 assignee: neumann-coder-bot
 status: Running
-commitSHA: 9b386ad9f7b32a2d43a96d326926763e9152ce06
+commitSHA: ce18389af17a1bea7761549ea0a883922448f37f
 onStart:
     comment: |-
         AI Factory started investigating CI check failures for this pull request.
 
         Note: We recommend waiting for the 'ready-for-human' label before leaving review comments. Comments added while the system is actively working may be associated with outdated commits once a new commit is pushed, causing them to be ignored.
-runName: ci-15415-9b386ad-1794405142
+runName: ci-15391-ce18389-1794420370
 rule: ci
 recipe: care-ci
 apply: post-replies
