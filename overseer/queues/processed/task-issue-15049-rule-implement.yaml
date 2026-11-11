@@ -1,0 +1,30 @@
+type: issue-rule
+url: https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/15049
+number: 15049
+priority: medium
+phase: 3
+createdAt: 2026-11-05T20:51:46Z
+enqueuedAt: 2026-11-11T21:59:51.98615579Z
+triggerEventTime: 2026-11-08T07:11:12Z
+triggerReason: IssueLabeled
+triggerNotes: 'Issue #15049 created at 2026-11-05T20:51:46Z; trigger label ''overseer'' added by fkc1e100 at 2026-11-08T07:11:12Z'
+startedAt: 2026-11-11T22:00:08.379645951Z
+completedAt: 2026-11-11T23:03:56.505440684Z
+assignee: ada-coder-bot
+status: Completed
+onStart:
+    assign:
+        - '{{bot}}'
+    comment: AI Factory started implementing this issue's plan in a sandbox.
+onFailure:
+    comment: Implementing the plan failed; apply the implement label again to retry.
+onEnd:
+    unlabel:
+        - overseer/implement
+runName: implement-15049-head-1794434391
+rule: implement
+recipe: fix-with-plan
+apply: open-pr
+inputs:
+    draft: "false"
+    labels: overseer
