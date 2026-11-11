@@ -9,8 +9,9 @@ triggerEventTime: 2026-11-11T08:42:23Z
 triggerReason: PRCheckFailed
 triggerNotes: Earliest CI failure in 'tests-e2e-fixtures-bigtable' (failure) at 2026-11-11T08:42:23Z; total 5 failed check(s) on commit dccb97a
 startedAt: 2026-11-11T08:49:23.162769781Z
+completedAt: 2026-11-11T08:57:12.123885369Z
 assignee: ada-coder-bot
-status: Running
+status: Completed
 commitSHA: dccb97ad7e3f33cfee05f5bca27c34b289624e82
 onStart:
     comment: |-
