@@ -4,20 +4,20 @@ number: 15415
 priority: medium
 phase: 3
 createdAt: 2026-11-11T09:53:36Z
-enqueuedAt: 2026-11-11T11:25:37.070680145Z
-triggerEventTime: 2026-11-11T11:16:26Z
+enqueuedAt: 2026-11-11T13:52:22.715901637Z
+triggerEventTime: 2026-11-11T13:42:34Z
 triggerReason: PRCheckFailed
-triggerNotes: Earliest CI failure in 'tests-e2e-fixtures-vpcaccess' (failure) at 2026-11-11T11:16:26Z; total 11 failed check(s) on commit e9feeb0
-startedAt: 2026-11-11T11:25:51.418338886Z
+triggerNotes: Earliest CI failure in 'build-images' (failure) at 2026-11-11T13:42:34Z; total 3 failed check(s) on commit 9b386ad
+startedAt: 2026-11-11T13:52:39.760768235Z
 assignee: neumann-coder-bot
 status: Running
-commitSHA: e9feeb06c4d25f8a97d7b255d7d03d5f1e46f639
+commitSHA: 9b386ad9f7b32a2d43a96d326926763e9152ce06
 onStart:
     comment: |-
         AI Factory started investigating CI check failures for this pull request.
 
         Note: We recommend waiting for the 'ready-for-human' label before leaving review comments. Comments added while the system is actively working may be associated with outdated commits once a new commit is pushed, causing them to be ignored.
-runName: ci-15415-e9feeb0-1794396337
+runName: ci-15415-9b386ad-1794405142
 rule: ci
 recipe: care-ci
 apply: post-replies
