@@ -1,0 +1,24 @@
+type: issue-rule
+url: https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/15316
+number: 15316
+priority: medium
+phase: 3
+createdAt: 2026-11-10T20:53:03Z
+enqueuedAt: 2026-11-10T23:39:40.529561869Z
+triggerEventTime: 2026-11-10T20:53:03Z
+triggerReason: IssueCreated
+triggerNotes: 'Issue #15316 created at 2026-11-10T20:53:03Z with trigger label ''overseer'''
+startedAt: 2026-11-10T23:39:47.983068447Z
+completedAt: 2026-11-10T23:45:51.314530482Z
+assignee: ada-coder-bot
+status: Failed
+error: 'exit status 1: connecting to sandbox: sandbox fix-k8s-config-connector-15316 has no task server to use (timed out waiting for sandbox pod fix-k8s-config-connector-15316 to become ready); recreate it on a current image'
+onSuccess:
+    label:
+        - overseer/triaged
+    unlabel:
+        - overseer/triage
+runName: greenfield-triage-15316-head-1794353980
+rule: greenfield-triage
+recipe: greenfield-triage
+apply: comment,label

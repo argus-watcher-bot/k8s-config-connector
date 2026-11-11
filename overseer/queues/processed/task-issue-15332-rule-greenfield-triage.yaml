@@ -8,8 +8,11 @@ enqueuedAt: 2026-11-10T22:58:45.782093412Z
 triggerEventTime: 2026-11-10T20:53:59Z
 triggerReason: IssueCreated
 triggerNotes: 'Issue #15332 created at 2026-11-10T20:53:59Z with trigger label ''overseer'''
+startedAt: 2026-11-10T23:01:14.593581254Z
+completedAt: 2026-11-10T23:07:18.039816673Z
 assignee: hopper-coder-bot
-status: Pending
+status: Failed
+error: 'exit status 1: connecting to sandbox: sandbox fix-k8s-config-connector-15332 has no task server to use (timed out waiting for sandbox pod fix-k8s-config-connector-15332 to become ready); recreate it on a current image'
 onSuccess:
     label:
         - overseer/triaged
