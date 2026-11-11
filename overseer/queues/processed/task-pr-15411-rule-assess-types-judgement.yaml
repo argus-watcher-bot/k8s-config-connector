@@ -1,0 +1,20 @@
+type: pr-rule
+url: https://github.com/GoogleCloudPlatform/k8s-config-connector/pull/15411
+number: 15411
+priority: medium
+phase: 1
+createdAt: 2026-11-11T09:22:27Z
+enqueuedAt: 2026-11-11T14:16:19.062421883Z
+triggerEventTime: 2026-11-11T14:04:24Z
+triggerReason: RuleDecided
+triggerNotes: The assess-types-judgement rule decided to run on commit 5db094b
+startedAt: 2026-11-11T14:16:39.715207587Z
+completedAt: 2026-11-11T14:22:43.039717948Z
+assignee: lovelace-coder-bot
+status: Failed
+error: 'exit status 1: connecting to sandbox: sandbox assess-types-judgement-k8s-config-connector-15411 has no task server to use (timed out waiting for sandbox pod assess-types-judgement-k8s-config-connector-15411 to become ready); recreate it on a current image'
+commitSHA: 5db094bed265a178a938d855e63ef7c6b2c567a8
+runName: assess-types-judgement-15411-5db094b-1794406579
+rule: assess-types-judgement
+recipe: assess-types-judgement
+apply: comment,label
