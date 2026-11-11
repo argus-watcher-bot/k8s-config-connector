@@ -4,19 +4,19 @@ number: 15296
 priority: medium
 phase: 3
 createdAt: 2026-11-10T16:06:30Z
-enqueuedAt: 2026-11-10T16:12:52.562688497Z
+enqueuedAt: 2026-11-11T06:08:43.148539519Z
 triggerEventTime: 2026-11-10T16:06:32Z
 triggerReason: IssueLabeled
 triggerNotes: 'Issue #15296 created at 2026-11-10T16:06:30Z; trigger label ''overseer'' added by acpana at 2026-11-10T16:06:32Z'
-startedAt: 2026-11-10T16:13:03.018250439Z
-completedAt: 2026-11-10T17:51:46.401911797Z
+startedAt: 2026-11-11T06:09:10.791850156Z
+completedAt: 2026-11-11T06:32:11.286633412Z
 assignee: lovelace-coder-bot
 status: Completed
 onStart:
     assign:
         - '{{bot}}'
     comment: AI Factory started fixing this issue in a sandbox.
-runName: fix-15296-head-1794327172
+runName: fix-15296-head-1794377323
 rule: fix
 recipe: fix
 apply: open-pr
