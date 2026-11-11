@@ -4,16 +4,16 @@ number: 15389
 priority: medium
 phase: 1
 createdAt: 2026-11-11T06:18:09Z
-enqueuedAt: 2026-11-11T15:41:50.969751513Z
-triggerEventTime: 2026-11-11T15:32:02Z
+enqueuedAt: 2026-11-11T19:17:18.718807729Z
+triggerEventTime: 2026-11-11T15:44:02Z
 triggerReason: RuleDecided
 triggerNotes: The merge-controller rule decided to run on commit 259b491
-startedAt: 2026-11-11T15:42:00.648692181Z
-completedAt: 2026-11-11T15:43:37.422522487Z
-assignee: lovelace-coder-bot
+startedAt: 2026-11-11T19:17:37.55314146Z
+completedAt: 2026-11-11T19:20:58.864650017Z
+assignee: factorybot-robot
 status: Completed
 commitSHA: 259b49186a069c13e09414c92ed84c3acc562a8e
-runName: merge-controller-15389-259b491-1794411710
+runName: merge-controller-15389-259b491-1794424638
 rule: merge-controller
 recipe: merge
 inputs:
