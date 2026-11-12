@@ -4,21 +4,21 @@ number: 15375
 priority: medium
 phase: 2
 createdAt: 2026-11-11T01:46:56Z
-enqueuedAt: 2026-11-12T00:54:06.807513813Z
-triggerEventTime: 2026-11-11T09:53:13Z
+enqueuedAt: 2026-11-12T06:27:49.124604387Z
+triggerEventTime: 2026-11-12T00:59:06Z
 triggerReason: PRMergeConflict
-triggerNotes: 'PR #15375 has merge conflicts with base branch ''master''; head commit 9701606 committer date 2026-11-11T09:53:13Z, PR updated at 2026-11-11T11:59:49Z'
-startedAt: 2026-11-12T00:54:20.528618203Z
-completedAt: 2026-11-12T01:54:43.013049724Z
+triggerNotes: 'PR #15375 has merge conflicts with base branch ''master''; head commit 103a56b committer date 2026-11-12T00:59:06Z, PR updated at 2026-11-12T02:13:18Z'
+startedAt: 2026-11-12T06:27:54.669160302Z
+completedAt: 2026-11-12T07:04:39.828929033Z
 assignee: ada-coder-bot
 status: Completed
-commitSHA: 9701606f8a149a17114e707a8273c11db1e66574
+commitSHA: 103a56bf2eb7f89cd9ec5f78e664e7cf6b1ae520
 onStart:
     comment: |-
         AI Factory started resolving merge conflicts / rebasing this pull request in a sandbox.
 
         Note: We recommend waiting for the 'ready-for-human' label before leaving review comments. Comments added while the system is actively working may be associated with outdated commits once a new commit is pushed, causing them to be ignored.
-runName: conflict-15375-9701606-1794444846
+runName: conflict-15375-103a56b-1794464869
 rule: conflict
 recipe: care-rebase
 apply: post-replies
