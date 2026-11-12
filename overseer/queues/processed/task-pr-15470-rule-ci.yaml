@@ -1,0 +1,24 @@
+type: pr-rule
+url: https://github.com/GoogleCloudPlatform/k8s-config-connector/pull/15470
+number: 15470
+priority: medium
+phase: 3
+createdAt: 2026-11-12T06:23:27Z
+enqueuedAt: 2026-11-12T07:41:24.228004547Z
+triggerEventTime: 2026-11-12T07:33:02Z
+triggerReason: PRCheckFailed
+triggerNotes: Earliest CI failure in 'test-fuzz-random-mappers' (failure) at 2026-11-12T07:33:02Z; total 1 failed check(s) on commit 3857b1c
+startedAt: 2026-11-12T07:41:48.402405313Z
+completedAt: 2026-11-12T08:08:42.279919818Z
+assignee: neumann-coder-bot
+status: Completed
+commitSHA: 3857b1cf4942cf4e00921a513addf7c295a1cd67
+onStart:
+    comment: |-
+        AI Factory started investigating CI check failures for this pull request.
+
+        Note: We recommend waiting for the 'ready-for-human' label before leaving review comments. Comments added while the system is actively working may be associated with outdated commits once a new commit is pushed, causing them to be ignored.
+runName: ci-15470-3857b1c-1794469284
+rule: ci
+recipe: care-ci
+apply: post-replies
