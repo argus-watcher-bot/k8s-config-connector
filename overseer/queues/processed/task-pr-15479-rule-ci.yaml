@@ -9,8 +9,9 @@ triggerEventTime: 2026-11-12T08:32:39Z
 triggerReason: PRCheckFailed
 triggerNotes: Earliest CI failure in 'tests-e2e-fixtures-compute-1-of-4' (failure) at 2026-11-12T08:32:39Z; total 8 failed check(s) on commit f1c463d
 startedAt: 2026-11-12T08:37:32.834922764Z
+completedAt: 2026-11-12T09:18:03.602324537Z
 assignee: ada-coder-bot
-status: Running
+status: Completed
 commitSHA: f1c463d23a40aae80787724b43eb0518fb37c671
 onStart:
     comment: |-

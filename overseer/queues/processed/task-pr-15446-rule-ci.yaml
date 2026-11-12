@@ -4,22 +4,21 @@ number: 15446
 priority: medium
 phase: 3
 createdAt: 2026-11-11T21:18:47Z
-enqueuedAt: 2026-11-12T06:59:23.900447408Z
+enqueuedAt: 2026-11-12T08:27:40.927576079Z
 triggerEventTime: 2026-11-12T06:51:53Z
 triggerReason: PRCheckFailed
-triggerNotes: Earliest CI failure in 'crd-equivalence-check' (failure) at 2026-11-12T06:51:53Z; total 3 failed check(s) on commit 8f665f2
-startedAt: 2026-11-12T06:59:51.328115709Z
-completedAt: 2026-11-12T07:59:17.261245353Z
+triggerNotes: Earliest CI failure in 'crd-equivalence-check' (failure) at 2026-11-12T06:51:53Z; total 4 failed check(s) on commit 8f665f2
+startedAt: 2026-11-12T08:27:53.159444902Z
+completedAt: 2026-11-12T09:13:56.587942847Z
 assignee: lovelace-coder-bot
-status: Failed
-error: 'exit status 1: running recipe: task failed with exit code 137'
+status: Completed
 commitSHA: 8f665f2e577b1482616957f636d4b7676b000b28
 onStart:
     comment: |-
         AI Factory started investigating CI check failures for this pull request.
 
         Note: We recommend waiting for the 'ready-for-human' label before leaving review comments. Comments added while the system is actively working may be associated with outdated commits once a new commit is pushed, causing them to be ignored.
-runName: ci-15446-8f665f2-1794466763
+runName: ci-15446-8f665f2-1794472060
 rule: ci
 recipe: care-ci
 apply: post-replies
