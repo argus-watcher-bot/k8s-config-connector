@@ -9,8 +9,9 @@ triggerEventTime: 2026-11-12T05:31:37Z
 triggerReason: PRCheckFailed
 triggerNotes: Earliest CI failure in 'test-fuzz-random-mappers' (failure) at 2026-11-12T05:31:37Z; total 2 failed check(s) on commit 099ab2a
 startedAt: 2026-11-12T05:33:09.780318586Z
+completedAt: 2026-11-12T06:34:45.32509264Z
 assignee: lovelace-coder-bot
-status: Running
+status: Completed
 commitSHA: 099ab2a2ffdc428d6c5103be861f6c35027401e4
 onStart:
     comment: |-
