@@ -4,16 +4,16 @@ number: 15398
 priority: medium
 phase: 1
 createdAt: 2026-11-11T07:34:54Z
-enqueuedAt: 2026-11-11T21:18:16.657358727Z
-triggerEventTime: 2026-11-11T21:06:19Z
+enqueuedAt: 2026-11-12T03:16:23.308753383Z
+triggerEventTime: 2026-11-11T21:23:24Z
 triggerReason: RuleDecided
 triggerNotes: The merge-controller rule decided to run on commit 26126fb
-startedAt: 2026-11-11T21:18:46.29423808Z
-completedAt: 2026-11-11T21:23:01.001255678Z
-assignee: neumann-coder-bot
+startedAt: 2026-11-12T03:16:30.25253054Z
+completedAt: 2026-11-12T03:17:12.379820479Z
+assignee: factorybot-robot
 status: Completed
 commitSHA: 26126fbda1ef18ceed81c92cec674627eea6ceb3
-runName: merge-controller-15398-26126fb-1794431896
+runName: merge-controller-15398-26126fb-1794453383
 rule: merge-controller
 recipe: merge
 inputs:
