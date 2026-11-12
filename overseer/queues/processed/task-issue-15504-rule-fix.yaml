@@ -1,0 +1,26 @@
+type: issue-rule
+url: https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/15504
+number: 15504
+priority: medium
+phase: 3
+createdAt: 2026-11-12T19:05:08Z
+enqueuedAt: 2026-11-12T19:07:39.760296503Z
+triggerEventTime: 2026-11-12T19:05:09Z
+triggerReason: IssueLabeled
+triggerNotes: 'Issue #15504 created at 2026-11-12T19:05:08Z; trigger label ''overseer'' added by argus-watcher-bot at 2026-11-12T19:05:09Z'
+startedAt: 2026-11-12T19:07:48.756714672Z
+completedAt: 2026-11-12T19:13:51.927750784Z
+assignee: hopper-coder-bot
+status: Failed
+error: 'exit status 1: connecting to sandbox: sandbox fix-k8s-config-connector-15504 has no task server to use (timed out waiting for sandbox pod fix-k8s-config-connector-15504 to become ready); recreate it on a current image'
+onStart:
+    assign:
+        - '{{bot}}'
+    comment: AI Factory started fixing this issue in a sandbox.
+runName: fix-15504-head-1794510459
+rule: fix
+recipe: fix
+apply: open-pr
+inputs:
+    draft: "false"
+prLabels: true
