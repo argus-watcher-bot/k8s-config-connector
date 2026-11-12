@@ -4,17 +4,16 @@ number: 15362
 priority: medium
 phase: 1
 createdAt: 2026-11-11T00:33:16Z
-enqueuedAt: 2026-11-11T21:28:16.067512572Z
-triggerEventTime: 2026-11-11T21:23:28Z
+enqueuedAt: 2026-11-12T10:49:58.556447837Z
+triggerEventTime: 2026-11-12T09:48:25Z
 triggerReason: RuleDecided
-triggerNotes: The merge-types-judgement rule decided to run on commit 59a924a
-startedAt: 2026-11-11T21:28:39.151551323Z
-completedAt: 2026-11-11T21:34:42.580409096Z
-assignee: lovelace-coder-bot
-status: Failed
-error: 'exit status 1: connecting to sandbox: sandbox merge-k8s-config-connector-15362 has no task server to use (timed out waiting for sandbox pod merge-k8s-config-connector-15362 to become ready); recreate it on a current image'
-commitSHA: 59a924ac7d718399becd8898c0c9f6ad13a004ea
-runName: merge-types-judgement-15362-59a924a-1794432496
+triggerNotes: The merge-types-judgement rule decided to run on commit 6397ab0
+startedAt: 2026-11-12T10:50:09.613895383Z
+completedAt: 2026-11-12T10:50:22.685230986Z
+assignee: factorybot-robot
+status: Completed
+commitSHA: 6397ab063fe4c1110552f0cee1ca2a9908e1a62a
+runName: merge-types-judgement-15362-6397ab0-1794480598
 rule: merge-types-judgement
 recipe: merge
 inputs:
