@@ -4,19 +4,19 @@ number: 14816
 priority: medium
 phase: 3
 createdAt: 2026-11-03T02:24:51Z
-enqueuedAt: 2026-11-03T05:28:22.692399497Z
+enqueuedAt: 2026-11-12T02:56:36.020528255Z
 triggerEventTime: 2026-11-03T02:24:52Z
 triggerReason: IssueLabeled
 triggerNotes: 'Issue #14816 created at 2026-11-03T02:24:51Z; trigger label ''overseer'' added by argus-watcher-bot at 2026-11-03T02:24:52Z'
-startedAt: 2026-11-03T05:28:31.528741594Z
-completedAt: 2026-11-03T06:05:38.059397218Z
+startedAt: 2026-11-12T02:56:49.409370188Z
+completedAt: 2026-11-12T04:31:26.691456165Z
 assignee: hopper-coder-bot
 status: Completed
 onStart:
     assign:
         - '{{bot}}'
     comment: AI Factory started fixing this issue in a sandbox.
-runName: fix-14816-head-1793683702
+runName: fix-14816-head-1794452196
 rule: fix
 recipe: fix
 apply: open-pr
