@@ -4,20 +4,19 @@ number: 15596
 priority: medium
 phase: 3
 createdAt: 2026-11-13T19:17:55Z
-enqueuedAt: 2026-11-13T19:19:16.811388091Z
+enqueuedAt: 2026-11-13T19:45:45.41811779Z
 triggerEventTime: 2026-11-13T19:17:57Z
 triggerReason: IssueLabeled
 triggerNotes: 'Issue #15596 created at 2026-11-13T19:17:55Z; trigger label ''overseer'' added by argus-watcher-bot at 2026-11-13T19:17:57Z'
-startedAt: 2026-11-13T19:19:47.038587655Z
-completedAt: 2026-11-13T19:20:18.16677727Z
+startedAt: 2026-11-13T19:45:48.511566438Z
+completedAt: 2026-11-13T20:47:05.299387047Z
 assignee: ada-coder-bot
-status: Failed
-error: 'exit status 1: running recipe: task failed with exit code 137'
+status: Completed
 onStart:
     assign:
         - '{{bot}}'
     comment: AI Factory started fixing this issue in a sandbox.
-runName: fix-15596-head-1794597556
+runName: fix-15596-head-1794599145
 rule: fix
 recipe: fix
 apply: open-pr
