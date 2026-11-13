@@ -4,21 +4,21 @@ number: 15000
 priority: medium
 phase: 3
 createdAt: 2026-11-05T07:21:33Z
-enqueuedAt: 2026-11-05T21:30:50.918129133Z
-triggerEventTime: 2026-11-05T21:27:19Z
+enqueuedAt: 2026-11-13T01:20:14.889937498Z
+triggerEventTime: 2026-11-13T01:08:08Z
 triggerReason: PRCheckFailed
-triggerNotes: Earliest CI failure in 'crd-equivalence-check' (failure) at 2026-11-05T21:27:19Z; total 1 failed check(s) on commit e9891b2
-startedAt: 2026-11-05T21:31:22.462273617Z
-completedAt: 2026-11-05T22:33:15.991878879Z
+triggerNotes: Earliest CI failure in 'crd-equivalence-check' (failure) at 2026-11-13T01:08:08Z; total 1 failed check(s) on commit 863ae2d
+startedAt: 2026-11-13T01:20:29.400823016Z
+completedAt: 2026-11-13T01:47:35.584786742Z
 assignee: neumann-coder-bot
 status: Completed
-commitSHA: e9891b2d00f43bd89024663a7bb5b862fdd12d69
+commitSHA: 863ae2d63f1f78c35281ccc06b8981adcf0f87ab
 onStart:
     comment: |-
         AI Factory started investigating CI check failures for this pull request.
 
         Note: We recommend waiting for the 'ready-for-human' label before leaving review comments. Comments added while the system is actively working may be associated with outdated commits once a new commit is pushed, causing them to be ignored.
-runName: ci-15000-e9891b2-1793914250
+runName: ci-15000-863ae2d-1794532814
 rule: ci
 recipe: care-ci
 apply: post-replies
