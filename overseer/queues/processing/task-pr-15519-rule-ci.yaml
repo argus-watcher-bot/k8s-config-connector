@@ -1,0 +1,23 @@
+type: pr-rule
+url: https://github.com/GoogleCloudPlatform/k8s-config-connector/pull/15519
+number: 15519
+priority: medium
+phase: 3
+createdAt: 2026-11-12T23:08:19Z
+enqueuedAt: 2026-11-12T23:32:14.173884803Z
+triggerEventTime: 2026-11-12T23:30:39Z
+triggerReason: PRCheckFailed
+triggerNotes: Earliest CI failure in 'test-fuzz-random-mappers' (failure) at 2026-11-12T23:30:39Z; total 1 failed check(s) on commit da3c705
+startedAt: 2026-11-12T23:32:41.941355464Z
+assignee: ada-coder-bot
+status: Running
+commitSHA: da3c7055c9ad36503a573bc1314672e4fcd218bc
+onStart:
+    comment: |-
+        AI Factory started investigating CI check failures for this pull request.
+
+        Note: We recommend waiting for the 'ready-for-human' label before leaving review comments. Comments added while the system is actively working may be associated with outdated commits once a new commit is pushed, causing them to be ignored.
+runName: ci-15519-da3c705-1794526334
+rule: ci
+recipe: care-ci
+apply: post-replies
