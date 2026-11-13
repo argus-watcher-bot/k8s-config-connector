@@ -10,7 +10,7 @@ triggerReason: PRCheckFailed
 triggerNotes: Earliest CI failure in 'test-fuzz-random-mappers' (failure) at 2026-11-12T23:30:39Z; total 1 failed check(s) on commit da3c705
 startedAt: 2026-11-12T23:32:41.941355464Z
 assignee: ada-coder-bot
-status: Running
+status: Pending
 commitSHA: da3c7055c9ad36503a573bc1314672e4fcd218bc
 onStart:
     comment: |-
@@ -18,6 +18,7 @@ onStart:
 
         Note: We recommend waiting for the 'ready-for-human' label before leaving review comments. Comments added while the system is actively working may be associated with outdated commits once a new commit is pushed, causing them to be ignored.
 runName: ci-15519-da3c705-1794526334
+recovered: true
 rule: ci
 recipe: care-ci
 apply: post-replies
