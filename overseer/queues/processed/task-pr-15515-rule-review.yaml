@@ -1,0 +1,32 @@
+type: pr-rule
+url: https://github.com/GoogleCloudPlatform/k8s-config-connector/pull/15515
+number: 15515
+priority: medium
+phase: 1
+createdAt: 2026-11-12T21:45:15Z
+enqueuedAt: 2026-11-12T22:58:15.613346586Z
+triggerEventTime: 2026-11-12T22:46:39Z
+triggerReason: PRReadyForReview
+triggerNotes: Automated review triggered; all CI checks passed at 2026-11-12T22:46:39Z for commit 5c66542 (committer date 2026-11-12T21:09:09Z)
+startedAt: 2026-11-12T22:58:41.095413728Z
+completedAt: 2026-11-12T23:29:45.858934327Z
+assignee: hopper-coder-bot
+status: Completed
+commitSHA: 5c665426c19f2d19fdb0fe1ef69c332db2fb085a
+instructions:
+    - Use `.gemini/skills/reviewgen-greenfield-new-types/SKILL.md` to conduct the review.
+    - '### KCC Greenfield Step 1 (Prepopulate) Auto-Review Results'
+    - '**Trigger criteria matched**: Yes'
+    - '**`generate.sh` & Flags Check**: Pass (uses `generate-types --prepopulate-resource --allow-non-declarative`, `generate-identity`, `generate-mapper --prepopulate-resource`, and no `--allow-non-ga-proto`)'
+    - '**Judgement Queue Open Check**: Pass (`apis/vectorsearch/judgement_queue.yaml` has `untriaged-bulk-generation` and related entries with `status: open`)'
+    - '**Mechanical Output & Idempotency**: Pass (`./apis/vectorsearch/generate.sh` produces zero diff on re-run and no manual edits were made to `<kind>_types.go`)'
+    - '**Release Bundle Blocklist (`BLOCKED_KINDS`)**: Pass (`"VectorSearchDataObject"` added alphabetically to `BLOCKED_KINDS` in `dev/tasks/build-release-bundle`)'
+    - '**Mapper Compilation & `apichecks`**: Pass (all packages build cleanly; unit tests and `tests/apichecks/...` pass)'
+    - An AI coding agent generated this pull request.
+    - "<sub>\U0001F916 [Agent session](https://staging.repoagent.dev/#/overseers/kcc/task-session/fix-k8s-config-connector-15504/recipe-fix-20261112-193550-3876)</sub>"
+onStart:
+    comment: AI Factory started reviewing this pull request in a sandbox.
+runName: review-15515-5c66542-1794524295
+rule: review
+recipe: review
+apply: submit-review
