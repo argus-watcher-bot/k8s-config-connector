@@ -1,0 +1,22 @@
+type: pr-rule
+url: https://github.com/GoogleCloudPlatform/k8s-config-connector/pull/15544
+number: 15544
+priority: medium
+phase: 1
+createdAt: 2026-11-13T01:32:54Z
+enqueuedAt: 2026-11-13T03:38:21.435307291Z
+triggerEventTime: 2026-11-13T03:35:40Z
+triggerReason: PRReadyForReview
+triggerNotes: Automated review triggered; all CI checks passed at 2026-11-13T03:35:40Z for commit 7a4b8b6 (committer date 2026-11-13T02:46:01Z)
+startedAt: 2026-11-13T03:38:46.772053324Z
+assignee: lovelace-coder-bot
+status: Running
+commitSHA: 7a4b8b6ca6ee8077469cf1dab242f478444a0265
+instructions:
+    - Verify the PR follows `.gemini/skills/add-missing-field/SKILL.md`.
+onStart:
+    comment: AI Factory started reviewing this pull request in a sandbox.
+runName: review-15544-7a4b8b6-1794541101
+rule: review
+recipe: review
+apply: submit-review

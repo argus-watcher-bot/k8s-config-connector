@@ -4,29 +4,20 @@ number: 15514
 priority: medium
 phase: 1
 createdAt: 2026-11-12T21:33:07Z
-enqueuedAt: 2026-11-12T22:34:21.146419529Z
-triggerEventTime: 2026-11-12T22:24:06Z
+enqueuedAt: 2026-11-13T01:08:20.33142337Z
+triggerEventTime: 2026-11-13T01:04:03Z
 triggerReason: PRReadyForReview
-triggerNotes: Automated review triggered; all CI checks passed at 2026-11-12T22:24:06Z for commit 536eee2 (committer date 2026-11-12T20:49:24Z)
-startedAt: 2026-11-12T22:34:52.944335688Z
-completedAt: 2026-11-12T23:05:25.117374773Z
+triggerNotes: Automated review triggered; all CI checks passed at 2026-11-13T01:04:03Z for commit 1208204 (committer date 2026-11-13T00:04:55Z)
+startedAt: 2026-11-13T01:08:35.222818768Z
+completedAt: 2026-11-13T01:34:34.989586699Z
 assignee: hopper-coder-bot
 status: Completed
-commitSHA: 536eee25a6edf3edf27cd66736dc33f1a74781e1
+commitSHA: 1208204de1cff857c8e563ed62fa7b6b7bf7a352
 instructions:
-    - Use `.gemini/skills/reviewgen-greenfield-new-types/SKILL.md` to conduct the review.
-    - '### KCC Greenfield Step 1 (Prepopulate) Auto-Review Results'
-    - '**Trigger criteria matched**: Yes'
-    - '**`generate.sh` & Flags Check**: Pass (uses `generate-types --prepopulate-resource --allow-non-declarative`, `generate-identity`, `generate-mapper --prepopulate-resource`, and no `--allow-non-ga-proto`)'
-    - '**Judgement Queue Open Check**: Pass (`apis/aiplatform/judgement_queue.yaml` has `untriaged-bulk-generation` and related entries with `status: open` and zero manual edits)'
-    - '**Mechanical Output & Idempotency**: Pass (`./apis/aiplatform/generate.sh` produces zero diff on re-run and `<kind>_types.go` was not hand-edited)'
-    - '**Release Bundle Blocklist (`BLOCKED_KINDS`)**: Pass (`"AIPlatformExecution"` added in alphabetical order to `BLOCKED_KINDS` in `dev/tasks/build-release-bundle`)'
-    - '**Mapper Compilation & `apichecks`**: Pass (all packages build cleanly; identity conformance tests, unit tests, and `tests/apichecks/...` pass)'
-    - An AI coding agent generated this pull request.
-    - "<sub>\U0001F916 [Agent session](https://staging.repoagent.dev/#/overseers/kcc/task-session/fix-k8s-config-connector-15503/recipe-fix-20261112-185733-2159)</sub>"
+    - Use .gemini/skills/reviewgen-greenfield-new-types/SKILL.md to conduct the review.
 onStart:
     comment: AI Factory started reviewing this pull request in a sandbox.
-runName: review-15514-536eee2-1794522861
+runName: review-15514-1208204-1794532100
 rule: review
 recipe: review
 apply: submit-review
