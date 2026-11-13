@@ -1,0 +1,24 @@
+type: pr-rule
+url: https://github.com/GoogleCloudPlatform/k8s-config-connector/pull/15562
+number: 15562
+priority: medium
+phase: 3
+createdAt: 2026-11-13T06:54:21Z
+enqueuedAt: 2026-11-13T15:22:23.789168363Z
+triggerEventTime: 2026-11-13T15:20:51Z
+triggerReason: PRCheckFailed
+triggerNotes: Earliest CI failure in 'golangci-lint' (failure) at 2026-11-13T15:20:51Z; total 1 failed check(s) on commit d9206d4
+startedAt: 2026-11-13T15:22:44.194985455Z
+completedAt: 2026-11-13T15:50:50.913200979Z
+assignee: ada-coder-bot
+status: Completed
+commitSHA: d9206d4ac89bb194c535042941969bf8d2cb3bff
+onStart:
+    comment: |-
+        AI Factory started investigating CI check failures for this pull request.
+
+        Note: We recommend waiting for the 'ready-for-human' label before leaving review comments. Comments added while the system is actively working may be associated with outdated commits once a new commit is pushed, causing them to be ignored.
+runName: ci-15562-d9206d4-1794583343
+rule: ci
+recipe: care-ci
+apply: post-replies
