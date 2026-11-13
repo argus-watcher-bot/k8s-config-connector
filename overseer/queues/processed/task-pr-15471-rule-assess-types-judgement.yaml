@@ -4,19 +4,19 @@ number: 15471
 priority: medium
 phase: 1
 createdAt: 2026-11-12T06:32:45Z
-enqueuedAt: 2026-11-13T07:58:15.964178258Z
-triggerEventTime: 2026-11-13T07:53:39Z
+enqueuedAt: 2026-11-13T18:33:18.037683076Z
+triggerEventTime: 2026-11-13T18:28:34Z
 triggerReason: RuleDecided
-triggerNotes: The assess-types-judgement rule decided to run on commit d1df3d0
-startedAt: 2026-11-13T07:58:22.947593136Z
-completedAt: 2026-11-13T09:01:59.725811606Z
+triggerNotes: The assess-types-judgement rule decided to run on commit a7b3b7f
+startedAt: 2026-11-13T18:33:51.931608009Z
+completedAt: 2026-11-13T18:39:23.102005862Z
 assignee: ada-coder-bot
 status: Completed
-commitSHA: d1df3d074825a0a06006b36ddc7d8c89cde0fcd8
+commitSHA: a7b3b7f06a275dbd3f17707bf98d865dae48d8d3
 onStart:
     unlabel:
         - overseer/assessment/fair
-runName: assess-types-judgement-15471-d1df3d0-1794556695
+runName: assess-types-judgement-15471-a7b3b7f-1794594798
 rule: assess-types-judgement
 recipe: assess-types-judgement
 apply: comment,label
