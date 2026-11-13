@@ -10,12 +10,13 @@ triggerReason: IssueLabeled
 triggerNotes: 'Issue #15524 created at 2026-11-12T23:52:47Z; trigger label ''overseer'' added by argus-watcher-bot at 2026-11-12T23:52:48Z'
 startedAt: 2026-11-12T23:54:12.342854266Z
 assignee: lovelace-coder-bot
-status: Running
+status: Pending
 onStart:
     assign:
         - '{{bot}}'
     comment: AI Factory started fixing this issue in a sandbox.
 runName: fix-15524-head-1794527634
+recovered: true
 rule: fix
 recipe: fix
 apply: open-pr
