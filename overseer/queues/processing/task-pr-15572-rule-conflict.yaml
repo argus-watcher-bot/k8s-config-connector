@@ -1,0 +1,23 @@
+type: pr-rule
+url: https://github.com/GoogleCloudPlatform/k8s-config-connector/pull/15572
+number: 15572
+priority: medium
+phase: 2
+createdAt: 2026-11-13T09:49:33Z
+enqueuedAt: 2026-11-13T09:52:15.489524202Z
+triggerEventTime: 2026-11-13T08:55:11Z
+triggerReason: PRMergeConflict
+triggerNotes: 'PR #15572 has merge conflicts with base branch ''master''; head commit 34915cd committer date 2026-11-13T08:55:11Z, PR updated at 2026-11-13T09:49:54Z'
+startedAt: 2026-11-13T09:52:38.794635921Z
+assignee: hopper-coder-bot
+status: Running
+commitSHA: 34915cd96ff73fea1fca5b709fc0b55bba5150ea
+onStart:
+    comment: |-
+        AI Factory started resolving merge conflicts / rebasing this pull request in a sandbox.
+
+        Note: We recommend waiting for the 'ready-for-human' label before leaving review comments. Comments added while the system is actively working may be associated with outdated commits once a new commit is pushed, causing them to be ignored.
+runName: conflict-15572-34915cd-1794563535
+rule: conflict
+recipe: care-rebase
+apply: post-replies

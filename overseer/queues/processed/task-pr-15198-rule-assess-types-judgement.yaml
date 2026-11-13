@@ -4,19 +4,19 @@ number: 15198
 priority: medium
 phase: 1
 createdAt: 2026-11-07T00:24:04Z
-enqueuedAt: 2026-11-13T03:38:08.064740363Z
-triggerEventTime: 2026-11-13T03:31:06Z
+enqueuedAt: 2026-11-13T07:46:16.455842838Z
+triggerEventTime: 2026-11-13T07:42:58Z
 triggerReason: RuleDecided
-triggerNotes: The assess-types-judgement rule decided to run on commit 751a50d
-startedAt: 2026-11-13T03:38:39.990942761Z
-completedAt: 2026-11-13T04:06:07.177468878Z
+triggerNotes: The assess-types-judgement rule decided to run on commit 1e5c220
+startedAt: 2026-11-13T07:46:49.005367362Z
+completedAt: 2026-11-13T09:23:05.658437631Z
 assignee: hopper-coder-bot
 status: Completed
-commitSHA: 751a50d6fc4c8a636c71066c6249ea70de049a69
+commitSHA: 1e5c220fd79f6a0d39635ece97165c4e392ec81a
 onStart:
     unlabel:
         - overseer/assessment/good
-runName: assess-types-judgement-15198-751a50d-1794541088
+runName: assess-types-judgement-15198-1e5c220-1794555976
 rule: assess-types-judgement
 recipe: assess-types-judgement
 apply: comment,label
