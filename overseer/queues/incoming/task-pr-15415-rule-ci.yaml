@@ -10,7 +10,7 @@ triggerReason: PRCheckFailed
 triggerNotes: Earliest CI failure in 'validate-ensure' (failure) at 2026-11-13T13:18:44Z; total 17 failed check(s) on commit e611380
 startedAt: 2026-11-13T14:02:46.664793611Z
 assignee: neumann-coder-bot
-status: Running
+status: Pending
 commitSHA: e611380775ecd45f6f15cda9b4236bb057430763
 onStart:
     comment: |-
@@ -18,6 +18,7 @@ onStart:
 
         Note: We recommend waiting for the 'ready-for-human' label before leaving review comments. Comments added while the system is actively working may be associated with outdated commits once a new commit is pushed, causing them to be ignored.
 runName: ci-15415-e611380-1794578557
+recovered: true
 rule: ci
 recipe: care-ci
 apply: post-replies
