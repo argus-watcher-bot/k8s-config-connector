@@ -1,0 +1,23 @@
+type: pr-rule
+url: https://github.com/GoogleCloudPlatform/k8s-config-connector/pull/15570
+number: 15570
+priority: medium
+phase: 1
+createdAt: 2026-11-13T08:34:06Z
+enqueuedAt: 2026-11-13T11:18:33.397671012Z
+triggerEventTime: 2026-11-13T11:07:20Z
+triggerReason: PRReadyForReview
+triggerNotes: Automated review triggered; all CI checks passed at 2026-11-13T11:07:20Z for commit a55f2db (committer date 2026-11-13T10:17:37Z)
+startedAt: 2026-11-13T11:19:08.00022854Z
+completedAt: 2026-11-13T12:26:28.19993409Z
+assignee: lovelace-coder-bot
+status: Completed
+commitSHA: a55f2db415551a883a6238438097e007cfd6d4a0
+instructions:
+    - Use .gemini/skills/reviewgen-greenfield-controller/SKILL.md to conduct the review.
+onStart:
+    comment: AI Factory started reviewing this pull request in a sandbox.
+runName: review-15570-a55f2db-1794568713
+rule: review
+recipe: review
+apply: submit-review
