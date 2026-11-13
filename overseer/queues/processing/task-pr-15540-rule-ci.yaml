@@ -4,20 +4,20 @@ number: 15540
 priority: medium
 phase: 3
 createdAt: 2026-11-13T01:11:11Z
-enqueuedAt: 2026-11-13T08:08:20.716110219Z
-triggerEventTime: 2026-11-13T08:02:02Z
+enqueuedAt: 2026-11-13T12:49:42.071604888Z
+triggerEventTime: 2026-11-13T12:39:55Z
 triggerReason: PRCheckFailed
-triggerNotes: Earliest CI failure in 'test-fuzz-random-mappers' (failure) at 2026-11-13T08:02:02Z; total 4 failed check(s) on commit 188faa0
-startedAt: 2026-11-13T08:08:31.645661863Z
+triggerNotes: Earliest CI failure in 'fuzz-roundtrippers-3-of-8' (failure) at 2026-11-13T12:39:55Z; total 2 failed check(s) on commit 4fc61f1
+startedAt: 2026-11-13T12:49:55.080818285Z
 assignee: lovelace-coder-bot
 status: Running
-commitSHA: 188faa03bb79275a0db02a34e3844da5bf5dfd3d
+commitSHA: 4fc61f15d3ccaa56f0f460ed9208ef55bf447446
 onStart:
     comment: |-
         AI Factory started investigating CI check failures for this pull request.
 
         Note: We recommend waiting for the 'ready-for-human' label before leaving review comments. Comments added while the system is actively working may be associated with outdated commits once a new commit is pushed, causing them to be ignored.
-runName: ci-15540-188faa0-1794557300
+runName: ci-15540-4fc61f1-1794574182
 rule: ci
 recipe: care-ci
 apply: post-replies
