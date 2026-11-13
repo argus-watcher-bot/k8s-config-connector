@@ -4,20 +4,21 @@ number: 15551
 priority: medium
 phase: 3
 createdAt: 2026-11-13T02:51:38Z
-enqueuedAt: 2026-11-13T03:04:08.273768602Z
-triggerEventTime: 2026-11-13T02:54:05Z
+enqueuedAt: 2026-11-13T04:36:26.751551576Z
+triggerEventTime: 2026-11-13T04:28:15Z
 triggerReason: PRCheckFailed
-triggerNotes: Earliest CI failure in 'validate-ensure' (failure) at 2026-11-13T02:54:05Z; total 4 failed check(s) on commit a350ec7
-startedAt: 2026-11-13T03:04:24.408337939Z
+triggerNotes: Earliest CI failure in 'tests-e2e-fixtures-vpcaccess' (failure) at 2026-11-13T04:28:15Z; total 18 failed check(s) on commit 884eef7
+startedAt: 2026-11-13T04:36:43.792779473Z
+completedAt: 2026-11-13T06:41:18.007038318Z
 assignee: ada-coder-bot
-status: Running
-commitSHA: a350ec7f717bbc73a68246b13f5af0414ccf824a
+status: Completed
+commitSHA: 884eef73d9536887236e19c1015c0f3e7fceeb40
 onStart:
     comment: |-
         AI Factory started investigating CI check failures for this pull request.
 
         Note: We recommend waiting for the 'ready-for-human' label before leaving review comments. Comments added while the system is actively working may be associated with outdated commits once a new commit is pushed, causing them to be ignored.
-runName: ci-15551-a350ec7-1794539048
+runName: ci-15551-884eef7-1794544586
 rule: ci
 recipe: care-ci
 apply: post-replies

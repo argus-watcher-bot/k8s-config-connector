@@ -1,0 +1,25 @@
+type: pr-rule
+url: https://github.com/GoogleCloudPlatform/k8s-config-connector/pull/15548
+number: 15548
+priority: medium
+phase: 1
+createdAt: 2026-11-13T02:39:54Z
+enqueuedAt: 2026-11-13T06:50:29.74963819Z
+triggerEventTime: 2026-11-13T06:43:23Z
+triggerReason: RuleDecided
+triggerNotes: The merge-types-judgement rule decided to run on commit c24f473
+startedAt: 2026-11-13T06:50:45.592464514Z
+completedAt: 2026-11-13T06:57:04.112776209Z
+assignee: neumann-coder-bot
+status: Failed
+error: 'exit status 1: running recipe: task failed with exit code 1'
+commitSHA: c24f47356d0e3e09983c34a5695054c027727bfe
+runName: merge-types-judgement-15548-c24f473-1794552629
+rule: merge-types-judgement
+recipe: merge
+inputs:
+    message: |
+        /lgtm
+        /approve
+
+        Approved for merge by the overseer: this Step 1b PR meets the criteria for approval - assess-types-judgement graded it good, its checks are green, and it is mergeable.
