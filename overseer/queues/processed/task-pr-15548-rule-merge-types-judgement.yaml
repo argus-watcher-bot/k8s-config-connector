@@ -4,17 +4,16 @@ number: 15548
 priority: medium
 phase: 1
 createdAt: 2026-11-13T02:39:54Z
-enqueuedAt: 2026-11-13T06:50:29.74963819Z
-triggerEventTime: 2026-11-13T06:43:23Z
+enqueuedAt: 2026-11-13T22:39:58.999213024Z
+triggerEventTime: 2026-11-13T22:13:49Z
 triggerReason: RuleDecided
-triggerNotes: The merge-types-judgement rule decided to run on commit c24f473
-startedAt: 2026-11-13T06:50:45.592464514Z
-completedAt: 2026-11-13T06:57:04.112776209Z
+triggerNotes: The merge-types-judgement rule decided to run on commit c01dadf
+startedAt: 2026-11-13T22:40:07.529230327Z
+completedAt: 2026-11-13T22:40:50.469463937Z
 assignee: neumann-coder-bot
-status: Failed
-error: 'exit status 1: running recipe: task failed with exit code 1'
-commitSHA: c24f47356d0e3e09983c34a5695054c027727bfe
-runName: merge-types-judgement-15548-c24f473-1794552629
+status: Completed
+commitSHA: c01dadf49fd19491a8a21c50083299885ab20c7a
+runName: merge-types-judgement-15548-c01dadf-1794609598
 rule: merge-types-judgement
 recipe: merge
 inputs:
