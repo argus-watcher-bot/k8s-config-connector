@@ -1,0 +1,23 @@
+type: pr-rule
+url: https://github.com/GoogleCloudPlatform/k8s-config-connector/pull/15626
+number: 15626
+priority: medium
+phase: 1
+createdAt: 2026-11-14T03:42:14Z
+enqueuedAt: 2026-11-14T04:48:36.806912787Z
+triggerEventTime: 2026-11-14T04:46:12Z
+triggerReason: PRReadyForReview
+triggerNotes: Automated review triggered; all CI checks passed at 2026-11-14T04:46:12Z for commit ebabf61 (committer date 2026-11-14T03:54:24Z)
+startedAt: 2026-11-14T04:48:41.464859578Z
+completedAt: 2026-11-14T05:07:54.743440656Z
+assignee: neumann-coder-bot
+status: Completed
+commitSHA: ebabf61b130e3346dd6701eb0cb4cd1fef580caa
+instructions:
+    - Use .gemini/skills/reviewgen-greenfield-controller/SKILL.md to conduct the review.
+onStart:
+    comment: AI Factory started reviewing this pull request in a sandbox.
+runName: review-15626-ebabf61-1794631716
+rule: review
+recipe: review
+apply: submit-review
