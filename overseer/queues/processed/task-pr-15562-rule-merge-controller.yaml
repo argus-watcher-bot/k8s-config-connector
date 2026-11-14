@@ -4,16 +4,17 @@ number: 15562
 priority: medium
 phase: 1
 createdAt: 2026-11-13T06:54:21Z
-enqueuedAt: 2026-11-13T22:39:49.339405538Z
-triggerEventTime: 2026-11-13T22:30:02Z
+enqueuedAt: 2026-11-14T00:59:47.960999028Z
+triggerEventTime: 2026-11-14T00:53:51Z
 triggerReason: RuleDecided
-triggerNotes: The merge-controller rule decided to run on commit 1f226e7
-startedAt: 2026-11-13T22:39:57.654858817Z
-completedAt: 2026-11-13T22:44:49.987767689Z
-assignee: ada-coder-bot
-status: Completed
-commitSHA: 1f226e708b6029718d128133c3ff871ddeeea168
-runName: merge-controller-15562-1f226e7-1794609589
+triggerNotes: The merge-controller rule decided to run on commit 06c1130
+startedAt: 2026-11-14T01:00:19.717984048Z
+completedAt: 2026-11-14T01:03:03.915653569Z
+assignee: factorybot-robot
+status: Failed
+error: 'exit status 1: running recipe: task failed with exit code 1'
+commitSHA: 06c1130da5ac391376eb5ad15eb151608cd04d35
+runName: merge-controller-15562-06c1130-1794617987
 rule: merge-controller
 recipe: merge
 inputs:

@@ -1,0 +1,23 @@
+type: pr-rule
+url: https://github.com/GoogleCloudPlatform/k8s-config-connector/pull/15606
+number: 15606
+priority: medium
+phase: 1
+createdAt: 2026-11-13T20:57:03Z
+enqueuedAt: 2026-11-14T01:29:58.438757218Z
+triggerEventTime: 2026-11-14T01:20:25Z
+triggerReason: PRCommentsAdded
+triggerNotes: Retrying the failed address-comments task (retry 1) on commit 23a11a0
+startedAt: 2026-11-14T01:30:31.043435607Z
+completedAt: 2026-11-14T01:31:06.373862612Z
+assignee: lovelace-coder-bot
+status: Completed
+commitSHA: 23a11a02f902972f334fe6430ab8cfce591762ef
+retryCount: 1
+acknowledge: feedback
+onStart:
+    comment: AI Factory started addressing review feedback for this pull request.
+runName: comments-15606-23a11a0-1794619798
+rule: comments
+recipe: care-comments
+apply: post-replies
