@@ -4,21 +4,21 @@ number: 15479
 priority: medium
 phase: 3
 createdAt: 2026-11-12T08:10:37Z
-enqueuedAt: 2026-11-13T19:17:23.995321014Z
-triggerEventTime: 2026-11-13T19:07:55Z
+enqueuedAt: 2026-11-13T23:50:02.710889116Z
+triggerEventTime: 2026-11-13T23:44:02Z
 triggerReason: PRCheckFailed
-triggerNotes: Earliest CI failure in 'tests-preview' (failure) at 2026-11-13T19:07:55Z; total 1 failed check(s) on commit 2127d67
-startedAt: 2026-11-13T19:17:40.027190614Z
-completedAt: 2026-11-13T19:34:06.902283319Z
+triggerNotes: Earliest CI failure in 'tests-preview' (failure) at 2026-11-13T23:44:02Z; total 1 failed check(s) on commit 1680ef5
+startedAt: 2026-11-13T23:50:30.80830539Z
+completedAt: 2026-11-13T23:58:08.993901311Z
 assignee: ada-coder-bot
 status: Completed
-commitSHA: 2127d670390e4172cda9b68f44e375fe8083ccd3
+commitSHA: 1680ef5ba01d8b2595a666f3bd8377c1e42ccb61
 onStart:
     comment: |-
         AI Factory started investigating CI check failures for this pull request.
 
         Note: We recommend waiting for the 'ready-for-human' label before leaving review comments. Comments added while the system is actively working may be associated with outdated commits once a new commit is pushed, causing them to be ignored.
-runName: ci-15479-2127d67-1794597443
+runName: ci-15479-1680ef5-1794613802
 rule: ci
 recipe: care-ci
 apply: post-replies

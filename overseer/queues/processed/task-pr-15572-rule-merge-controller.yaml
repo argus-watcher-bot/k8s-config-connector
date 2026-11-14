@@ -4,16 +4,16 @@ number: 15572
 priority: medium
 phase: 1
 createdAt: 2026-11-13T09:49:33Z
-enqueuedAt: 2026-11-13T22:39:51.522890593Z
-triggerEventTime: 2026-11-13T22:29:52Z
+enqueuedAt: 2026-11-14T00:21:48.8763047Z
+triggerEventTime: 2026-11-13T23:33:54Z
 triggerReason: RuleDecided
-triggerNotes: The merge-controller rule decided to run on commit 614d990
-startedAt: 2026-11-13T22:40:02.746220448Z
-completedAt: 2026-11-13T22:46:00.161071075Z
-assignee: hopper-coder-bot
+triggerNotes: The merge-controller rule decided to run on commit 1ddbcbb
+startedAt: 2026-11-14T00:22:01.622658002Z
+completedAt: 2026-11-14T00:22:59.68543106Z
+assignee: factorybot-robot
 status: Completed
-commitSHA: 614d990fd0ded9aed2ae17b4f912e8ee5f9f5e98
-runName: merge-controller-15572-614d990-1794609591
+commitSHA: 1ddbcbb44f6c5e5dce4b79f9ce6fe840f0e026e9
+runName: merge-controller-15572-1ddbcbb-1794615708
 rule: merge-controller
 recipe: merge
 inputs:
