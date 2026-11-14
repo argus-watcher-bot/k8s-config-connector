@@ -1,0 +1,26 @@
+type: issue-rule
+url: https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/15677
+number: 15677
+priority: medium
+phase: 3
+createdAt: 2026-11-14T13:30:41Z
+enqueuedAt: 2026-11-14T14:44:11.070947941Z
+triggerEventTime: 2026-11-14T13:30:42Z
+triggerReason: IssueLabeled
+triggerNotes: 'Issue #15677 created at 2026-11-14T13:30:41Z; trigger label ''overseer'' added by argus-watcher-bot at 2026-11-14T13:30:42Z'
+startedAt: 2026-11-14T14:44:35.984661964Z
+completedAt: 2026-11-14T14:44:38.65880575Z
+assignee: neumann-coder-bot
+status: Failed
+error: 'exit status 1: sandbox fix-k8s-config-connector-15642 is busy: task recipe-care-rebase-20261114-143255-ec65 is running; try again when it is done (factory sandbox task list fix-k8s-config-connector-15642 -n overseer-kcc)'
+onStart:
+    assign:
+        - '{{bot}}'
+    comment: AI Factory started fixing this issue in a sandbox.
+runName: fix-15677-head-1794667451
+rule: fix
+recipe: fix
+apply: open-pr
+inputs:
+    draft: "false"
+prLabels: true
