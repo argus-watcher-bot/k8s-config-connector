@@ -4,20 +4,19 @@ number: 15657
 priority: medium
 phase: 3
 createdAt: 2026-11-14T07:54:16Z
-enqueuedAt: 2026-11-14T07:55:52.409237798Z
+enqueuedAt: 2026-11-14T08:17:36.662560759Z
 triggerEventTime: 2026-11-14T07:54:18Z
 triggerReason: IssueLabeled
 triggerNotes: 'Issue #15657 created at 2026-11-14T07:54:16Z; trigger label ''overseer'' added by argus-watcher-bot at 2026-11-14T07:54:18Z'
-startedAt: 2026-11-14T07:56:18.154837685Z
-completedAt: 2026-11-14T07:56:46.156402009Z
+startedAt: 2026-11-14T08:17:46.575401473Z
+completedAt: 2026-11-14T10:05:52.012756786Z
 assignee: neumann-coder-bot
-status: Failed
-error: 'exit status 1: running recipe: task failed with exit code 137'
+status: Completed
 onStart:
     assign:
         - '{{bot}}'
     comment: AI Factory started fixing this issue in a sandbox.
-runName: fix-15657-head-1794642952
+runName: fix-15657-head-1794644256
 rule: fix
 recipe: fix
 apply: open-pr
