@@ -4,30 +4,20 @@ number: 15670
 priority: medium
 phase: 1
 createdAt: 2026-11-14T12:05:28Z
-enqueuedAt: 2026-11-14T14:52:25.067459623Z
-triggerEventTime: 2026-11-14T14:48:22Z
+enqueuedAt: 2026-11-14T20:46:16.529910614Z
+triggerEventTime: 2026-11-14T20:36:39Z
 triggerReason: PRReadyForReview
-triggerNotes: Automated review triggered; all CI checks passed at 2026-11-14T14:48:22Z for commit de4ad23 (committer date 2026-11-14T14:03:42Z)
-startedAt: 2026-11-14T14:52:53.525427312Z
-completedAt: 2026-11-14T15:11:39.981736704Z
+triggerNotes: Automated review triggered; all CI checks passed at 2026-11-14T20:36:39Z for commit 4443616 (committer date 2026-11-14T19:32:59Z)
+startedAt: 2026-11-14T20:46:35.771539117Z
+completedAt: 2026-11-14T21:01:13.642486522Z
 assignee: hopper-coder-bot
 status: Completed
-commitSHA: de4ad2301c4925003ff498487bfcdd4f29702bca
+commitSHA: 444361608e2885a5154a2e17a2c5fd41d267fe46
 instructions:
-    - Use `.gemini/skills/reviewgen-greenfield-controller/SKILL.md` to conduct the review.
-    - '### KCC Greenfield Controller Auto-Review Results'
-    - '**Trigger criteria matched**: Yes'
-    - '**Post-Judgement, One-Shot Generation, & `static_config.go`**: Pass - (`judgement_queue.yaml` entries resolved in prior PR, `generate.sh` does not invoke `generate-controller` or `generate-fuzzer`, files have `+generated:controller` / `+generated:fuzzer`, `static_config.go` updated, and `ComputeStoragePool` remains in `BLOCKED_KINDS`)'
-    - '**Client Creation & Reference Normalization**: Pass - (GAPIC REST client `gcp.NewStoragePoolsRESTClient` with RESTClientOptions and `common.NormalizeGreenfieldReferences` called first in `AdapterForObject`)'
-    - '**CompareGreenfieldSpec & Structured Reporting**: Pass - (`common.CompareGreenfieldSpec` with `normalize` callback and `structuredreporting.ReportDiff` used in `Update`)'
-    - '**LRO Wait & Mandatory Status Updates**: Pass - (`op.Wait(ctx)` on Create/Update/Delete and `setStatus` on all paths)'
-    - '**Fuzzer & Real-GCP Test Coverage**: Pass - (`computestoragepool_fuzzer.generated.go` passes 200 seeds, minimal and maximal fixtures recorded against real GCP with `RECORD_AUDIT_PROBE=1 ./hack/record-gcp` passing all 7/7 validation checks, and ratcheting re-reconciliation enabled)'
-    - '#### Detailed Findings / Actions Required:'
-    - None. All Greenfield Step 2 criteria and invariants are satisfied.
-    - "<sub>\U0001F916 [Agent session](https://staging.repoagent.dev/#/overseers/kcc/task-session/fix-k8s-config-connector-15668/recipe-fix-20261114-102009-3f33)</sub>"
+    - Use .gemini/skills/reviewgen-greenfield-mockgcp/SKILL.md to conduct the review.
 onStart:
     comment: AI Factory started reviewing this pull request in a sandbox.
-runName: review-15670-de4ad23-1794667945
+runName: review-15670-4443616-1794689176
 rule: review
 recipe: review
 apply: submit-review
