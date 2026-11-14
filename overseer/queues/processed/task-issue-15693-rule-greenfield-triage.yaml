@@ -1,0 +1,24 @@
+type: issue-rule
+url: https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/15693
+number: 15693
+priority: medium
+phase: 3
+createdAt: 2026-11-14T19:55:59Z
+enqueuedAt: 2026-11-14T19:57:56.430264565Z
+triggerEventTime: 2026-11-14T19:56:00Z
+triggerReason: IssueLabeled
+triggerNotes: 'Issue #15693 created at 2026-11-14T19:55:59Z; trigger label ''overseer'' added by argus-watcher-bot at 2026-11-14T19:56:00Z'
+startedAt: 2026-11-14T19:58:06.253080316Z
+completedAt: 2026-11-14T20:08:00.503343372Z
+assignee: lovelace-coder-bot
+status: Completed
+onSuccess:
+    label:
+        - overseer/triaged
+    unlabel:
+        - overseer/triage
+        - overseer
+runName: greenfield-triage-15693-head-1794686276
+rule: greenfield-triage
+recipe: greenfield-triage
+apply: comment,label
