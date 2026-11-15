@@ -9,8 +9,9 @@ triggerEventTime: 2026-11-15T03:47:46Z
 triggerReason: IssueLabeled
 triggerNotes: 'Issue #15725 created at 2026-11-15T03:47:45Z; trigger label ''overseer'' added by argus-watcher-bot at 2026-11-15T03:47:46Z'
 startedAt: 2026-11-15T03:48:45.059320318Z
+completedAt: 2026-11-15T04:00:44.675099295Z
 assignee: lovelace-coder-bot
-status: Running
+status: Completed
 onSuccess:
     label:
         - overseer/triaged
