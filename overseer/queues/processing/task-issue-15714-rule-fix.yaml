@@ -4,18 +4,18 @@ number: 15714
 priority: medium
 phase: 3
 createdAt: 2026-11-15T01:12:50Z
-enqueuedAt: 2026-11-15T01:14:49.502120545Z
+enqueuedAt: 2026-11-15T11:12:12.006983047Z
 triggerEventTime: 2026-11-15T01:12:52Z
 triggerReason: IssueLabeled
 triggerNotes: 'Issue #15714 created at 2026-11-15T01:12:50Z; trigger label ''overseer'' added by argus-watcher-bot at 2026-11-15T01:12:52Z'
-startedAt: 2026-11-15T01:14:57.812348466Z
+startedAt: 2026-11-15T11:12:22.284033609Z
 assignee: neumann-coder-bot
 status: Running
 onStart:
     assign:
         - '{{bot}}'
     comment: AI Factory started fixing this issue in a sandbox.
-runName: fix-15714-head-1794705289
+runName: fix-15714-head-1794741132
 rule: fix
 recipe: fix
 apply: open-pr
