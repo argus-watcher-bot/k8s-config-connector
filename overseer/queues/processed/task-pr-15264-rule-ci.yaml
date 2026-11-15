@@ -4,21 +4,21 @@ number: 15264
 priority: medium
 phase: 3
 createdAt: 2026-11-09T23:54:42Z
-enqueuedAt: 2026-11-11T12:56:19.175332079Z
-triggerEventTime: 2026-11-11T12:54:22Z
+enqueuedAt: 2026-11-15T16:31:10.00045392Z
+triggerEventTime: 2026-11-15T16:21:10Z
 triggerReason: PRCheckFailed
-triggerNotes: Earliest CI failure in 'tests-e2e-fixtures-dataplex' (failure) at 2026-11-11T12:54:22Z; total 1 failed check(s) on commit 5cd75ad
-startedAt: 2026-11-11T12:56:50.248053739Z
-completedAt: 2026-11-11T13:12:00.25345276Z
+triggerNotes: Earliest CI failure in 'tests-e2e-fixtures-dataplex' (failure) at 2026-11-15T16:21:10Z; total 5 failed check(s) on commit 5d1b213
+startedAt: 2026-11-15T16:31:42.476831274Z
+completedAt: 2026-11-15T16:58:10.758955826Z
 assignee: neumann-coder-bot
 status: Completed
-commitSHA: 5cd75adc31b0000c0d388544334cfa7721d92288
+commitSHA: 5d1b21363f96cebb17d01e808ed817ad9127271b
 onStart:
     comment: |-
         AI Factory started investigating CI check failures for this pull request.
 
         Note: We recommend waiting for the 'ready-for-human' label before leaving review comments. Comments added while the system is actively working may be associated with outdated commits once a new commit is pushed, causing them to be ignored.
-runName: ci-15264-5cd75ad-1794401779
+runName: ci-15264-5d1b213-1794760270
 rule: ci
 recipe: care-ci
 apply: post-replies
