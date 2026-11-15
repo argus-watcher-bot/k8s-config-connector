@@ -4,12 +4,12 @@ number: 15686
 priority: medium
 phase: 3
 createdAt: 2026-11-14T17:18:09Z
-enqueuedAt: 2026-11-14T17:20:16.359196372Z
-triggerEventTime: 2026-11-14T17:18:11Z
+enqueuedAt: 2026-11-15T14:34:41.872360936Z
+triggerEventTime: 2026-11-15T14:34:23Z
 triggerReason: IssueLabeled
-triggerNotes: 'Issue #15686 created at 2026-11-14T17:18:09Z; trigger label ''overseer'' added by argus-watcher-bot at 2026-11-14T17:18:11Z'
-startedAt: 2026-11-14T17:20:44.533736337Z
-completedAt: 2026-11-14T17:33:54.939506697Z
+triggerNotes: 'Issue #15686 created at 2026-11-14T17:18:09Z; trigger label ''overseer'' added by argus-watcher-bot at 2026-11-15T14:34:23Z'
+startedAt: 2026-11-15T14:35:00.866236932Z
+completedAt: 2026-11-15T14:40:34.273827185Z
 assignee: hopper-coder-bot
 status: Completed
 onSuccess:
@@ -18,7 +18,7 @@ onSuccess:
     unlabel:
         - overseer/triage
         - overseer
-runName: greenfield-triage-15686-head-1794676816
+runName: greenfield-triage-15686-head-1794753281
 rule: greenfield-triage
 recipe: greenfield-triage
 apply: comment,label

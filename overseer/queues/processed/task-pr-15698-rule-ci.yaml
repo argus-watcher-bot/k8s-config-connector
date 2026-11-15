@@ -4,21 +4,21 @@ number: 15698
 priority: medium
 phase: 3
 createdAt: 2026-11-14T21:11:52Z
-enqueuedAt: 2026-11-14T23:36:45.983556353Z
-triggerEventTime: 2026-11-14T23:36:05Z
+enqueuedAt: 2026-11-15T14:04:41.992113731Z
+triggerEventTime: 2026-11-15T13:54:51Z
 triggerReason: PRCheckFailed
-triggerNotes: Earliest CI failure in 'unit-tests-1-of-4' (failure) at 2026-11-14T23:36:05Z; total 1 failed check(s) on commit 7333f2a
-startedAt: 2026-11-14T23:37:02.907490256Z
-completedAt: 2026-11-14T23:51:21.790411714Z
+triggerNotes: Earliest CI failure in 'unit-tests-3-of-4' (failure) at 2026-11-15T13:54:51Z; total 2 failed check(s) on commit 9abc704
+startedAt: 2026-11-15T14:04:50.938166897Z
+completedAt: 2026-11-15T14:10:39.685404796Z
 assignee: neumann-coder-bot
 status: Completed
-commitSHA: 7333f2a9fcca8c1480324f67fcf1b59291b8d3b0
+commitSHA: 9abc7048d09d15c25e7715252c0f18b55a5c66f2
 onStart:
     comment: |-
         AI Factory started investigating CI check failures for this pull request.
 
         Note: We recommend waiting for the 'ready-for-human' label before leaving review comments. Comments added while the system is actively working may be associated with outdated commits once a new commit is pushed, causing them to be ignored.
-runName: ci-15698-7333f2a-1794699405
+runName: ci-15698-9abc704-1794751481
 rule: ci
 recipe: care-ci
 apply: post-replies

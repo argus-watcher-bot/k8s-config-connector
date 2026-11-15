@@ -1,0 +1,24 @@
+type: pr-rule
+url: https://github.com/GoogleCloudPlatform/k8s-config-connector/pull/15732
+number: 15732
+priority: medium
+phase: 1
+createdAt: 2026-11-15T04:13:55Z
+enqueuedAt: 2026-11-15T13:54:42.601400551Z
+triggerEventTime: 2026-11-15T13:44:43Z
+triggerReason: RuleDecided
+triggerNotes: The merge-controller rule decided to run on commit afa7ad4
+startedAt: 2026-11-15T13:55:01.096313188Z
+completedAt: 2026-11-15T13:56:25.560650355Z
+assignee: lovelace-coder-bot
+status: Completed
+commitSHA: afa7ad4ec5d33df57d901c2eca971ecbdff665f2
+runName: merge-controller-15732-afa7ad4-1794750882
+rule: merge-controller
+recipe: merge
+inputs:
+    message: |
+        /lgtm
+        /approve
+
+        Approved for merge by the overseer: this controller PR meets the criteria for approval - assess-controller-step graded its real-GCP evidence good, its checks are green, and it is mergeable.
