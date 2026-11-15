@@ -1,0 +1,19 @@
+type: pr-rule
+url: https://github.com/GoogleCloudPlatform/k8s-config-connector/pull/15739
+number: 15739
+priority: medium
+phase: 1
+createdAt: 2026-11-15T05:40:15Z
+enqueuedAt: 2026-11-15T07:09:28.83343196Z
+triggerEventTime: 2026-11-15T06:53:31Z
+triggerReason: RuleDecided
+triggerNotes: The assess-controller-step rule decided to run on commit f9b4cd6
+startedAt: 2026-11-15T07:10:02.351230497Z
+completedAt: 2026-11-15T07:17:25.210255734Z
+assignee: ada-coder-bot
+status: Completed
+commitSHA: f9b4cd6ee9c92f7bfdf3b2df5b492e136a1450df
+runName: assess-controller-step-15739-f9b4cd6-1794726568
+rule: assess-controller-step
+recipe: assess-controller
+apply: comment,label
