@@ -1,0 +1,33 @@
+type: pr-rule
+url: https://github.com/GoogleCloudPlatform/k8s-config-connector/pull/15716
+number: 15716
+priority: medium
+phase: 1
+createdAt: 2026-11-15T01:55:50Z
+enqueuedAt: 2026-11-15T02:44:55.79800993Z
+triggerEventTime: 2026-11-15T02:44:14Z
+triggerReason: PRReadyForReview
+triggerNotes: Automated review triggered; all CI checks passed at 2026-11-15T02:44:14Z for commit f8d75a5 (committer date 2026-11-15T01:50:03Z)
+startedAt: 2026-11-15T02:45:27.506420802Z
+completedAt: 2026-11-15T02:57:50.716212536Z
+assignee: hopper-coder-bot
+status: Completed
+commitSHA: f8d75a5b94b75453fa153a1ad0ed15c588259eae
+instructions:
+    - Use .gemini/skills/reviewgen-greenfield-new-types/SKILL.md to conduct the review.
+    - '### KCC Greenfield Step 2 (Judgement Queue) Auto-Review Results'
+    - '**Trigger criteria matched**: Yes'
+    - '**Judgement Queue Completeness**: Pass - (`untriaged-bulk-generation` and all 4 actionable entries for `MigrationCenterReportConfig` are resolved with explanatory notes, no entries were deleted, and no leftover `+kcc:guess` markers remain)'
+    - '**Queue Resolution Accuracy**: Pass - (`location-or-parent-ref` resolved via inlined `*parent.ProjectAndLocationRef`; `identity-server-generated-id` accepted citing `CreateReportConfigRequest` specifies `report_config_id`; `authoritative-proto-reference` entries for `group` and `preferenceSet` resolved by converting to `GroupRef` and `PreferenceSetRef`)'
+    - '**Parent, Identity & References**: Pass - (Parent hierarchy modeled as inlined `*parent.ProjectAndLocationRef`, identity generated from parent and resourceID, Identity conformance tests pass)'
+    - '**Unflagged Proto-vs-KRM Audit & Struct Isolation**: Pass - (All fields audited against proto, isolated `ReportConfig_GroupPreferenceSetAssignment` with `// +kcc:proto=`)'
+    - '**Generated Files, Pre-Existing Controller/Fuzzer Sync, & `BLOCKED_KINDS`**: Pass - (Generated artifacts in sync, controller and fuzzer regenerated in lockstep and fuzzer test passes, `MigrationCenterReportConfig` remains in `BLOCKED_KINDS`, `missingrefs.txt` untouched)'
+    - '#### Detailed Findings / Actions Required:'
+    - None. All criteria and invariants are satisfied.
+    - "<sub>\U0001F916 [Agent session](https://staging.repoagent.dev/#/overseers/kcc/task-session/fix-k8s-config-connector-15713/recipe-fix-20261115-011754-3de9)</sub>"
+onStart:
+    comment: AI Factory started reviewing this pull request in a sandbox.
+runName: review-15716-f8d75a5-1794710695
+rule: review
+recipe: review
+apply: submit-review
