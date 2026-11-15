@@ -1,0 +1,31 @@
+type: pr-rule
+url: https://github.com/GoogleCloudPlatform/k8s-config-connector/pull/15744
+number: 15744
+priority: medium
+phase: 1
+createdAt: 2026-11-15T06:41:32Z
+enqueuedAt: 2026-11-15T08:12:41.353414574Z
+triggerEventTime: 2026-11-15T07:30:11Z
+triggerReason: PRReadyForReview
+triggerNotes: Automated review triggered; all CI checks passed at 2026-11-15T07:30:11Z for commit e4c988f (committer date 2026-11-15T06:26:01Z)
+startedAt: 2026-11-15T08:13:10.699425029Z
+completedAt: 2026-11-15T08:37:06.585203338Z
+assignee: lovelace-coder-bot
+status: Completed
+commitSHA: e4c988f5db6562b5be0aa5a7005f955eaed2c2fc
+instructions:
+    - Use .gemini/skills/reviewgen-greenfield-controller/SKILL.md to conduct the review.
+    - '### KCC Greenfield Controller Auto-Review Results'
+    - '**Trigger criteria matched**: Yes'
+    - '**Post-Judgement, One-Shot Generation, & `static_config.go`**: Pass - (`generate.sh` does not invoke `generate-controller` or `generate-fuzzer`, files have `+generated:controller` / `+generated:fuzzer`, `static_config.go` updated, and `CloudSupportSupportEventSubscription` is retained in `BLOCKED_KINDS`)'
+    - '**Client Creation & Reference Normalization**: Pass - (GAPIC REST client used, `common.NormalizeGreenfieldReferences` called first in `AdapterForObject`)'
+    - '**CompareGreenfieldSpec & Structured Reporting**: Pass - (`common.CompareGreenfieldSpec` and `structuredreporting.ReportDiff` used in `Update`)'
+    - '**LRO Wait & Mandatory Status Updates**: Pass - (Method returns resource directly, `setStatus` invoked on all reconciliation paths)'
+    - '**Fuzzer & Real-GCP Test Coverage**: Pass - (`cloudsupportsupporteventsubscription_fuzzer.generated.go` passes 200 seeds, minimal and maximal fixtures created covering all spec fields with PubSubTopic dependencies, and ratcheting enabled)'
+    - "<sub>\U0001F916 [Agent session](https://staging.repoagent.dev/#/overseers/kcc/task-session/fix-k8s-config-connector-15738/recipe-fix-20261115-054225-f735)</sub>"
+onStart:
+    comment: AI Factory started reviewing this pull request in a sandbox.
+runName: review-15744-e4c988f-1794730361
+rule: review
+recipe: review
+apply: submit-review
