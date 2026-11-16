@@ -1,0 +1,33 @@
+type: pr-rule
+url: https://github.com/GoogleCloudPlatform/k8s-config-connector/pull/15783
+number: 15783
+priority: medium
+phase: 1
+createdAt: 2026-11-16T00:47:33Z
+enqueuedAt: 2026-11-16T01:56:53.237031892Z
+triggerEventTime: 2026-11-16T01:35:49Z
+triggerReason: PRReadyForReview
+triggerNotes: Automated review triggered; all CI checks passed at 2026-11-16T01:35:49Z for commit 2fa17e9 (committer date 2026-11-16T00:23:24Z)
+startedAt: 2026-11-16T01:57:22.695569412Z
+completedAt: 2026-11-16T02:12:01.361595084Z
+assignee: hopper-coder-bot
+status: Completed
+commitSHA: 2fa17e9449d5d200f748eeddc16de9e4c8dd6f21
+instructions:
+    - Use .gemini/skills/reviewgen-greenfield-controller/SKILL.md to conduct the review.
+    - '### KCC Greenfield Controller Auto-Review Results'
+    - '**Trigger criteria matched**: Yes'
+    - '**Post-Judgement, One-Shot Generation, & `static_config.go`**: Pass'
+    - '**Client Creation & Reference Normalization**: Pass'
+    - '**CompareGreenfieldSpec & Structured Reporting**: Pass'
+    - '**LRO Wait & Mandatory Status Updates**: Pass'
+    - '**Fuzzer & Real-GCP Test Coverage**: Pass'
+    - '#### Detailed Findings / Actions Required:'
+    - None. All Greenfield Step 2 criteria and invariants are satisfied.
+    - "<sub>\U0001F916 [Agent session](https://staging.repoagent.dev/#/overseers/kcc/task-session/fix-k8s-config-connector-15782/recipe-fix-20261115-234851-7ab9)</sub>"
+onStart:
+    comment: AI Factory started reviewing this pull request in a sandbox.
+runName: review-15783-2fa17e9-1794794213
+rule: review
+recipe: review
+apply: submit-review
