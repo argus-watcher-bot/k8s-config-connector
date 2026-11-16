@@ -4,20 +4,20 @@ number: 15816
 priority: medium
 phase: 1
 createdAt: 2026-11-16T08:01:46Z
-enqueuedAt: 2026-11-16T12:17:37.617925666Z
-triggerEventTime: 2026-11-16T12:15:54Z
+enqueuedAt: 2026-11-16T14:22:34.776240731Z
+triggerEventTime: 2026-11-16T14:10:47Z
 triggerReason: PRReadyForReview
-triggerNotes: Automated review triggered; all CI checks passed at 2026-11-16T12:15:54Z for commit b13ad7b (committer date 2026-11-16T11:24:59Z)
-startedAt: 2026-11-16T12:18:08.029997324Z
-completedAt: 2026-11-16T12:33:42.182823183Z
+triggerNotes: Automated review triggered; all CI checks passed at 2026-11-16T14:10:47Z for commit 7061bc7 (committer date 2026-11-16T13:10:12Z)
+startedAt: 2026-11-16T14:22:53.891023007Z
+completedAt: 2026-11-16T14:33:39.337595516Z
 assignee: ada-coder-bot
 status: Completed
-commitSHA: b13ad7b2e7aa9452b5895a8947f81707e023b4c3
+commitSHA: 7061bc7859950b8f1ecf27904f2ac2fdc11d0cbf
 instructions:
-    - Use .gemini/skills/reviewgen-greenfield-mockgcp/SKILL.md to conduct the review.
+    - Use .gemini/skills/reviewgen-greenfield-release/SKILL.md to conduct the review.
 onStart:
     comment: AI Factory started reviewing this pull request in a sandbox.
-runName: review-15816-b13ad7b-1794831457
+runName: review-15816-7061bc7-1794838954
 rule: review
 recipe: review
 apply: submit-review
