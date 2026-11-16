@@ -4,16 +4,16 @@ number: 15740
 priority: medium
 phase: 1
 createdAt: 2026-11-15T05:42:05Z
-enqueuedAt: 2026-11-16T04:42:38.420599057Z
-triggerEventTime: 2026-11-16T04:37:23Z
+enqueuedAt: 2026-11-16T05:55:35.294460473Z
+triggerEventTime: 2026-11-16T04:47:52Z
 triggerReason: RuleDecided
 triggerNotes: The merge-types-judgement rule decided to run on commit 22c051f
-startedAt: 2026-11-16T04:43:05.70753006Z
-completedAt: 2026-11-16T04:47:35.415169319Z
-assignee: ada-coder-bot
+startedAt: 2026-11-16T05:56:03.471893133Z
+completedAt: 2026-11-16T05:57:51.632831622Z
+assignee: factorybot-robot
 status: Completed
 commitSHA: 22c051f6d702fea52df9411921034d74f78f1a07
-runName: merge-types-judgement-15740-22c051f-1794804158
+runName: merge-types-judgement-15740-22c051f-1794808535
 rule: merge-types-judgement
 recipe: merge
 inputs:

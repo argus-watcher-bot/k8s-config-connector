@@ -1,0 +1,32 @@
+type: pr-rule
+url: https://github.com/GoogleCloudPlatform/k8s-config-connector/pull/15806
+number: 15806
+priority: medium
+phase: 1
+createdAt: 2026-11-16T05:55:09Z
+enqueuedAt: 2026-11-16T06:48:06.191620499Z
+triggerEventTime: 2026-11-16T06:43:30Z
+triggerReason: PRReadyForReview
+triggerNotes: Automated review triggered; all CI checks passed at 2026-11-16T06:43:30Z for commit 485875f (committer date 2026-11-16T05:37:08Z)
+startedAt: 2026-11-16T06:48:28.142236863Z
+completedAt: 2026-11-16T07:07:31.361537724Z
+assignee: ada-coder-bot
+status: Completed
+commitSHA: 485875fa52c57520d5d18f8b8a9c5faff38d1252
+instructions:
+    - Use .gemini/skills/reviewgen-greenfield-new-types/SKILL.md to conduct the review.
+    - '### KCC Greenfield Step 1 (Prepopulate) Auto-Review Results'
+    - '**Trigger criteria matched**: Yes'
+    - '**`generate.sh` & Flags Check**: Pass'
+    - '**Judgement Queue Open Check**: Pass'
+    - '**Mechanical Output & Idempotency**: Pass'
+    - '**Release Bundle Blocklist (`BLOCKED_KINDS`)**: Pass'
+    - '**Unit Tests & `apichecks`**: Pass'
+    - '#### Detailed Findings / Actions Required:'
+    - None. All Greenfield Step 1a criteria and invariants are satisfied.
+onStart:
+    comment: AI Factory started reviewing this pull request in a sandbox.
+runName: review-15806-485875f-1794811686
+rule: review
+recipe: review
+apply: submit-review

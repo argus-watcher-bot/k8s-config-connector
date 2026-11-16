@@ -4,21 +4,21 @@ number: 15707
 priority: medium
 phase: 3
 createdAt: 2026-11-14T23:51:46Z
-enqueuedAt: 2026-11-15T16:40:53.341219478Z
-triggerEventTime: 2026-11-15T16:31:54Z
+enqueuedAt: 2026-11-16T07:21:51.201230664Z
+triggerEventTime: 2026-11-16T07:19:39Z
 triggerReason: PRCheckFailed
-triggerNotes: Earliest CI failure in 'tests-e2e-fixtures-serviceusage' (failure) at 2026-11-15T16:31:54Z; total 14 failed check(s) on commit c766e2b
-startedAt: 2026-11-15T16:41:07.220538641Z
-completedAt: 2026-11-15T17:56:07.775039072Z
+triggerNotes: Earliest CI failure in 'fuzz-roundtrippers-1-of-8' (failure) at 2026-11-16T07:19:39Z; total 2 failed check(s) on commit b01a4af
+startedAt: 2026-11-16T07:22:27.86037522Z
+completedAt: 2026-11-16T07:55:32.85380043Z
 assignee: neumann-coder-bot
 status: Completed
-commitSHA: c766e2b37e2d77580405ca5b1cabe38d05a93640
+commitSHA: b01a4afcb19118cac417b1d573b2758254ea8453
 onStart:
     comment: |-
         AI Factory started investigating CI check failures for this pull request.
 
         Note: We recommend waiting for the 'ready-for-human' label before leaving review comments. Comments added while the system is actively working may be associated with outdated commits once a new commit is pushed, causing them to be ignored.
-runName: ci-15707-c766e2b-1794760853
+runName: ci-15707-b01a4af-1794813711
 rule: ci
 recipe: care-ci
 apply: post-replies
