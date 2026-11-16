@@ -4,12 +4,12 @@ number: 15142
 priority: medium
 phase: 3
 createdAt: 2026-11-06T11:09:03Z
-enqueuedAt: 2026-11-16T18:05:08.942604798Z
-triggerEventTime: 2026-11-16T17:55:15Z
+enqueuedAt: 2026-11-16T20:40:05.419589779Z
+triggerEventTime: 2026-11-16T18:54:49Z
 triggerReason: PRCheckFailed
-triggerNotes: Earliest CI failure in 'tests-e2e-fixtures-sourcerepo' (failure) at 2026-11-16T17:55:15Z; total 8 failed check(s) on commit fa0b835
-startedAt: 2026-11-16T18:05:23.480818959Z
-completedAt: 2026-11-16T18:33:24.636495103Z
+triggerNotes: Earliest CI failure in 'unit-tests-4-of-4' (failure) at 2026-11-16T18:54:49Z; total 3 failed check(s) on commit fa0b835
+startedAt: 2026-11-16T20:40:35.71767531Z
+completedAt: 2026-11-16T21:18:49.629997308Z
 assignee: neumann-coder-bot
 status: Completed
 commitSHA: fa0b835117fd73ea6bd246795f9dafd831953113
@@ -18,7 +18,7 @@ onStart:
         AI Factory started investigating CI check failures for this pull request.
 
         Note: We recommend waiting for the 'ready-for-human' label before leaving review comments. Comments added while the system is actively working may be associated with outdated commits once a new commit is pushed, causing them to be ignored.
-runName: ci-15142-fa0b835-1794852308
+runName: ci-15142-fa0b835-1794861605
 rule: ci
 recipe: care-ci
 apply: post-replies
