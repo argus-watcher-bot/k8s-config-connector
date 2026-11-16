@@ -4,12 +4,12 @@ number: 15826
 priority: medium
 phase: 1
 createdAt: 2026-11-16T08:58:37Z
-enqueuedAt: 2026-11-16T17:14:08.067996292Z
+enqueuedAt: 2026-11-16T20:18:55.335227083Z
 triggerEventTime: 2026-11-16T09:40:16Z
 triggerReason: PRReadyForReview
 triggerNotes: Automated review triggered; all CI checks passed at 2026-11-16T09:40:16Z for commit 92b2382 (committer date 2026-11-16T08:41:06Z)
-startedAt: 2026-11-16T17:14:36.601470803Z
-completedAt: 2026-11-16T17:14:40.134272224Z
+startedAt: 2026-11-16T20:19:10.712358551Z
+completedAt: 2026-11-16T20:19:15.319099831Z
 assignee: hopper-coder-bot
 status: Failed
 error: 'exit status 1: instruction file not found locally or in repo: None.'
@@ -28,7 +28,7 @@ instructions:
     - "<sub>\U0001F916 [Agent session](https://staging.repoagent.dev/#/overseers/kcc/task-session/fix-k8s-config-connector-15812/recipe-fix-20261116-071742-f246)</sub>"
 onStart:
     comment: AI Factory started reviewing this pull request in a sandbox.
-runName: review-15826-92b2382-1794849248
+runName: review-15826-92b2382-1794860335
 rule: review
 recipe: review
 apply: submit-review
