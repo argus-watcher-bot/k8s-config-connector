@@ -1,0 +1,26 @@
+type: issue-rule
+url: https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/15809
+number: 15809
+priority: medium
+phase: 3
+createdAt: 2026-11-16T06:34:04Z
+enqueuedAt: 2026-11-16T06:35:41.003605975Z
+triggerEventTime: 2026-11-16T06:34:06Z
+triggerReason: IssueLabeled
+triggerNotes: 'Issue #15809 created at 2026-11-16T06:34:04Z; trigger label ''overseer'' added by argus-watcher-bot at 2026-11-16T06:34:06Z'
+startedAt: 2026-11-16T06:36:02.654624488Z
+completedAt: 2026-11-16T07:46:49.240078026Z
+assignee: lovelace-coder-bot
+status: Failed
+error: 'exit status 1: running recipe: task failed with exit code 137'
+onStart:
+    assign:
+        - '{{bot}}'
+    comment: AI Factory started fixing this issue in a sandbox.
+runName: fix-15809-head-1794810941
+rule: fix
+recipe: fix
+apply: open-pr
+inputs:
+    draft: "false"
+prLabels: true
