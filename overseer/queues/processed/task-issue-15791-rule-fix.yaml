@@ -9,8 +9,9 @@ triggerEventTime: 2026-11-16T04:46:49Z
 triggerReason: IssueLabeled
 triggerNotes: 'Issue #15791 created at 2026-11-16T04:46:47Z; trigger label ''overseer'' added by argus-watcher-bot at 2026-11-16T04:46:49Z'
 startedAt: 2026-11-16T04:48:52.51449053Z
+completedAt: 2026-11-16T08:30:43.138132049Z
 assignee: hopper-coder-bot
-status: Pending
+status: Completed
 onStart:
     assign:
         - '{{bot}}'
@@ -18,7 +19,6 @@ onStart:
         - argus-watcher-bot
     comment: AI Factory started fixing this issue in a sandbox.
 runName: fix-15791-head-1794804520
-recovered: true
 rule: fix
 recipe: fix
 apply: open-pr
