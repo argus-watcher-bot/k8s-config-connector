@@ -4,16 +4,19 @@ number: 15705
 priority: medium
 phase: 1
 createdAt: 2026-11-14T23:23:24Z
-enqueuedAt: 2026-11-15T01:02:51.791691783Z
-triggerEventTime: 2026-11-15T00:53:06Z
+enqueuedAt: 2026-11-16T09:52:49.348397484Z
+triggerEventTime: 2026-11-16T08:57:05Z
 triggerReason: RuleDecided
-triggerNotes: The assess-controller-step rule decided to run on commit 5236c10
-startedAt: 2026-11-15T01:03:22.436474384Z
-completedAt: 2026-11-15T01:16:02.824692051Z
+triggerNotes: The assess-controller-step rule decided to run on commit 20d35dd
+startedAt: 2026-11-16T09:53:20.218592746Z
+completedAt: 2026-11-16T10:05:09.003182006Z
 assignee: neumann-coder-bot
 status: Completed
-commitSHA: 5236c10bc2f8eb90d7c8c9c8cb3f17f4156b65ec
-runName: assess-controller-step-15705-5236c10-1794704571
+commitSHA: 20d35dd33fce499c7a89b4bbc03f44b2407a2696
+onStart:
+    unlabel:
+        - overseer/assessment/good
+runName: assess-controller-step-15705-20d35dd-1794822769
 rule: assess-controller-step
 recipe: assess-controller
 apply: comment,label
