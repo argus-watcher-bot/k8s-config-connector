@@ -4,21 +4,19 @@ number: 15806
 priority: medium
 phase: 1
 createdAt: 2026-11-16T05:55:09Z
-enqueuedAt: 2026-11-16T09:30:22.94438086Z
-triggerEventTime: 2026-11-16T09:00:35Z
+enqueuedAt: 2026-11-16T21:57:37.130182457Z
+triggerEventTime: 2026-11-16T21:49:28Z
 triggerReason: PRCommentsAdded
-triggerNotes: Retrying the failed address-comments task (retry 2) on commit 146d6d1
-startedAt: 2026-11-16T09:30:51.501244265Z
-completedAt: 2026-11-16T09:40:57.446887558Z
+triggerNotes: Oldest unaddressed comment by acpana added at 2026-11-16T21:49:28Z (ID 6930423079) since last commit 146d6d1 (committer date 2026-11-16T07:30:15Z)
+startedAt: 2026-11-16T21:58:13.535246958Z
+completedAt: 2026-11-16T22:25:58.593933621Z
 assignee: ada-coder-bot
-status: Failed
-error: 'exit status 1: connecting to sandbox: sandbox fix-k8s-config-connector-15794 has no task server to use (timed out waiting for sandbox pod fix-k8s-config-connector-15794 to become ready); recreate it on a current image'
+status: Completed
 commitSHA: 146d6d1581ee99d5226d0d2892cabadbff5e3a38
-retryCount: 2
 acknowledge: feedback
 onStart:
     comment: AI Factory started addressing review feedback for this pull request.
-runName: comments-15806-146d6d1-1794821422
+runName: comments-15806-146d6d1-1794866257
 rule: comments
 recipe: care-comments
 apply: post-replies
