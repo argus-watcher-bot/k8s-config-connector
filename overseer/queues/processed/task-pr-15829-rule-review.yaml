@@ -4,32 +4,20 @@ number: 15829
 priority: medium
 phase: 1
 createdAt: 2026-11-16T09:12:59Z
-enqueuedAt: 2026-11-16T10:04:46.970662782Z
-triggerEventTime: 2026-11-16T10:00:38Z
+enqueuedAt: 2026-11-16T15:08:13.995728981Z
+triggerEventTime: 2026-11-16T14:58:01Z
 triggerReason: PRReadyForReview
-triggerNotes: Automated review triggered; all CI checks passed at 2026-11-16T10:00:38Z for commit 64a8c3b (committer date 2026-11-16T09:12:33Z)
-startedAt: 2026-11-16T10:04:52.01600558Z
-completedAt: 2026-11-16T10:33:39.443625318Z
+triggerNotes: Automated review triggered; all CI checks passed at 2026-11-16T14:58:01Z for commit c7bdc15 (committer date 2026-11-16T14:13:45Z)
+startedAt: 2026-11-16T15:08:35.928535154Z
+completedAt: 2026-11-16T15:20:13.705871677Z
 assignee: neumann-coder-bot
 status: Completed
-commitSHA: 64a8c3b29e6c1545f266dafe3c2da2193676d732
+commitSHA: c7bdc150165c9ae21946da2173095e0a5aac5596
 instructions:
-    - Use .gemini/skills/reviewgen-greenfield-controller/SKILL.md to conduct the review.
-    - '### Real GCP Run Details'
-    - '**Project**: `cnrm-barni-4`'
-    - '**Audit Logs**:'
-    - '`'
-    - METHOD_NAME                                                     RESOURCE_NAME                                                                        TIMESTAMP
-    - google.cloud.aiplatform.v1.JobService.DeleteBatchPredictionJob  projects/cnrm-barni-4/locations/us-central1/batchPredictionJobs/8871658410525851648  2026-11-16T08:44:23.216317255Z
-    - google.cloud.aiplatform.v1.JobService.CreateBatchPredictionJob  projects/cnrm-barni-4/locations/us-central1                                          2026-11-16T08:44:19.711844562Z
-    - google.cloud.aiplatform.v1.JobService.DeleteBatchPredictionJob  projects/cnrm-barni-4/locations/us-central1/batchPredictionJobs/4876965541048221696  2026-11-16T08:43:25.266333142Z
-    - google.cloud.aiplatform.v1.JobService.CancelBatchPredictionJob  projects/cnrm-barni-4/locations/us-central1/batchPredictionJobs/4876965541048221696  2026-11-16T08:43:20.927158601Z
-    - google.cloud.aiplatform.v1.JobService.CreateBatchPredictionJob  projects/cnrm-barni-4/locations/us-central1                                          2026-11-16T08:43:12.758406533Z
-    - '`'
-    - "<sub>\U0001F916 [Agent session](https://staging.repoagent.dev/#/overseers/kcc/task-session/fix-k8s-config-connector-15817/recipe-fix-20261116-081632-908e)</sub>"
+    - Use .gemini/skills/reviewgen-greenfield-mockgcp/SKILL.md to conduct the review.
 onStart:
     comment: AI Factory started reviewing this pull request in a sandbox.
-runName: review-15829-64a8c3b-1794823486
+runName: review-15829-c7bdc15-1794841693
 rule: review
 recipe: review
 apply: submit-review
