@@ -4,21 +4,20 @@ number: 15819
 priority: medium
 phase: 3
 createdAt: 2026-11-16T08:15:30Z
-enqueuedAt: 2026-11-16T08:16:17.106958224Z
+enqueuedAt: 2026-11-17T07:07:49.365103453Z
 triggerEventTime: 2026-11-16T08:15:32Z
 triggerReason: IssueLabeled
 triggerNotes: 'Issue #15819 created at 2026-11-16T08:15:30Z; trigger label ''overseer'' added by argus-watcher-bot at 2026-11-16T08:15:32Z'
-startedAt: 2026-11-16T08:16:41.704871149Z
-completedAt: 2026-11-16T09:02:39.218948251Z
+startedAt: 2026-11-17T07:07:51.990548222Z
+completedAt: 2026-11-17T07:17:45.56039439Z
 assignee: neumann-coder-bot
-status: Completed
+status: Failed
+error: 'exit status 1: running recipe: following task recipe-fix-20261117-071140-f44b: Get "http://127.0.0.1:37323/v1/tasks/recipe-fix-20261117-071140-f44b/log?follow=true&offset=38822": dial tcp 127.0.0.1:37323: connect: connection refused'
 onStart:
     assign:
         - '{{bot}}'
-    unassign:
-        - argus-watcher-bot
     comment: AI Factory started fixing this issue in a sandbox.
-runName: fix-15819-head-1794816977
+runName: fix-15819-head-1794899269
 rule: fix
 recipe: fix
 apply: open-pr

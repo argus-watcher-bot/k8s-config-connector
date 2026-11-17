@@ -4,19 +4,21 @@ number: 15863
 priority: medium
 phase: 3
 createdAt: 2026-11-16T22:04:53Z
-enqueuedAt: 2026-11-16T22:05:14.524363241Z
+enqueuedAt: 2026-11-17T07:07:48.237917359Z
 triggerEventTime: 2026-11-16T22:04:55Z
 triggerReason: IssueLabeled
 triggerNotes: 'Issue #15863 created at 2026-11-16T22:04:53Z; trigger label ''overseer'' added by argus-watcher-bot at 2026-11-16T22:04:55Z'
-startedAt: 2026-11-16T22:05:29.722523877Z
-completedAt: 2026-11-16T23:29:21.459040845Z
+startedAt: 2026-11-17T07:07:50.866401686Z
+completedAt: 2026-11-17T07:12:01.717228446Z
 assignee: lovelace-coder-bot
 status: Completed
 onStart:
     assign:
         - '{{bot}}'
+    unassign:
+        - argus-watcher-bot
     comment: AI Factory started fixing this issue in a sandbox.
-runName: fix-15863-head-1794866714
+runName: fix-15863-head-1794899268
 rule: fix
 recipe: fix
 apply: open-pr
