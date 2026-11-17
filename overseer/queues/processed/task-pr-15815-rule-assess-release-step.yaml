@@ -1,0 +1,19 @@
+type: pr-rule
+url: https://github.com/GoogleCloudPlatform/k8s-config-connector/pull/15815
+number: 15815
+priority: medium
+phase: 1
+createdAt: 2026-11-16T07:56:49Z
+enqueuedAt: 2026-11-17T07:12:44.116355729Z
+triggerEventTime: 2026-11-16T21:30:32Z
+triggerReason: RuleDecided
+triggerNotes: The assess-release-step rule decided to run on commit 2d7210f
+startedAt: 2026-11-17T07:12:56.696114713Z
+completedAt: 2026-11-17T07:22:32.475256545Z
+assignee: lovelace-coder-bot
+status: Completed
+commitSHA: 2d7210fdc5e5ca204611f8a55821fd7181798f5a
+runName: assess-release-step-15815-2d7210f-1794899564
+rule: assess-release-step
+recipe: assess-controller
+apply: comment,label

@@ -4,21 +4,19 @@ number: 15800
 priority: medium
 phase: 3
 createdAt: 2026-11-16T05:23:57Z
-enqueuedAt: 2026-11-16T05:25:50.676436877Z
+enqueuedAt: 2026-11-17T07:39:48.785486225Z
 triggerEventTime: 2026-11-16T05:23:58Z
 triggerReason: IssueLabeled
 triggerNotes: 'Issue #15800 created at 2026-11-16T05:23:57Z; trigger label ''overseer'' added by argus-watcher-bot at 2026-11-16T05:23:58Z'
-startedAt: 2026-11-16T05:26:18.411418232Z
-completedAt: 2026-11-16T08:01:53.49776357Z
+startedAt: 2026-11-17T07:40:10.811962427Z
+completedAt: 2026-11-17T09:12:17.160892918Z
 assignee: ada-coder-bot
 status: Completed
 onStart:
     assign:
         - '{{bot}}'
-    unassign:
-        - argus-watcher-bot
     comment: AI Factory started fixing this issue in a sandbox.
-runName: fix-15800-head-1794806750
+runName: fix-15800-head-1794901188
 rule: fix
 recipe: fix
 apply: open-pr
