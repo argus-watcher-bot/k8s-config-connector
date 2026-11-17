@@ -4,16 +4,19 @@ number: 15895
 priority: medium
 phase: 1
 createdAt: 2026-11-17T03:48:49Z
-enqueuedAt: 2026-11-17T05:18:37.778634733Z
-triggerEventTime: 2026-11-17T05:08:30Z
+enqueuedAt: 2026-11-17T13:03:31.196153589Z
+triggerEventTime: 2026-11-17T12:12:14Z
 triggerReason: RuleDecided
-triggerNotes: The assess-controller-step rule decided to run on commit ae4cab3
-startedAt: 2026-11-17T05:18:53.579370555Z
-completedAt: 2026-11-17T05:26:30.679517345Z
+triggerNotes: The assess-controller-step rule decided to run on commit f77661d
+startedAt: 2026-11-17T13:03:37.855639934Z
+completedAt: 2026-11-17T13:15:49.634655498Z
 assignee: hopper-coder-bot
 status: Completed
-commitSHA: ae4cab33d549df822adb992125f63d22b983c135
-runName: assess-controller-step-15895-ae4cab3-1794892717
+commitSHA: f77661dba73183d4f584c1f03816f4425a7a5d94
+onStart:
+    unlabel:
+        - overseer/assessment/good
+runName: assess-controller-step-15895-f77661d-1794920611
 rule: assess-controller-step
 recipe: assess-controller
 apply: comment,label
