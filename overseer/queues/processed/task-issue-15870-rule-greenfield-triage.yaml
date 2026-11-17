@@ -4,12 +4,12 @@ number: 15870
 priority: medium
 phase: 3
 createdAt: 2026-11-16T23:19:44Z
-enqueuedAt: 2026-11-16T23:21:23.767911535Z
-triggerEventTime: 2026-11-16T23:19:45Z
+enqueuedAt: 2026-11-17T01:19:45.784229888Z
+triggerEventTime: 2026-11-17T00:07:41Z
 triggerReason: IssueLabeled
-triggerNotes: 'Issue #15870 created at 2026-11-16T23:19:44Z; trigger label ''overseer'' added by argus-watcher-bot at 2026-11-16T23:19:45Z'
-startedAt: 2026-11-16T23:21:32.345871354Z
-completedAt: 2026-11-16T23:41:53.045116767Z
+triggerNotes: 'Issue #15870 created at 2026-11-16T23:19:44Z; trigger label ''overseer'' added by argus-watcher-bot at 2026-11-17T00:07:41Z'
+startedAt: 2026-11-17T01:20:05.1879182Z
+completedAt: 2026-11-17T01:22:27.076688183Z
 assignee: ada-coder-bot
 status: Completed
 onSuccess:
@@ -18,7 +18,7 @@ onSuccess:
     unlabel:
         - overseer/triage
         - overseer
-runName: greenfield-triage-15870-head-1794871283
+runName: greenfield-triage-15870-head-1794878385
 rule: greenfield-triage
 recipe: greenfield-triage
 apply: comment,label

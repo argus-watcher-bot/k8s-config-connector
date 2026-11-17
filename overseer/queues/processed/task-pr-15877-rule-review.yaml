@@ -1,0 +1,33 @@
+type: pr-rule
+url: https://github.com/GoogleCloudPlatform/k8s-config-connector/pull/15877
+number: 15877
+priority: medium
+phase: 1
+createdAt: 2026-11-16T23:58:26Z
+enqueuedAt: 2026-11-17T02:04:27.639727675Z
+triggerEventTime: 2026-11-17T01:59:44Z
+triggerReason: PRReadyForReview
+triggerNotes: Automated review triggered; all CI checks passed at 2026-11-17T01:59:44Z for commit 7dd9707 (committer date 2026-11-17T01:07:31Z)
+startedAt: 2026-11-17T02:04:36.153314699Z
+completedAt: 2026-11-17T02:22:12.714376198Z
+assignee: hopper-coder-bot
+status: Completed
+commitSHA: 7dd97077ec069ff6e571db8e3cf40d835bce8272
+instructions:
+    - Use .gemini/skills/reviewgen-greenfield-controller/SKILL.md to conduct the review.
+    - '### KCC Greenfield Controller Auto-Review Results'
+    - '**Trigger criteria matched**: Yes'
+    - '**Post-Judgement, One-Shot Generation, & `static_config.go`**: Pass - (`apis/compute/judgement_queue.yaml` entries for `ComputeInstantSnapshotGroup` are resolved, `apis/compute/generate.sh` does not invoke `generate-controller` or `generate-fuzzer`, files have `+generated:controller` / `+generated:fuzzer`, `static_config.go` updated, and `ComputeInstantSnapshotGroup` remains in `BLOCKED_KINDS`)'
+    - '**Client Creation & Reference Normalization**: Pass - (GAPIC REST clients configured with `RESTClientOptions()` and `common.NormalizeGreenfieldReferences` called first in `AdapterForObject`)'
+    - '**CompareGreenfieldSpec & Structured Reporting**: Pass - (`common.CompareGreenfieldSpec` with `structuredreporting.ReportDiff` used in `Update`, enforcing immutability)'
+    - '**LRO Wait & Mandatory Status Updates**: Pass - (`op.Wait(ctx)` on `Insert` and `Delete`, and `setStatus` called on all reconciliation paths)'
+    - '**Fuzzer & Real-GCP Test Coverage**: Pass - (`computeinstantsnapshotgroup_fuzzer.generated.go` passes round-trip fuzzing, minimal and maximal fixtures generated with real-GCP `_http.log` and `_audit_probe.log` passing 7/7 checks, all spec fields tested, and ratcheting enabled)'
+    - '#### Detailed Findings / Actions Required:'
+    - None. All Greenfield Step 2 criteria and invariants are satisfied.
+    - "<sub>\U0001F916 [Agent session](https://staging.repoagent.dev/#/overseers/kcc/task-session/fix-k8s-config-connector-15866/recipe-fix-20261116-230358-8e06)</sub>"
+onStart:
+    comment: AI Factory started reviewing this pull request in a sandbox.
+runName: review-15877-7dd9707-1794881067
+rule: review
+recipe: review
+apply: submit-review

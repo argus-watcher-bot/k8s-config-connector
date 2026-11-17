@@ -4,22 +4,21 @@ number: 15806
 priority: medium
 phase: 2
 createdAt: 2026-11-16T05:55:09Z
-enqueuedAt: 2026-11-16T23:03:41.525609901Z
+enqueuedAt: 2026-11-16T23:13:34.272625636Z
 triggerEventTime: 2026-11-16T22:04:32Z
 triggerReason: PRMergeConflict
-triggerNotes: 'PR #15806 has merge conflicts with base branch ''master''; head commit 83ec235 committer date 2026-11-16T22:04:32Z, PR updated at 2026-11-16T22:25:58Z'
-startedAt: 2026-11-16T23:04:11.498597732Z
-completedAt: 2026-11-16T23:04:24.054021668Z
+triggerNotes: 'PR #15806 has merge conflicts with base branch ''master''; head commit 83ec235 committer date 2026-11-16T22:04:32Z, PR updated at 2026-11-16T23:04:11Z'
+startedAt: 2026-11-16T23:14:07.286446658Z
+completedAt: 2026-11-16T23:59:31.66837494Z
 assignee: ada-coder-bot
-status: Failed
-error: 'exit status 1: finding where PR #15806 branched off master: GET https://api.github.com/repos/GoogleCloudPlatform/k8s-config-connector/compare/master...ada-coder-bot%3Aissue-15794-1794805772: 502 Server Error []'
+status: Completed
 commitSHA: 83ec23568771931f18b5adbbad5612ced83d5aed
 onStart:
     comment: |-
         AI Factory started resolving merge conflicts / rebasing this pull request in a sandbox.
 
         Note: We recommend waiting for the 'ready-for-human' label before leaving review comments. Comments added while the system is actively working may be associated with outdated commits once a new commit is pushed, causing them to be ignored.
-runName: conflict-15806-83ec235-1794870221
+runName: conflict-15806-83ec235-1794870814
 rule: conflict
 recipe: care-rebase
 apply: post-replies

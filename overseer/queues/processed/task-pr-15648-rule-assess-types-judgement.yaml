@@ -4,19 +4,19 @@ number: 15648
 priority: medium
 phase: 1
 createdAt: 2026-11-14T06:22:06Z
-enqueuedAt: 2026-11-16T23:33:30.219662223Z
-triggerEventTime: 2026-11-16T23:27:34Z
+enqueuedAt: 2026-11-17T01:54:04.925022239Z
+triggerEventTime: 2026-11-17T01:52:21Z
 triggerReason: RuleDecided
-triggerNotes: The assess-types-judgement rule decided to run on commit 625f581
-startedAt: 2026-11-16T23:33:38.86115457Z
-completedAt: 2026-11-16T23:43:56.82034582Z
+triggerNotes: The assess-types-judgement rule decided to run on commit d0d2a2b
+startedAt: 2026-11-17T01:54:33.313021726Z
+completedAt: 2026-11-17T02:14:33.155338437Z
 assignee: factorybot-robot
 status: Completed
-commitSHA: 625f581f6c994a62ccecf156b6eb43c4a045d5f5
+commitSHA: d0d2a2be24798305ffabfb856435fe9be1502484
 onStart:
     unlabel:
         - overseer/assessment/good
-runName: assess-types-judgement-15648-625f581-1794872010
+runName: assess-types-judgement-15648-d0d2a2b-1794880444
 rule: assess-types-judgement
 recipe: assess-types-judgement
 apply: comment,label

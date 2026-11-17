@@ -4,12 +4,12 @@ number: 15525
 priority: medium
 phase: 3
 createdAt: 2026-11-13T00:08:49Z
-enqueuedAt: 2026-11-13T00:10:47.299953951Z
-triggerEventTime: 2026-11-13T00:08:51Z
+enqueuedAt: 2026-11-17T00:05:53.177315386Z
+triggerEventTime: 2026-11-17T00:05:40Z
 triggerReason: IssueLabeled
-triggerNotes: 'Issue #15525 created at 2026-11-13T00:08:49Z; trigger label ''overseer'' added by argus-watcher-bot at 2026-11-13T00:08:51Z'
-startedAt: 2026-11-13T00:11:06.741893811Z
-completedAt: 2026-11-13T00:33:28.192730043Z
+triggerNotes: 'Issue #15525 created at 2026-11-13T00:08:49Z; trigger label ''overseer'' added by argus-watcher-bot at 2026-11-17T00:05:40Z'
+startedAt: 2026-11-17T00:06:07.199509958Z
+completedAt: 2026-11-17T00:21:28.419184043Z
 assignee: lovelace-coder-bot
 status: Completed
 onSuccess:
@@ -18,7 +18,7 @@ onSuccess:
     unlabel:
         - overseer/triage
         - overseer
-runName: greenfield-triage-15525-head-1794528647
+runName: greenfield-triage-15525-head-1794873953
 rule: greenfield-triage
 recipe: greenfield-triage
 apply: comment,label
