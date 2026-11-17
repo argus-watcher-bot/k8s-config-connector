@@ -1,0 +1,29 @@
+type: pr-rule
+url: https://github.com/GoogleCloudPlatform/k8s-config-connector/pull/15895
+number: 15895
+priority: medium
+phase: 1
+createdAt: 2026-11-17T03:48:49Z
+enqueuedAt: 2026-11-17T04:34:26.820830311Z
+triggerEventTime: 2026-11-17T04:26:09Z
+triggerReason: PRReadyForReview
+triggerNotes: Automated review triggered; all CI checks passed at 2026-11-17T04:26:09Z for commit ae4cab3 (committer date 2026-11-17T03:36:31Z)
+startedAt: 2026-11-17T04:34:35.432206738Z
+completedAt: 2026-11-17T04:46:56.799990707Z
+assignee: hopper-coder-bot
+status: Completed
+commitSHA: ae4cab33d549df822adb992125f63d22b983c135
+instructions:
+    - Use .gemini/skills/reviewgen-greenfield-controller/SKILL.md to conduct the review.
+    - '### Real GCP Recording Details'
+    - '**GCP Project**: `cnrm-barni-4`'
+    - '**Commands**:'
+    - RECORD_AUDIT_PROBE=1 ./hack/record-gcp "fixtures/^cestool-minimal$"
+    - RECORD_AUDIT_PROBE=1 ./hack/record-gcp "fixtures/^cestool-maximal$"
+    - "<sub>\U0001F916 [Agent session](https://staging.repoagent.dev/#/overseers/kcc/task-session/fix-k8s-config-connector-15889/recipe-fix-20261117-024129-30a9)</sub>"
+onStart:
+    comment: AI Factory started reviewing this pull request in a sandbox.
+runName: review-15895-ae4cab3-1794890066
+rule: review
+recipe: review
+apply: submit-review
