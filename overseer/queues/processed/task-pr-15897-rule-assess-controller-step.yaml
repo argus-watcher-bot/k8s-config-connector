@@ -4,16 +4,19 @@ number: 15897
 priority: medium
 phase: 1
 createdAt: 2026-11-17T04:40:28Z
-enqueuedAt: 2026-11-17T07:21:57.769273072Z
-triggerEventTime: 2026-11-17T07:12:00Z
+enqueuedAt: 2026-11-17T17:46:59.518455926Z
+triggerEventTime: 2026-11-17T16:44:18Z
 triggerReason: RuleDecided
-triggerNotes: The assess-controller-step rule decided to run on commit c6b4f22
-startedAt: 2026-11-17T07:22:24.535974048Z
-completedAt: 2026-11-17T07:32:13.409632447Z
+triggerNotes: The assess-controller-step rule decided to run on commit 753ae89
+startedAt: 2026-11-17T17:47:13.85581605Z
+completedAt: 2026-11-17T18:33:54.716745615Z
 assignee: lovelace-coder-bot
 status: Completed
-commitSHA: c6b4f2229f0f0dd10b3c0e19bee0c297b037276f
-runName: assess-controller-step-15897-c6b4f22-1794900117
+commitSHA: 753ae893e22ff50bd62ca1a70c2da07ed3e6ee27
+onStart:
+    unlabel:
+        - overseer/assessment/good
+runName: assess-controller-step-15897-753ae89-1794937619
 rule: assess-controller-step
 recipe: assess-controller
 apply: comment,label

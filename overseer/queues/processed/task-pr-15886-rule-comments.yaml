@@ -4,20 +4,19 @@ number: 15886
 priority: medium
 phase: 1
 createdAt: 2026-11-17T01:16:23Z
-enqueuedAt: 2026-11-17T13:35:23.909128718Z
-triggerEventTime: 2026-11-17T06:25:58Z
+enqueuedAt: 2026-11-17T17:04:55.209345437Z
+triggerEventTime: 2026-11-17T17:00:55Z
 triggerReason: PRCommentsAdded
-triggerNotes: Retrying the failed address-comments task (retry 1) on commit 358535e
-startedAt: 2026-11-17T13:35:32.69052794Z
-completedAt: 2026-11-17T14:58:36.193375065Z
+triggerNotes: Oldest unaddressed review by reviewbot-robot added at 2026-11-17T17:00:55Z (ID 5942957219) since last commit 5adca9b (committer date 2026-11-17T15:52:23Z)
+startedAt: 2026-11-17T17:05:02.91618723Z
+completedAt: 2026-11-17T17:34:50.549624465Z
 assignee: ada-coder-bot
 status: Completed
-commitSHA: 358535e0340e554767bfe35fc5cf0c97107dcf1d
-retryCount: 1
+commitSHA: 5adca9bc7d71c645fe4fcbc6281c847579a0013a
 acknowledge: feedback
 onStart:
     comment: AI Factory started addressing review feedback for this pull request.
-runName: comments-15886-358535e-1794922523
+runName: comments-15886-5adca9b-1794935095
 rule: comments
 recipe: care-comments
 apply: post-replies
