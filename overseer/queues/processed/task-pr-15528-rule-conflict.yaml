@@ -4,23 +4,21 @@ number: 15528
 priority: medium
 phase: 2
 createdAt: 2026-11-13T00:15:00Z
-enqueuedAt: 2026-11-17T17:48:05.36306209Z
+enqueuedAt: 2026-11-17T18:41:03.071087335Z
 triggerEventTime: 2026-11-13T03:29:41Z
 triggerReason: PRMergeConflict
-triggerNotes: 'PR #15528 has merge conflicts with base branch ''master''; head commit 663e501 committer date 2026-11-13T03:29:41Z, PR updated at 2026-11-13T04:16:39Z'
-startedAt: 2026-11-17T17:48:18.00521995Z
-completedAt: 2026-11-17T18:41:02.898459463Z
+triggerNotes: 'PR #15528 has merge conflicts with base branch ''master''; head commit 663e501 committer date 2026-11-13T03:29:41Z, PR updated at 2026-11-17T17:48:18Z'
+startedAt: 2026-11-17T18:43:23.286449792Z
+completedAt: 2026-11-17T19:21:27.363159108Z
 assignee: lovelace-coder-bot
-status: Failed
-error: 'exit status 1: step 8:ask: agent: prompt failed: RPC error [503]: This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later.; falling back to another model: Post "http://127.0.0.1:49990/v1/sessions": EOF'
-engineUnavailable: true
+status: Completed
 commitSHA: 663e501605c1dadf6e16f96e60e443d699a54443
 onStart:
     comment: |-
         AI Factory started resolving merge conflicts / rebasing this pull request in a sandbox.
 
         Note: We recommend waiting for the 'ready-for-human' label before leaving review comments. Comments added while the system is actively working may be associated with outdated commits once a new commit is pushed, causing them to be ignored.
-runName: conflict-15528-663e501-1794937685
+runName: conflict-15528-663e501-1794940863
 rule: conflict
 recipe: care-rebase
 apply: post-replies

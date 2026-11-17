@@ -4,16 +4,16 @@ number: 15362
 priority: medium
 phase: 1
 createdAt: 2026-11-11T00:33:16Z
-enqueuedAt: 2026-11-12T15:14:41.897607455Z
-triggerEventTime: 2026-11-12T09:48:25Z
+enqueuedAt: 2026-11-17T21:01:54.125732569Z
+triggerEventTime: 2026-11-17T20:59:25Z
 triggerReason: RuleDecided
-triggerNotes: The merge-types-judgement rule decided to run on commit 6397ab0
-startedAt: 2026-11-12T15:15:02.644625725Z
-completedAt: 2026-11-12T15:15:59.660461777Z
+triggerNotes: The merge-types-judgement rule decided to run on commit ddb7ff5
+startedAt: 2026-11-17T21:02:12.682468811Z
+completedAt: 2026-11-17T21:05:23.813403698Z
 assignee: factorybot-robot
 status: Completed
-commitSHA: 6397ab063fe4c1110552f0cee1ca2a9908e1a62a
-runName: merge-types-judgement-15362-6397ab0-1794496481
+commitSHA: ddb7ff537b6aab73d0a40d01bd6a87f02aa678df
+runName: merge-types-judgement-15362-ddb7ff5-1794949314
 rule: merge-types-judgement
 recipe: merge
 inputs:

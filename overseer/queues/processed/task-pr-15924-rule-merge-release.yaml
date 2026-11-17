@@ -1,0 +1,24 @@
+type: pr-rule
+url: https://github.com/GoogleCloudPlatform/k8s-config-connector/pull/15924
+number: 15924
+priority: medium
+phase: 1
+createdAt: 2026-11-17T17:35:10Z
+enqueuedAt: 2026-11-17T20:05:44.025202926Z
+triggerEventTime: 2026-11-17T19:45:17Z
+triggerReason: RuleDecided
+triggerNotes: The merge-release rule decided to run on commit 5a49222
+startedAt: 2026-11-17T20:05:54.574940925Z
+completedAt: 2026-11-17T20:10:27.320330285Z
+assignee: lovelace-coder-bot
+status: Completed
+commitSHA: 5a49222e9faaaf680444ce61e6c65c9371637f6f
+runName: merge-release-15924-5a49222-1794945944
+rule: merge-release
+recipe: merge
+inputs:
+    message: |
+        /lgtm
+        /approve
+
+        Approved for merge by the overseer: this release PR meets the criteria for approval - assess-release-step graded the Kind's real-GCP evidence good, its checks are green, and it is mergeable.
