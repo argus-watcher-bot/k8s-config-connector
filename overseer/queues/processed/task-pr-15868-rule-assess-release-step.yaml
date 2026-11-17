@@ -4,16 +4,20 @@ number: 15868
 priority: medium
 phase: 1
 createdAt: 2026-11-16T23:04:04Z
-enqueuedAt: 2026-11-17T07:12:08.919234801Z
-triggerEventTime: 2026-11-17T06:42:48Z
+enqueuedAt: 2026-11-17T19:03:06.613123583Z
+triggerEventTime: 2026-11-17T18:18:58Z
 triggerReason: RuleDecided
-triggerNotes: The assess-release-step rule decided to run on commit 82e5ac1
-startedAt: 2026-11-17T07:12:21.181538261Z
-completedAt: 2026-11-17T07:23:05.570690099Z
+triggerNotes: The assess-release-step rule decided to run on commit e6d1f09
+startedAt: 2026-11-17T19:03:35.327299119Z
+completedAt: 2026-11-17T19:26:46.679206204Z
 assignee: neumann-coder-bot
 status: Completed
-commitSHA: 82e5ac1570d847dc369589a4720ba8ea33a40d8d
-runName: assess-release-step-15868-82e5ac1-1794899528
+commitSHA: e6d1f099a2dbfdee55a4c6d2f22c1e374b586cd7
+onStart:
+    unlabel:
+        - overseer/assessment/good
+        - overseer/assessment/fair
+runName: assess-release-step-15868-e6d1f09-1794942186
 rule: assess-release-step
 recipe: assess-controller
 apply: comment,label
