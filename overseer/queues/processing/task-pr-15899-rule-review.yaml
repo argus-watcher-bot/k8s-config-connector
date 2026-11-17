@@ -1,0 +1,23 @@
+type: pr-rule
+url: https://github.com/GoogleCloudPlatform/k8s-config-connector/pull/15899
+number: 15899
+priority: medium
+phase: 1
+createdAt: 2026-11-17T05:02:22Z
+enqueuedAt: 2026-11-17T06:36:44.742213498Z
+triggerEventTime: 2026-11-17T06:33:53Z
+triggerReason: PRReadyForReview
+triggerNotes: Automated review triggered; all CI checks passed at 2026-11-17T06:33:53Z for commit 7aea48f (committer date 2026-11-17T05:42:48Z)
+startedAt: 2026-11-17T06:36:54.790195532Z
+assignee: ada-coder-bot
+status: Running
+commitSHA: 7aea48f2ee8720186bc0412b2da8a54f8ece78f6
+instructions:
+    - Use .gemini/skills/reviewgen-greenfield-controller/SKILL.md to conduct the review.
+    - "<sub>\U0001F916 [Agent session](https://staging.repoagent.dev/#/overseers/kcc/task-session/fix-k8s-config-connector-15893/recipe-fix-20261117-034346-d4e2)</sub>"
+onStart:
+    comment: AI Factory started reviewing this pull request in a sandbox.
+runName: review-15899-7aea48f-1794897404
+rule: review
+recipe: review
+apply: submit-review
