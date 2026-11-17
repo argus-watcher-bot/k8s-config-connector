@@ -4,16 +4,16 @@ number: 15648
 priority: medium
 phase: 1
 createdAt: 2026-11-14T06:22:06Z
-enqueuedAt: 2026-11-16T22:51:39.60068619Z
-triggerEventTime: 2026-11-16T22:31:26Z
+enqueuedAt: 2026-11-17T02:36:01.942680258Z
+triggerEventTime: 2026-11-17T02:14:32Z
 triggerReason: RuleDecided
-triggerNotes: The merge-types-judgement rule decided to run on commit 6c51bef
-startedAt: 2026-11-16T22:51:57.730795534Z
-completedAt: 2026-11-16T22:56:19.968643279Z
-assignee: neumann-coder-bot
+triggerNotes: The merge-types-judgement rule decided to run on commit d0d2a2b
+startedAt: 2026-11-17T02:36:20.026089028Z
+completedAt: 2026-11-17T02:39:18.795106848Z
+assignee: factorybot-robot
 status: Completed
-commitSHA: 6c51bef7e5bb4f47e7bac05f0a452f4423f12953
-runName: merge-types-judgement-15648-6c51bef-1794869499
+commitSHA: d0d2a2be24798305ffabfb856435fe9be1502484
+runName: merge-types-judgement-15648-d0d2a2b-1794882961
 rule: merge-types-judgement
 recipe: merge
 inputs:
