@@ -4,19 +4,19 @@ number: 15412
 priority: medium
 phase: 1
 createdAt: 2026-11-11T09:35:56Z
-enqueuedAt: 2026-11-17T12:40:35.831716321Z
-triggerEventTime: 2026-11-17T12:40:08Z
+enqueuedAt: 2026-11-18T00:22:27.326396138Z
+triggerEventTime: 2026-11-18T00:11:01Z
 triggerReason: RuleDecided
-triggerNotes: The assess-types-judgement rule decided to run on commit 0e96464
-startedAt: 2026-11-17T12:40:57.089662833Z
-completedAt: 2026-11-17T12:56:24.094939306Z
+triggerNotes: The assess-types-judgement rule decided to run on commit 4ea0693
+startedAt: 2026-11-18T00:22:51.899434046Z
+completedAt: 2026-11-18T00:34:27.955576434Z
 assignee: lovelace-coder-bot
 status: Completed
-commitSHA: 0e964643ae8ed835615156e7d5ac10f4a40bc20c
+commitSHA: 4ea069325c1c6e1ee88a1d643e04bdf7ec4cac0d
 onStart:
     unlabel:
         - overseer/assessment/good
-runName: assess-types-judgement-15412-0e96464-1794919235
+runName: assess-types-judgement-15412-4ea0693-1794961347
 rule: assess-types-judgement
 recipe: assess-types-judgement
 apply: comment,label
