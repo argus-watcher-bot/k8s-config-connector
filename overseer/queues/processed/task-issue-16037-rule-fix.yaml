@@ -9,14 +9,14 @@ triggerEventTime: 2026-11-18T14:35:42Z
 triggerReason: IssueLabeled
 triggerNotes: 'Issue #16037 created at 2026-11-18T14:35:41Z; trigger label ''overseer'' added by argus-watcher-bot at 2026-11-18T14:35:42Z'
 startedAt: 2026-11-18T14:37:33.727914379Z
+completedAt: 2026-11-18T21:27:37.115593889Z
 assignee: lovelace-coder-bot
-status: Pending
+status: Completed
 onStart:
     assign:
         - '{{bot}}'
     comment: AI Factory started fixing this issue in a sandbox.
 runName: fix-16037-head-1795012650
-recovered: true
 rule: fix
 recipe: fix
 apply: open-pr

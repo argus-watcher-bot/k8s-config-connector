@@ -1,0 +1,31 @@
+type: pr-rule
+url: https://github.com/GoogleCloudPlatform/k8s-config-connector/pull/16047
+number: 16047
+priority: medium
+phase: 1
+createdAt: 2026-11-18T20:59:54Z
+enqueuedAt: 2026-11-18T22:00:16.343830699Z
+triggerEventTime: 2026-11-18T21:54:17Z
+triggerReason: PRReadyForReview
+triggerNotes: Automated review triggered; all CI checks passed at 2026-11-18T21:54:17Z for commit 97a8427 (committer date 2026-11-18T20:43:39Z)
+startedAt: 2026-11-18T22:00:47.687663781Z
+completedAt: 2026-11-18T22:21:51.052931923Z
+assignee: neumann-coder-bot
+status: Completed
+commitSHA: 97a842780c957c93e4d6f252c0d86f9ff35fe416
+instructions:
+    - Use .gemini/skills/reviewgen-greenfield-controller/SKILL.md to conduct the review.
+    - '### Real GCP Recording Details'
+    - '**GCP Project**: `cnrm-barni-4`'
+    - '**Commands**:'
+    - RECORD_AUDIT_PROBE=1 ./hack/record-gcp "fixtures/^aiplatformnasjob-minimal$"
+    - RECORD_AUDIT_PROBE=1 ./hack/record-gcp "fixtures/^aiplatformnasjob-maximal$"
+    - '### Workflow feedback'
+    - In Vertex AI, `NasJob` cannot be deleted when in `PENDING` or active state; it requires cancellation and transitioning to a terminal state before calling `DeleteNasJob`. Following the canonical pattern from `HyperparameterTuningJob`, `BatchPredictionJob`, and `CustomJob` in `Adapter.Delete` resolved this cleanly.
+    - "<sub>\U0001F916 [Agent session](https://staging.repoagent.dev/#/overseers/kcc/task-session/fix-k8s-config-connector-16043/recipe-fix-20261118-190836-2f1e)</sub>"
+onStart:
+    comment: AI Factory started reviewing this pull request in a sandbox.
+runName: review-16047-97a8427-1795039216
+rule: review
+recipe: review
+apply: submit-review
