@@ -1,0 +1,22 @@
+type: pr-rule
+url: https://github.com/GoogleCloudPlatform/k8s-config-connector/pull/16023
+number: 16023
+priority: medium
+phase: 1
+createdAt: 2026-11-18T06:48:04Z
+enqueuedAt: 2026-11-18T10:34:07.192019003Z
+triggerEventTime: 2026-11-18T10:31:45Z
+triggerReason: PRReadyForReview
+triggerNotes: Automated review triggered; all CI checks passed at 2026-11-18T10:31:45Z for commit ed690d6 (committer date 2026-11-18T09:32:46Z)
+startedAt: 2026-11-18T10:34:30.582674504Z
+assignee: hopper-coder-bot
+status: Running
+commitSHA: ed690d6f54c094d757813fe76fb8bd2045855d78
+instructions:
+    - Use .gemini/skills/reviewgen-greenfield-controller/SKILL.md to conduct the review.
+onStart:
+    comment: AI Factory started reviewing this pull request in a sandbox.
+runName: review-16023-ed690d6-1794998047
+rule: review
+recipe: review
+apply: submit-review
