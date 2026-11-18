@@ -1,0 +1,31 @@
+type: pr-rule
+url: https://github.com/GoogleCloudPlatform/k8s-config-connector/pull/15958
+number: 15958
+priority: medium
+phase: 1
+createdAt: 2026-11-17T22:55:44Z
+enqueuedAt: 2026-11-18T01:26:18.749035712Z
+triggerEventTime: 2026-11-18T01:19:41Z
+triggerReason: PRReadyForReview
+triggerNotes: Automated review triggered; all CI checks passed at 2026-11-18T01:19:41Z for commit 242e833 (committer date 2026-11-17T22:43:02Z)
+startedAt: 2026-11-18T01:26:28.410163253Z
+assignee: lovelace-coder-bot
+status: Running
+commitSHA: 242e833f4f480fd069f38d88c54d077d62a58039
+instructions:
+    - Use .gemini/skills/reviewgen-greenfield-controller/SKILL.md to conduct the review.
+    - '### Real GCP Recording Details'
+    - '**GCP Project**: `cnrm-barni-4`'
+    - '**Commands**:'
+    - RECORD_AUDIT_PROBE=1 ./hack/record-gcp "fixtures/^agentidentityauthprovider-minimal$"
+    - RECORD_AUDIT_PROBE=1 ./hack/record-gcp "fixtures/^agentidentityauthprovider-maximal$"
+    - RECORD_AUDIT_PROBE=1 ./hack/record-gcp "fixtures/^agentidentityauthprovider-twoleggedoauth$"
+    - '### Workflow feedback'
+    - None. `controllerbuilder generate-controller` and `generate-fuzzer` with `--prepopulate-resource` executed deterministically, and all fixtures verified successfully against real GCP.
+    - "<sub>\U0001F916 [Agent session](https://staging.repoagent.dev/#/overseers/kcc/task-session/fix-k8s-config-connector-15939/recipe-fix-20261117-215741-c843)</sub>"
+onStart:
+    comment: AI Factory started reviewing this pull request in a sandbox.
+runName: review-15958-242e833-1794965178
+rule: review
+recipe: review
+apply: submit-review

@@ -1,0 +1,24 @@
+type: issue-rule
+url: https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/15957
+number: 15957
+priority: medium
+phase: 3
+createdAt: 2026-11-17T22:55:15Z
+enqueuedAt: 2026-11-17T22:55:48.593900748Z
+triggerEventTime: 2026-11-17T22:55:16Z
+triggerReason: IssueLabeled
+triggerNotes: 'Issue #15957 created at 2026-11-17T22:55:15Z; trigger label ''overseer'' added by anhdle-sso at 2026-11-17T22:55:16Z'
+startedAt: 2026-11-17T22:56:14.320293111Z
+assignee: neumann-coder-bot
+status: Running
+onStart:
+    assign:
+        - '{{bot}}'
+    comment: AI Factory started fixing this issue in a sandbox.
+runName: fix-15957-head-1794956148
+rule: fix
+recipe: fix
+apply: open-pr
+inputs:
+    draft: "false"
+prLabels: true

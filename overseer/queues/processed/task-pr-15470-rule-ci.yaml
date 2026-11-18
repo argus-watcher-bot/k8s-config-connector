@@ -4,21 +4,21 @@ number: 15470
 priority: medium
 phase: 3
 createdAt: 2026-11-12T06:23:27Z
-enqueuedAt: 2026-11-12T15:36:45.136001785Z
-triggerEventTime: 2026-11-12T15:31:51Z
+enqueuedAt: 2026-11-18T01:21:54.688947115Z
+triggerEventTime: 2026-11-18T01:21:36Z
 triggerReason: PRCheckFailed
-triggerNotes: Earliest CI failure in 'tests-e2e-fixtures-privateca' (failure) at 2026-11-12T15:31:51Z; total 11 failed check(s) on commit 9384c89
-startedAt: 2026-11-12T15:36:54.558467397Z
-completedAt: 2026-11-12T15:43:56.823504577Z
-assignee: neumann-coder-bot
+triggerNotes: Earliest CI failure in 'tests-scenarios-${{ matrix.suite }}' (cancelled) at 2026-11-18T01:21:36Z; total 33 failed check(s) on commit 9e73281
+startedAt: 2026-11-18T01:22:19.779468784Z
+completedAt: 2026-11-18T01:30:57.228127532Z
+assignee: factorybot-robot
 status: Completed
-commitSHA: 9384c891050cc574bb98331f7cfc8bf56cf01898
+commitSHA: 9e73281f183d5db3d3892ca673aadf44ac63512d
 onStart:
     comment: |-
         AI Factory started investigating CI check failures for this pull request.
 
         Note: We recommend waiting for the 'ready-for-human' label before leaving review comments. Comments added while the system is actively working may be associated with outdated commits once a new commit is pushed, causing them to be ignored.
-runName: ci-15470-9384c89-1794497805
+runName: ci-15470-9e73281-1794964914
 rule: ci
 recipe: care-ci
 apply: post-replies
