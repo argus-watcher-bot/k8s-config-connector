@@ -4,29 +4,20 @@ number: 15958
 priority: medium
 phase: 1
 createdAt: 2026-11-17T22:55:44Z
-enqueuedAt: 2026-11-18T01:26:18.749035712Z
-triggerEventTime: 2026-11-18T01:19:41Z
+enqueuedAt: 2026-11-18T06:31:09.263238375Z
+triggerEventTime: 2026-11-18T06:28:55Z
 triggerReason: PRReadyForReview
-triggerNotes: Automated review triggered; all CI checks passed at 2026-11-18T01:19:41Z for commit 242e833 (committer date 2026-11-17T22:43:02Z)
-startedAt: 2026-11-18T01:26:28.410163253Z
-completedAt: 2026-11-18T01:50:49.922445624Z
+triggerNotes: Automated review triggered; all CI checks passed at 2026-11-18T06:28:55Z for commit 39aafb9 (committer date 2026-11-18T05:03:18Z)
+startedAt: 2026-11-18T06:31:17.602068067Z
+completedAt: 2026-11-18T07:35:33.672298263Z
 assignee: lovelace-coder-bot
 status: Completed
-commitSHA: 242e833f4f480fd069f38d88c54d077d62a58039
+commitSHA: 39aafb9ac5c1b74f0d7fa9ad443ee8c3690fabc4
 instructions:
-    - Use .gemini/skills/reviewgen-greenfield-controller/SKILL.md to conduct the review.
-    - '### Real GCP Recording Details'
-    - '**GCP Project**: `cnrm-barni-4`'
-    - '**Commands**:'
-    - RECORD_AUDIT_PROBE=1 ./hack/record-gcp "fixtures/^agentidentityauthprovider-minimal$"
-    - RECORD_AUDIT_PROBE=1 ./hack/record-gcp "fixtures/^agentidentityauthprovider-maximal$"
-    - RECORD_AUDIT_PROBE=1 ./hack/record-gcp "fixtures/^agentidentityauthprovider-twoleggedoauth$"
-    - '### Workflow feedback'
-    - None. `controllerbuilder generate-controller` and `generate-fuzzer` with `--prepopulate-resource` executed deterministically, and all fixtures verified successfully against real GCP.
-    - "<sub>\U0001F916 [Agent session](https://staging.repoagent.dev/#/overseers/kcc/task-session/fix-k8s-config-connector-15939/recipe-fix-20261117-215741-c843)</sub>"
+    - Use .gemini/skills/reviewgen-greenfield-mockgcp/SKILL.md to conduct the review.
 onStart:
     comment: AI Factory started reviewing this pull request in a sandbox.
-runName: review-15958-242e833-1794965178
+runName: review-15958-39aafb9-1794983469
 rule: review
 recipe: review
 apply: submit-review
