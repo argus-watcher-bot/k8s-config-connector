@@ -9,8 +9,9 @@ triggerEventTime: 2026-11-18T01:36:13Z
 triggerReason: PRCheckFailed
 triggerNotes: Earliest CI failure in 'validate-manifests' (failure) at 2026-11-18T01:36:13Z; total 3 failed check(s) on commit dbb0933
 startedAt: 2026-11-18T01:40:03.187300597Z
+completedAt: 2026-11-18T06:17:08.76846692Z
 assignee: neumann-coder-bot
-status: Running
+status: Completed
 commitSHA: dbb0933f26277ccea7ed730250c4b45e774c62b6
 onStart:
     comment: |-
