@@ -9,8 +9,9 @@ triggerEventTime: 2026-11-18T20:15:34Z
 triggerReason: PRCheckFailed
 triggerNotes: Earliest CI failure in 'test-mockgcp' (failure) at 2026-11-18T20:15:34Z; total 1 failed check(s) on commit 8e699f7
 startedAt: 2026-11-18T20:21:20.447246315Z
+completedAt: 2026-11-18T20:31:50.596216262Z
 assignee: neumann-coder-bot
-status: Running
+status: Completed
 commitSHA: 8e699f77029dcc43351f900d637808117f774a5f
 onStart:
     comment: |-

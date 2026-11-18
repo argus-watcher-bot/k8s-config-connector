@@ -4,16 +4,16 @@ number: 15470
 priority: medium
 phase: 1
 createdAt: 2026-11-12T06:23:27Z
-enqueuedAt: 2026-11-18T00:44:37.610505173Z
-triggerEventTime: 2026-11-17T23:58:12Z
+enqueuedAt: 2026-11-18T20:32:16.932085834Z
+triggerEventTime: 2026-11-18T19:40:36Z
 triggerReason: RuleDecided
-triggerNotes: The merge-controller rule decided to run on commit 1a6dda9
-startedAt: 2026-11-18T00:44:50.186987202Z
-completedAt: 2026-11-18T00:52:05.011653353Z
-assignee: neumann-coder-bot
+triggerNotes: The merge-controller rule decided to run on commit e8cc365
+startedAt: 2026-11-18T20:32:50.246687368Z
+completedAt: 2026-11-18T20:36:36.861184227Z
+assignee: factorybot-robot
 status: Completed
-commitSHA: 1a6dda9a99f0bc84f9d51c602035e616c48a00e3
-runName: merge-controller-15470-1a6dda9-1794962677
+commitSHA: e8cc365cc1c1687661c7625092128911299f5fa7
+runName: merge-controller-15470-e8cc365-1795033936
 rule: merge-controller
 recipe: merge
 inputs:
