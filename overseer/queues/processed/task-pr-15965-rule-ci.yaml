@@ -4,21 +4,21 @@ number: 15965
 priority: medium
 phase: 3
 createdAt: 2026-11-17T23:40:40Z
-enqueuedAt: 2026-11-17T23:48:14.86673048Z
-triggerEventTime: 2026-11-17T23:44:18Z
+enqueuedAt: 2026-11-18T02:57:09.511146343Z
+triggerEventTime: 2026-11-18T02:51:22Z
 triggerReason: PRCheckFailed
-triggerNotes: Earliest CI failure in 'Validate PR Release Note' (failure) at 2026-11-17T23:44:18Z; total 1 failed check(s) on commit bb7198c
-startedAt: 2026-11-17T23:48:20.403625838Z
-completedAt: 2026-11-17T23:51:23.532761869Z
+triggerNotes: Earliest CI failure in 'tests-e2e-fixtures-firebasedatabase' (failure) at 2026-11-18T02:51:22Z; total 6 failed check(s) on commit 2901d1a
+startedAt: 2026-11-18T02:57:37.177900547Z
+completedAt: 2026-11-18T03:12:34.169280359Z
 assignee: ada-coder-bot
 status: Completed
-commitSHA: bb7198cbcbc229fe1ada79a2e0194fdb4270d8ec
+commitSHA: 2901d1a439bad514a0e4f4b6c2e48274944028c1
 onStart:
     comment: |-
         AI Factory started investigating CI check failures for this pull request.
 
         Note: We recommend waiting for the 'ready-for-human' label before leaving review comments. Comments added while the system is actively working may be associated with outdated commits once a new commit is pushed, causing them to be ignored.
-runName: ci-15965-bb7198c-1794959294
+runName: ci-15965-2901d1a-1794970629
 rule: ci
 recipe: care-ci
 apply: post-replies
