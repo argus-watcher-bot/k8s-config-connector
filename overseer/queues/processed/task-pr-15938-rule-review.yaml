@@ -4,25 +4,20 @@ number: 15938
 priority: medium
 phase: 1
 createdAt: 2026-11-17T21:41:58Z
-enqueuedAt: 2026-11-18T00:10:31.327529727Z
-triggerEventTime: 2026-11-17T23:58:28Z
+enqueuedAt: 2026-11-18T04:17:09.939177479Z
+triggerEventTime: 2026-11-18T04:15:23Z
 triggerReason: PRReadyForReview
-triggerNotes: Automated review triggered; all CI checks passed at 2026-11-17T23:58:28Z for commit 4c4141e (committer date 2026-11-17T22:51:25Z)
-startedAt: 2026-11-18T00:10:47.139685172Z
-completedAt: 2026-11-18T00:30:07.818058723Z
+triggerNotes: Automated review triggered; all CI checks passed at 2026-11-18T04:15:23Z for commit fc33d87 (committer date 2026-11-18T03:30:23Z)
+startedAt: 2026-11-18T04:17:34.425012236Z
+completedAt: 2026-11-18T04:38:30.771837952Z
 assignee: ada-coder-bot
 status: Completed
-commitSHA: 4c4141e636ebd60eb133f17d410f9aee76013ac1
+commitSHA: fc33d87565a858e9be6107594ca2194c0c6ca50e
 instructions:
-    - Use .gemini/skills/reviewgen-greenfield-controller/SKILL.md to conduct the review.
-    - '### Real GCP Recording Details'
-    - '**GCP Project**: `cnrm-barni-4`'
-    - '**Recording Window**: Tuesday, November 17, 2026 (12:57:11 - 13:00:01 PST)'
-    - '**Commands**:'
-    - RECORD_AUDIT_PROBE=1 ./hack/record-gcp "fixtures/clouddeployrelease"
+    - Use .gemini/skills/reviewgen-greenfield-mockgcp/SKILL.md to conduct the review.
 onStart:
     comment: AI Factory started reviewing this pull request in a sandbox.
-runName: review-15938-4c4141e-1794960631
+runName: review-15938-fc33d87-1794975429
 rule: review
 recipe: review
 apply: submit-review
