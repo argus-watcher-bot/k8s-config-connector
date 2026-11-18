@@ -10,7 +10,7 @@ triggerReason: PRCheckFailed
 triggerNotes: Earliest CI failure in 'tests-scenarios-unclassified' (failure) at 2026-11-18T14:03:43Z; total 6 failed check(s) on commit 8f456b5
 startedAt: 2026-11-18T14:06:23.708994014Z
 assignee: neumann-coder-bot
-status: Running
+status: Pending
 commitSHA: 8f456b59a2edde63900d19ab48d3a401048bde2d
 onStart:
     comment: |-
@@ -18,6 +18,7 @@ onStart:
 
         Note: We recommend waiting for the 'ready-for-human' label before leaving review comments. Comments added while the system is actively working may be associated with outdated commits once a new commit is pushed, causing them to be ignored.
 runName: ci-15971-8f456b5-1795010751
+recovered: true
 rule: ci
 recipe: care-ci
 apply: post-replies
