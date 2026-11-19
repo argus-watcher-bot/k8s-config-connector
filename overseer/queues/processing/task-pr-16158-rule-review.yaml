@@ -1,0 +1,32 @@
+type: pr-rule
+url: https://github.com/GoogleCloudPlatform/k8s-config-connector/pull/16158
+number: 16158
+priority: medium
+phase: 1
+createdAt: 2026-11-19T18:36:59Z
+enqueuedAt: 2026-11-19T21:29:42.444906999Z
+triggerEventTime: 2026-11-19T21:20:18Z
+triggerReason: PRReadyForReview
+triggerNotes: Automated review triggered; all CI checks passed at 2026-11-19T21:20:18Z for commit 3ea53bc (committer date 2026-11-19T20:21:33Z)
+startedAt: 2026-11-19T21:30:07.232060121Z
+assignee: lovelace-coder-bot
+status: Running
+commitSHA: 3ea53bc9593df885376638db0fb0fa79c8f983d2
+instructions:
+    - Use .gemini/skills/reviewgen-greenfield-new-types/SKILL.md to conduct the review.
+    - '### KCC Greenfield Step 1 (Prepopulate) Auto-Review Results'
+    - '**Trigger criteria matched**: Yes'
+    - '**`generate.sh` & Flags Check**: Pass - (`generate-types --prepopulate-resource`, `generate-identity`, `generate-mapper --prepopulate-resource`, and no `--allow-non-ga-proto`)'
+    - '**Judgement Queue Open Check**: Pass - (`apis/migrationcenter/judgement_queue.yaml` has `untriaged-bulk-generation` with `status: open` and zero manual edits)'
+    - '**Mechanical Output & Idempotency**: Pass - (`./apis/migrationcenter/generate.sh` produces zero uncommitted diff and generated files have not been hand-edited)'
+    - '**Release Bundle Blocklist (`BLOCKED_KINDS`)**: Pass - (`MigrationCenterImportDataFile` added in alphabetical order to `BLOCKED_KINDS` in `dev/tasks/build-release-bundle`)'
+    - '**Mapper Compilation & `apichecks`**: Pass - (`apis/migrationcenter/...` and `pkg/controller/direct/migrationcenter/...` build cleanly and `tests/apichecks/...` passes without unauthorized exception edits)'
+    - '#### Detailed Findings / Actions Required:'
+    - None. All Greenfield Step 1a criteria and invariants are satisfied.
+    - "<sub>\U0001F916 [Agent session](https://staging.repoagent.dev/#/overseers/kcc/task-session/fix-k8s-config-connector-16157/recipe-fix-20261119-174128-67c6)</sub>"
+onStart:
+    comment: AI Factory started reviewing this pull request in a sandbox.
+runName: review-16158-3ea53bc-1795123782
+rule: review
+recipe: review
+apply: submit-review
