@@ -1,0 +1,24 @@
+type: pr-rule
+url: https://github.com/GoogleCloudPlatform/k8s-config-connector/pull/16071
+number: 16071
+priority: medium
+phase: 3
+createdAt: 2026-11-19T00:25:18Z
+enqueuedAt: 2026-11-19T01:41:18.627316946Z
+triggerEventTime: 2026-11-19T01:37:07Z
+triggerReason: PRCheckFailed
+triggerNotes: Earliest CI failure in 'tests-preview' (failure) at 2026-11-19T01:37:07Z; total 1 failed check(s) on commit fac53ee
+startedAt: 2026-11-19T01:41:33.619410249Z
+completedAt: 2026-11-19T02:09:11.779201211Z
+assignee: neumann-coder-bot
+status: Completed
+commitSHA: fac53ee9c1d41046382ab22e57907a0e89b30138
+onStart:
+    comment: |-
+        AI Factory started investigating CI check failures for this pull request.
+
+        Note: We recommend waiting for the 'ready-for-human' label before leaving review comments. Comments added while the system is actively working may be associated with outdated commits once a new commit is pushed, causing them to be ignored.
+runName: ci-16071-fac53ee-1795052478
+rule: ci
+recipe: care-ci
+apply: post-replies
