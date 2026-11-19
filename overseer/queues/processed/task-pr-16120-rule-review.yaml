@@ -1,0 +1,33 @@
+type: pr-rule
+url: https://github.com/GoogleCloudPlatform/k8s-config-connector/pull/16120
+number: 16120
+priority: medium
+phase: 1
+createdAt: 2026-11-19T07:46:27Z
+enqueuedAt: 2026-11-19T09:51:46.269014096Z
+triggerEventTime: 2026-11-19T09:51:44Z
+triggerReason: PRReadyForReview
+triggerNotes: Automated review triggered; all CI checks passed at 2026-11-19T09:51:44Z for commit ed79006 (committer date 2026-11-19T08:42:51Z)
+startedAt: 2026-11-19T09:52:17.507396829Z
+completedAt: 2026-11-19T09:57:38.180846107Z
+assignee: ada-coder-bot
+status: Completed
+commitSHA: ed790061f01153b9c8441e1dadfab0eb9bd91a99
+instructions:
+    - Use .gemini/skills/reviewgen-greenfield-controller/SKILL.md to conduct the review.
+    - '### KCC Greenfield Controller Auto-Review Results'
+    - '**Trigger criteria matched**: Yes'
+    - '**Post-Judgement, One-Shot Generation, & `static_config.go`**: Pass - (All 16 judgement queue items resolved in Step 1b, `generate.sh` does not invoke `generate-controller` or `generate-fuzzer`, files have `// +generated:controller` and `// +generated:fuzzer`, `static_config.go` updated with Direct reconciler default, and `ComputePublicAdvertisedPrefix` remains in `BLOCKED_KINDS`)'
+    - '**Client Creation & Reference Normalization**: Pass - (Uses GAPIC REST client `NewPublicAdvertisedPrefixesRESTClient` with `RESTClientOptions()` and calls `common.NormalizeGreenfieldReferences` first in `AdapterForObject`)'
+    - '**CompareGreenfieldSpec & Structured Reporting**: Pass - (Uses `common.CompareGreenfieldSpec` and `structuredreporting.ReportDiff` in `Update`, passing `Fingerprint` for optimistic locking)'
+    - '**LRO Wait & Mandatory Status Updates**: Pass - (Calls `op.Wait(ctx)` on insert, patch, and delete operations, and calls `setStatus` on all create and update paths)'
+    - '**Fuzzer & Real-GCP Test Coverage**: Pass - (Round-trip fuzzer passes 200 seeds; minimal and maximal test fixtures authored with `create.yaml` and `update.yaml`; missing fields synchronized; ratcheting enabled)'
+    - '#### Detailed Findings / Actions Required:'
+    - None. All criteria and invariants are satisfied.
+    - "<sub>\U0001F916 [Agent session](https://staging.repoagent.dev/#/overseers/kcc/task-session/fix-k8s-config-connector-16112/recipe-fix-20261119-064653-227e)</sub>"
+onStart:
+    comment: AI Factory started reviewing this pull request in a sandbox.
+runName: review-16120-ed79006-1795081906
+rule: review
+recipe: review
+apply: submit-review

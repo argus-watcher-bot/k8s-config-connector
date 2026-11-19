@@ -4,21 +4,21 @@ number: 15142
 priority: medium
 phase: 3
 createdAt: 2026-11-06T11:09:03Z
-enqueuedAt: 2026-11-18T08:52:00.906971471Z
-triggerEventTime: 2026-11-18T08:47:53Z
+enqueuedAt: 2026-11-19T11:41:45.736745636Z
+triggerEventTime: 2026-11-19T11:31:56Z
 triggerReason: PRCheckFailed
-triggerNotes: Earliest CI failure in 'tests-e2e-fixtures-dns' (failure) at 2026-11-18T08:47:53Z; total 5 failed check(s) on commit 0f3b29c
-startedAt: 2026-11-18T08:52:32.122502105Z
-completedAt: 2026-11-18T08:57:43.053135481Z
+triggerNotes: Earliest CI failure in 'unit-tests-1-of-4' (failure) at 2026-11-19T11:31:56Z; total 2 failed check(s) on commit afcba52
+startedAt: 2026-11-19T11:42:27.110350972Z
+completedAt: 2026-11-19T12:01:40.436432074Z
 assignee: neumann-coder-bot
 status: Completed
-commitSHA: 0f3b29c68a3682bfaf677b557a439a169e447479
+commitSHA: afcba529b184a9a96460a98996a336502557e440
 onStart:
     comment: |-
         AI Factory started investigating CI check failures for this pull request.
 
         Note: We recommend waiting for the 'ready-for-human' label before leaving review comments. Comments added while the system is actively working may be associated with outdated commits once a new commit is pushed, causing them to be ignored.
-runName: ci-15142-0f3b29c-1794991920
+runName: ci-15142-afcba52-1795088505
 rule: ci
 recipe: care-ci
 apply: post-replies
