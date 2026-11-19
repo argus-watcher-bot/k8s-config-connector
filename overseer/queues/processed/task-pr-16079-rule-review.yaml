@@ -4,30 +4,20 @@ number: 16079
 priority: medium
 phase: 1
 createdAt: 2026-11-19T01:19:30Z
-enqueuedAt: 2026-11-19T02:03:18.564122212Z
-triggerEventTime: 2026-11-19T02:02:25Z
+enqueuedAt: 2026-11-19T04:53:25.846417296Z
+triggerEventTime: 2026-11-19T04:48:57Z
 triggerReason: PRReadyForReview
-triggerNotes: Automated review triggered; all CI checks passed at 2026-11-19T02:02:25Z for commit 18a9b5d (committer date 2026-11-19T01:01:25Z)
-startedAt: 2026-11-19T02:03:33.578586449Z
-completedAt: 2026-11-19T02:27:11.567141478Z
+triggerNotes: Automated review triggered; all CI checks passed at 2026-11-19T04:48:57Z for commit 5dced03 (committer date 2026-11-19T03:53:42Z)
+startedAt: 2026-11-19T04:53:33.675505406Z
+completedAt: 2026-11-19T05:03:22.578121785Z
 assignee: ada-coder-bot
 status: Completed
-commitSHA: 18a9b5dc9863a2a05966386faff77e568663dab4
+commitSHA: 5dced03b916fb30de453fcb0b292437bded594e8
 instructions:
     - Use .gemini/skills/reviewgen-greenfield-new-types/SKILL.md to conduct the review.
-    - '### KCC Greenfield Step 1 (Prepopulate) Auto-Review Results'
-    - '**Trigger criteria matched**: Yes'
-    - '**`generate.sh` & Flags Check**: Pass - (`generate-types --prepopulate-resource`, `generate-identity`, `generate-mapper --prepopulate-resource`, no `--allow-non-ga-proto`)'
-    - '**Judgement Queue Open Check**: Pass - (`apis/compute/judgement_queue.yaml` has `untriaged-bulk-generation` with `status: open` and no premature manual resolutions)'
-    - '**Mechanical Output & Idempotency**: Pass - (`./apis/compute/generate.sh` produces zero diff and `<kind>_types.go` was not hand-edited)'
-    - '**Release Bundle Blocklist (`BLOCKED_KINDS`)**: Pass - (`ComputePublicAdvertisedPrefix` added in alphabetical order to `BLOCKED_KINDS` in `dev/tasks/build-release-bundle`)'
-    - '**Mapper Compilation & `apichecks`**: Pass - (`apis/compute/...` and `pkg/controller/direct/compute/...` build cleanly, `tests/apichecks/...` passes)'
-    - '### Workflow feedback'
-    - In `docs/ai/metadata/cloudassetinventory_names.jsonl`, the placeholder for `compute.googleapis.com/PublicAdvertisedPrefix` was specified as `{{PUBLIC_DELEGATED_PREFIX}}` instead of `{{PUBLIC_ADVERTISED_PREFIX}}`. Explicitly specifying `--pattern ComputePublicAdvertisedPrefix="projects/{project}/global/publicAdvertisedPrefixes/{publicAdvertisedPrefix}"` in `generate-identity` ensured that the generated struct field is named `PublicAdvertisedPrefix` rather than `PublicDelegatedPrefix`.
-    - "<sub>\U0001F916 [Agent session](https://staging.repoagent.dev/#/overseers/kcc/task-session/fix-k8s-config-connector-16064/recipe-fix-20261118-234723-3a7a)</sub>"
 onStart:
     comment: AI Factory started reviewing this pull request in a sandbox.
-runName: review-16079-18a9b5d-1795053798
+runName: review-16079-5dced03-1795064005
 rule: review
 recipe: review
 apply: submit-review
