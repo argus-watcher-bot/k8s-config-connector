@@ -1,0 +1,40 @@
+type: pr-rule
+url: https://github.com/GoogleCloudPlatform/k8s-config-connector/pull/16108
+number: 16108
+priority: medium
+phase: 1
+createdAt: 2026-11-19T05:43:24Z
+enqueuedAt: 2026-11-19T06:36:23.501846194Z
+triggerEventTime: 2026-11-19T06:30:00Z
+triggerReason: PRReadyForReview
+triggerNotes: Automated review triggered; all CI checks passed at 2026-11-19T06:30:00Z for commit ea5e60c (committer date 2026-11-19T05:42:21Z)
+startedAt: 2026-11-19T06:36:44.515570575Z
+completedAt: 2026-11-19T06:56:00.684928881Z
+assignee: ada-coder-bot
+status: Completed
+commitSHA: ea5e60c101ef9fa5c418e73e132feaf64642032f
+instructions:
+    - Use .gemini/skills/reviewgen-greenfield-controller/SKILL.md to conduct the review.
+    - '### Real GCP Recording Details'
+    - '**GCP Project**: `cnrm-barni-4`'
+    - '**Commands**:'
+    - RECORD_AUDIT_PROBE=1 ./hack/record-gcp pkg/test/resourcefixture/testdata/basic/bigquerybiglake/v1alpha1/biglakeicebergcatalog/biglakeicebergcatalog-minimal
+    - RECORD_AUDIT_PROBE=1 ./hack/record-gcp pkg/test/resourcefixture/testdata/basic/bigquerybiglake/v1alpha1/biglakeicebergcatalog/biglakeicebergcatalog-maximal
+    - '### KCC Greenfield Controller Auto-Review Results'
+    - '**Trigger criteria matched**: Yes'
+    - '**Post-Judgement, One-Shot Generation, & `static_config.go`**: Pass - (`judgement_queue.yaml` entries were triaged and resolved in Step 1b, `generate.sh` does not invoke `generate-controller` or `generate-fuzzer`, files have `+generated:controller` and `+generated:fuzzer`, `static_config.go` is updated, and `BigLakeIcebergCatalog` remains in `BLOCKED_KINDS`)'
+    - '**Client Creation & Reference Normalization**: Pass - (`m.client(ctx)` falls back to `NewIcebergCatalogClient` with `m.config.GRPCClientOptions()` per Standard Rule 1 because REST is broken upstream on real GCP, and `common.NormalizeGreenfieldReferences` is called before `GetIdentity` in `AdapterForObject`)'
+    - '**CompareGreenfieldSpec & Structured Reporting**: Pass - (`common.CompareGreenfieldSpec` and `structuredreporting.ReportDiff` are used in `Update`)'
+    - '**LRO Wait & Mandatory Status Updates**: Pass - (`setStatus` is called on both mutating and no-op update paths; `CreateIcebergCatalog` returns non-LRO `*biglakepb.IcebergCatalog`)'
+    - '**Fuzzer & Real-GCP Test Coverage**: Pass - (`biglakeicebergcatalog_fuzzer.generated.go` passes focused fuzz tests; minimal and maximal fixtures recorded against real GCP `cnrm-barni-4` with authentic `_http.log`, `_http_report.md`, and `_audit_probe.log`; parent fields correctly modeled and immutable; ratcheting enabled)'
+    - '#### Detailed Findings / Actions Required:'
+    - None. All criteria and invariants are satisfied.
+    - '### Workflow feedback'
+    - 'In `cloud.google.com/go/biglake@v1.6.1`, `NewIcebergCatalogRESTClient` has a bug in `CreateIcebergCatalog` where it adds `icebergCatalogId` to query parameters (`params.Add("icebergCatalogId", ...)`). GCP backend expects `iceberg-catalog-id` (matching the protobuf `json_name = "iceberg-catalog-id"` tag) or snake_case `iceberg_catalog_id`, and rejects the REST call with `400 Bad Request: Unknown name "icebergCatalogId": Cannot bind query parameter`. Falling back to the gRPC GAPIC client (`NewIcebergCatalogClient` with `GRPCClientOptions()`) completely circumvents this issue and seamlessly reconciles on real GCP.'
+    - "<sub>\U0001F916 [Agent session](https://staging.repoagent.dev/#/overseers/kcc/task-session/fix-k8s-config-connector-16098/recipe-fix-20261119-044108-9b33)</sub>"
+onStart:
+    comment: AI Factory started reviewing this pull request in a sandbox.
+runName: review-16108-ea5e60c-1795070183
+rule: review
+recipe: review
+apply: submit-review
