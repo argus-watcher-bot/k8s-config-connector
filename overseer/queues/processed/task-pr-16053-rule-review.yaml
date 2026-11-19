@@ -1,0 +1,31 @@
+type: pr-rule
+url: https://github.com/GoogleCloudPlatform/k8s-config-connector/pull/16053
+number: 16053
+priority: medium
+phase: 1
+createdAt: 2026-11-18T22:22:03Z
+enqueuedAt: 2026-11-19T00:35:30.839124908Z
+triggerEventTime: 2026-11-19T00:33:18Z
+triggerReason: PRReadyForReview
+triggerNotes: Automated review triggered; all CI checks passed at 2026-11-19T00:33:18Z for commit 0688549 (committer date 2026-11-18T23:32:22Z)
+startedAt: 2026-11-19T00:35:59.84011328Z
+completedAt: 2026-11-19T01:00:12.064939244Z
+assignee: ada-coder-bot
+status: Completed
+commitSHA: 0688549f053f608f0738951e963becce6432e094
+instructions:
+    - Use `.gemini/skills/reviewgen-greenfield-controller/SKILL.md` to conduct the review.
+    - '### KCC Greenfield Controller Auto-Review Results'
+    - '**Trigger criteria matched**: Yes'
+    - '**Post-Judgement, One-Shot Generation, & `static_config.go`**: Pass - Judgement queue for `ComputeLicense` is resolved, `generate.sh` does not invoke `generate-controller` or `generate-fuzzer`, files contain `+generated:controller` and `+generated:fuzzer`, `static_config.go` registers `ComputeLicense` as direct, and `ComputeLicense` remains in `BLOCKED_KINDS`.'
+    - '**Client Creation & Reference Normalization**: Pass - GAPIC REST client (`gcp.NewLicensesRESTClient`) used with `m.config.RESTClientOptions()`, and `common.NormalizeGreenfieldReferences` is called in `AdapterForObject`.'
+    - '**CompareGreenfieldSpec & Structured Reporting**: Pass - `common.CompareGreenfieldSpec` with `structuredreporting.ReportDiff` is used in `Update`.'
+    - '**LRO Wait & Mandatory Status Updates**: Pass - `op.Wait(ctx)` used on `Create`, `Update`, and `Delete`; `setStatus` called on all update paths (both no-op and after update) and create.'
+    - '**Fuzzer & Real-GCP Test Coverage**: Pass - `computelicense_fuzzer.generated.go` passes 200-seed focused round-trip test; minimal and maximal fixtures recorded against real GCP (`cnrm-barni-4`) with untouched golden logs passing all V1-V7 checks; re-reconciliation verified; no exclusion in ratcheting.'
+    - "<sub>\U0001F916 [Agent session](https://staging.repoagent.dev/#/overseers/kcc/task-session/fix-k8s-config-connector-16046/recipe-fix-20261118-205019-3137)</sub>"
+onStart:
+    comment: AI Factory started reviewing this pull request in a sandbox.
+runName: review-16053-0688549-1795048530
+rule: review
+recipe: review
+apply: submit-review

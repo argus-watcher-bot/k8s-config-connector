@@ -4,21 +4,21 @@ number: 16048
 priority: medium
 phase: 3
 createdAt: 2026-11-18T21:27:34Z
-enqueuedAt: 2026-11-18T22:10:12.456604633Z
-triggerEventTime: 2026-11-18T22:03:14Z
+enqueuedAt: 2026-11-18T23:53:22.21677593Z
+triggerEventTime: 2026-11-18T23:51:15Z
 triggerReason: PRCheckFailed
-triggerNotes: Earliest CI failure in 'test-mockgcp' (failure) at 2026-11-18T22:03:14Z; total 10 failed check(s) on commit e6d5e2f
-startedAt: 2026-11-18T22:10:41.063626238Z
-completedAt: 2026-11-18T22:40:05.391847854Z
+triggerNotes: Earliest CI failure in 'test-mockgcp' (failure) at 2026-11-18T23:51:15Z; total 1 failed check(s) on commit 1dfc019
+startedAt: 2026-11-18T23:53:42.691194321Z
+completedAt: 2026-11-19T00:14:57.186342598Z
 assignee: lovelace-coder-bot
 status: Completed
-commitSHA: e6d5e2ffa59b295bdff8dae7724777517b5a8897
+commitSHA: 1dfc019835aecc040b4d65658f0dea2ff342b60d
 onStart:
     comment: |-
         AI Factory started investigating CI check failures for this pull request.
 
         Note: We recommend waiting for the 'ready-for-human' label before leaving review comments. Comments added while the system is actively working may be associated with outdated commits once a new commit is pushed, causing them to be ignored.
-runName: ci-16048-e6d5e2f-1795039812
+runName: ci-16048-1dfc019-1795046002
 rule: ci
 recipe: care-ci
 apply: post-replies
