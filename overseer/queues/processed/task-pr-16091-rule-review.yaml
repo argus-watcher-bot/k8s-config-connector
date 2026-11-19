@@ -1,0 +1,33 @@
+type: pr-rule
+url: https://github.com/GoogleCloudPlatform/k8s-config-connector/pull/16091
+number: 16091
+priority: medium
+phase: 1
+createdAt: 2026-11-19T03:35:11Z
+enqueuedAt: 2026-11-19T04:19:28.618102061Z
+triggerEventTime: 2026-11-19T04:18:40Z
+triggerReason: PRReadyForReview
+triggerNotes: Automated review triggered; all CI checks passed at 2026-11-19T04:18:40Z for commit 9ca9d0c (committer date 2026-11-19T03:17:59Z)
+startedAt: 2026-11-19T04:19:46.03431563Z
+completedAt: 2026-11-19T04:45:42.479422479Z
+assignee: neumann-coder-bot
+status: Completed
+commitSHA: 9ca9d0cba80ecec17c26074d83921b24384839ce
+instructions:
+    - Use .gemini/skills/reviewgen-greenfield-new-types/SKILL.md to conduct the review.
+    - '### KCC Greenfield Step 1 (Prepopulate) Auto-Review Results'
+    - '**Trigger criteria matched**: Yes'
+    - '**`generate.sh` & Flags Check**: Pass - (`generate-types --prepopulate-resource` and `generate-identity` configured cleanly without `--allow-non-ga-proto`)'
+    - '**Judgement Queue Open Check**: Pass - (`apis/observability/judgement_queue.yaml` has `untriaged-bulk-generation` with `status: open` and zero manual edits)'
+    - '**Mechanical Output & Idempotency**: Pass - (`./apis/observability/generate.sh` produces zero uncommitted diff and generated files have not been hand-edited)'
+    - '**Release Bundle Blocklist (`BLOCKED_KINDS`)**: Pass - (`ObservabilityLink` added in alphabetical order to `BLOCKED_KINDS` in `dev/tasks/build-release-bundle`)'
+    - '**Mapper Compilation & `apichecks`**: Pass - (`apis/observability/...` and `pkg/controller/direct/observability/...` build cleanly and `tests/apichecks/...` passes without unauthorized exception edits)'
+    - '#### Detailed Findings / Actions Required:'
+    - None. All Greenfield Step 1a criteria and invariants are satisfied.
+    - "<sub>\U0001F916 [Agent session](https://staging.repoagent.dev/#/overseers/kcc/task-session/fix-k8s-config-connector-16085/recipe-fix-20261119-025619-5c84)</sub>"
+onStart:
+    comment: AI Factory started reviewing this pull request in a sandbox.
+runName: review-16091-9ca9d0c-1795061968
+rule: review
+recipe: review
+apply: submit-review
