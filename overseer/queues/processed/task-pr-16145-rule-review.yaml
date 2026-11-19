@@ -1,0 +1,46 @@
+type: pr-rule
+url: https://github.com/GoogleCloudPlatform/k8s-config-connector/pull/16145
+number: 16145
+priority: medium
+phase: 1
+createdAt: 2026-11-19T14:10:07Z
+enqueuedAt: 2026-11-19T14:53:00.99139731Z
+triggerEventTime: 2026-11-19T14:50:46Z
+triggerReason: PRReadyForReview
+triggerNotes: Automated review triggered; all CI checks passed at 2026-11-19T14:50:46Z for commit 3e9a40e (committer date 2026-11-19T13:54:24Z)
+startedAt: 2026-11-19T14:53:26.36946216Z
+completedAt: 2026-11-19T15:08:09.498671865Z
+assignee: lovelace-coder-bot
+status: Completed
+commitSHA: 3e9a40ee523ebf43505c9876cd1a250d5c7bb9f4
+instructions:
+    - Use .gemini/skills/reviewgen-greenfield-controller/SKILL.md to conduct the review.
+    - '### KCC Greenfield Controller Auto-Review Results'
+    - '**Trigger criteria matched**: Yes'
+    - '**Post-Judgement, One-Shot Generation, & `static_config.go`**: Pass - (`apis/sql/judgement_queue.yaml` entries resolved; `generate.sh` does not invoke `generate-controller` or `generate-fuzzer`; files contain `// +generated:controller` and `// +generated:fuzzer`; `static_config.go` updated; `SQLBlueGreenDeployment` retained in `BLOCKED_KINDS`)'
+    - '**Client Creation & Reference Normalization**: Pass - (Uses REST client `NewBlueGreenDeploymentsRESTClient` and `common.NormalizeGreenfieldReferences` + `ResolveSQLInstanceRef` in `AdapterForObject`)'
+    - '**CompareGreenfieldSpec & Structured Reporting**: Pass - (Uses `common.CompareGreenfieldSpec` and `structuredreporting.ReportDiff` in `Update`)'
+    - '**LRO Wait & Mandatory Status Updates**: Pass - (Polls Cloud SQL Admin operations via `SqlOperationsClient` and calls `UpdateStatus` on all paths)'
+    - '**Fuzzer & Real-GCP Test Coverage**: Pass - (`sqlbluegreendeployment_fuzzer.generated.go` present and passing round-trip fuzzer; minimal/maximal fixtures recorded against real GCP with `_http.log` and `_audit_probe.log`; ratcheting enabled)'
+    - '#### Detailed Findings / Actions Required:'
+    - None. All criteria and invariants are satisfied.
+    - '### Workflow feedback'
+    - '`BlueGreenDeploymentsClient.CreateBlueGreenDeployment` and `DeleteBlueGreenDeployment` return Cloud SQL Admin operations (`*sqlpb.Operation`) rather than standard GAPIC LROs. The controller integrates `SqlOperationsClient` (`NewSqlOperationsRESTClient`) to poll operations until `Operation_DONE`.'
+    - In `GetBlueGreenDeployment` responses, GCP returns `sourceInstance` as the short instance ID rather than the full resource path supplied at creation. In `Update`, a normalizer strips the resource path prefix to ensure both desired and actual compare cleanly without triggering false diffs on the immutable `source_instance` field.
+    - '### Real GCP Audit Logs'
+    - '**Project**: `cnrm-barni-4`'
+    - '**Audit Logs** (`gcloud logging read ''logName:"audit" AND (protoPayload.serviceName:"sqladmin.googleapis.com" OR protoPayload.methodName:"BlueGreenDeployment")'' --freshness=3h --limit=10`):'
+    - '`'
+    - TIMESTAMP                    METHOD_NAME                           RESOURCE_NAME                                                                                    PRINCIPAL_EMAIL
+    - 2026-11-19T13:08:00.396313Z  cloudsql.blueGreenDeployments.delete  projects/cnrm-barni-4/locations/us-central1/blueGreenDeployments/sqlbgd-minimal-npxfdjtzriqroci  overseer-kcc-tester@cnrm-barni-4.iam.gserviceaccount.com
+    - 2026-11-19T13:02:16.488619Z  cloudsql.blueGreenDeployments.create  projects/cnrm-barni-4                                                                            overseer-kcc-tester@cnrm-barni-4.iam.gserviceaccount.com
+    - 2026-11-19T12:54:20.958228Z  cloudsql.blueGreenDeployments.delete  projects/cnrm-barni-4/locations/us-central1/blueGreenDeployments/sqlbgd-maximal-oxxtrrakzrcmczq  overseer-kcc-tester@cnrm-barni-4.iam.gserviceaccount.com
+    - 2026-11-19T12:40:59.074610Z  cloudsql.blueGreenDeployments.create  projects/cnrm-barni-4                                                                            overseer-kcc-tester@cnrm-barni-4.iam.gserviceaccount.com
+    - '`'
+    - "<sub>\U0001F916 [Agent session](https://staging.repoagent.dev/#/overseers/kcc/task-session/fix-k8s-config-connector-16137/recipe-fix-20261119-115147-eac9)</sub>"
+onStart:
+    comment: AI Factory started reviewing this pull request in a sandbox.
+runName: review-16145-3e9a40e-1795099980
+rule: review
+recipe: review
+apply: submit-review

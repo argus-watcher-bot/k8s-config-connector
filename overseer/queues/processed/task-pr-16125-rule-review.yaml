@@ -4,28 +4,20 @@ number: 16125
 priority: medium
 phase: 1
 createdAt: 2026-11-19T09:43:41Z
-enqueuedAt: 2026-11-19T10:35:42.337651271Z
-triggerEventTime: 2026-11-19T10:24:04Z
+enqueuedAt: 2026-11-19T13:46:55.676614308Z
+triggerEventTime: 2026-11-19T13:39:25Z
 triggerReason: PRReadyForReview
-triggerNotes: Automated review triggered; all CI checks passed at 2026-11-19T10:24:04Z for commit 8afa5c6 (committer date 2026-11-19T09:27:45Z)
-startedAt: 2026-11-19T10:36:13.724124973Z
-completedAt: 2026-11-19T10:47:11.115853001Z
+triggerNotes: Automated review triggered; all CI checks passed at 2026-11-19T13:39:25Z for commit b88bc2f (committer date 2026-11-19T12:41:14Z)
+startedAt: 2026-11-19T13:47:04.94306135Z
+completedAt: 2026-11-19T13:58:26.351215647Z
 assignee: lovelace-coder-bot
 status: Completed
-commitSHA: 8afa5c6affc92f2c704a20b8e78524d4cf03fe29
+commitSHA: b88bc2f908e8dcba2d5fa1d03f2ddf19269d8449
 instructions:
-    - Use .gemini/skills/reviewgen-greenfield-controller/SKILL.md to conduct the review.
-    - '### KCC Greenfield Controller Auto-Review Results'
-    - '**Trigger criteria matched**: Yes'
-    - '**Post-Judgement, One-Shot Generation, & `static_config.go`**: Pass - (`judgement_queue.yaml` entries resolved, `generate.sh` does not invoke `generate-controller`/`generate-fuzzer`, files have `+generated:controller` / `+generated:fuzzer`, `static_config.go` updated, `ObservabilityLink` in `BLOCKED_KINDS`)'
-    - '**Client Creation & Reference Normalization**: Pass - (GAPIC REST client and `common.NormalizeGreenfieldReferences` called before `GetIdentity`)'
-    - '**CompareGreenfieldSpec & Structured Reporting**: Pass - (`common.CompareGreenfieldSpec` and `structuredreporting.ReportDiff` used in `Update`)'
-    - '**LRO Wait & Mandatory Status Updates**: Pass - (`op.Wait(ctx)` waited and status updated on all paths)'
-    - '**Fuzzer & Real-GCP Test Coverage**: Pass - (`observabilitylink_fuzzer.generated.go` passes round-trip tests, minimal/maximal fixtures recorded against real GCP (`cnrm-barni-4`) with all 7/7 validation checks passing, immutable `parentRef` unchanged in `update.yaml`, and ratcheting enabled)'
-    - "<sub>\U0001F916 [Agent session](https://staging.repoagent.dev/#/overseers/kcc/task-session/fix-k8s-config-connector-16122/recipe-fix-20261119-081633-577c)</sub>"
+    - Use .gemini/skills/reviewgen-greenfield-mockgcp/SKILL.md to conduct the review.
 onStart:
     comment: AI Factory started reviewing this pull request in a sandbox.
-runName: review-16125-8afa5c6-1795084542
+runName: review-16125-b88bc2f-1795096015
 rule: review
 recipe: review
 apply: submit-review
