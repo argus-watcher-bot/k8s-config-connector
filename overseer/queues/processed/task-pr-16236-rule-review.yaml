@@ -4,30 +4,20 @@ number: 16236
 priority: medium
 phase: 1
 createdAt: 2026-11-20T15:38:24Z
-enqueuedAt: 2026-11-20T17:10:13.027182715Z
-triggerEventTime: 2026-11-20T17:08:28Z
+enqueuedAt: 2026-11-20T23:08:18.96385555Z
+triggerEventTime: 2026-11-20T23:00:07Z
 triggerReason: PRReadyForReview
-triggerNotes: Automated review triggered; all CI checks passed at 2026-11-20T17:08:28Z for commit 32c1ade (committer date 2026-11-20T16:24:34Z)
-startedAt: 2026-11-20T17:10:40.888648396Z
-completedAt: 2026-11-20T17:56:08.642239225Z
+triggerNotes: Automated review triggered; all CI checks passed at 2026-11-20T23:00:07Z for commit b057cd4 (committer date 2026-11-20T21:34:42Z)
+startedAt: 2026-11-20T23:08:47.916254268Z
+completedAt: 2026-11-20T23:19:53.453742583Z
 assignee: lovelace-coder-bot
 status: Completed
-commitSHA: 32c1ade0e71c0553f923e5ecf3631c44be56878f
+commitSHA: b057cd438214af8833651eecf4fad12cee1491d6
 instructions:
-    - Use .gemini/skills/reviewgen-greenfield-controller/SKILL.md to conduct the review.
-    - '### KCC Greenfield Controller Auto-Review Results'
-    - '**Trigger criteria matched**: Yes'
-    - '**Post-Judgement, One-Shot Generation, & `static_config.go`**: Pass - (`judgement_queue.yaml` entries resolved; `generate.sh` does not invoke `generate-controller` or `generate-fuzzer`; files have `+generated:controller` / `+generated:fuzzer`; `static_config.go` is updated; `DialogflowGeneratorEvaluation` is in `BLOCKED_KINDS`)'
-    - '**Client Creation & Reference Normalization**: Pass - (Uses GAPIC REST client `NewGeneratorEvaluationsRESTClient` with `RESTClientOptions()` and `common.NormalizeGreenfieldReferences` called before `obj.GetIdentity` in `AdapterForObject`)'
-    - '**CompareGreenfieldSpec & Structured Reporting**: Pass - (Immutable resource; uses `common.CompareGreenfieldSpec` with `structuredreporting.ReportDiff`)'
-    - '**LRO Wait & Mandatory Status Updates**: Pass - (Waits on `CreateGeneratorEvaluation` LRO via `op.Wait(ctx)` without suppressing errors, followed by post-LRO `Get` to fetch full resource; updates `status.ObservedState` and `status.externalRef`)'
-    - '**Fuzzer & Real-GCP Test Coverage**: Pass - (`dialogflowgeneratorevaluation_fuzzer.generated.go` passes round-trip tests; minimal and maximal fixtures with real-GCP golden logs pass all 7/7 automated validation checks)'
-    - '#### Detailed Findings / Actions Required:'
-    - None. All Greenfield Step 2 criteria and invariants are satisfied.
-    - "<sub>\U0001F916 [Agent session](https://staging.repoagent.dev/#/overseers/kcc/task-session/fix-k8s-config-connector-16227/recipe-fix-20261120-115215-7c10)</sub>"
+    - Use .gemini/skills/reviewgen-greenfield-release/SKILL.md to conduct the review.
 onStart:
     comment: AI Factory started reviewing this pull request in a sandbox.
-runName: review-16236-32c1ade-1795194613
+runName: review-16236-b057cd4-1795216098
 rule: review
 recipe: review
 apply: submit-review
