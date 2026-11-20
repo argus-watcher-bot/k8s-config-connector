@@ -4,20 +4,20 @@ number: 16206
 priority: medium
 phase: 1
 createdAt: 2026-11-20T02:28:29Z
-enqueuedAt: 2026-11-20T13:04:45.631569692Z
-triggerEventTime: 2026-11-20T13:01:32Z
+enqueuedAt: 2026-11-20T14:56:23.256068551Z
+triggerEventTime: 2026-11-20T14:46:59Z
 triggerReason: PRReadyForReview
-triggerNotes: Automated review triggered; all CI checks passed at 2026-11-20T13:01:32Z for commit 55a762c (committer date 2026-11-20T12:04:14Z)
-startedAt: 2026-11-20T13:04:56.208189639Z
-completedAt: 2026-11-20T13:22:35.128925166Z
+triggerNotes: Automated review triggered; all CI checks passed at 2026-11-20T14:46:59Z for commit 7fa3b17 (committer date 2026-11-20T13:51:10Z)
+startedAt: 2026-11-20T14:56:47.777268756Z
+completedAt: 2026-11-20T15:02:41.454393039Z
 assignee: lovelace-coder-bot
 status: Completed
-commitSHA: 55a762c32f74963a1746f93e72636f6b2fd14fae
+commitSHA: 7fa3b1789f512bd9c7927ee9695b2304c0a4e9c4
 instructions:
-    - Use .gemini/skills/reviewgen-greenfield-mockgcp/SKILL.md to conduct the review.
+    - Use .gemini/skills/reviewgen-greenfield-release/SKILL.md to conduct the review.
 onStart:
     comment: AI Factory started reviewing this pull request in a sandbox.
-runName: review-16206-55a762c-1795179885
+runName: review-16206-7fa3b17-1795186583
 rule: review
 recipe: review
 apply: submit-review

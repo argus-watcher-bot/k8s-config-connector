@@ -4,15 +4,15 @@ number: 16233
 priority: medium
 phase: 1
 createdAt: 2026-11-20T12:53:04Z
-enqueuedAt: 2026-11-20T13:38:38.816498618Z
-triggerEventTime: 2026-11-20T13:35:02Z
+enqueuedAt: 2026-11-20T17:20:09.638529634Z
+triggerEventTime: 2026-11-20T17:17:52Z
 triggerReason: PRReadyForReview
-triggerNotes: Automated review triggered; all CI checks passed at 2026-11-20T13:35:02Z for commit 5fcadc6 (committer date 2026-11-20T12:25:30Z)
-startedAt: 2026-11-20T13:39:07.408951642Z
-completedAt: 2026-11-20T13:59:17.014497172Z
+triggerNotes: Automated review triggered; all CI checks passed at 2026-11-20T17:17:52Z for commit b68deb2 (committer date 2026-11-20T16:20:51Z)
+startedAt: 2026-11-20T17:20:26.501588605Z
+completedAt: 2026-11-20T17:35:38.187977564Z
 assignee: ada-coder-bot
 status: Completed
-commitSHA: 5fcadc6d8932774037ace79838d4098c831334a3
+commitSHA: b68deb20cba830fdb667faa3e6caaaa9b2107606
 instructions:
     - Use .gemini/skills/reviewgen-greenfield-controller/SKILL.md to conduct the review.
     - '### KCC Greenfield Controller Auto-Review Results'
@@ -27,7 +27,7 @@ instructions:
     - "<sub>\U0001F916 [Agent session](https://staging.repoagent.dev/#/overseers/kcc/task-session/fix-k8s-config-connector-16223/recipe-fix-20261120-092928-0079)</sub>"
 onStart:
     comment: AI Factory started reviewing this pull request in a sandbox.
-runName: review-16233-5fcadc6-1795181918
+runName: review-16233-b68deb2-1795195209
 rule: review
 recipe: review
 apply: submit-review
