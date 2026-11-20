@@ -1,0 +1,31 @@
+type: pr-rule
+url: https://github.com/GoogleCloudPlatform/k8s-config-connector/pull/16173
+number: 16173
+priority: medium
+phase: 1
+createdAt: 2026-11-19T19:58:50Z
+enqueuedAt: 2026-11-19T23:04:15.724249654Z
+triggerEventTime: 2026-11-19T22:55:07Z
+triggerReason: PRReadyForReview
+triggerNotes: Automated review triggered; all CI checks passed at 2026-11-19T22:55:07Z for commit 8c438f2 (committer date 2026-11-19T21:45:38Z)
+startedAt: 2026-11-19T23:04:50.477430808Z
+completedAt: 2026-11-19T23:23:46.237687061Z
+assignee: lovelace-coder-bot
+status: Completed
+commitSHA: 8c438f248c6ceb0b83496a90cb5b9a849727e48c
+instructions:
+    - Use .gemini/skills/reviewgen-greenfield-new-types/SKILL.md to conduct the review.
+    - '### KCC Greenfield Step 1 (Prepopulate) Auto-Review Results'
+    - '**Trigger criteria matched**: Yes'
+    - '**`generate.sh` & Flags Check**: Pass - (`generate-types --prepopulate-resource`, `generate-identity`, and `generate-mapper --prepopulate-resource` configured; no `--allow-non-ga-proto`)'
+    - '**Judgement Queue Open Check**: Pass - (`apis/redis/judgement_queue.yaml` has `untriaged-bulk-generation` with `status: open` and no premature manual resolutions)'
+    - '**Mechanical Output & Idempotency**: Pass - (`./apis/redis/generate.sh` produces zero diff and `<kind>_types.go` was not hand-edited)'
+    - '**Release Bundle Blocklist (`BLOCKED_KINDS`)**: Pass - (`RedisACLPolicy` added in alphabetical order to `BLOCKED_KINDS` in `dev/tasks/build-release-bundle`)'
+    - '**Mapper Compilation & `apichecks`**: Pass - (`apis/redis/...` and `pkg/controller/direct/redis/...` build cleanly and `tests/apichecks/...` passes without unauthorized exception edits)'
+    - "<sub>\U0001F916 [Agent session](https://staging.repoagent.dev/#/overseers/kcc/task-session/fix-k8s-config-connector-16162/recipe-fix-20261119-185415-caca)</sub>"
+onStart:
+    comment: AI Factory started reviewing this pull request in a sandbox.
+runName: review-16173-8c438f2-1795129455
+rule: review
+recipe: review
+apply: submit-review

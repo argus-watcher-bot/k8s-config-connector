@@ -4,21 +4,21 @@ number: 16147
 priority: medium
 phase: 3
 createdAt: 2026-11-19T14:23:03Z
-enqueuedAt: 2026-11-19T17:58:09.769044254Z
-triggerEventTime: 2026-11-19T17:52:31Z
+enqueuedAt: 2026-11-19T21:46:35.406477772Z
+triggerEventTime: 2026-11-19T21:35:05Z
 triggerReason: PRCheckFailed
-triggerNotes: Earliest CI failure in 'validate-generated-files' (failure) at 2026-11-19T17:52:31Z; total 1 failed check(s) on commit 4a53e4d
-startedAt: 2026-11-19T17:58:30.77290787Z
-completedAt: 2026-11-19T20:02:09.94365116Z
+triggerNotes: Earliest CI failure in 'golangci-lint' (failure) at 2026-11-19T21:35:05Z; total 1 failed check(s) on commit 91ae07d
+startedAt: 2026-11-19T21:46:40.202503309Z
+completedAt: 2026-11-19T21:51:47.398440313Z
 assignee: hopper-coder-bot
 status: Completed
-commitSHA: 4a53e4d670f3ed3c1705e8cd4e866b60af5caa04
+commitSHA: 91ae07d86d22650c544e92c142b7b74faa926368
 onStart:
     comment: |-
         AI Factory started investigating CI check failures for this pull request.
 
         Note: We recommend waiting for the 'ready-for-human' label before leaving review comments. Comments added while the system is actively working may be associated with outdated commits once a new commit is pushed, causing them to be ignored.
-runName: ci-16147-4a53e4d-1795111089
+runName: ci-16147-91ae07d-1795124795
 rule: ci
 recipe: care-ci
 apply: post-replies

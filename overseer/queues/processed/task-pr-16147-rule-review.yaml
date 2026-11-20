@@ -1,0 +1,33 @@
+type: pr-rule
+url: https://github.com/GoogleCloudPlatform/k8s-config-connector/pull/16147
+number: 16147
+priority: medium
+phase: 1
+createdAt: 2026-11-19T14:23:03Z
+enqueuedAt: 2026-11-19T22:18:14.706074424Z
+triggerEventTime: 2026-11-19T22:16:39Z
+triggerReason: PRReadyForReview
+triggerNotes: Automated review triggered; all CI checks passed at 2026-11-19T22:16:39Z for commit 91ae07d (committer date 2026-11-19T20:24:00Z)
+startedAt: 2026-11-19T22:18:39.918334747Z
+completedAt: 2026-11-19T22:43:04.032758413Z
+assignee: hopper-coder-bot
+status: Completed
+commitSHA: 91ae07d86d22650c544e92c142b7b74faa926368
+instructions:
+    - Use .gemini/skills/reviewgen-greenfield-new-types/SKILL.md to conduct the review.
+    - '### KCC Greenfield Step 1 (Prepopulate) Auto-Review Results'
+    - '**Trigger criteria matched**: Yes'
+    - '**`generate.sh` & Flags Check**: Pass - (`generate-types --prepopulate-resource`, `generate-identity`, `generate-mapper --prepopulate-resource`, and no `--allow-non-ga-proto`)'
+    - '**Judgement Queue Open Check**: Pass - (`apis/bigquerybiglake/judgement_queue.yaml` has `untriaged-bulk-generation` with `status: open`)'
+    - '**Mechanical Output & Idempotency**: Pass - (`./apis/bigquerybiglake/generate.sh` produces zero diff and generated files contain no manual edits)'
+    - '**Release Bundle Blocklist (`BLOCKED_KINDS`)**: Pass - (`BigLakeHiveCatalog` added in alphabetical order to `BLOCKED_KINDS` in `dev/tasks/build-release-bundle`)'
+    - '**Mapper Compilation & `apichecks`**: Pass - (`apis/bigquerybiglake/...` and `pkg/controller/direct/bigquerybiglake/...` build, `tests/apichecks/...` passes)'
+    - '### Workflow feedback'
+    - In `controllerbuilder`, `findTypeDeclarationWithProtoTag` and `shouldKeepExistingBlock` originally matched both `+kcc:proto` and `+kcc:observedstate:proto` interchangeably. When a resource had a handwritten Spec type (such as `IcebergCatalog_FederatedCatalogOptions`), the generator would mistakenly assume an ObservedState struct was also claimed, leading to dropped ObservedState types during additive generation. Distinguishing spec vs. observedstate proto tags resolves this bug.
+    - "<sub>\U0001F916 [Agent session](https://staging.repoagent.dev/#/overseers/kcc/task-session/fix-k8s-config-connector-16141/recipe-fix-20261119-132212-d3db)</sub>"
+onStart:
+    comment: AI Factory started reviewing this pull request in a sandbox.
+runName: review-16147-91ae07d-1795126694
+rule: review
+recipe: review
+apply: submit-review

@@ -1,0 +1,35 @@
+type: pr-rule
+url: https://github.com/GoogleCloudPlatform/k8s-config-connector/pull/16174
+number: 16174
+priority: medium
+phase: 1
+createdAt: 2026-11-19T20:08:54Z
+enqueuedAt: 2026-11-19T21:46:37.085347982Z
+triggerEventTime: 2026-11-19T21:32:46Z
+triggerReason: PRReadyForReview
+triggerNotes: Automated review triggered; all CI checks passed at 2026-11-19T21:32:46Z for commit ddc916f (committer date 2026-11-19T20:48:10Z)
+startedAt: 2026-11-19T21:46:43.991081454Z
+completedAt: 2026-11-19T22:11:52.505448983Z
+assignee: hopper-coder-bot
+status: Completed
+commitSHA: ddc916f1d35a43f1cf64f4a7b0b340617143195b
+instructions:
+    - Use .gemini/skills/reviewgen-greenfield-new-types/SKILL.md to conduct the review.
+    - '### KCC Greenfield Step 1 (Prepopulate) Auto-Review Results'
+    - '**Trigger criteria matched**: Yes'
+    - '**`generate.sh` & Flags Check**: Pass - (`generate-types --prepopulate-resource`, `generate-identity`, `generate-mapper --prepopulate-resource`, and no `--allow-non-ga-proto`)'
+    - '**Judgement Queue Open Check**: Pass - (`apis/designcenter/judgement_queue.yaml` has `untriaged-bulk-generation` with `status: open`)'
+    - '**Mechanical Output & Idempotency**: Pass - (`./apis/designcenter/generate.sh` produces zero uncommitted diff and generated files contain no manual edits)'
+    - '**Release Bundle Blocklist (`BLOCKED_KINDS`)**: Pass - (`DesignCenterApplicationTemplate` added in alphabetical order to `BLOCKED_KINDS` in `dev/tasks/build-release-bundle`)'
+    - '**Mapper Compilation & `apichecks`**: Pass - (`apis/designcenter/...` and `pkg/controller/direct/designcenter/...` build, `tests/apichecks/...` passes)'
+    - '### Workflow feedback'
+    - '`ApplicationTemplate` references AppHub types (`google.cloud.apphub.v1.Scope`, `Attributes`, etc.) in `AppHubApplicationParametersObservedState`. Appending `google.cloud.apphub.v1` to `--service` on `generate-mapper` allowed `controllerbuilder` to generate all required mappers cleanly without hand-writing them.'
+    - '`TFBlueprintMetadata` and `TerraformBlueprintUiMetadata` end in `Metadata` and were excluded by the `controllerbuilder` generator heuristic, requiring helper mapper functions in `pkg/controller/direct/designcenter/designcenterapplicationtemplate_mapper.go`.'
+    - '`google.protobuf.ListValue` represents a recursive cycle (`ListValue -> Value -> ListValue`), resolved by adding `+kubebuilder:validation:items:XPreserveUnknownFields` and `+kubebuilder:validation:items:Type=object` in `apis/designcenter/v1alpha1/recursive.go`.'
+    - "<sub>\U0001F916 [Agent session](https://staging.repoagent.dev/#/overseers/kcc/task-session/fix-k8s-config-connector-16161/recipe-fix-20261119-185143-4138)</sub>"
+onStart:
+    comment: AI Factory started reviewing this pull request in a sandbox.
+runName: review-16174-ddc916f-1795124797
+rule: review
+recipe: review
+apply: submit-review
