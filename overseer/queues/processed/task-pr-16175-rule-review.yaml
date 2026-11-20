@@ -4,30 +4,20 @@ number: 16175
 priority: medium
 phase: 1
 createdAt: 2026-11-19T20:10:33Z
-enqueuedAt: 2026-11-19T21:05:31.709769045Z
-triggerEventTime: 2026-11-19T20:57:17Z
+enqueuedAt: 2026-11-20T03:32:25.200322653Z
+triggerEventTime: 2026-11-20T03:23:30Z
 triggerReason: PRReadyForReview
-triggerNotes: Automated review triggered; all CI checks passed at 2026-11-19T20:57:17Z for commit d6c57c6 (committer date 2026-11-19T19:56:33Z)
-startedAt: 2026-11-19T21:05:35.937904217Z
-completedAt: 2026-11-19T21:45:53.381976308Z
+triggerNotes: Automated review triggered; all CI checks passed at 2026-11-20T03:23:30Z for commit 5b777aa (committer date 2026-11-20T02:31:23Z)
+startedAt: 2026-11-20T03:32:56.370719579Z
+completedAt: 2026-11-20T03:42:21.922682316Z
 assignee: neumann-coder-bot
 status: Completed
-commitSHA: d6c57c64e0baf5bf6aa802c22acc387d93cddabc
+commitSHA: 5b777aa8c0fa902be7f9489408d50bdbb7e8c46d
 instructions:
-    - Use .gemini/skills/reviewgen-greenfield-controller/SKILL.md to conduct the review.
-    - '### KCC Greenfield Controller Auto-Review Results'
-    - '**Trigger criteria matched**: Yes'
-    - '**Post-Judgement, One-Shot Generation, & `static_config.go`**: Pass - (`judgement_queue.yaml` entries resolved; `generate.sh` does not invoke `generate-controller` or `generate-fuzzer`; files have `+generated:controller` / `+generated:fuzzer`; `static_config.go` is updated; `BigLakeIcebergNamespace` is in `BLOCKED_KINDS`)'
-    - '**Client Creation & Reference Normalization**: Pass - (Uses GAPIC REST client `NewIcebergCatalogRESTClient` with `RESTClientOptions()` and `common.NormalizeGreenfieldReferences` in `AdapterForObject`)'
-    - '**CompareGreenfieldSpec & Structured Reporting**: Pass - (Uses `common.CompareGreenfieldSpec` with normalizer for server-set `location` property and `structuredreporting.ReportDiff`)'
-    - '**LRO Wait & Mandatory Status Updates**: Pass - (Non-LRO API; calls `UpdateStatus` on `Create` and all `Update` paths)'
-    - '**Fuzzer & Real-GCP Test Coverage**: Pass - (`biglakeicebergnamespace_fuzzer.generated.go` passes round-trip tests; minimal and maximal fixtures with real-GCP golden logs pass all 7/7 automated validation checks)'
-    - '#### Detailed Findings / Actions Required:'
-    - None. All Greenfield Step 2 criteria and invariants are satisfied.
-    - "<sub>\U0001F916 [Agent session](https://staging.repoagent.dev/#/overseers/kcc/task-session/fix-k8s-config-connector-16165/recipe-fix-20261119-193124-5dda)</sub>"
+    - Use .gemini/skills/reviewgen-greenfield-release/SKILL.md to conduct the review.
 onStart:
     comment: AI Factory started reviewing this pull request in a sandbox.
-runName: review-16175-d6c57c6-1795122331
+runName: review-16175-5b777aa-1795145545
 rule: review
 recipe: review
 apply: submit-review

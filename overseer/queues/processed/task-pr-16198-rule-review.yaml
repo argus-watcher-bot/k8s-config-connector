@@ -1,0 +1,49 @@
+type: pr-rule
+url: https://github.com/GoogleCloudPlatform/k8s-config-connector/pull/16198
+number: 16198
+priority: medium
+phase: 1
+createdAt: 2026-11-20T01:39:53Z
+enqueuedAt: 2026-11-20T03:08:05.939119128Z
+triggerEventTime: 2026-11-20T02:59:49Z
+triggerReason: PRReadyForReview
+triggerNotes: Automated review triggered; all CI checks passed at 2026-11-20T02:59:49Z for commit 9454acc (committer date 2026-11-20T02:21:51Z)
+startedAt: 2026-11-20T03:08:26.769128553Z
+completedAt: 2026-11-20T03:28:02.5437364Z
+assignee: lovelace-coder-bot
+status: Completed
+commitSHA: 9454accedb151c4d9ae2d1724d76f1ffea3ad9af
+instructions:
+    - Use .gemini/skills/reviewgen-greenfield-controller/SKILL.md to conduct the review.
+    - '### KCC Greenfield Controller Auto-Review Results'
+    - '**Trigger criteria matched**: Yes'
+    - '**Post-Judgement, One-Shot Generation, & `static_config.go`**: Pass - (`apis/ftp/judgement_queue.yaml` entries resolved; `generate.sh` does not invoke `generate-controller` or `generate-fuzzer`; controller and fuzzer generated cleanly; `static_config.go` updated; `FTPUser` retained in `BLOCKED_KINDS`)'
+    - '**Client Creation & Reference Normalization**: Pass - (Uses REST client `NewCloudFtpRESTClient` and `common.NormalizeGreenfieldReferences` in `AdapterForObject`)'
+    - '**CompareGreenfieldSpec & Structured Reporting**: Pass - (Uses `common.CompareGreenfieldSpecAndLabels` with `normalizeUser` and `structuredreporting.ReportDiff` in `Update`)'
+    - '**LRO Wait & Mandatory Status Updates**: Pass - (Waits on Cloud FTP LROs and updates status with `ExternalRef` and `ObservedState`)'
+    - '**Fuzzer & Real-GCP Test Coverage**: Pass - (`ftpuser_fuzzer.generated.go` present and passing 200-seed round-trip fuzzer; minimal and maximal fixtures recorded against real GCP with `_http.log` and `_audit_probe.log`; ratcheting enabled)'
+    - '#### Detailed Findings / Actions Required:'
+    - None. All criteria and invariants are satisfied.
+    - '### Workflow feedback'
+    - '`UserView`: Cloud FTP uses `UserView` enum on `GetUser`. The default view is `USER_VIEW_BASIC`, which excludes `user_credentials` and `storage_directory_mappings`. Requesting `USER_VIEW_FULL` in `Find` and post-LRO in `Create`/`Update` is required to avoid missing fields and infinite diff loops.'
+    - '`StorageDirectoryMapping.bucket`: Cloud FTP expects just the bucket name, not `projects/{project}/buckets/{bucket}`. A custom mapper trims the resource path prefix when converting `bucketRef.External`.'
+    - '`UserCredential.ssh_public_key_body`: GCP Cloud FTP strips trailing comments (e.g. `user@host`) from OpenSSH public keys. A `normalizeUser` callback for `CompareGreenfieldSpecAndLabels` strips trailing comments so desired and actual match without re-reconciliation diffs.'
+    - '### Real GCP Audit Logs'
+    - '**Project**: `cnrm-barni-4`'
+    - '**Audit Logs** (`gcloud logging read ''logName:"audit" AND "ftp.googleapis.com"'' --freshness=3h --limit=10`):'
+    - '`'
+    - TIMESTAMP                    METHOD_NAME                         RESOURCE_NAME                                                                                       PRINCIPAL_EMAIL
+    - 2026-11-20T01:07:13.390312Z  google.cloud.ftp.v1.CloudFtp.DeleteUser projects/cnrm-barni-4/locations/us-west1/servers/ftpserv-max-id73tqm6ob43zxq/users/ftpumax-id73tqm6ob43zxq overseer-kcc-tester@cnrm-barni-4.iam.gserviceaccount.com
+    - 2026-11-20T01:06:59.086634Z  google.cloud.ftp.v1.CloudFtp.UpdateUser projects/cnrm-barni-4/locations/us-west1/servers/ftpserv-max-id73tqm6ob43zxq/users/ftpumax-id73tqm6ob43zxq overseer-kcc-tester@cnrm-barni-4.iam.gserviceaccount.com
+    - 2026-11-20T01:06:41.024929Z  google.cloud.ftp.v1.CloudFtp.CreateUser projects/cnrm-barni-4/locations/us-west1/servers/ftpserv-max-id73tqm6ob43zxq/users/ftpumax-id73tqm6ob43zxq overseer-kcc-tester@cnrm-barni-4.iam.gserviceaccount.com
+    - 2026-11-20T00:55:18.154604Z  google.cloud.ftp.v1.CloudFtp.DeleteUser projects/cnrm-barni-4/locations/us-west1/servers/ftpserv-min-midd53ircv6r4ja/users/ftpumin-midd53ircv6r4ja overseer-kcc-tester@cnrm-barni-4.iam.gserviceaccount.com
+    - 2026-11-20T00:55:08.719078Z  google.cloud.ftp.v1.CloudFtp.UpdateUser projects/cnrm-barni-4/locations/us-west1/servers/ftpserv-min-midd53ircv6r4ja/users/ftpumin-midd53ircv6r4ja overseer-kcc-tester@cnrm-barni-4.iam.gserviceaccount.com
+    - 2026-11-20T00:54:13.677976Z  google.cloud.ftp.v1.CloudFtp.CreateUser projects/cnrm-barni-4/locations/us-west1/servers/ftpserv-min-midd53ircv6r4ja/users/ftpumin-midd53ircv6r4ja overseer-kcc-tester@cnrm-barni-4.iam.gserviceaccount.com
+    - '`'
+    - "<sub>\U0001F916 [Agent session](https://staging.repoagent.dev/#/overseers/kcc/task-session/fix-k8s-config-connector-16189/recipe-fix-20261119-234935-0f2e)</sub>"
+onStart:
+    comment: AI Factory started reviewing this pull request in a sandbox.
+runName: review-16198-9454acc-1795144085
+rule: review
+recipe: review
+apply: submit-review

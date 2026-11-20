@@ -1,0 +1,44 @@
+type: pr-rule
+url: https://github.com/GoogleCloudPlatform/k8s-config-connector/pull/16196
+number: 16196
+priority: medium
+phase: 1
+createdAt: 2026-11-20T01:09:48Z
+enqueuedAt: 2026-11-20T02:02:14.919360418Z
+triggerEventTime: 2026-11-20T02:01:04Z
+triggerReason: PRReadyForReview
+triggerNotes: Automated review triggered; all CI checks passed at 2026-11-20T02:01:04Z for commit 0b033d4 (committer date 2026-11-20T00:49:58Z)
+startedAt: 2026-11-20T02:02:18.126554813Z
+completedAt: 2026-11-20T02:10:27.281946799Z
+assignee: neumann-coder-bot
+status: Completed
+commitSHA: 0b033d4de353956c50d52bc15dada31eb4546834
+instructions:
+    - Use .gemini/skills/reviewgen-greenfield-controller/SKILL.md to conduct the review.
+    - '### KCC Greenfield Controller Auto-Review Results'
+    - '**Trigger criteria matched**: Yes'
+    - '**Post-Judgement, One-Shot Generation, & `static_config.go`**: Pass - (All `apis/ces/judgement_queue.yaml` entries resolved; `generate.sh` does not invoke `generate-controller` or `generate-fuzzer`; controller and fuzzer files carry `// +generated:controller` and `// +generated:fuzzer`; `static_config.go` is updated; `CESToolset` is retained in `BLOCKED_KINDS`)'
+    - '**Client Creation & Reference Normalization**: Pass - (Uses GAPIC REST client `gcp.NewAgentRESTClient` with `m.config.RESTClientOptions()` and `common.NormalizeGreenfieldReferences` in `AdapterForObject`)'
+    - '**CompareGreenfieldSpec & Structured Reporting**: Pass - (Uses `common.CompareGreenfieldSpec` and `structuredreporting.ReportDiff` in `Update`)'
+    - '**LRO Wait & Mandatory Status Updates**: Pass - (Synchronous REST CRUD; calls `setStatus` on Create, on Update no-op, and after Update mutations)'
+    - '**Fuzzer & Real-GCP Test Coverage**: Pass - (`cestoolset_fuzzer.generated.go` present and passing fuzzer; minimal and maximal fixtures recorded against real GCP with `_http.log` and `_audit_probe.log`; ratcheting enabled)'
+    - '#### Detailed Findings / Actions Required:'
+    - None. All criteria and invariants are satisfied.
+    - '### Workflow feedback'
+    - 'The Customer Engagement Suite (CES) API requires that OpenAPI schemas provided in `openAPIToolset.openAPISchema` define a non-empty `servers` block with at least one URL (e.g. `servers: [ - url: https://example.com ]`). Omitting the servers block causes real GCP to reject toolset creation with HTTP 400 Bad Request (`"No server URL found in the Open API specification."`).'
+    - '`CESToolset` CRUD operations (`CreateToolset`, `UpdateToolset`, `GetToolset`, `DeleteToolset`) are synchronous REST calls returning `*cespb.Toolset` or `*emptypb.Empty` directly without LRO handling.'
+    - '### Real GCP Audit Logs'
+    - '**Project**: `cnrm-barni-4`'
+    - '**Probe Markers** (`gcloud logging read ''logName:"kcc-e2e-actuation-audit"'' --freshness=1h`):'
+    - 'testKey: basic/ces/v1alpha1/cestoolset/cestoolset-minimal`, event: `RESOURCE_ACTUATED_AND_VERIFIED`, timestamp: `2026-11-20T00:06:38Z'
+    - 'testKey: basic/ces/v1alpha1/cestoolset/cestoolset-maximal`, event: `RESOURCE_ACTUATED_AND_VERIFIED`, timestamp: `2026-11-20T00:08:12Z'
+    - '**Audit Logs** (`gcloud logging read ''protoPayload.serviceName="ces.googleapis.com"'' --freshness=1h`):'
+    - 'cesapp-n7tfqob64oodzzi` (dependency for minimal): `CreateApp` (`2026-11-20T00:06:28Z`), `DeleteApp` (`2026-11-20T00:06:40Z`) by `overseer-kcc-tester@cnrm-barni-4.iam.gserviceaccount.com'
+    - 'cesapp-6krlbl5ucdpfyhi` (dependency for maximal): `CreateApp` (`2026-11-20T00:07:58Z`), `DeleteApp` (`2026-11-20T00:08:14Z`) by `overseer-kcc-tester@cnrm-barni-4.iam.gserviceaccount.com'
+    - "<sub>\U0001F916 [Agent session](https://staging.repoagent.dev/#/overseers/kcc/task-session/fix-k8s-config-connector-16188/recipe-fix-20261119-235439-7bcf)</sub>"
+onStart:
+    comment: AI Factory started reviewing this pull request in a sandbox.
+runName: review-16196-0b033d4-1795140134
+rule: review
+recipe: review
+apply: submit-review

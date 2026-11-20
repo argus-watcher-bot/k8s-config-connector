@@ -4,20 +4,20 @@ number: 15970
 priority: medium
 phase: 3
 createdAt: 2026-11-18T00:20:46Z
-enqueuedAt: 2026-11-20T00:16:06.993925223Z
+enqueuedAt: 2026-11-20T01:22:27.777562904Z
 triggerEventTime: 2026-11-18T00:20:47Z
 triggerReason: IssueLabeled
 triggerNotes: 'Issue #15970 created at 2026-11-18T00:20:46Z; trigger label ''overseer'' added by argus-watcher-bot at 2026-11-18T00:20:47Z'
-startedAt: 2026-11-20T00:16:15.645287678Z
-completedAt: 2026-11-20T00:26:01.078274225Z
+startedAt: 2026-11-20T01:22:53.361833278Z
+completedAt: 2026-11-20T01:28:17.193378715Z
 assignee: lovelace-coder-bot
 status: Failed
-error: 'exit status 1: running recipe: following task recipe-fix-20261120-001810-6ccd: Get "http://127.0.0.1:46231/v1/tasks/recipe-fix-20261120-001810-6ccd/log?follow=true&offset=2008": dial tcp 127.0.0.1:46231: connect: connection refused'
+error: 'exit status 1: running recipe: following task recipe-fix-20261120-012707-0b8c: Get "http://127.0.0.1:36587/v1/tasks/recipe-fix-20261120-012707-0b8c/log?follow=true&offset=379": dial tcp 127.0.0.1:36587: connect: connection refused'
 onStart:
     assign:
         - '{{bot}}'
     comment: AI Factory started fixing this issue in a sandbox.
-runName: fix-15970-head-1795133766
+runName: fix-15970-head-1795137747
 rule: fix
 recipe: fix
 apply: open-pr
