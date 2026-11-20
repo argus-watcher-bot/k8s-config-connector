@@ -4,19 +4,19 @@ number: 15984
 priority: medium
 phase: 1
 createdAt: 2026-11-18T02:05:00Z
-enqueuedAt: 2026-11-18T06:42:59.742146118Z
-triggerEventTime: 2026-11-18T05:54:53Z
+enqueuedAt: 2026-11-20T20:24:10.434787988Z
+triggerEventTime: 2026-11-20T20:22:08Z
 triggerReason: RuleDecided
-triggerNotes: The assess-types-judgement rule decided to run on commit 3b6bc6b
-startedAt: 2026-11-18T06:43:13.642608933Z
-completedAt: 2026-11-18T06:53:42.21786458Z
-assignee: ada-coder-bot
+triggerNotes: The assess-types-judgement rule decided to run on commit e0265cc
+startedAt: 2026-11-20T20:24:43.160768063Z
+completedAt: 2026-11-20T20:45:37.850994258Z
+assignee: factorybot-robot
 status: Completed
-commitSHA: 3b6bc6b30e6a9dd1c32a7dfc3d88204858219a26
+commitSHA: e0265cc53a3d14e95eacd44d206388c8fe2724d4
 onStart:
     unlabel:
         - overseer/assessment/good
-runName: assess-types-judgement-15984-3b6bc6b-1794984179
+runName: assess-types-judgement-15984-e0265cc-1795206250
 rule: assess-types-judgement
 recipe: assess-types-judgement
 apply: comment,label
