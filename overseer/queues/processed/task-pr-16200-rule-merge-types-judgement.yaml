@@ -1,0 +1,24 @@
+type: pr-rule
+url: https://github.com/GoogleCloudPlatform/k8s-config-connector/pull/16200
+number: 16200
+priority: medium
+phase: 1
+createdAt: 2026-11-20T02:01:12Z
+enqueuedAt: 2026-11-20T08:34:14.420391445Z
+triggerEventTime: 2026-11-20T08:25:41Z
+triggerReason: RuleDecided
+triggerNotes: The merge-types-judgement rule decided to run on commit bc4bdd1
+startedAt: 2026-11-20T08:34:29.220884189Z
+completedAt: 2026-11-20T08:39:29.667810297Z
+assignee: lovelace-coder-bot
+status: Completed
+commitSHA: bc4bdd108c59bf030b3abd65cc6dcfd07619d704
+runName: merge-types-judgement-16200-bc4bdd1-1795163654
+rule: merge-types-judgement
+recipe: merge
+inputs:
+    message: |
+        /lgtm
+        /approve
+
+        Approved for merge by the overseer: this Step 1b PR meets the criteria for approval - assess-types-judgement graded it good, its checks are green, and it is mergeable.
