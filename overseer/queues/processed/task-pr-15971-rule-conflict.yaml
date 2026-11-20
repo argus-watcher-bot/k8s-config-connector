@@ -4,21 +4,21 @@ number: 15971
 priority: medium
 phase: 2
 createdAt: 2026-11-18T00:22:00Z
-enqueuedAt: 2026-11-19T02:03:09.674487248Z
-triggerEventTime: 2026-11-19T01:11:16Z
+enqueuedAt: 2026-11-20T09:21:48.64119664Z
+triggerEventTime: 2026-11-20T00:01:41Z
 triggerReason: PRMergeConflict
-triggerNotes: 'PR #15971 has merge conflicts with base branch ''master''; head commit 7a28cc8 committer date 2026-11-19T01:11:16Z, PR updated at 2026-11-19T02:03:02Z'
-startedAt: 2026-11-19T02:03:41.814719676Z
-completedAt: 2026-11-19T02:50:59.972241922Z
-assignee: neumann-coder-bot
+triggerNotes: 'PR #15971 has merge conflicts with base branch ''master''; head commit 7865129 committer date 2026-11-20T00:01:41Z, PR updated at 2026-11-20T08:49:03Z'
+startedAt: 2026-11-20T09:21:52.945341572Z
+completedAt: 2026-11-20T10:15:14.442740527Z
+assignee: factorybot-robot
 status: Completed
-commitSHA: 7a28cc80414ae20ef017a610572f7357d595f058
+commitSHA: 7865129fc6512bef05faf0901dae7a3b147bb56e
 onStart:
     comment: |-
         AI Factory started resolving merge conflicts / rebasing this pull request in a sandbox.
 
         Note: We recommend waiting for the 'ready-for-human' label before leaving review comments. Comments added while the system is actively working may be associated with outdated commits once a new commit is pushed, causing them to be ignored.
-runName: conflict-15971-7a28cc8-1795053789
+runName: conflict-15971-7865129-1795166508
 rule: conflict
 recipe: care-rebase
 apply: post-replies
