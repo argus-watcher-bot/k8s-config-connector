@@ -4,21 +4,21 @@ number: 16221
 priority: medium
 phase: 3
 createdAt: 2026-11-20T08:35:04Z
-enqueuedAt: 2026-11-20T08:56:09.84496321Z
-triggerEventTime: 2026-11-20T08:49:59Z
+enqueuedAt: 2026-11-20T13:14:40.419841852Z
+triggerEventTime: 2026-11-20T13:05:42Z
 triggerReason: PRCheckFailed
-triggerNotes: Earliest CI failure in 'test-fuzz-random-mappers' (failure) at 2026-11-20T08:49:59Z; total 1 failed check(s) on commit f789551
-startedAt: 2026-11-20T08:56:39.529484518Z
-completedAt: 2026-11-20T09:51:55.262996724Z
+triggerNotes: Earliest CI failure in 'test-mockgcp' (failure) at 2026-11-20T13:05:42Z; total 1 failed check(s) on commit 9f812c5
+startedAt: 2026-11-20T13:14:48.644611575Z
+completedAt: 2026-11-20T13:20:16.700482284Z
 assignee: ada-coder-bot
 status: Completed
-commitSHA: f7895518c36d3b75e17a41119a520b0602a4043c
+commitSHA: 9f812c517b5842bdcd55d1743ba36700ccdea1b5
 onStart:
     comment: |-
         AI Factory started investigating CI check failures for this pull request.
 
         Note: We recommend waiting for the 'ready-for-human' label before leaving review comments. Comments added while the system is actively working may be associated with outdated commits once a new commit is pushed, causing them to be ignored.
-runName: ci-16221-f789551-1795164969
+runName: ci-16221-9f812c5-1795180480
 rule: ci
 recipe: care-ci
 apply: post-replies

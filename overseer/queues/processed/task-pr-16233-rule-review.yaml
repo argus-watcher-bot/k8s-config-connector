@@ -1,0 +1,33 @@
+type: pr-rule
+url: https://github.com/GoogleCloudPlatform/k8s-config-connector/pull/16233
+number: 16233
+priority: medium
+phase: 1
+createdAt: 2026-11-20T12:53:04Z
+enqueuedAt: 2026-11-20T13:38:38.816498618Z
+triggerEventTime: 2026-11-20T13:35:02Z
+triggerReason: PRReadyForReview
+triggerNotes: Automated review triggered; all CI checks passed at 2026-11-20T13:35:02Z for commit 5fcadc6 (committer date 2026-11-20T12:25:30Z)
+startedAt: 2026-11-20T13:39:07.408951642Z
+completedAt: 2026-11-20T13:59:17.014497172Z
+assignee: ada-coder-bot
+status: Completed
+commitSHA: 5fcadc6d8932774037ace79838d4098c831334a3
+instructions:
+    - Use .gemini/skills/reviewgen-greenfield-controller/SKILL.md to conduct the review.
+    - '### KCC Greenfield Controller Auto-Review Results'
+    - '**Trigger criteria matched**: Yes'
+    - '**Post-Judgement, One-Shot Generation, & `static_config.go`**: Pass (Confirmed `judgement_queue.yaml` entries resolved, `generate.sh` does not invoke `generate-controller` / `generate-fuzzer` for `LustreMirror`, files carry `+generated:controller` and `+generated:fuzzer`, `static_config.go` is updated, and `LustreMirror` remains in `BLOCKED_KINDS`)'
+    - '**Client Creation & Reference Normalization**: Pass (GAPIC REST client and `common.NormalizeGreenfieldReferences` called before `GetIdentity` in `AdapterForObject`)'
+    - '**CompareGreenfieldSpec & Structured Reporting**: Pass (`common.CompareGreenfieldSpecAndLabels` and `structuredreporting.ReportDiff` used in `Update`)'
+    - '**LRO Wait & Mandatory Status Updates**: Pass (`op.Wait(ctx)` on create/update/delete LROs, and `UpdateStatus` called on all paths)'
+    - '**Fuzzer & Real-GCP Test Coverage**: Pass (`lustremirror_fuzzer.generated.go` verified with 200 iterations, minimal and maximal fixtures cover all Spec fields, ratcheting enabled)'
+    - '### Workflow feedback'
+    - 'The GCS Mirror feature in Managed Lustre (`lustre.googleapis.com`) is in a restricted preview requiring project-level allowlisting. Attempting to record against real GCP in project `cnrm-barni-4` returns `400 Bad Request` with `FAILED_PRECONDITION: GCS Mirror is not allowlisted for this project.`. Following the repository convention for allowlist-gated services (e.g. `FinancialServicesDataset`), the minimal and maximal fixtures and controller logic were fully verified and aligned, while real-GCP HTTP error logs are omitted.'
+    - "<sub>\U0001F916 [Agent session](https://staging.repoagent.dev/#/overseers/kcc/task-session/fix-k8s-config-connector-16223/recipe-fix-20261120-092928-0079)</sub>"
+onStart:
+    comment: AI Factory started reviewing this pull request in a sandbox.
+runName: review-16233-5fcadc6-1795181918
+rule: review
+recipe: review
+apply: submit-review

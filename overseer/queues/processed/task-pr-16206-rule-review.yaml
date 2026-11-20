@@ -4,44 +4,20 @@ number: 16206
 priority: medium
 phase: 1
 createdAt: 2026-11-20T02:28:29Z
-enqueuedAt: 2026-11-20T03:20:16.254265066Z
-triggerEventTime: 2026-11-20T03:19:27Z
+enqueuedAt: 2026-11-20T13:04:45.631569692Z
+triggerEventTime: 2026-11-20T13:01:32Z
 triggerReason: PRReadyForReview
-triggerNotes: Automated review triggered; all CI checks passed at 2026-11-20T03:19:27Z for commit 07bf916 (committer date 2026-11-20T02:27:35Z)
-startedAt: 2026-11-20T03:20:42.126047816Z
-completedAt: 2026-11-20T03:32:33.363479795Z
+triggerNotes: Automated review triggered; all CI checks passed at 2026-11-20T13:01:32Z for commit 55a762c (committer date 2026-11-20T12:04:14Z)
+startedAt: 2026-11-20T13:04:56.208189639Z
+completedAt: 2026-11-20T13:22:35.128925166Z
 assignee: lovelace-coder-bot
 status: Completed
-commitSHA: 07bf916401e8d363309a3342de60767d3c9bd75f
+commitSHA: 55a762c32f74963a1746f93e72636f6b2fd14fae
 instructions:
-    - Use .gemini/skills/reviewgen-greenfield-controller/SKILL.md to conduct the review.
-    - '### KCC Greenfield Controller Auto-Review Results'
-    - '**Trigger criteria matched**: Yes'
-    - '**Post-Judgement, One-Shot Generation, & `static_config.go`**: Pass - (`apis/migrationcenter/judgement_queue.yaml` entries resolved; `generate.sh` does not invoke `generate-controller` or `generate-fuzzer`; files contain `// +generated:controller` and `// +generated:fuzzer`; `static_config.go` updated; `MigrationCenterImportDataFile` retained in `BLOCKED_KINDS`)'
-    - '**Client Creation & Reference Normalization**: Pass - (Uses REST client `NewRESTClient` and `common.NormalizeGreenfieldReferences` in `AdapterForObject`)'
-    - '**CompareGreenfieldSpec & Structured Reporting**: Pass - (Uses `common.CompareGreenfieldSpec` and `structuredreporting.ReportDiff` in `Update`)'
-    - '**LRO Wait & Mandatory Status Updates**: Pass - (Waits on LRO operations via `op.Wait(ctx)` and updates status on all paths)'
-    - '**Fuzzer & Real-GCP Test Coverage**: Pass - (`migrationcenterimportdatafile_fuzzer.generated.go` present and passing round-trip fuzzer; minimal/maximal fixtures recorded against real GCP with `_http.log`, `_http_report.md`, and `_audit_probe.log`; ratcheting enabled)'
-    - '#### Detailed Findings / Actions Required:'
-    - None. All criteria and invariants are satisfied.
-    - '### Real GCP Audit Logs'
-    - '**Project**: `cnrm-barni-4`'
-    - '**Audit Logs** (`gcloud logging read ''logName:"audit" AND "migrationcenter"'' --freshness=3h --limit=10`):'
-    - '`'
-    - TIMESTAMP                    METHOD_NAME                                              RESOURCE_NAME                                                                                                                        PRINCIPAL_EMAIL
-    - 2026-11-20T01:58:04.446745Z  google.cloud.migrationcenter.v1.MigrationCenter.DeleteSource     projects/cnrm-barni-4/locations/us-central1/sources/migrationcentersource-idf-max-fa2utbravdxfbgy                                    overseer-kcc-tester@cnrm-barni-4.iam.gserviceaccount.com
-    - 2026-11-20T01:56:19.107486Z  google.cloud.migrationcenter.v1.MigrationCenter.DeleteImportJob  projects/cnrm-barni-4/locations/us-central1/importJobs/migrationcenterimportjob-idf-max-fa2utbravdxfbgy                           overseer-kcc-tester@cnrm-barni-4.iam.gserviceaccount.com
-    - 2026-11-20T01:56:11.616441Z  google.cloud.migrationcenter.v1.MigrationCenter.CreateImportJob  projects/cnrm-barni-4/locations/us-central1/importJobs/migrationcenterimportjob-idf-max-fa2utbravdxfbgy                           overseer-kcc-tester@cnrm-barni-4.iam.gserviceaccount.com
-    - 2026-11-20T01:56:09.985234Z  google.cloud.migrationcenter.v1.MigrationCenter.CreateSource     projects/cnrm-barni-4/locations/us-central1/sources/migrationcentersource-idf-max-fa2utbravdxfbgy                                    overseer-kcc-tester@cnrm-barni-4.iam.gserviceaccount.com
-    - 2026-11-20T01:54:50.503156Z  google.cloud.migrationcenter.v1.MigrationCenter.DeleteSource     projects/cnrm-barni-4/locations/us-central1/sources/migrationcentersource-idf-min-omyf5zuzcf7egia                                    overseer-kcc-tester@cnrm-barni-4.iam.gserviceaccount.com
-    - 2026-11-20T01:53:04.012586Z  google.cloud.migrationcenter.v1.MigrationCenter.DeleteImportJob  projects/cnrm-barni-4/locations/us-central1/importJobs/migrationcenterimportjob-idf-min-omyf5zuzcf7egia                           overseer-kcc-tester@cnrm-barni-4.iam.gserviceaccount.com
-    - 2026-11-20T01:52:56.380267Z  google.cloud.migrationcenter.v1.MigrationCenter.CreateImportJob  projects/cnrm-barni-4/locations/us-central1/importJobs/migrationcenterimportjob-idf-min-omyf5zuzcf7egia                           overseer-kcc-tester@cnrm-barni-4.iam.gserviceaccount.com
-    - 2026-11-20T01:52:54.641325Z  google.cloud.migrationcenter.v1.MigrationCenter.CreateSource     projects/cnrm-barni-4/locations/us-central1/sources/migrationcentersource-idf-min-omyf5zuzcf7egia                                    overseer-kcc-tester@cnrm-barni-4.iam.gserviceaccount.com
-    - '`'
-    - "<sub>\U0001F916 [Agent session](https://staging.repoagent.dev/#/overseers/kcc/task-session/fix-k8s-config-connector-16197/recipe-fix-20261120-014310-c8fb)</sub>"
+    - Use .gemini/skills/reviewgen-greenfield-mockgcp/SKILL.md to conduct the review.
 onStart:
     comment: AI Factory started reviewing this pull request in a sandbox.
-runName: review-16206-07bf916-1795144816
+runName: review-16206-55a762c-1795179885
 rule: review
 recipe: review
 apply: submit-review
