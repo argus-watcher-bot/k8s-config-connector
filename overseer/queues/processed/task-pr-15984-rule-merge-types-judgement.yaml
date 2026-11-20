@@ -4,16 +4,16 @@ number: 15984
 priority: medium
 phase: 1
 createdAt: 2026-11-18T02:05:00Z
-enqueuedAt: 2026-11-19T18:49:20.535790508Z
-triggerEventTime: 2026-11-19T18:41:15Z
+enqueuedAt: 2026-11-20T22:10:07.081285395Z
+triggerEventTime: 2026-11-20T21:15:42Z
 triggerReason: RuleDecided
-triggerNotes: The merge-types-judgement rule decided to run on commit 3b6bc6b
-startedAt: 2026-11-19T18:49:40.319833636Z
-completedAt: 2026-11-19T18:51:17.67066824Z
-assignee: ada-coder-bot
+triggerNotes: The merge-types-judgement rule decided to run on commit e0265cc
+startedAt: 2026-11-20T22:10:30.56114083Z
+completedAt: 2026-11-20T22:10:41.062247243Z
+assignee: factorybot-robot
 status: Completed
-commitSHA: 3b6bc6b30e6a9dd1c32a7dfc3d88204858219a26
-runName: merge-types-judgement-15984-3b6bc6b-1795114160
+commitSHA: e0265cc53a3d14e95eacd44d206388c8fe2724d4
+runName: merge-types-judgement-15984-e0265cc-1795212607
 rule: merge-types-judgement
 recipe: merge
 inputs:
