@@ -4,30 +4,20 @@ number: 16221
 priority: medium
 phase: 1
 createdAt: 2026-11-20T08:35:04Z
-enqueuedAt: 2026-11-20T10:50:18.181115242Z
-triggerEventTime: 2026-11-20T10:50:11Z
+enqueuedAt: 2026-11-20T13:38:36.727449168Z
+triggerEventTime: 2026-11-20T13:37:16Z
 triggerReason: PRReadyForReview
-triggerNotes: Automated review triggered; all CI checks passed at 2026-11-20T10:50:11Z for commit 3339c7c (committer date 2026-11-20T10:00:28Z)
-startedAt: 2026-11-20T10:50:50.014232262Z
-completedAt: 2026-11-20T11:17:19.771781562Z
+triggerNotes: Automated review triggered; all CI checks passed at 2026-11-20T13:37:16Z for commit 9f812c5 (committer date 2026-11-20T12:39:46Z)
+startedAt: 2026-11-20T13:39:04.39213933Z
+completedAt: 2026-11-20T13:53:28.502284663Z
 assignee: ada-coder-bot
 status: Completed
-commitSHA: 3339c7c7e6f262442a2dd81f47b1e7b2d1fbbed7
+commitSHA: 9f812c517b5842bdcd55d1743ba36700ccdea1b5
 instructions:
     - Use .gemini/skills/reviewgen-greenfield-new-types/SKILL.md to conduct the review.
-    - '### KCC Greenfield Step 1 (Prepopulate) Auto-Review Results'
-    - '**Trigger criteria matched**: Yes'
-    - '**`generate.sh` & Flags Check**: Pass - (`generate-types --prepopulate-resource`, `generate-identity`, `generate-mapper --prepopulate-resource`, and no `--allow-non-ga-proto`)'
-    - '**Judgement Queue Open Check**: Pass - (`apis/lustre/judgement_queue.yaml` has `untriaged-bulk-generation` with `status: open` and zero manual edits)'
-    - '**Mechanical Output & Idempotency**: Pass - (`./apis/lustre/generate.sh` produces zero uncommitted diff and generated files have not been hand-edited)'
-    - '**Release Bundle Blocklist (`BLOCKED_KINDS`)**: Pass - (`LustreDirectoryPolicy` added in alphabetical order to `BLOCKED_KINDS` in `dev/tasks/build-release-bundle`)'
-    - '**Mapper Compilation & `apichecks`**: Pass - (`apis/lustre/...` and `pkg/controller/direct/lustre/...` build cleanly and `tests/apichecks/...` passes without unauthorized exception edits)'
-    - '#### Detailed Findings / Actions Required:'
-    - None. All Greenfield Step 1a criteria and invariants are satisfied.
-    - "<sub>\U0001F916 [Agent session](https://staging.repoagent.dev/#/overseers/kcc/task-session/fix-k8s-config-connector-16216/recipe-fix-20261120-073735-aed9)</sub>"
 onStart:
     comment: AI Factory started reviewing this pull request in a sandbox.
-runName: review-16221-3339c7c-1795171818
+runName: review-16221-9f812c5-1795181916
 rule: review
 recipe: review
 apply: submit-review
