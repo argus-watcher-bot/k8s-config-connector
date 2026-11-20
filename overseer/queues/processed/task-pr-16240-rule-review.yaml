@@ -1,0 +1,33 @@
+type: pr-rule
+url: https://github.com/GoogleCloudPlatform/k8s-config-connector/pull/16240
+number: 16240
+priority: medium
+phase: 1
+createdAt: 2026-11-20T18:26:31Z
+enqueuedAt: 2026-11-20T19:24:25.910438794Z
+triggerEventTime: 2026-11-20T19:22:22Z
+triggerReason: PRReadyForReview
+triggerNotes: Automated review triggered; all CI checks passed at 2026-11-20T19:22:22Z for commit e098e11 (committer date 2026-11-20T18:19:20Z)
+startedAt: 2026-11-20T19:24:55.779741262Z
+completedAt: 2026-11-20T19:55:09.311634119Z
+assignee: hopper-coder-bot
+status: Completed
+commitSHA: e098e110e051ee8a6177d4379c31ef5f8fb2677e
+instructions:
+    - Use .gemini/skills/reviewgen-greenfield-controller/SKILL.md to conduct the review.
+    - '### KCC Greenfield Controller Auto-Review Results'
+    - '**Trigger criteria matched**: Yes'
+    - '**Post-Judgement, One-Shot Generation, & `static_config.go`**: Pass - (`judgement_queue.yaml` entries resolved; `generate.sh` does not invoke `generate-controller` or `generate-fuzzer`; files have `+generated:controller` / `+generated:fuzzer`; `static_config.go` is updated; `LustreDirectoryPolicy` is in `BLOCKED_KINDS`)'
+    - '**Client Creation & Reference Normalization**: Pass - (Uses GAPIC REST client `NewRESTClient` with `RESTClientOptions()` and `common.NormalizeGreenfieldReferences` in `AdapterForObject`)'
+    - '**CompareGreenfieldSpec & Structured Reporting**: Pass - (Uses `common.CompareGreenfieldSpec` and `structuredreporting.ReportDiff`)'
+    - '**LRO Wait & Mandatory Status Updates**: Pass - (Calls `op.Wait(ctx)` on `Create` and `Delete`, and `UpdateStatus` on `Create` and `Update`)'
+    - '**Fuzzer & Real-GCP Test Coverage**: Pass - (`lustredirectorypolicy_fuzzer.generated.go` passes round-trip tests; minimal and maximal fixtures created covering all spec fields; ratcheting enabled; real GCP recording blocked by feature allowlist)'
+    - '#### Detailed Findings / Actions Required:'
+    - None. All Greenfield Step 2 criteria and invariants are satisfied.
+    - "<sub>\U0001F916 [Agent session](https://staging.repoagent.dev/#/overseers/kcc/task-session/fix-k8s-config-connector-16237/recipe-fix-20261120-160747-2aa5)</sub>"
+onStart:
+    comment: AI Factory started reviewing this pull request in a sandbox.
+runName: review-16240-e098e11-1795202665
+rule: review
+recipe: review
+apply: submit-review
