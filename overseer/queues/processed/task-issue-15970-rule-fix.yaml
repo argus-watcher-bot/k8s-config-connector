@@ -4,20 +4,20 @@ number: 15970
 priority: medium
 phase: 3
 createdAt: 2026-11-18T00:20:46Z
-enqueuedAt: 2026-11-21T08:09:59.006428429Z
+enqueuedAt: 2026-11-21T08:55:52.264435969Z
 triggerEventTime: 2026-11-18T00:20:47Z
 triggerReason: IssueLabeled
 triggerNotes: 'Issue #15970 created at 2026-11-18T00:20:46Z; trigger label ''overseer'' added by argus-watcher-bot at 2026-11-18T00:20:47Z'
-startedAt: 2026-11-21T08:10:17.173275839Z
-completedAt: 2026-11-21T08:13:55.395575648Z
+startedAt: 2026-11-21T08:56:10.272067807Z
+completedAt: 2026-11-21T08:56:34.941251689Z
 assignee: lovelace-coder-bot
 status: Failed
-error: 'exit status 1: running recipe: following task recipe-fix-20261121-081224-b5d8: Get "http://127.0.0.1:33147/v1/tasks/recipe-fix-20261121-081224-b5d8/log?follow=true&offset=1928": dial tcp 127.0.0.1:33147: connect: connection refused'
+error: 'exit status 1: running recipe: task failed with exit code 137'
 onStart:
     assign:
         - '{{bot}}'
     comment: AI Factory started fixing this issue in a sandbox.
-runName: fix-15970-head-1795248599
+runName: fix-15970-head-1795251352
 rule: fix
 recipe: fix
 apply: open-pr
