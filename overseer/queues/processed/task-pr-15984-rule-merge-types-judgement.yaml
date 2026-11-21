@@ -4,16 +4,16 @@ number: 15984
 priority: medium
 phase: 1
 createdAt: 2026-11-18T02:05:00Z
-enqueuedAt: 2026-11-20T22:10:07.081285395Z
+enqueuedAt: 2026-11-21T00:04:44.429826446Z
 triggerEventTime: 2026-11-20T21:15:42Z
 triggerReason: RuleDecided
 triggerNotes: The merge-types-judgement rule decided to run on commit e0265cc
-startedAt: 2026-11-20T22:10:30.56114083Z
-completedAt: 2026-11-20T22:10:41.062247243Z
+startedAt: 2026-11-21T00:04:50.545775482Z
+completedAt: 2026-11-21T00:05:44.525482288Z
 assignee: factorybot-robot
 status: Completed
 commitSHA: e0265cc53a3d14e95eacd44d206388c8fe2724d4
-runName: merge-types-judgement-15984-e0265cc-1795212607
+runName: merge-types-judgement-15984-e0265cc-1795219484
 rule: merge-types-judgement
 recipe: merge
 inputs:
