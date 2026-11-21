@@ -1,0 +1,32 @@
+type: pr-rule
+url: https://github.com/GoogleCloudPlatform/k8s-config-connector/pull/16260
+number: 16260
+priority: medium
+phase: 1
+createdAt: 2026-11-21T01:41:57Z
+enqueuedAt: 2026-11-21T02:26:36.23715714Z
+triggerEventTime: 2026-11-21T02:19:16Z
+triggerReason: PRReadyForReview
+triggerNotes: Automated review triggered; all CI checks passed at 2026-11-21T02:19:16Z for commit 2fbfb1b (committer date 2026-11-21T01:27:40Z)
+startedAt: 2026-11-21T02:26:47.13989277Z
+completedAt: 2026-11-21T02:43:53.91209612Z
+assignee: lovelace-coder-bot
+status: Completed
+commitSHA: 2fbfb1bb3335a3017974a2d55e6ac439b97bc1a4
+instructions:
+    - Use .gemini/skills/reviewgen-greenfield-controller/SKILL.md to conduct the review.
+    - '### KCC Greenfield Controller Auto-Review Results'
+    - '**Trigger criteria matched**: Yes'
+    - '**Post-Judgement, One-Shot Generation, & `static_config.go`**: Pass - (`judgement_queue.yaml` entries resolved; `generate.sh` does not invoke `generate-controller` or `generate-fuzzer`; files have `+generated:controller` / `+generated:fuzzer`; `static_config.go` is updated; `GeminiDataAnalyticsDataAgent` is in `BLOCKED_KINDS`)'
+    - '**Client Creation & Reference Normalization**: Pass - (Uses GAPIC REST client `NewDataAgentRESTClient` with `RESTClientOptions()` and `common.NormalizeGreenfieldReferences` called before `obj.GetIdentity` in `AdapterForObject`)'
+    - '**CompareGreenfieldSpec & Structured Reporting**: Pass - (Uses `common.CompareGreenfieldSpec` with `structuredreporting.ReportDiff` in `Update`)'
+    - '**LRO Wait & Mandatory Status Updates**: Pass - (Waits on LRO via `op.Wait(ctx)` and calls `setStatus` on both no-op and mutating paths)'
+    - '**Fuzzer & Real-GCP Test Coverage**: Pass - (`geminidataanalyticsdataagent_fuzzer.generated.go` passes round-trip tests; minimal and maximal fixtures with real-GCP golden logs and audit probes pass all 7/7 automated validation checks; ratcheting enabled)'
+    - '#### Detailed Findings / Actions Required:'
+    - None. All Greenfield Step 2 criteria and invariants are satisfied.
+onStart:
+    comment: AI Factory started reviewing this pull request in a sandbox.
+runName: review-16260-2fbfb1b-1795227996
+rule: review
+recipe: review
+apply: submit-review
