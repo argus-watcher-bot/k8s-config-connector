@@ -4,20 +4,19 @@ number: 15970
 priority: medium
 phase: 3
 createdAt: 2026-11-18T00:20:46Z
-enqueuedAt: 2026-11-21T08:55:52.264435969Z
+enqueuedAt: 2026-11-22T19:39:25.601962195Z
 triggerEventTime: 2026-11-18T00:20:47Z
 triggerReason: IssueLabeled
 triggerNotes: 'Issue #15970 created at 2026-11-18T00:20:46Z; trigger label ''overseer'' added by argus-watcher-bot at 2026-11-18T00:20:47Z'
-startedAt: 2026-11-21T08:56:10.272067807Z
-completedAt: 2026-11-21T08:56:34.941251689Z
+startedAt: 2026-11-22T19:39:36.962940287Z
+completedAt: 2026-11-22T19:57:32.57719669Z
 assignee: lovelace-coder-bot
-status: Failed
-error: 'exit status 1: running recipe: task failed with exit code 137'
+status: Completed
 onStart:
     assign:
         - '{{bot}}'
     comment: AI Factory started fixing this issue in a sandbox.
-runName: fix-15970-head-1795251352
+runName: fix-15970-head-1795376365
 rule: fix
 recipe: fix
 apply: open-pr
