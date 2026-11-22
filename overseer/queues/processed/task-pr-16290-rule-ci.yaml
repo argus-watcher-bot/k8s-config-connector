@@ -4,12 +4,12 @@ number: 16290
 priority: medium
 phase: 3
 createdAt: 2026-11-22T02:27:30Z
-enqueuedAt: 2026-11-22T02:31:25.655120439Z
-triggerEventTime: 2026-11-22T02:27:38Z
+enqueuedAt: 2026-11-22T04:44:51.216956435Z
+triggerEventTime: 2026-11-22T02:36:07Z
 triggerReason: PRCheckFailed
-triggerNotes: Earliest CI failure in 'Validate PR Release Note' (failure) at 2026-11-22T02:27:38Z; total 1 failed check(s) on commit e09a8fb
-startedAt: 2026-11-22T02:31:52.691415447Z
-completedAt: 2026-11-22T02:36:01.550163667Z
+triggerNotes: Earliest CI failure in 'Validate PR Release Note' (failure) at 2026-11-22T02:36:07Z; total 1 failed check(s) on commit e09a8fb
+startedAt: 2026-11-22T04:45:05.771819695Z
+completedAt: 2026-11-22T05:12:17.116343702Z
 assignee: lovelace-coder-bot
 status: Completed
 commitSHA: e09a8fb288b47bfa4bc7f37d457c89416a0ca4be
@@ -18,7 +18,7 @@ onStart:
         AI Factory started investigating CI check failures for this pull request.
 
         Note: We recommend waiting for the 'ready-for-human' label before leaving review comments. Comments added while the system is actively working may be associated with outdated commits once a new commit is pushed, causing them to be ignored.
-runName: ci-16290-e09a8fb-1795314685
+runName: ci-16290-e09a8fb-1795322691
 rule: ci
 recipe: care-ci
 apply: post-replies
