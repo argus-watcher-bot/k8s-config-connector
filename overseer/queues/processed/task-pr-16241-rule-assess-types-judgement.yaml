@@ -4,16 +4,19 @@ number: 16241
 priority: medium
 phase: 1
 createdAt: 2026-11-20T18:49:44Z
-enqueuedAt: 2026-11-21T02:04:35.043886769Z
-triggerEventTime: 2026-11-21T01:54:34Z
+enqueuedAt: 2026-11-23T20:50:39.931664865Z
+triggerEventTime: 2026-11-23T20:47:11Z
 triggerReason: RuleDecided
-triggerNotes: The assess-types-judgement rule decided to run on commit e90f80f
-startedAt: 2026-11-21T02:04:49.134036935Z
-completedAt: 2026-11-21T02:23:14.542446512Z
+triggerNotes: The assess-types-judgement rule decided to run on commit 21b7cf5
+startedAt: 2026-11-23T20:51:11.383502479Z
+completedAt: 2026-11-23T21:18:33.235947421Z
 assignee: neumann-coder-bot
 status: Completed
-commitSHA: e90f80fefe41b8dbddbd66bb821a09f3c373be7b
-runName: assess-types-judgement-16241-e90f80f-1795226675
+commitSHA: 21b7cf5ce100d18e6df8d54b542e5e103bc06c16
+onStart:
+    unlabel:
+        - overseer/assessment/poor
+runName: assess-types-judgement-16241-21b7cf5-1795467039
 rule: assess-types-judgement
 recipe: assess-types-judgement
 apply: comment,label
