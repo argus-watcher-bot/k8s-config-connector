@@ -4,16 +4,19 @@ number: 16314
 priority: medium
 phase: 1
 createdAt: 2026-11-22T22:52:05Z
-enqueuedAt: 2026-11-22T23:52:28.502339243Z
-triggerEventTime: 2026-11-22T23:40:35Z
+enqueuedAt: 2026-11-23T06:37:13.211741218Z
+triggerEventTime: 2026-11-23T05:48:49Z
 triggerReason: RuleDecided
-triggerNotes: The assess-release-step rule decided to run on commit c015f8b
-startedAt: 2026-11-22T23:52:56.457122256Z
-completedAt: 2026-11-23T00:11:14.826881992Z
+triggerNotes: The assess-release-step rule decided to run on commit 04f1d3e
+startedAt: 2026-11-23T06:37:34.419405086Z
+completedAt: 2026-11-23T06:55:16.657613305Z
 assignee: hopper-coder-bot
 status: Completed
-commitSHA: c015f8b1283acf48bdb13738cde60e8f49309249
-runName: assess-release-step-16314-c015f8b-1795391548
+commitSHA: 04f1d3ea9b441c5e5826f5bdf6d2597b178d1fb1
+onStart:
+    unlabel:
+        - overseer/assessment/good
+runName: assess-release-step-16314-04f1d3e-1795415833
 rule: assess-release-step
 recipe: assess-controller
 apply: comment,label

@@ -1,0 +1,19 @@
+type: pr-rule
+url: https://github.com/GoogleCloudPlatform/k8s-config-connector/pull/16319
+number: 16319
+priority: medium
+phase: 1
+createdAt: 2026-11-23T02:32:28Z
+enqueuedAt: 2026-11-23T04:43:11.561447336Z
+triggerEventTime: 2026-11-23T03:33:11Z
+triggerReason: RuleDecided
+triggerNotes: The file-validate-bug rule decided to run on commit ca47fb0
+startedAt: 2026-11-23T04:43:24.272351826Z
+completedAt: 2026-11-23T04:55:15.067096722Z
+assignee: ada-coder-bot
+status: Completed
+commitSHA: ca47fb045134f7222f508b5ebcf447147f451ba4
+runName: file-validate-bug-16319-ca47fb0-1795408991
+rule: file-validate-bug
+recipe: file-validate-bug
+apply: open-issues
