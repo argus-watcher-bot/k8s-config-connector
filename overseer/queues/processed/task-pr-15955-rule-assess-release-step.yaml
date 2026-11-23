@@ -4,16 +4,19 @@ number: 15955
 priority: medium
 phase: 1
 createdAt: 2026-11-17T22:37:20Z
-enqueuedAt: 2026-11-23T06:49:12.349566709Z
-triggerEventTime: 2026-11-23T06:46:54Z
+enqueuedAt: 2026-11-23T08:25:30.883143596Z
+triggerEventTime: 2026-11-23T07:41:13Z
 triggerReason: RuleDecided
-triggerNotes: The assess-release-step rule decided to run on commit b6c8343
-startedAt: 2026-11-23T06:49:26.781738429Z
-completedAt: 2026-11-23T07:22:40.822232639Z
+triggerNotes: The assess-release-step rule decided to run on commit 09514ca
+startedAt: 2026-11-23T08:25:49.081956556Z
+completedAt: 2026-11-23T08:53:21.459539789Z
 assignee: lovelace-coder-bot
 status: Completed
-commitSHA: b6c83439a3a27058ed3f19ca800b1d4b268955cf
-runName: assess-release-step-15955-b6c8343-1795416552
+commitSHA: 09514ca6b567ead9c7a58a96275fc6665c8edb38
+onStart:
+    unlabel:
+        - overseer/assessment/poor
+runName: assess-release-step-15955-09514ca-1795422330
 rule: assess-release-step
 recipe: assess-controller
 apply: comment,label
