@@ -4,21 +4,21 @@ number: 16344
 priority: medium
 phase: 3
 createdAt: 2026-11-23T23:04:14Z
-enqueuedAt: 2026-11-23T23:26:34.820525574Z
-triggerEventTime: 2026-11-23T23:25:47Z
+enqueuedAt: 2026-11-24T17:32:42.832070927Z
+triggerEventTime: 2026-11-24T17:29:50Z
 triggerReason: PRCheckFailed
-triggerNotes: Earliest CI failure in 'golangci-lint' (failure) at 2026-11-23T23:25:47Z; total 1 failed check(s) on commit c8cfe70
-startedAt: 2026-11-23T23:26:56.501655386Z
-completedAt: 2026-11-23T23:41:40.129223974Z
+triggerNotes: Earliest CI failure in 'smoketest-with-kind' (failure) at 2026-11-24T17:29:50Z; total 2 failed check(s) on commit 12292f3
+startedAt: 2026-11-24T17:33:08.003388073Z
+completedAt: 2026-11-24T17:45:13.129899377Z
 assignee: ada-coder-bot
 status: Completed
-commitSHA: c8cfe708a574c1a0f922afdc2090a5a35fa3d737
+commitSHA: 12292f3a90466917ad2d4b49e07b838dc727770e
 onStart:
     comment: |-
         AI Factory started investigating CI check failures for this pull request.
 
         Note: We recommend waiting for the 'ready-for-human' label before leaving review comments. Comments added while the system is actively working may be associated with outdated commits once a new commit is pushed, causing them to be ignored.
-runName: ci-16344-c8cfe70-1795476394
+runName: ci-16344-12292f3-1795541562
 rule: ci
 recipe: care-ci
 apply: post-replies
