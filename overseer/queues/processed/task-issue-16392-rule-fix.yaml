@@ -4,18 +4,19 @@ number: 16392
 priority: medium
 phase: 3
 createdAt: 2026-11-24T15:18:53Z
-enqueuedAt: 2026-11-24T16:32:21.744505183Z
+enqueuedAt: 2026-11-24T18:59:55.722992829Z
 triggerEventTime: 2026-11-24T16:25:03Z
 triggerReason: IssueLabeled
 triggerNotes: 'Issue #16392 created at 2026-11-24T15:18:53Z; trigger label ''overseer'' added by acpana at 2026-11-24T16:25:03Z'
-startedAt: 2026-11-24T16:32:29.798473419Z
+startedAt: 2026-11-24T19:00:04.790615032Z
+completedAt: 2026-11-24T20:17:01.184276173Z
 assignee: ada-coder-bot
-status: Running
+status: Completed
 onStart:
     assign:
         - '{{bot}}'
     comment: AI Factory started fixing this issue in a sandbox.
-runName: fix-16392-head-1795537941
+runName: fix-16392-head-1795546795
 rule: fix
 recipe: fix
 apply: open-pr

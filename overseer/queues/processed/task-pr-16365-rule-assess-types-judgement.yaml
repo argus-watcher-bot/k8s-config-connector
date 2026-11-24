@@ -4,19 +4,19 @@ number: 16365
 priority: medium
 phase: 1
 createdAt: 2026-11-24T01:30:14Z
-enqueuedAt: 2026-11-24T08:22:28.533933384Z
-triggerEventTime: 2026-11-24T08:15:02Z
+enqueuedAt: 2026-11-24T20:02:15.287885902Z
+triggerEventTime: 2026-11-24T19:58:19Z
 triggerReason: RuleDecided
-triggerNotes: The assess-types-judgement rule decided to run on commit 35f4f12
-startedAt: 2026-11-24T08:22:34.120729347Z
-completedAt: 2026-11-24T09:11:32.434571954Z
+triggerNotes: The assess-types-judgement rule decided to run on commit 82cc424
+startedAt: 2026-11-24T20:02:43.764091051Z
+completedAt: 2026-11-24T20:31:42.680968722Z
 assignee: neumann-coder-bot
 status: Completed
-commitSHA: 35f4f12ba87377f22f86a158b2460609d710397d
+commitSHA: 82cc424edbdac1106fb074e7c697c1ad83818a12
 onStart:
     unlabel:
         - overseer/assessment/good
-runName: assess-types-judgement-16365-35f4f12-1795508548
+runName: assess-types-judgement-16365-82cc424-1795550535
 rule: assess-types-judgement
 recipe: assess-types-judgement
 apply: comment,label
