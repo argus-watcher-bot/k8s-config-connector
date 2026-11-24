@@ -1,0 +1,24 @@
+type: pr-rule
+url: https://github.com/GoogleCloudPlatform/k8s-config-connector/pull/16388
+number: 16388
+priority: medium
+phase: 1
+createdAt: 2026-11-24T09:48:27Z
+enqueuedAt: 2026-11-24T10:39:38.001037601Z
+triggerEventTime: 2026-11-24T10:29:42Z
+triggerReason: RuleDecided
+triggerNotes: The merge-validate-kind rule decided to run on commit f13a43b
+startedAt: 2026-11-24T10:39:59.354382785Z
+completedAt: 2026-11-24T10:42:38.021890208Z
+assignee: lovelace-coder-bot
+status: Completed
+commitSHA: f13a43b05bd2395b42641c50adf4694bd146ad89
+runName: merge-validate-kind-16388-f13a43b-1795516778
+rule: merge-validate-kind
+recipe: merge
+inputs:
+    message: |
+        /lgtm
+        /approve
+
+        Approved for merge by the overseer: this validation PR meets the criteria for approval - its clean re-run passed every check (graded good by validate-kind), it changes only its Kind's hack/manual-validate files, its checks are green, and it is mergeable.
