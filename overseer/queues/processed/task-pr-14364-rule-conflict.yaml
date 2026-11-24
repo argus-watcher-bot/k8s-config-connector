@@ -4,21 +4,21 @@ number: 14364
 priority: medium
 phase: 2
 createdAt: 2026-10-23T23:23:28Z
-enqueuedAt: 2026-11-18T01:26:36.749063341Z
-triggerEventTime: 2026-11-17T15:21:48Z
+enqueuedAt: 2026-11-24T07:39:31.191123145Z
+triggerEventTime: 2026-11-18T01:29:55Z
 triggerReason: PRMergeConflict
-triggerNotes: 'PR #14364 has merge conflicts with base branch ''master''; head commit 7c9e9cc committer date 2026-11-17T15:21:48Z, PR updated at 2026-11-17T15:49:32Z'
-startedAt: 2026-11-18T01:27:08.16385447Z
-completedAt: 2026-11-18T01:34:31.165945012Z
+triggerNotes: 'PR #14364 has merge conflicts with base branch ''master''; head commit edabb32 committer date 2026-11-18T01:29:55Z, PR updated at 2026-11-18T02:18:09Z'
+startedAt: 2026-11-24T07:39:37.445494038Z
+completedAt: 2026-11-24T08:00:14.282225862Z
 assignee: neumann-coder-bot
 status: Completed
-commitSHA: 7c9e9cc79926c977bcb63364e75682e1bb21fcdf
+commitSHA: edabb329e7fc8b4422803740b2d5dc6890dd5582
 onStart:
     comment: |-
         AI Factory started resolving merge conflicts / rebasing this pull request in a sandbox.
 
         Note: We recommend waiting for the 'ready-for-human' label before leaving review comments. Comments added while the system is actively working may be associated with outdated commits once a new commit is pushed, causing them to be ignored.
-runName: conflict-14364-7c9e9cc-1794965196
+runName: conflict-14364-edabb32-1795505971
 rule: conflict
 recipe: care-rebase
 apply: post-replies

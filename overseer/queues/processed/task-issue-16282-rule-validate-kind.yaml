@@ -4,21 +4,19 @@ number: 16282
 priority: medium
 phase: 3
 createdAt: 2026-11-22T00:03:47Z
-enqueuedAt: 2026-11-22T00:05:46.797539844Z
+enqueuedAt: 2026-11-24T05:48:24.17795812Z
 triggerEventTime: 2026-11-22T00:03:49Z
 triggerReason: IssueLabeled
 triggerNotes: 'Issue #16282 created at 2026-11-22T00:03:47Z; trigger label ''overseer'' added by argus-watcher-bot at 2026-11-22T00:03:49Z'
-startedAt: 2026-11-22T00:06:06.799320972Z
-completedAt: 2026-11-22T00:54:08.251212342Z
+startedAt: 2026-11-24T05:48:30.649493886Z
+completedAt: 2026-11-24T06:29:51.512309198Z
 assignee: neumann-coder-bot
 status: Completed
 onStart:
     assign:
         - '{{bot}}'
-    unassign:
-        - argus-watcher-bot
     comment: AI Factory started validating this Kind against real GCP in a sandbox.
-runName: validate-kind-16282-head-1795305946
+runName: validate-kind-16282-head-1795499304
 rule: validate-kind
 recipe: validate-kind
 apply: open-pr
