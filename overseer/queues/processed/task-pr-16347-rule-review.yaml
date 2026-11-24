@@ -4,39 +4,20 @@ number: 16347
 priority: medium
 phase: 1
 createdAt: 2026-11-23T23:24:46Z
-enqueuedAt: 2026-11-24T00:00:44.249775479Z
-triggerEventTime: 2026-11-24T00:00:26Z
+enqueuedAt: 2026-11-24T04:54:35.094141722Z
+triggerEventTime: 2026-11-24T04:54:27Z
 triggerReason: PRReadyForReview
-triggerNotes: Automated review triggered; all CI checks passed at 2026-11-24T00:00:26Z for commit 373a25d (committer date 2026-11-23T23:23:17Z)
-startedAt: 2026-11-24T00:01:03.865088757Z
-completedAt: 2026-11-24T00:26:02.378292882Z
+triggerNotes: Automated review triggered; all CI checks passed at 2026-11-24T04:54:27Z for commit 67b1e3e (committer date 2026-11-24T04:16:30Z)
+startedAt: 2026-11-24T04:55:01.737112077Z
+completedAt: 2026-11-24T05:00:27.323266468Z
 assignee: hopper-coder-bot
 status: Completed
-commitSHA: 373a25d309af50de7ecc76b02c50c88461eb499f
+commitSHA: 67b1e3eb596280f171085bec6c5c2092cdac0f73
 instructions:
-    - Use .gemini/skills/reviewgen-greenfield-controller/SKILL.md to conduct the review.
-    - '### KCC Greenfield Controller Auto-Review Results'
-    - '**Trigger criteria matched**: Yes'
-    - '**Post-Judgement, One-Shot Generation, & static_config.go**: Pass - (`apis/bigquerybiglake/judgement_queue.yaml` entries resolved; `generate.sh` does not invoke `generate-controller` or `generate-fuzzer`; files have `+generated:controller` / `+generated:fuzzer`; `static_config.go` is updated; `BigLakeHiveCatalog` is retained in `BLOCKED_KINDS`)'
-    - '**Client Creation & Reference Normalization**: Pass - (Uses `gcp.NewHiveMetastoreClient` with `m.config.GRPCClientOptions()` falling back per Rule 1 due to upstream GAPIC REST client parameter encoding bug, and `common.NormalizeGreenfieldReferences` in `AdapterForObject`)'
-    - '**CompareGreenfieldSpec & Structured Reporting**: Pass - (Uses `common.CompareGreenfieldSpec` with `structuredreporting.ReportDiff` in `Update`)'
-    - '**LRO Wait & Mandatory Status Updates**: Pass - (Synchronous CRUD RPCs; calls `setStatus` on Create, on Update no-op, and after Update mutations)'
-    - '**Fuzzer & Real-GCP Test Coverage**: Pass - (`biglakehivecatalog_fuzzer.generated.go` present and passing fuzzer; minimal and maximal fixtures recorded against real GCP with `_http.log` and `_audit_probe.log`; ratcheting enabled)'
-    - '#### Detailed Findings / Actions Required:'
-    - None. All Greenfield Step 2 criteria and invariants are satisfied.
-    - '### Workflow feedback'
-    - 'The GAPIC REST client in `cloud.google.com/go/biglake/hive/apiv1` (`NewHiveMetastoreRESTClient`) generates query parameters `params.Add("hiveCatalogId", ...)` and `params.Add("primaryLocation", ...)`. Real GCP backend rejects camelCase `primaryLocation` query parameter with `400 Bad Request: Unknown name "primaryLocation": Cannot bind query parameter.` (expecting snake_case `primary_location`). Falling back to `NewHiveMetastoreClient` with `m.config.GRPCClientOptions()` resolves this cleanly.'
-    - BigLake Hive Catalog requires `primary_location` on `CreateHiveCatalogRequest`. Modeled `primaryLocation` on `BigLakeHiveCatalogSpec` and passed it on `CreateHiveCatalogRequest` (defaulting to `"us-central1"` if unspecified).
-    - BigLake Hive Catalog names must match regex `^[a-z0-9][a-z0-9_]{0,255}$` (hyphens not permitted), requiring underscore naming in `spec.resourceID`.
-    - '### Real GCP Audit Logs'
-    - 'Project: `cnrm-barni-4`'
-    - 'Audit Logs (`gcloud logging read ''protoPayload.serviceName="biglake.googleapis.com"'' --freshness=1h`):'
-    - 'biglakehivecatalog_min_2v7sid73uxpitzy`: `CreateHiveCatalog`, `GetHiveCatalog`, `UpdateHiveCatalog`, `DeleteHiveCatalog'
-    - 'biglakehivecatalog_max_n24a4o44pur4hea`: `CreateHiveCatalog`, `GetHiveCatalog`, `UpdateHiveCatalog`, `DeleteHiveCatalog'
-    - "<sub>\U0001F916 [Agent session](https://staging.repoagent.dev/#/overseers/kcc/task-session/fix-k8s-config-connector-16336/recipe-fix-20261123-203100-b601)</sub>"
+    - Use .gemini/skills/reviewgen-greenfield-release/SKILL.md to conduct the review.
 onStart:
     comment: AI Factory started reviewing this pull request in a sandbox.
-runName: review-16347-373a25d-1795478444
+runName: review-16347-67b1e3e-1795496075
 rule: review
 recipe: review
 apply: submit-review
