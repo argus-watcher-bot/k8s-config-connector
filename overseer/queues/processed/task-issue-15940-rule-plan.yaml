@@ -1,0 +1,26 @@
+type: issue-rule
+url: https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/15940
+number: 15940
+priority: medium
+phase: 3
+createdAt: 2026-11-17T21:59:18Z
+enqueuedAt: 2026-11-25T19:27:55.355791612Z
+triggerEventTime: 2026-11-17T21:59:18Z
+triggerReason: IssueCreated
+triggerNotes: 'Issue #15940 created at 2026-11-17T21:59:18Z with trigger label ''overseer'''
+startedAt: 2026-11-25T19:28:10.804881191Z
+completedAt: 2026-11-25T19:37:49.645451421Z
+assignee: lovelace-coder-bot
+status: Completed
+onSuccess:
+    label:
+        - overseer/planned
+onFailure:
+    comment: Planning failed; apply the plan label again to retry.
+onEnd:
+    unlabel:
+        - overseer/plan
+runName: plan-15940-head-1795634875
+rule: plan
+recipe: plan
+apply: comment

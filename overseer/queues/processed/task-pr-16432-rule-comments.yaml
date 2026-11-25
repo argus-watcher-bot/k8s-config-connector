@@ -1,0 +1,22 @@
+type: pr-rule
+url: https://github.com/GoogleCloudPlatform/k8s-config-connector/pull/16432
+number: 16432
+priority: medium
+phase: 1
+createdAt: 2026-11-25T03:03:20Z
+enqueuedAt: 2026-11-25T20:09:56.078911378Z
+triggerEventTime: 2026-11-25T20:02:43Z
+triggerReason: PRCommentsAdded
+triggerNotes: Oldest unaddressed inline review comment by gemmahou added at 2026-11-25T20:02:43Z (ID 4700180508) since last commit c1acd35 (committer date 2026-11-25T06:42:40Z)
+startedAt: 2026-11-25T20:10:02.691307522Z
+completedAt: 2026-11-25T20:41:29.843800368Z
+assignee: lovelace-coder-bot
+status: Completed
+commitSHA: c1acd359bb82d2a8f0e4c6f93296f35a2141d80a
+acknowledge: feedback
+onStart:
+    comment: AI Factory started addressing review feedback for this pull request.
+runName: comments-16432-c1acd35-1795637396
+rule: comments
+recipe: care-comments
+apply: post-replies
