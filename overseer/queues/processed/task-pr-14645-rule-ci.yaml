@@ -4,21 +4,21 @@ number: 14645
 priority: medium
 phase: 3
 createdAt: 2026-10-29T19:48:57Z
-enqueuedAt: 2026-10-29T20:01:03.313114298Z
-triggerEventTime: 2026-10-29T19:49:09Z
+enqueuedAt: 2026-11-25T07:55:08.097286997Z
+triggerEventTime: 2026-11-25T07:45:58Z
 triggerReason: PRCheckFailed
-triggerNotes: Earliest CI failure in 'Validate PR Release Note' (failure) at 2026-10-29T19:49:09Z; total 2 failed check(s) on commit 1d04505
-startedAt: 2026-10-29T20:01:33.0658012Z
-completedAt: 2026-10-29T20:23:55.113241937Z
+triggerNotes: Earliest CI failure in 'cla/google' (failure) at 2026-11-25T07:45:58Z; total 9 failed check(s) on commit 68af977
+startedAt: 2026-11-25T07:55:24.42441282Z
+completedAt: 2026-11-25T08:48:16.768261653Z
 assignee: hopper-coder-bot
 status: Completed
-commitSHA: 1d0450599e448bd061700d5e478590067edefa3c
+commitSHA: 68af977222f53b1b0564e010a0e4964bc69d342b
 onStart:
     comment: |-
         AI Factory started investigating CI check failures for this pull request.
 
         Note: We recommend waiting for the 'ready-for-human' label before leaving review comments. Comments added while the system is actively working may be associated with outdated commits once a new commit is pushed, causing them to be ignored.
-runName: ci-14645-1d04505-1793304063
+runName: ci-14645-68af977-1795593308
 rule: ci
 recipe: care-ci
 apply: post-replies

@@ -4,21 +4,21 @@ number: 16437
 priority: medium
 phase: 3
 createdAt: 2026-11-25T04:13:46Z
-enqueuedAt: 2026-11-25T04:35:17.625588625Z
-triggerEventTime: 2026-11-25T04:34:01Z
+enqueuedAt: 2026-11-25T05:59:22.392497232Z
+triggerEventTime: 2026-11-25T05:57:18Z
 triggerReason: PRCheckFailed
-triggerNotes: Earliest CI failure in 'unit-tests-1-of-4' (failure) at 2026-11-25T04:34:01Z; total 2 failed check(s) on commit 1d7016c
-startedAt: 2026-11-25T04:35:22.320370015Z
-completedAt: 2026-11-25T05:32:08.083843087Z
+triggerNotes: Earliest CI failure in 'unit-tests-3-of-4' (failure) at 2026-11-25T05:57:18Z; total 2 failed check(s) on commit 4cc511d
+startedAt: 2026-11-25T05:59:57.492561168Z
+completedAt: 2026-11-25T06:48:51.157416226Z
 assignee: hopper-coder-bot
 status: Completed
-commitSHA: 1d7016c5cab63ab349594fdbef3edc87a6f007ab
+commitSHA: 4cc511dbe36790710455002e45fdb7ed4534464b
 onStart:
     comment: |-
         AI Factory started investigating CI check failures for this pull request.
 
         Note: We recommend waiting for the 'ready-for-human' label before leaving review comments. Comments added while the system is actively working may be associated with outdated commits once a new commit is pushed, causing them to be ignored.
-runName: ci-16437-1d7016c-1795581317
+runName: ci-16437-4cc511d-1795586362
 rule: ci
 recipe: care-ci
 apply: post-replies
