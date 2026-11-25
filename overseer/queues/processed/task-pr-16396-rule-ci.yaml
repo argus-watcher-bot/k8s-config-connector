@@ -4,12 +4,12 @@ number: 16396
 priority: medium
 phase: 3
 createdAt: 2026-11-24T20:16:58Z
-enqueuedAt: 2026-11-24T20:24:11.401830879Z
-triggerEventTime: 2026-11-24T20:17:11Z
+enqueuedAt: 2026-11-24T22:37:17.153584338Z
+triggerEventTime: 2026-11-24T20:29:11Z
 triggerReason: PRCheckFailed
-triggerNotes: Earliest CI failure in 'Validate PR Release Note' (failure) at 2026-11-24T20:17:11Z; total 2 failed check(s) on commit 5a9a997
-startedAt: 2026-11-24T20:24:41.784190355Z
-completedAt: 2026-11-24T20:29:04.31001318Z
+triggerNotes: Earliest CI failure in 'Validate PR Release Note' (failure) at 2026-11-24T20:29:11Z; total 1 failed check(s) on commit 5a9a997
+startedAt: 2026-11-24T22:37:27.22268783Z
+completedAt: 2026-11-24T22:45:18.529798683Z
 assignee: ada-coder-bot
 status: Completed
 commitSHA: 5a9a9974dfc8935e6da3033a06c0a1a62d167740
@@ -18,7 +18,7 @@ onStart:
         AI Factory started investigating CI check failures for this pull request.
 
         Note: We recommend waiting for the 'ready-for-human' label before leaving review comments. Comments added while the system is actively working may be associated with outdated commits once a new commit is pushed, causing them to be ignored.
-runName: ci-16396-5a9a997-1795551851
+runName: ci-16396-5a9a997-1795559837
 rule: ci
 recipe: care-ci
 apply: post-replies
