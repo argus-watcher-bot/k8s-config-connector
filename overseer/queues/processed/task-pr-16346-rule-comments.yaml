@@ -1,0 +1,22 @@
+type: pr-rule
+url: https://github.com/GoogleCloudPlatform/k8s-config-connector/pull/16346
+number: 16346
+priority: medium
+phase: 1
+createdAt: 2026-11-23T23:22:43Z
+enqueuedAt: 2026-11-25T02:33:18.976113678Z
+triggerEventTime: 2026-11-25T02:31:37Z
+triggerReason: PRCommentsAdded
+triggerNotes: Oldest unaddressed review by acpana added at 2026-11-25T02:31:37Z (ID 6050848033) since last commit 685a52c (committer date 2026-11-24T21:25:17Z)
+startedAt: 2026-11-25T02:33:44.822813488Z
+completedAt: 2026-11-25T04:10:14.698217721Z
+assignee: neumann-coder-bot
+status: Completed
+commitSHA: 685a52cca2f334deee17b4243f414c0c8842a858
+acknowledge: feedback
+onStart:
+    comment: AI Factory started addressing review feedback for this pull request.
+runName: comments-16346-685a52c-1795573998
+rule: comments
+recipe: care-comments
+apply: post-replies
