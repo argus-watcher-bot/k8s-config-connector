@@ -4,16 +4,19 @@ number: 16361
 priority: medium
 phase: 1
 createdAt: 2026-11-24T00:37:25Z
-enqueuedAt: 2026-11-24T01:54:36.082806389Z
-triggerEventTime: 2026-11-24T01:32:34Z
+enqueuedAt: 2026-11-25T01:03:31.186593662Z
+triggerEventTime: 2026-11-25T00:29:05Z
 triggerReason: RuleDecided
-triggerNotes: The assess-release-step rule decided to run on commit 1fa1ad4
-startedAt: 2026-11-24T01:54:49.73056143Z
-completedAt: 2026-11-24T02:04:12.82425597Z
+triggerNotes: The assess-release-step rule decided to run on commit fe1ab17
+startedAt: 2026-11-25T01:03:50.908502199Z
+completedAt: 2026-11-25T01:16:54.8792135Z
 assignee: ada-coder-bot
 status: Completed
-commitSHA: 1fa1ad4488ed04ad661bba4bd44b3ee19b8abe6a
-runName: assess-release-step-16361-1fa1ad4-1795485276
+commitSHA: fe1ab175a0deb109ba8615ac2687e74588e08cc8
+onStart:
+    unlabel:
+        - overseer/assessment/good
+runName: assess-release-step-16361-fe1ab17-1795568611
 rule: assess-release-step
 recipe: assess-controller
 apply: comment,label

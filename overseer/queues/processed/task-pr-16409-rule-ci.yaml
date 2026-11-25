@@ -9,8 +9,9 @@ triggerEventTime: 2026-11-24T22:24:01Z
 triggerReason: PRCheckFailed
 triggerNotes: Earliest CI failure in 'validate-generated-files' (failure) at 2026-11-24T22:24:01Z; total 2 failed check(s) on commit a41548e
 startedAt: 2026-11-24T22:25:33.853540725Z
+completedAt: 2026-11-25T01:07:37.629685055Z
 assignee: ada-coder-bot
-status: Running
+status: Completed
 commitSHA: a41548e47a8e71978daf40b709e5d1235541d9ca
 onStart:
     comment: |-
