@@ -4,22 +4,20 @@ number: 16454
 priority: medium
 phase: 1
 createdAt: 2026-11-25T14:40:41Z
-enqueuedAt: 2026-11-25T15:18:42.695718743Z
-triggerEventTime: 2026-11-25T15:12:42Z
+enqueuedAt: 2026-11-25T18:47:09.746865031Z
+triggerEventTime: 2026-11-25T18:39:23Z
 triggerReason: PRReadyForReview
-triggerNotes: Automated review triggered; all CI checks passed at 2026-11-25T15:12:42Z for commit cb1d67b (committer date 2026-11-25T13:57:31Z)
-startedAt: 2026-11-25T15:18:51.473919989Z
-completedAt: 2026-11-25T15:28:54.800296429Z
+triggerNotes: Automated review triggered; all CI checks passed at 2026-11-25T18:39:23Z for commit fa8458a (committer date 2026-11-25T17:55:48Z)
+startedAt: 2026-11-25T18:47:31.135852323Z
+completedAt: 2026-11-25T18:55:56.099884168Z
 assignee: lovelace-coder-bot
-status: Failed
-error: 'exit status 1: connecting to sandbox: sandbox review-k8s-config-connector-16454 has no task server to use (timed out waiting for sandbox pod review-k8s-config-connector-16454 to become ready); recreate it on a current image'
-commitSHA: cb1d67b6aefcef07623b7e90eaa1e529586597d5
+status: Completed
+commitSHA: fa8458acffaf3bd970f042179d4d8ced7fb23ead
 instructions:
-    - Use .gemini/skills/reviewgen-greenfield-controller/SKILL.md to conduct the review.
-    - "<sub>\U0001F916 [Agent session](https://staging.repoagent.dev/#/overseers/kcc/task-session/fix-k8s-config-connector-16450/recipe-fix-20261125-120829-d3a1)</sub>"
+    - Use .gemini/skills/reviewgen-greenfield-mockgcp/SKILL.md to conduct the review.
 onStart:
     comment: AI Factory started reviewing this pull request in a sandbox.
-runName: review-16454-cb1d67b-1795619922
+runName: review-16454-fa8458a-1795632429
 rule: review
 recipe: review
 apply: submit-review
