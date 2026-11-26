@@ -1,0 +1,25 @@
+type: pr-rule
+url: https://github.com/GoogleCloudPlatform/k8s-config-connector/pull/16509
+number: 16509
+priority: medium
+phase: 3
+createdAt: 2026-11-26T06:08:46Z
+enqueuedAt: 2026-11-26T09:56:21.829582892Z
+triggerEventTime: 2026-11-26T09:46:58Z
+triggerReason: PRCheckFailed
+triggerNotes: Earliest CI failure in 'test-mockgcp' (failure) at 2026-11-26T09:46:58Z; total 3 failed check(s) on commit 72daaa4
+startedAt: 2026-11-26T09:56:29.169766324Z
+completedAt: 2026-11-26T10:21:52.38094566Z
+assignee: hopper-coder-bot
+status: Failed
+error: 'exit status 1: running recipe: task failed with exit code 1'
+commitSHA: 72daaa4db4d156c0252067388ca905992e805546
+onStart:
+    comment: |-
+        AI Factory started investigating CI check failures for this pull request.
+
+        Note: We recommend waiting for the 'ready-for-human' label before leaving review comments. Comments added while the system is actively working may be associated with outdated commits once a new commit is pushed, causing them to be ignored.
+runName: ci-16509-72daaa4-1795686981
+rule: ci
+recipe: care-ci
+apply: post-replies
