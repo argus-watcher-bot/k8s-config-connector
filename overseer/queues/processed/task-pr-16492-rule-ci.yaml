@@ -4,21 +4,21 @@ number: 16492
 priority: medium
 phase: 3
 createdAt: 2026-11-26T01:22:22Z
-enqueuedAt: 2026-11-26T01:29:59.227042866Z
-triggerEventTime: 2026-11-26T01:24:20Z
+enqueuedAt: 2026-11-26T04:56:24.719321026Z
+triggerEventTime: 2026-11-26T04:54:51Z
 triggerReason: PRCheckFailed
-triggerNotes: Earliest CI failure in 'validate-fmt' (failure) at 2026-11-26T01:24:20Z; total 1 failed check(s) on commit d75582f
-startedAt: 2026-11-26T01:30:19.495050451Z
-completedAt: 2026-11-26T01:46:00.405782978Z
+triggerNotes: Earliest CI failure in 'tests-e2e-fixtures-bigquerymigration' (failure) at 2026-11-26T04:54:51Z; total 1 failed check(s) on commit 3e4fdcb
+startedAt: 2026-11-26T04:56:34.398839445Z
+completedAt: 2026-11-26T05:06:15.721792447Z
 assignee: lovelace-coder-bot
 status: Completed
-commitSHA: d75582f7a5727e078a43cee279432c0f52bf832c
+commitSHA: 3e4fdcbdeca03aa019361078a48959fc22fd7ced
 onStart:
     comment: |-
         AI Factory started investigating CI check failures for this pull request.
 
         Note: We recommend waiting for the 'ready-for-human' label before leaving review comments. Comments added while the system is actively working may be associated with outdated commits once a new commit is pushed, causing them to be ignored.
-runName: ci-16492-d75582f-1795656599
+runName: ci-16492-3e4fdcb-1795668984
 rule: ci
 recipe: care-ci
 apply: post-replies

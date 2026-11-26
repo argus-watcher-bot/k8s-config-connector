@@ -1,0 +1,19 @@
+type: pr-rule
+url: https://github.com/GoogleCloudPlatform/k8s-config-connector/pull/16497
+number: 16497
+priority: medium
+phase: 1
+createdAt: 2026-11-26T02:31:16Z
+enqueuedAt: 2026-11-26T06:46:19.588850173Z
+triggerEventTime: 2026-11-26T06:36:20Z
+triggerReason: RuleDecided
+triggerNotes: The assess-types-judgement rule decided to run on commit 0e6e612
+startedAt: 2026-11-26T06:46:55.400997628Z
+completedAt: 2026-11-26T06:56:12.374734966Z
+assignee: ada-coder-bot
+status: Completed
+commitSHA: 0e6e61241ee45c316ee08fa7c3cbe95b3ed43ea9
+runName: assess-types-judgement-16497-0e6e612-1795675579
+rule: assess-types-judgement
+recipe: assess-types-judgement
+apply: comment,label
