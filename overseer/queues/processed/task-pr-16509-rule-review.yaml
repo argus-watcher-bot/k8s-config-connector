@@ -4,21 +4,20 @@ number: 16509
 priority: medium
 phase: 1
 createdAt: 2026-11-26T06:08:46Z
-enqueuedAt: 2026-11-26T06:46:23.089542946Z
-triggerEventTime: 2026-11-26T06:41:46Z
+enqueuedAt: 2026-11-26T12:22:24.908052066Z
+triggerEventTime: 2026-11-26T12:12:47Z
 triggerReason: PRReadyForReview
-triggerNotes: Automated review triggered; all CI checks passed at 2026-11-26T06:41:46Z for commit 09bd896 (committer date 2026-11-26T05:49:36Z)
-startedAt: 2026-11-26T06:46:59.335172978Z
-completedAt: 2026-11-26T07:10:17.111526789Z
+triggerNotes: Automated review triggered; all CI checks passed at 2026-11-26T12:12:47Z for commit 07ae224 (committer date 2026-11-26T11:32:14Z)
+startedAt: 2026-11-26T12:22:45.888528843Z
+completedAt: 2026-11-26T12:41:35.54735984Z
 assignee: hopper-coder-bot
 status: Completed
-commitSHA: 09bd896cd4e215d35c587c4f993b178ca7a8916d
+commitSHA: 07ae22441ca8b4e548a8ac728348f8b6ea11979e
 instructions:
-    - Use .gemini/skills/reviewgen-greenfield-controller/SKILL.md to conduct the review.
-    - "<sub>\U0001F916 [Agent session](https://staging.repoagent.dev/#/overseers/kcc/task-session/fix-k8s-config-connector-16505/recipe-fix-20261126-041903-78f5)</sub>"
+    - Use .gemini/skills/reviewgen-greenfield-mockgcp/SKILL.md to conduct the review.
 onStart:
     comment: AI Factory started reviewing this pull request in a sandbox.
-runName: review-16509-09bd896-1795675583
+runName: review-16509-07ae224-1795695744
 rule: review
 recipe: review
 apply: submit-review
