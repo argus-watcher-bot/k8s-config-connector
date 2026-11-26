@@ -4,16 +4,16 @@ number: 16453
 priority: medium
 phase: 1
 createdAt: 2026-11-25T14:20:59Z
-enqueuedAt: 2026-11-25T22:15:57.766545Z
-triggerEventTime: 2026-11-25T22:06:00Z
+enqueuedAt: 2026-11-25T22:57:51.534370728Z
+triggerEventTime: 2026-11-25T22:18:41Z
 triggerReason: RuleDecided
 triggerNotes: The merge-controller rule decided to run on commit 6ba5ce5
-startedAt: 2026-11-25T22:16:20.055981898Z
-completedAt: 2026-11-25T22:18:06.704164041Z
-assignee: hopper-coder-bot
+startedAt: 2026-11-25T22:58:23.459535298Z
+completedAt: 2026-11-25T22:58:35.491787489Z
+assignee: factorybot-robot
 status: Completed
 commitSHA: 6ba5ce5ce907845c5923d8e465ad9922ea38f830
-runName: merge-controller-16453-6ba5ce5-1795644957
+runName: merge-controller-16453-6ba5ce5-1795647471
 rule: merge-controller
 recipe: merge
 inputs:

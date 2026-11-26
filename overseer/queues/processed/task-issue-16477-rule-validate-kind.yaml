@@ -1,0 +1,27 @@
+type: issue-rule
+url: https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/16477
+number: 16477
+priority: medium
+phase: 3
+createdAt: 2026-11-26T00:05:41Z
+enqueuedAt: 2026-11-26T00:07:58.623677337Z
+triggerEventTime: 2026-11-26T00:05:43Z
+triggerReason: IssueLabeled
+triggerNotes: 'Issue #16477 created at 2026-11-26T00:05:41Z; trigger label ''overseer'' added by argus-watcher-bot at 2026-11-26T00:05:43Z'
+startedAt: 2026-11-26T00:08:20.58066408Z
+completedAt: 2026-11-26T00:35:45.472599744Z
+assignee: lovelace-coder-bot
+status: Completed
+onStart:
+    assign:
+        - '{{bot}}'
+    unassign:
+        - argus-watcher-bot
+    comment: AI Factory started validating this Kind against real GCP in a sandbox.
+runName: validate-kind-16477-head-1795651678
+rule: validate-kind
+recipe: validate-kind
+apply: open-pr
+inputs:
+    draft: "false"
+prLabels: true
