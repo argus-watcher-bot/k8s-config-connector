@@ -1,0 +1,33 @@
+type: pr-rule
+url: https://github.com/GoogleCloudPlatform/k8s-config-connector/pull/16542
+number: 16542
+priority: medium
+phase: 1
+createdAt: 2026-11-26T21:02:05Z
+enqueuedAt: 2026-11-26T21:40:09.553689074Z
+triggerEventTime: 2026-11-26T21:37:44Z
+triggerReason: PRReadyForReview
+triggerNotes: Automated review triggered; all CI checks passed at 2026-11-26T21:37:44Z for commit 04ea5eb (committer date 2026-11-26T20:53:20Z)
+startedAt: 2026-11-26T21:40:35.635885111Z
+completedAt: 2026-11-26T22:03:10.435486193Z
+assignee: lovelace-coder-bot
+status: Completed
+commitSHA: 04ea5eb7003db828f2b3bb8a8a6f9de250c03d49
+instructions:
+    - Use .gemini/skills/reviewgen-greenfield-new-types/SKILL.md to conduct the review.
+    - '### KCC Greenfield Step 1 (Prepopulate) Auto-Review Results'
+    - '**Trigger criteria matched**: Yes'
+    - '**`generate.sh` & Flags Check**: Pass - Configured `generate-types --prepopulate-resource`, `generate-identity`, and `generate-mapper --prepopulate-resource`; no `--allow-non-ga-proto` used.'
+    - '**Judgement Queue Open Check**: Pass - `apis/designcenter/judgement_queue.yaml` contains `reason: untriaged-bulk-generation` with `status: open`.'
+    - '**Mechanical Output & Idempotency**: Pass - `./apis/designcenter/generate.sh` runs idempotently with zero uncommitted diffs.'
+    - '**Release Bundle Blocklist (`BLOCKED_KINDS`)**: Pass - `DesignCenterComponent` added in alphabetical order to `BLOCKED_KINDS` in `dev/tasks/build-release-bundle`.'
+    - '**Mapper Compilation & `apichecks`**: Pass - packages build cleanly and all tests pass without unauthorized exception edits.'
+    - '#### Detailed Findings / Actions Required:'
+    - None. All Step 1a criteria and invariants are satisfied.
+    - "<sub>\U0001F916 [Agent session](https://staging.repoagent.dev/#/overseers/kcc/task-session/fix-k8s-config-connector-16541/recipe-fix-20261126-200742-0c90)</sub>"
+onStart:
+    comment: AI Factory started reviewing this pull request in a sandbox.
+runName: review-16542-04ea5eb-1795729209
+rule: review
+recipe: review
+apply: submit-review
