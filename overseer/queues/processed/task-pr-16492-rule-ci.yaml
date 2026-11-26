@@ -9,8 +9,9 @@ triggerEventTime: 2026-11-26T01:24:20Z
 triggerReason: PRCheckFailed
 triggerNotes: Earliest CI failure in 'validate-fmt' (failure) at 2026-11-26T01:24:20Z; total 1 failed check(s) on commit d75582f
 startedAt: 2026-11-26T01:30:19.495050451Z
+completedAt: 2026-11-26T01:46:00.405782978Z
 assignee: lovelace-coder-bot
-status: Running
+status: Completed
 commitSHA: d75582f7a5727e078a43cee279432c0f52bf832c
 onStart:
     comment: |-
