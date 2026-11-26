@@ -9,8 +9,9 @@ triggerEventTime: 2026-11-26T13:25:03Z
 triggerReason: PRCheckFailed
 triggerNotes: Earliest CI failure in 'unit-tests-1-of-4' (failure) at 2026-11-26T13:25:03Z; total 3 failed check(s) on commit feba198
 startedAt: 2026-11-26T13:32:54.683831259Z
+completedAt: 2026-11-26T15:41:05.477859237Z
 assignee: neumann-coder-bot
-status: Running
+status: Completed
 commitSHA: feba198da33ed6ada615f9ef966256a64eaf6d6c
 onStart:
     comment: |-

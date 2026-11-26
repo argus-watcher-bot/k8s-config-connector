@@ -4,28 +4,20 @@ number: 16522
 priority: medium
 phase: 1
 createdAt: 2026-11-26T11:07:21Z
-enqueuedAt: 2026-11-26T11:48:30.956291149Z
-triggerEventTime: 2026-11-26T11:43:36Z
+enqueuedAt: 2026-11-26T17:02:54.956277502Z
+triggerEventTime: 2026-11-26T16:51:43Z
 triggerReason: PRReadyForReview
-triggerNotes: Automated review triggered; all CI checks passed at 2026-11-26T11:43:36Z for commit 8184b20 (committer date 2026-11-26T11:06:55Z)
-startedAt: 2026-11-26T11:48:58.295001781Z
-completedAt: 2026-11-26T12:45:02.654666839Z
+triggerNotes: Automated review triggered; all CI checks passed at 2026-11-26T16:51:43Z for commit 9841f6a (committer date 2026-11-26T15:30:24Z)
+startedAt: 2026-11-26T17:03:11.549009733Z
+completedAt: 2026-11-26T17:27:43.473465635Z
 assignee: lovelace-coder-bot
 status: Completed
-commitSHA: 8184b2044461194ae6f0ba6c585e7288be355a4d
+commitSHA: 9841f6a8b4541d697c124bd05c2cd535265e822f
 instructions:
-    - Use .gemini/skills/reviewgen-greenfield-controller/SKILL.md to conduct the review.
-    - '### KCC Greenfield Controller Auto-Review Results'
-    - '**Trigger criteria matched**: Yes'
-    - '**Post-Judgement, One-Shot Generation, & `static_config.go`**: Pass'
-    - '**Client Creation & Reference Normalization**: Pass'
-    - '**CompareGreenfieldSpec & Structured Reporting**: Pass'
-    - '**LRO Wait & Mandatory Status Updates**: Pass'
-    - '**Fuzzer & Real-GCP Test Coverage**: Pass'
-    - "<sub>\U0001F916 [Agent session](https://staging.repoagent.dev/#/overseers/kcc/task-session/fix-k8s-config-connector-16521/recipe-fix-20261126-101003-efdf)</sub>"
+    - Use .gemini/skills/reviewgen-greenfield-mockgcp/SKILL.md to conduct the review.
 onStart:
     comment: AI Factory started reviewing this pull request in a sandbox.
-runName: review-16522-8184b20-1795693710
+runName: review-16522-9841f6a-1795712574
 rule: review
 recipe: review
 apply: submit-review
