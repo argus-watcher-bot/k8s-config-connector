@@ -4,12 +4,12 @@ number: 16572
 priority: medium
 phase: 3
 createdAt: 2026-11-27T12:56:13Z
-enqueuedAt: 2026-11-27T15:06:09.30299487Z
+enqueuedAt: 2026-11-27T17:25:32.247018668Z
 triggerEventTime: 2026-11-27T13:04:42Z
 triggerReason: PRCheckFailed
 triggerNotes: Earliest CI failure in 'Validate PR Release Note' (failure) at 2026-11-27T13:04:42Z; total 1 failed check(s) on commit b68cc81
-startedAt: 2026-11-27T15:06:42.688728906Z
-completedAt: 2026-11-27T15:25:18.073066474Z
+startedAt: 2026-11-27T17:25:58.068393835Z
+completedAt: 2026-11-27T17:34:29.625932843Z
 assignee: hopper-coder-bot
 status: Completed
 commitSHA: b68cc81d8ddb1ebcf13663910e3e51086f838230
@@ -18,7 +18,7 @@ onStart:
         AI Factory started investigating CI check failures for this pull request.
 
         Note: We recommend waiting for the 'ready-for-human' label before leaving review comments. Comments added while the system is actively working may be associated with outdated commits once a new commit is pushed, causing them to be ignored.
-runName: ci-16572-b68cc81-1795791969
+runName: ci-16572-b68cc81-1795800332
 rule: ci
 recipe: care-ci
 apply: post-replies
