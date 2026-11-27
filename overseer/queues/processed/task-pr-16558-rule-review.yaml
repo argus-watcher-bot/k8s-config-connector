@@ -4,30 +4,20 @@ number: 16558
 priority: medium
 phase: 1
 createdAt: 2026-11-27T02:43:41Z
-enqueuedAt: 2026-11-27T03:21:42.196215183Z
-triggerEventTime: 2026-11-27T03:14:16Z
+enqueuedAt: 2026-11-27T06:31:07.305646162Z
+triggerEventTime: 2026-11-27T06:29:12Z
 triggerReason: PRReadyForReview
-triggerNotes: Automated review triggered; all CI checks passed at 2026-11-27T03:14:16Z for commit d0b6ebe (committer date 2026-11-27T02:23:57Z)
-startedAt: 2026-11-27T03:21:54.656054176Z
-completedAt: 2026-11-27T03:46:30.108575003Z
+triggerNotes: Automated review triggered; all CI checks passed at 2026-11-27T06:29:12Z for commit df7e763 (committer date 2026-11-27T04:44:16Z)
+startedAt: 2026-11-27T06:31:39.612470026Z
+completedAt: 2026-11-27T06:40:22.463688189Z
 assignee: neumann-coder-bot
 status: Completed
-commitSHA: d0b6ebea44c6f7148d08fd80da378cfac7eea01e
+commitSHA: df7e763eedc80b7552240f97d4105f76c2b8fef5
 instructions:
-    - Use .gemini/skills/reviewgen-greenfield-controller/SKILL.md to conduct the review.
-    - '### KCC Greenfield Controller Auto-Review Results'
-    - '**Trigger criteria matched**: Yes'
-    - '**Post-Judgement, One-Shot Generation, & `static_config.go`**: Pass - All entries in `apis/designcenter/judgement_queue.yaml` for DesignCenterComponent are resolved; `generate.sh` does not invoke `generate-controller` or `generate-fuzzer`; files have `+generated:controller` / `+generated:fuzzer`; `static_config.go` is updated; and DesignCenterComponent remains in `BLOCKED_KINDS`.'
-    - '**Client Creation & Reference Normalization**: Pass - GAPIC REST client (`gcp.NewRESTClient`) with `m.config.RESTClientOptions()` and `common.NormalizeGreenfieldReferences` called in `AdapterForObject`.'
-    - '**CompareGreenfieldSpec & Structured Reporting**: Pass - `common.CompareGreenfieldSpec` and `structuredreporting.ReportDiff` are used in `Update`.'
-    - '**LRO Wait & Mandatory Status Updates**: Pass - Operations are synchronous RPCs (non-LRO); `setStatus` is called on all paths.'
-    - '**Fuzzer & Real-GCP Test Coverage**: Pass - `designcentercomponent_fuzzer.generated.go` passes 200 seeds; minimal/maximal fixtures recorded against real GCP (`cnrm-barni-4`) with authentic `_http.log` and `_audit_probe.log` (none hand-edited); parent fields set as spec models (`parentRef`) and unchanged in `update.yaml`; all 7/7 validation checks passed; ratcheting enabled.'
-    - '#### Detailed Findings / Actions Required:'
-    - None. All Greenfield Step 2 criteria and invariants are satisfied.
-    - "<sub>\U0001F916 [Agent session](https://staging.repoagent.dev/#/overseers/kcc/task-session/fix-k8s-config-connector-16552/recipe-fix-20261127-015253-8050)</sub>"
+    - Use .gemini/skills/reviewgen-greenfield-mockgcp/SKILL.md to conduct the review.
 onStart:
     comment: AI Factory started reviewing this pull request in a sandbox.
-runName: review-16558-d0b6ebe-1795749702
+runName: review-16558-df7e763-1795761067
 rule: review
 recipe: review
 apply: submit-review
