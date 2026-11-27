@@ -4,21 +4,21 @@ number: 16575
 priority: medium
 phase: 3
 createdAt: 2026-11-27T17:24:27Z
-enqueuedAt: 2026-11-27T17:35:33.47309526Z
-triggerEventTime: 2026-11-27T17:33:01Z
+enqueuedAt: 2026-11-27T20:04:35.422160563Z
+triggerEventTime: 2026-11-27T19:54:42Z
 triggerReason: PRCheckFailed
-triggerNotes: Earliest CI failure in 'unit-tests-1-of-1' (failure) at 2026-11-27T17:33:01Z; total 2 failed check(s) on commit c27ed92
-startedAt: 2026-11-27T17:36:04.194810825Z
-completedAt: 2026-11-27T17:54:14.056425262Z
+triggerNotes: Earliest CI failure in 'tests-e2e-fixtures-osconfig' (failure) at 2026-11-27T19:54:42Z; total 5 failed check(s) on commit 10da1ee
+startedAt: 2026-11-27T20:05:07.445103085Z
+completedAt: 2026-11-27T20:20:17.241193585Z
 assignee: neumann-coder-bot
 status: Completed
-commitSHA: c27ed9274a47ba136084a1f7a34c348fa08f11a8
+commitSHA: 10da1ee9ecc789d90b66183999f90aeaf1938b2d
 onStart:
     comment: |-
         AI Factory started investigating CI check failures for this pull request.
 
         Note: We recommend waiting for the 'ready-for-human' label before leaving review comments. Comments added while the system is actively working may be associated with outdated commits once a new commit is pushed, causing them to be ignored.
-runName: ci-16575-c27ed92-1795800933
+runName: ci-16575-10da1ee-1795809875
 rule: ci
 recipe: care-ci
 apply: post-replies
