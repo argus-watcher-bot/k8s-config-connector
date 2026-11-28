@@ -1,0 +1,33 @@
+type: pr-rule
+url: https://github.com/GoogleCloudPlatform/k8s-config-connector/pull/16578
+number: 16578
+priority: medium
+phase: 1
+createdAt: 2026-11-27T20:29:37Z
+enqueuedAt: 2026-11-27T21:51:57.074512197Z
+triggerEventTime: 2026-11-27T21:37:33Z
+triggerReason: PRReadyForReview
+triggerNotes: Automated review triggered; all CI checks passed at 2026-11-27T21:37:33Z for commit 873b9d6 (committer date 2026-11-27T21:02:50Z)
+startedAt: 2026-11-27T21:52:34.063656448Z
+completedAt: 2026-11-27T22:12:31.852389862Z
+assignee: ada-coder-bot
+status: Completed
+commitSHA: 873b9d67ad2db314e7ea83ebbbd7c9b8dca38b04
+instructions:
+    - Use .gemini/skills/reviewgen-greenfield-controller/SKILL.md to conduct the review.
+    - '### KCC Greenfield Controller Auto-Review Results'
+    - '**Trigger criteria matched**: Yes'
+    - '**Post-Judgement, One-Shot Generation, & `static_config.go`**: Pass - All entries in `apis/designcenter/judgement_queue.yaml` for DesignCenterConnection are resolved; `generate.sh` was not modified; files have `+generated:controller` / `+generated:fuzzer`; `static_config.go` registered with `k8s.ReconcilerTypeDirect`; and DesignCenterConnection remains in `BLOCKED_KINDS`.'
+    - '**Client Creation & Reference Normalization**: Pass - GAPIC REST client (`gcp.NewRESTClient`) with `m.config.RESTClientOptions()` and `common.NormalizeGreenfieldReferences` called in `AdapterForObject` before `obj.GetIdentity`.'
+    - '**CompareGreenfieldSpec & Structured Reporting**: Pass - `common.CompareGreenfieldSpec` and `structuredreporting.ReportDiff` are used in `Update`.'
+    - '**LRO Wait & Mandatory Status Updates**: Pass - Synchronous RPCs (non-LRO); `setStatus` is called on all paths.'
+    - '**Fuzzer & Real-GCP Test Coverage**: Pass - `designcenterconnection_fuzzer.generated.go` passes 200 seeds; minimal/maximal fixtures recorded against real GCP (`cnrm-barni-4`) with authentic `_http.log` and `_audit_probe.log` (none hand-edited); parent fields set as spec models (`parentRef`) and unchanged in `update.yaml`; all 7/7 validation checks passed; ratcheting enabled.'
+    - '#### Detailed Findings / Actions Required:'
+    - None. All Greenfield Step 2 criteria and invariants are satisfied.
+    - "<sub>\U0001F916 [Agent session](https://staging.repoagent.dev/#/overseers/kcc/task-session/fix-k8s-config-connector-16576/recipe-fix-20261127-183649-2959)</sub>"
+onStart:
+    comment: AI Factory started reviewing this pull request in a sandbox.
+runName: review-16578-873b9d6-1795816317
+rule: review
+recipe: review
+apply: submit-review

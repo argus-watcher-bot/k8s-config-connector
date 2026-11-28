@@ -4,20 +4,20 @@ number: 16575
 priority: medium
 phase: 1
 createdAt: 2026-11-27T17:24:27Z
-enqueuedAt: 2026-11-27T20:36:34.576762542Z
-triggerEventTime: 2026-11-27T20:28:07Z
+enqueuedAt: 2026-11-27T21:51:55.460026968Z
+triggerEventTime: 2026-11-27T21:47:15Z
 triggerReason: PRReadyForReview
-triggerNotes: Automated review triggered; all CI checks passed at 2026-11-27T20:28:07Z for commit 10da1ee (committer date 2026-11-27T19:37:22Z)
-startedAt: 2026-11-27T20:36:42.165429847Z
-completedAt: 2026-11-27T20:43:34.424881017Z
+triggerNotes: Automated review triggered; all CI checks passed at 2026-11-27T21:47:15Z for commit c779dfd (committer date 2026-11-27T21:10:43Z)
+startedAt: 2026-11-27T21:52:29.541438372Z
+completedAt: 2026-11-27T22:00:37.647424155Z
 assignee: neumann-coder-bot
 status: Completed
-commitSHA: 10da1ee9ecc789d90b66183999f90aeaf1938b2d
+commitSHA: c779dfd445f22de41163059ad4c4817462fbed0b
 instructions:
-    - Use .gemini/skills/reviewgen-greenfield-mockgcp/SKILL.md to conduct the review.
+    - Use .gemini/skills/reviewgen-greenfield-release/SKILL.md to conduct the review.
 onStart:
     comment: AI Factory started reviewing this pull request in a sandbox.
-runName: review-16575-10da1ee-1795811794
+runName: review-16575-c779dfd-1795816315
 rule: review
 recipe: review
 apply: submit-review
